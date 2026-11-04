@@ -9,10 +9,10 @@ with every pack, ready for your mod manager.
 
 ## Packs
 
-| Folder | Ported from | Original authors | Licence | Credits |
+| Pack | Ported from | Original authors | Licence | Credits |
 |---|---|---|---|---|
-| [`animation/opensex/`](animation/opensex/) | [acepleiades' animations](https://github.com/acepleiades/OpenSex) | acepleiades, Frolique | [CC BY-SA 4.0](LICENSE) | [`CREDITS.md`](animation/opensex/CREDITS.md) |
-| [`animation/ostimng/`](animation/ostimng/) | [OStimNG](https://github.com/VersuchDrei/OStimNG), the clips the first pack lacks | Ace and Moon, as OStimNG credits them | [GPLv3](animation/ostimng/LICENSE) | [`CREDITS.md`](animation/ostimng/CREDITS.md) |
+| [acepleiades](animation/opensex/) | [original repository](https://github.com/acepleiades/OpenSex) | acepleiades, Frolique | [CC BY-SA 4.0](LICENSE) | [credits](animation/opensex/CREDITS.md) |
+| [OStimNG](animation/ostimng/) | [original repository](https://github.com/VersuchDrei/OStimNG), the clips the first pack lacks | Ace and Moon, as OStimNG credits them | [GPLv3](animation/ostimng/LICENSE) | [credits](animation/ostimng/CREDITS.md) |
 
 You may use, change and redistribute them, commercially too, if you credit the original authors (each pack's
 `CREDITS.md`) and release your changes under that pack's licence. The original authors did not make this port and do
