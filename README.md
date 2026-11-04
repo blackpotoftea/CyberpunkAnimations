@@ -4,16 +4,16 @@ Animations ported to Cyberpunk 2077 from other games' open-licensed mods. They a
 own NPC rigs (`man_base` / `woman_base`) and onto V's skeleton, and cooked as `.anims`. Release zips also carry the
 big and fat rigs (`man_big`, `man_fat`, `woman_big`, `woman_fat`).
 
-**Each pack has its own licence**, stated in its folder: `opensex/` is [CC BY-SA 4.0](LICENSE), `ostimng/` is
-[GPLv3](ostimng/LICENSE). You may use, change and redistribute them, commercially too, if you credit the original
+The packs are under [`animation/`](animation/). **Each pack has its own licence**, stated in its folder: `opensex/` is
+[CC BY-SA 4.0](LICENSE), `ostimng/` is [GPLv3](animation/ostimng/LICENSE). You may use, change and redistribute them, commercially too, if you credit the original
 authors (each pack's `CREDITS.md`) and release your changes under that pack's licence.
 
 ## Packs
 
 | Folder | From | Original authors | Credits |
 |---|---|---|---|
-| [`opensex/`](opensex/) | [OpenSex](https://github.com/acepleiades/OpenSex) (Skyrim SE, OStim NG) | acepleiades, Frolique | [`opensex/CREDITS.md`](opensex/CREDITS.md) |
-| [`ostimng/`](ostimng/) | [OStimNG](https://github.com/VersuchDrei/OStimNG) (Skyrim SE), only the clips OpenSex lacks | as credited by OStimNG: Ace and Moon | [`ostimng/CREDITS.md`](ostimng/CREDITS.md) |
+| [`opensex/`](animation/opensex/) | [OpenSex](https://github.com/acepleiades/OpenSex) (Skyrim SE, OStim NG) | acepleiades, Frolique | [`opensex/CREDITS.md`](animation/opensex/CREDITS.md) |
+| [`ostimng/`](animation/ostimng/) | [OStimNG](https://github.com/VersuchDrei/OStimNG) (Skyrim SE), only the clips OpenSex lacks | as credited by OStimNG: Ace and Moon | [`ostimng/CREDITS.md`](animation/ostimng/CREDITS.md) |
 
 ## Layout of a pack
 

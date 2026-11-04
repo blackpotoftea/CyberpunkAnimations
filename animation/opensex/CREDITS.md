@@ -3,7 +3,7 @@
 Ported from **OpenSex**, an adult animation set for OStim NG (Skyrim Special Edition):
 <https://github.com/acepleiades/OpenSex> · <https://www.nexusmods.com/skyrimspecialedition/mods/61167/>
 
-Licensed under [CC BY-SA 4.0](../LICENSE), as the original is.
+Licensed under [CC BY-SA 4.0](../../LICENSE), as the original is.
 
 ## Original authors
 
