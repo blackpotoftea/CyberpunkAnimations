@@ -11,8 +11,8 @@ with every pack, ready for your mod manager.
 
 | Folder | Ported from | Original authors | Licence | Credits |
 |---|---|---|---|---|
-| [`animation/opensex/`](animation/opensex/) | [OpenSex](https://github.com/acepleiades/OpenSex) | acepleiades, Frolique | [CC BY-SA 4.0](LICENSE) | [`CREDITS.md`](animation/opensex/CREDITS.md) |
-| [`animation/ostimng/`](animation/ostimng/) | [OStimNG](https://github.com/VersuchDrei/OStimNG), the clips OpenSex lacks | Ace and Moon, as OStimNG credits them | [GPLv3](animation/ostimng/LICENSE) | [`CREDITS.md`](animation/ostimng/CREDITS.md) |
+| [`animation/opensex/`](animation/opensex/) | [acepleiades' animations](https://github.com/acepleiades/OpenSex) | acepleiades, Frolique | [CC BY-SA 4.0](LICENSE) | [`CREDITS.md`](animation/opensex/CREDITS.md) |
+| [`animation/ostimng/`](animation/ostimng/) | [OStimNG](https://github.com/VersuchDrei/OStimNG), the clips the first pack lacks | Ace and Moon, as OStimNG credits them | [GPLv3](animation/ostimng/LICENSE) | [`CREDITS.md`](animation/ostimng/CREDITS.md) |
 
 You may use, change and redistribute them, commercially too, if you credit the original authors (each pack's
 `CREDITS.md`) and release your changes under that pack's licence. The original authors did not make this port and do
@@ -29,7 +29,7 @@ animation/<pack>/
                     NightCityNet's scene files: one per scene, its moves and transitions, plus clips.json
   bin/x64/plugins/cyber_engine_tweaks/mods/AppearanceMenuMod/Collabs/Custom Poses/nightcitynet/<pack>.lua
                     the pack's poses in AMM's list
-  glb/              GPL packs only: the retargeted .glb, the editable source of each cooked animation
+  glb/              the retargeted .glb, the editable source of each cooked animation
   scenes.json       the original scene data as converted, which the scene files were generated from
   source-map.json   each cooked clip -> the original file it came from
 ```

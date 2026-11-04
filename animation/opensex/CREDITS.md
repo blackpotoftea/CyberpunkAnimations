@@ -28,6 +28,7 @@ Licensed under [CC BY-SA 4.0](../../LICENSE), as the original is.
   files name no actors), and replace the OPrivacy redirect that later reused the cunnilingus file. Two are renamed:
   "Standing Together" and "Kneeling Cunnilingus" (the original file was titled "Breast Groping").
 
-Each cooked clip names its original file in `source-map.json`.
+The editable source of every `.anims`, the retargeted `.glb`, is in `glb/` at the same path. Each cooked clip names
+its original file in `source-map.json`.
 
 These changes were made by blackpotoftea. The original authors did not make this port and do not endorse it.
