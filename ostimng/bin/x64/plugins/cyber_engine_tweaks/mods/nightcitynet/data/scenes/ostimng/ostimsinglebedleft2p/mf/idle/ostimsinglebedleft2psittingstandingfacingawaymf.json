@@ -1,0 +1,69 @@
+{
+ "id": "ostimng.ostimsinglebedleft2p.mf.idle.ostimsinglebedleft2psittingstandingfacingawaymf",
+ "name": "Sitting On Bed Standing (left) [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimSingleBedLeft2PSittingStandingFacingAwayMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedLeft2P/MF/idle/OStimSingleBedLeft2PSittingStandingFacingAwayMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "facingaway",
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostimbed2psittingstandingfacingawaymf_0",
+    "ostimng/ostimbed2psittingstandingfacingawaymf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostimsinglebedleft2psittingstandingfacingawaymf--ostimsinglebedleft2psittingstandingmf",
+   "label": "turn around ({1})"
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": "singlebed",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

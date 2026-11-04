@@ -1,0 +1,45 @@
+{
+ "id": "opensex.gen.standingspankidle--rubbingassagainstcrotch",
+ "name": "Standing Spank Idle (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "bendover",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-standingspankidle--rubbingassagainstcrotch_0",
+    "opensex/gen-standingspankidle--rubbingassagainstcrotch_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.ho.rubbingassagainstcrotch",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

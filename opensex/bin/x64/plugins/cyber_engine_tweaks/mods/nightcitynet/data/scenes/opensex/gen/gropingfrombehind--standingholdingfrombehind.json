@@ -1,0 +1,45 @@
+{
+ "id": "opensex.gen.gropingfrombehind--standingholdingfrombehind",
+ "name": "Groping from Behind (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-gropingfrombehind--standingholdingfrombehind_0",
+    "opensex/gen-gropingfrombehind--standingholdingfrombehind_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.ho.standingholdingfrombehind",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

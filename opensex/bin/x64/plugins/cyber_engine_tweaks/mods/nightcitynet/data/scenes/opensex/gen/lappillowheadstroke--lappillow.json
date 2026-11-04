@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.lappillowheadstroke--lappillow",
+ "name": "Lap Pillow Head Stroke (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "lyingside",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-lappillowheadstroke--lappillow_0",
+    "opensex/gen-lappillowheadstroke--lappillow_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.lys-sit.em.lappillow",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

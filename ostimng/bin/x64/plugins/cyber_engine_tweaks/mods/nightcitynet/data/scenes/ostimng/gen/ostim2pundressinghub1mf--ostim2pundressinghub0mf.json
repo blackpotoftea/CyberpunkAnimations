@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostim2pundressinghub1mf--ostim2pundressinghub0mf",
+ "name": "Undressing Hub [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pundressinghub1mf--ostim2pundressinghub0mf_0",
+    "ostimng/gen-ostim2pundressinghub1mf--ostim2pundressinghub0mf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.undressing.ostim2pundressinghub0mf",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

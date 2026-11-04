@@ -1,0 +1,45 @@
+{
+ "id": "opensex.gen.benchidlefemalefacingaway--benchrearsex",
+ "name": "Bench Idle Female FacingAway (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-benchidlefemalefacingaway--benchrearsex_0",
+    "opensex/gen-benchidlefemalefacingaway--benchrearsex_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops_furniture.ben-ch.sx.benchrearsex",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "bench",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

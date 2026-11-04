@@ -1,0 +1,95 @@
+{
+ "id": "opensex.ops.lys-lys.ho.spooningidle",
+ "name": "Spooning Idle",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyS!LyS|Ho|SpooningIdle",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LySLyS/Ho/SpooningIdle.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-spooningidle_0",
+    "opensex/ho-spooningidle_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.spooningidle--lyingcuddling",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.spooningidle--acelyingfingering",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.spooningidle--lyingcuddlekiss",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.spooningidle--sleepingidle",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.spooningidle--spooningkissing",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.spooningidle--acespooningsex",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sit-kne.ho.sittingfemaleapproach",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sit-sit.ap.sitting",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.spooningidle--sittingmaleapproach",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.spooningidle--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle",
+  "spooning"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

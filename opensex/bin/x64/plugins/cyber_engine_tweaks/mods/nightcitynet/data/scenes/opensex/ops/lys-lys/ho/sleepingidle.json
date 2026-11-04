@@ -1,0 +1,67 @@
+{
+ "id": "opensex.ops.lys-lys.ho.sleepingidle",
+ "name": "Sleeping Idle",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyS!LyS|Ho|SleepingIdle",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LySLyS/Ho/SleepingIdle.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-sleepingidle_0",
+    "opensex/ho-sleepingidle_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.sleepingidle--spooningidle",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle",
+  "spooning"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

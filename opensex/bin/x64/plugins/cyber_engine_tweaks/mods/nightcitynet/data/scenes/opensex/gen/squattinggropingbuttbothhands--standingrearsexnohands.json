@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.squattinggropingbuttbothhands--standingrearsexnohands",
+ "name": "Squatting Groping Butt Both Hands (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "squatting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-squattinggropingbuttbothhands--standingrearsexnohands_0",
+    "opensex/gen-squattinggropingbuttbothhands--standingrearsexnohands_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.sx.standingrearsexnohands",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "ostimng.ostimdoublebedleft2p.mf.idle.ostimdoublebedleft2psittingstandingmf",
+ "name": "Sitting On Bed Standing (left) [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimDoubleBedLeft2PSittingStandingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedLeft2P/MF/idle/OStimDoubleBedLeft2PSittingStandingMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostimbed2psittingstandingmf_0",
+    "ostimng/ostimbed2psittingstandingmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostimdoublebedleft2psittingstandingmf--benchbothsittingfaceeachother",
+   "label": "sit down ({1})"
+  },
+  {
+   "to": "ostimng.ostimdoublebedleft2p.mf.idle.ostimdoublebedleft2pstandingsittingmf",
+   "label": "switch positions"
+  },
+  {
+   "to": "ostimng.gen.ostimdoublebedleft2psittingstandingmf--ostimdoublebedleft2psittingstandingfacingawaymf",
+   "label": "turn around ({1})"
+  },
+  {
+   "to": "ostimng.ostimdoublebedleft2p.mf.idle.ostimdoublebedleft2psittingkneelingmf",
+   "label": "kneel before {0}"
+  },
+  {
+   "to": "ostimng.ostimdoublebedleft2p.mf.idle.ostimdoublebedleft2psittingonlapmf",
+   "label": "sit on {0}"
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": "doublebed",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

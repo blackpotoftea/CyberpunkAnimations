@@ -1,0 +1,100 @@
+{
+ "id": "ostimng.ostim2p.mf.sensual.ostim2pstandingkissembracemf",
+ "name": "Standing Kiss Embrace [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingKissEmbraceMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingKissEmbraceMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pstandingkissembracemf_0",
+    "ostimng/ostim2pstandingkissembracemf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pstandingkissembracemf--standingholding",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissembracemf--ostim2pstandingkissmf",
+   "label": "hold {1}s head",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissembracemf--ostim2pstandingholdingchinkissmf",
+   "label": "hold {1}s chin",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissembracemf--ostim2pstandingkissholdinghipmf",
+   "label": "hold {1}s hip",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissembracemf--ostim2pstandinghandholdingkissmf",
+   "label": "hold {1}s hands",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissembracemf--ostim2pstandingkissgropingbuttmf",
+   "label": "grope {1}s butt"
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissembracemf--handjobkiss",
+   "label": "jerk {0} off",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissembracemf--standingkissfingering",
+   "label": null,
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissembracemf--ostim2pstandingsquattingmf",
+   "label": "squat before {0}",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissembracemf--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.standingbehind.ostim2pstandingbehindfuckmasturbationmf",
+ "name": "Standing Fuck From Behind While Masturbating [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingBehindFuckMasturbationMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckMasturbationMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "bendover",
+    "facingaway",
+    "standing"
+   ],
+   "posture": "bendover",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-standingrearsexmasturbation_s1_0",
+    "opensex/sx-standingrearsexmasturbation_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-standingrearsexmasturbation_s2_0",
+    "opensex/sx-standingrearsexmasturbation_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-standingrearsexmasturbation_s3_0",
+    "opensex/sx-standingrearsexmasturbation_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-standingrearsexmasturbation_s4_0",
+    "opensex/sx-standingrearsexmasturbation_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pstandingbehindfuckmasturbationmf--standingrearsexnohands",
+   "label": "stop masturbating ({1})",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingbehindfuckmasturbationmf--buttjobfrombehind",
+   "label": "fuck {1}s butt crack",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingbehindfuckmasturbationmf--squattinggropingbuttbothhands",
+   "label": "grope {1}s butt",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingbehindfuckmasturbationmf--ostim2pstandingbehindjerktobuttmf",
+   "label": "masturbate to {1}s butt",
+   "priority": 2000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

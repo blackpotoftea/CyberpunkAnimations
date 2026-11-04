@@ -1,0 +1,61 @@
+{
+ "id": "opensex.ops.sta-sta.ho.gotostandingholdingfrombehind",
+ "name": "Transition into Standing Holding From Behind",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Ho|GoToStandingHoldingFromBehind",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Ho/GoToStandingHoldingFromBehind.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingHoldingToHoldingFromBehindMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PStandingHoldingToHoldingFromBehindMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "facingaway",
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-gotostandingholdingfrombehind_0",
+    "opensex/ho-gotostandingholdingfrombehind_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.ho.standingholdingfrombehind",
+ "length": 2.5,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

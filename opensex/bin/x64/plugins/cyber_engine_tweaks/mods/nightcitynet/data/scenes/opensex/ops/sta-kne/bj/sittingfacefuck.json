@@ -1,0 +1,129 @@
+{
+ "id": "opensex.ops.sta-kne.bj.sittingfacefuck",
+ "name": "Sitting Facefuck",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Kne|BJ|SittingFacefuck",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaKne/BJ/SittingFacefuck.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PKneelingFacefuckMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/KneelingBlowjob/OStim2PKneelingFacefuckMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/bj-sittingfacefuck_s1_0",
+    "opensex/bj-sittingfacefuck_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/bj-sittingfacefuck_s2_0",
+    "opensex/bj-sittingfacefuck_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/bj-sittingfacefuck_s3_0",
+    "opensex/bj-sittingfacefuck_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/bj-sittingfacefuck_s4_0",
+    "opensex/bj-sittingfacefuck_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.sittingfacefuck--malestandingfemalekneeling",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.sittingfacefuck--kneelingfellatioeyecontact",
+   "label": "let go of {1}s head",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.sittingfacefuck--kneelingtonguefellatio",
+   "label": "lick {0}s penis",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.sittingfacefuck--ostim2pkneelingblowjobholdingheadmf",
+   "label": "hold {1}s head",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.sittingfacefuck--kneelingfellatioeyecontactholdlegs",
+   "label": "hold {0}s leg",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.sittingfacefuck--acestandingtittyfuck",
+   "label": "fuck {1}s tits",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.sittingfacefuck--ostim2pkneelingjerktofacemf",
+   "label": "masturbate to {1}s face",
+   "priority": 2000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "oral_penis",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "head",
+   "eyes"
+  ]
+ ]
+}

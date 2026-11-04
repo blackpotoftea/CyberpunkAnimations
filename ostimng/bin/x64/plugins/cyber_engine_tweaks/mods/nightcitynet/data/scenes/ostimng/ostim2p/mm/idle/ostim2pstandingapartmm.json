@@ -1,0 +1,71 @@
+{
+ "id": "ostimng.ostim2p.mm.idle.ostim2pstandingapartmm",
+ "name": "Standing Apart [MM]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingApartMM",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MM/idle/OStim2PStandingApartMM.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pstandingapartmm_0",
+    "ostimng/ostim2pstandingapartmm_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pstandingapartmm--ostim2pstandingapartmf",
+   "label": "go to straight idle"
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingapartmm--ostim2pstandingcloseff",
+   "label": "go to lesbian idle"
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingapartmm--ostim2pkneelinglyingmm",
+   "label": "kneel down"
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingapartmm--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

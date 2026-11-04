@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostim2pstandingholdingchinkissmf--standingholding",
+ "name": "Standing Holding Chin Kiss [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pstandingholdingchinkissmf--standingholding_0",
+    "ostimng/gen-ostim2pstandingholdingchinkissmf--standingholding_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.ho.standingholding",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

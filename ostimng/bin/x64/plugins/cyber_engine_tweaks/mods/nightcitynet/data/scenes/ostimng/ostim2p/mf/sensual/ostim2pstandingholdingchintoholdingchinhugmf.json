@@ -1,0 +1,51 @@
+{
+ "id": "ostimng.ostim2p.mf.sensual.ostim2pstandingholdingchintoholdingchinhugmf",
+ "name": "Standing Holding Chin to Holding Chin Hug [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingHoldingChinToHoldingChinHugMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingHoldingChinToHoldingChinHugMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-gotoholdingchinhug_0",
+    "opensex/em-gotoholdingchinhug_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.em.holdingchinhug",
+ "length": 2.5,
+ "moves": [],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

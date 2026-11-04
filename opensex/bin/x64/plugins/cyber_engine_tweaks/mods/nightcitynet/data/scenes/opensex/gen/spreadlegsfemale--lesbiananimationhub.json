@@ -1,0 +1,45 @@
+{
+ "id": "opensex.gen.spreadlegsfemale--lesbiananimationhub",
+ "name": "Spread Legs Female (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "lyingback",
+   "mods": [
+    "spreadlegs"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-spreadlegsfemale--lesbiananimationhub_0",
+    "opensex/gen-spreadlegsfemale--lesbiananimationhub_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.ho.lesbiananimationhub",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

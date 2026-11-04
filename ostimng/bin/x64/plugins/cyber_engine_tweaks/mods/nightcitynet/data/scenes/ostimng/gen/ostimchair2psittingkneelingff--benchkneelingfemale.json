@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostimchair2psittingkneelingff--benchkneelingfemale",
+ "name": "Sitting Kneeling [FF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostimchair2psittingkneelingff--benchkneelingfemale_0",
+    "ostimng/gen-ostimchair2psittingkneelingff--benchkneelingfemale_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops_furniture.ben-ch.ho.benchkneelingfemale",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "chair",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

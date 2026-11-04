@@ -1,0 +1,47 @@
+{
+ "id": "ostimng.gen.ostim2pmalesittingblowjobmf--sittingfemaleapproach",
+ "name": "Male Sitting Blowjob Female Kneeling [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "sitting",
+   "mods": [
+    "onbottom"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pmalesittingblowjobmf--sittingfemaleapproach_0",
+    "ostimng/gen-ostim2pmalesittingblowjobmf--sittingfemaleapproach_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sit-kne.ho.sittingfemaleapproach",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

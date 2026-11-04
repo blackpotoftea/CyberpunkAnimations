@@ -1,0 +1,45 @@
+{
+ "id": "opensex.gen.doggypressingdown--doggystylemalesquatting",
+ "name": "Doggystyle, Pressing Down (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "allfours",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-doggypressingdown--doggystylemalesquatting_0",
+    "opensex/gen-doggypressingdown--doggystylemalesquatting_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.kne-afo.sx.doggystylemalesquatting",
+ "length": 1.5,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "ostimng.gen.ostim2pdoggystyleholdingarmsmf--ostim2psittingdoggyjerktobuttmf",
+ "name": "Doggy Style Holding Arms [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pdoggystyleholdingarmsmf--ostim2psittingdoggyjerktobuttmf_0",
+    "ostimng/gen-ostim2pdoggystyleholdingarmsmf--ostim2psittingdoggyjerktobuttmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.doggystyle.ostim2psittingdoggyjerktobuttmf",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

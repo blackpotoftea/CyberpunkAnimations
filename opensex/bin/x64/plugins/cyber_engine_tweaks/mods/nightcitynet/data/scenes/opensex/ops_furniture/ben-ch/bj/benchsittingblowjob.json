@@ -1,0 +1,93 @@
+{
+ "id": "opensex.ops_furniture.ben-ch.bj.benchsittingblowjob",
+ "name": "Bench Sitting Blowjob",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_furniture|Ben!Ch|BJ|BenchSittingBlowjob",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_furniture/BenCh/BJ/BenchSittingBlowjob.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/bj-benchsittingblowjob_s1_0",
+    "opensex/bj-benchsittingblowjob_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/bj-benchsittingblowjob_s2_0",
+    "opensex/bj-benchsittingblowjob_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/bj-benchsittingblowjob_s3_0",
+    "opensex/bj-benchsittingblowjob_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/bj-benchsittingblowjob_s4_0",
+    "opensex/bj-benchsittingblowjob_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.benchsittingblowjob--benchkneelingfemale",
+   "label": null
+  }
+ ],
+ "tags": [],
+ "furniture": "bench",
+ "acts": [
+  {
+   "type": "oral_penis",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "head",
+   "eyes"
+  ]
+ ]
+}

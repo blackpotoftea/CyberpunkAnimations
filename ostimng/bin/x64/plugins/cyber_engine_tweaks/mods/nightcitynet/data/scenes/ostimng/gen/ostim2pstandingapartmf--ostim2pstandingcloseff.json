@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostim2pstandingapartmf--ostim2pstandingcloseff",
+ "name": "Standing Apart [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pstandingapartmf--ostim2pstandingcloseff_0",
+    "ostimng/gen-ostim2pstandingapartmf--ostim2pstandingcloseff_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.ff.idle.ostim2pstandingcloseff",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

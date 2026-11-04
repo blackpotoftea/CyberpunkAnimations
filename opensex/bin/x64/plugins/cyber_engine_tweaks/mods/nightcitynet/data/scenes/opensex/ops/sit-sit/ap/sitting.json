@@ -1,0 +1,116 @@
+{
+ "id": "opensex.ops.sit-sit.ap.sitting",
+ "name": "Sitting",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sit!Sit|Ap|Sitting",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/SitSit/Ap/Sitting.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PSittingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PSittingMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-sitting_0",
+    "opensex/ap-sitting_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.lys-lys.ho.spooningidle",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.lys-sit.em.lappillow",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.sitting--sittingmaleapproach",
+   "label": "approach {1}"
+  },
+  {
+   "to": "opensex.gen.sitting--sittinggropingbreast",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.sitting--acesittingfootjobfrombehind",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.sitting--sittingfootjob",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.sitting--standing",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.sitting--ostim2pkneelinglyingff",
+   "label": "go to lesbian idle"
+  },
+  {
+   "to": "opensex.gen.sitting--ostim2pkneelinglyingfrontmm",
+   "label": "go to gay idle"
+  },
+  {
+   "to": "opensex.gen.sitting--ostim2pstandingapartmf",
+   "label": "stand up"
+  },
+  {
+   "to": "opensex.gen.sitting--femaleallfours",
+   "label": "get on all fours ({1})"
+  },
+  {
+   "to": "opensex.ops.lyb-kne.ho.mountedfemale",
+   "label": "mount {0}"
+  },
+  {
+   "to": "opensex.gen.sitting--benchbothsittingfaceeachother",
+   "label": "sit on the edge of the bed (left)"
+  },
+  {
+   "to": "opensex.gen.sitting--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "ostimng.gen.ostimdoublebedright2pcowgirlmf--ostimdoublebedright2psittingonlapmf",
+ "name": "Sitting On Bed Cowgirl (right) [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "sitting",
+   "mods": [
+    "onbottom"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostimdoublebedright2pcowgirlmf--ostimdoublebedright2psittingonlapmf_0",
+    "ostimng/gen-ostimdoublebedright2pcowgirlmf--ostimdoublebedright2psittingonlapmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostimdoublebedright2p.mf.idle.ostimdoublebedright2psittingonlapmf",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "doublebed",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

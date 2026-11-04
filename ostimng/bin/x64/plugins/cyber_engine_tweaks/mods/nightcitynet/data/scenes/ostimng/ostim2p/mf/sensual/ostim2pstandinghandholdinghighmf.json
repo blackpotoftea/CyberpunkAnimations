@@ -1,0 +1,71 @@
+{
+ "id": "ostimng.ostim2p.mf.sensual.ostim2pstandinghandholdinghighmf",
+ "name": "Standing Hand Holding Both [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingHandHoldingHighMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingHandHoldingHighMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pstandinghandholdinghighmf_0",
+    "ostimng/ostim2pstandinghandholdinghighmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pstandinghandholdinghighmf--ostim2pstandingapartmf",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandinghandholdinghighmf--standinghandholding",
+   "label": "lower your hands",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandinghandholdinghighmf--ostim2pstandinghandholdingkissmf",
+   "label": "kiss {1}",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandinghandholdinghighmf--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

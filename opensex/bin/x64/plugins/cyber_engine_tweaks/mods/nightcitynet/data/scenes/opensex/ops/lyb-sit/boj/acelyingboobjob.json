@@ -1,0 +1,101 @@
+{
+ "id": "opensex.ops.lyb-sit.boj.acelyingboobjob",
+ "name": "Lying Boob Job",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyB!Sit|BoJ|AceLyingBoobjob",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyBSit/BoJ/AceLyingBoobjob.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/boj-acelyingboobjob_s1_0",
+    "opensex/boj-acelyingboobjob_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/boj-acelyingboobjob_s2_0",
+    "opensex/boj-acelyingboobjob_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/boj-acelyingboobjob_s3_0",
+    "opensex/boj-acelyingboobjob_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/boj-acelyingboobjob_s4_0",
+    "opensex/boj-acelyingboobjob_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.lyb-sit.boj.acelyingboobjob_maleclimax",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.acelyingboobjob--acelyingtitfuck",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.acelyingboobjob--sittingfemaleapproach",
+   "label": null
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "climax": {
+  "a": "opensex.ops.lyb-sit.boj.acelyingboobjob_maleclimax"
+ },
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  []
+ ]
+}

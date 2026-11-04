@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.standingholding--ostim2pstandingholdingchinmf",
+ "name": "Standing, Holding (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-standingholding--ostim2pstandingholdingchinmf_0",
+    "opensex/gen-standingholding--ostim2pstandingholdingchinmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sensual.ostim2pstandingholdingchinmf",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

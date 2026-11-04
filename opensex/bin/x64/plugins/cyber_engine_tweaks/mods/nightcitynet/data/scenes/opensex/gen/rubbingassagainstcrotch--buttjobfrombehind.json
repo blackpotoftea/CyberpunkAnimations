@@ -1,0 +1,48 @@
+{
+ "id": "opensex.gen.rubbingassagainstcrotch--buttjobfrombehind",
+ "name": "Rubbing Ass Against Crotch (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": [
+    "nostrip"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": [
+    "facingaway",
+    "nostrip"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-rubbingassagainstcrotch--buttjobfrombehind_0",
+    "opensex/gen-rubbingassagainstcrotch--buttjobfrombehind_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.po.buttjobfrombehind",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

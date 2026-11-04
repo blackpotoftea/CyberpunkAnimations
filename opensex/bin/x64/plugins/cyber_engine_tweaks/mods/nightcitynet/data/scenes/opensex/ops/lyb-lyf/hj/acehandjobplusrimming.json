@@ -1,0 +1,98 @@
+{
+ "id": "opensex.ops.lyb-lyf.hj.acehandjobplusrimming",
+ "name": "Handjob plus Licking",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyB!LyF|HJ|AceHandjobPlusRimming",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyBLyF/HJ/AceHandjobPlusRimming.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "lyingfront"
+   ],
+   "posture": "lyingfront",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/bj-acehandjobpluslicking_s1_0",
+    "opensex/bj-acehandjobpluslicking_s1_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  },
+  {
+   "clips": [
+    "opensex/hj-acehandjobplusrimming_s1_0",
+    "opensex/hj-acehandjobplusrimming_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/hj-acehandjobplusrimming_s2_0",
+    "opensex/hj-acehandjobplusrimming_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/hj-acehandjobplusrimming_s3_0",
+    "opensex/hj-acehandjobplusrimming_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/hj-acehandjobplusrimming_s4_0",
+    "opensex/hj-acehandjobplusrimming_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.lyb-lyf.bj.acehandjobpluslicking",
+   "label": null
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  []
+ ]
+}

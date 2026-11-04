@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.squattingfellatioholdinghead--squattingfellatio",
+ "name": "Squatting Fellatio Holding Head (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-squattingfellatioholdinghead--squattingfellatio_0",
+    "opensex/gen-squattingfellatioholdinghead--squattingfellatio_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-squ.bj.squattingfellatio",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

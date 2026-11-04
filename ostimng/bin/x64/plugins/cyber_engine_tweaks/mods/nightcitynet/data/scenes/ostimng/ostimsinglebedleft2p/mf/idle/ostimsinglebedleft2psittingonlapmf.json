@@ -1,0 +1,83 @@
+{
+ "id": "ostimng.ostimsinglebedleft2p.mf.idle.ostimsinglebedleft2psittingonlapmf",
+ "name": "Sitting On Lap On Bed (left) [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimSingleBedLeft2PSittingOnLapMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedLeft2P/MF/idle/OStimSingleBedLeft2PSittingOnLapMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting",
+    "onbottom"
+   ],
+   "posture": "sitting",
+   "mods": [
+    "onbottom"
+   ]
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling",
+    "ontop"
+   ],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostimbed2psittingonlapmf_0",
+    "ostimng/ostimbed2psittingonlapmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostimsinglebedleft2psittingonlapmf--benchbothsittingfaceeachother",
+   "label": "sit down ({1})",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostimsinglebedleft2psittingonlapmf--ostimsinglebedleft2psittingstandingmf",
+   "label": "stand up ({1})",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostimsinglebedleft2psittingonlapmf--ostimsinglebedleft2pcowgirlmf",
+   "label": "ride {0} like a cowgirl",
+   "priority": 3000
+  },
+  {
+   "to": "ostimng.gen.ostimsinglebedleft2psittingonlapmf--lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "ostimng.gen.ostimsinglebedleft2psittingonlapmf--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": "singlebed",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

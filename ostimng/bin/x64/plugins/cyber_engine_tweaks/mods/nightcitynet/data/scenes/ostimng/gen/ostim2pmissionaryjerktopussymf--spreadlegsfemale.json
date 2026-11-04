@@ -1,0 +1,47 @@
+{
+ "id": "ostimng.gen.ostim2pmissionaryjerktopussymf--spreadlegsfemale",
+ "name": "Missionary Jerk To Pussy [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "lyingback",
+   "mods": [
+    "onbottom"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pmissionaryjerktopussymf--spreadlegsfemale_0",
+    "ostimng/gen-ostim2pmissionaryjerktopussymf--spreadlegsfemale_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.kne-lyb.ho.spreadlegsfemale",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

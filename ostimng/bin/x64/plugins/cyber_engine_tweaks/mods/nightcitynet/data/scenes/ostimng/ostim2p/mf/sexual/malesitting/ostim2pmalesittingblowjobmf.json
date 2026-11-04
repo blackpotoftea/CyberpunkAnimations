@@ -1,0 +1,125 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.malesitting.ostim2pmalesittingblowjobmf",
+ "name": "Male Sitting Blowjob Female Kneeling [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PMaleSittingBlowJobMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingBlowJobMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "sitting",
+    "onbottom"
+   ],
+   "posture": "sitting",
+   "mods": [
+    "onbottom"
+   ]
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling",
+    "ontop"
+   ],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pmalesittingblowjobmf_s1_0",
+    "ostimng/ostim2pmalesittingblowjobmf_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pmalesittingblowjobmf_s2_0",
+    "ostimng/ostim2pmalesittingblowjobmf_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pmalesittingblowjobmf_s3_0",
+    "ostimng/ostim2pmalesittingblowjobmf_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pmalesittingblowjobmf_s4_0",
+    "ostimng/ostim2pmalesittingblowjobmf_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 3.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pmalesittingblowjobmf--sittingfemaleapproach",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.malesitting.ostim2pmalesittinghandjobmf",
+   "label": "jerk {0} off",
+   "priority": 0
+  },
+  {
+   "to": "opensex.ops.kne-afo.bj.aceallfoursblowjob",
+   "label": "get on all fours ({1})",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.malesitting.ostim2pmalesittingproneblowjobmf",
+   "label": "lie on your front ({1})",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pmalesittingblowjobmf--ostim2pmalesittingjerktofacemf",
+   "label": "masturbate to {1}s face",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pmalesittingblowjobmf--mountedfemale",
+   "label": "mount {0}",
+   "priority": 0
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "oral_penis",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "head",
+   "eyes"
+  ]
+ ]
+}

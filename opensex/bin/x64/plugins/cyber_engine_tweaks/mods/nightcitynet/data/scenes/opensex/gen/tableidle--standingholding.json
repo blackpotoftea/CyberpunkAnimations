@@ -1,0 +1,45 @@
+{
+ "id": "opensex.gen.tableidle--standingholding",
+ "name": "Table Idle (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-tableidle--standingholding_0",
+    "opensex/gen-tableidle--standingholding_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.ho.standingholding",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "table",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

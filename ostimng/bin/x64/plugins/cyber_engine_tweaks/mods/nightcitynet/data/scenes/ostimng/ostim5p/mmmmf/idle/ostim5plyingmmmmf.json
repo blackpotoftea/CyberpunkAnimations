@@ -1,0 +1,93 @@
+{
+ "id": "ostimng.ostim5p.mmmmf.idle.ostim5plyingmmmmf",
+ "name": "Lying MMMMF",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim5PLyingMMMMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim5P/MMMMF/idle/OStim5PLyingMMMMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "m",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "m",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim5plyingmmmmf_0",
+    "ostimng/ostim5plyingmmmmf_1",
+    "ostimng/ostim5plyingmmmmf_2",
+    "ostimng/ostim5plyingmmmmf_3",
+    "ostimng/ostim5plyingmmmmf_4"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.ostim5p.mffff.idle.ostim5plyingmffff",
+   "label": "go to MFFFF idle"
+  },
+  {
+   "to": "ostimng.ostim5p.mmmmf.idle.ostim5pstandingmmmmf",
+   "label": "stand up"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  [],
+  [],
+  [],
+  []
+ ]
+}

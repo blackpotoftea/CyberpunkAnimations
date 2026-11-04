@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.sittingcunnilingushairgrab--sittingcunnilinguslegslocked",
+ "name": "Sitting Cunnilingus Hair Grab (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "lyingfront",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-sittingcunnilingushairgrab--sittingcunnilinguslegslocked_0",
+    "opensex/gen-sittingcunnilingushairgrab--sittingcunnilinguslegslocked_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.lyf-sit.vj.sittingcunnilinguslegslocked",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

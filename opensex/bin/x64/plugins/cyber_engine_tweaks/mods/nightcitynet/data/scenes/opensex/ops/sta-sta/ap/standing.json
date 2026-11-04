@@ -1,0 +1,139 @@
+{
+ "id": "opensex.ops.sta-sta.ap.standing",
+ "name": "Standing",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Ap|Standing",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Ap/Standing.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-standing_0",
+    "opensex/ho-standing_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.standing--malestandingfemalekneeling",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standing--malestandingfemalesquatting",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.actionfemalecaresscheekstroke",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.actionfemalecaresshug",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.actionfemaleflirt",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.actionfemalekiss",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.actionmalecaresscheekstroke",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.actionmalecaresshug",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.actionmalekiss",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.standingundressingfemalebottom",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.standingundressingfemalegloves",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.standingundressingfemaleheaditem",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.standingundressingfemaleshoes",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.standingundressingfemaletop",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standing--standinggropingbreasts",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.em.gotostandinghandholding",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standing--simplestandinghandjob",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.gotostandingholding",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standing--headcaress",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.standinggotositting",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standing--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

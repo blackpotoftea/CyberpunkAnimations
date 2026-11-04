@@ -1,0 +1,45 @@
+{
+ "id": "opensex.gen.femaleallfours--acebentoverfootjob",
+ "name": "Female All Fours (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "allfours",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-femaleallfours--acebentoverfootjob_0",
+    "opensex/gen-femaleallfours--acebentoverfootjob_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.kne-afo.fj.acebentoverfootjob",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

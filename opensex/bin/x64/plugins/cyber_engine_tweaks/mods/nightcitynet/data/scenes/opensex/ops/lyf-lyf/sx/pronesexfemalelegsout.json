@@ -1,0 +1,120 @@
+{
+ "id": "opensex.ops.lyf-lyf.sx.pronesexfemalelegsout",
+ "name": "Prone Sex Female Legs Out",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyF!LyF|Sx|ProneSexFemaleLegsOut",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyFLyF/Sx/ProneSexFemaleLegsOut.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PProneLegsSpreadMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Prone/OStim2PProneLegsSpreadMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingfront"
+   ],
+   "posture": "lyingfront",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingfront"
+   ],
+   "posture": "lyingfront",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-pronesexfemalelegsout_s1_0",
+    "opensex/sx-pronesexfemalelegsout_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-pronesexfemalelegsout_s2_0",
+    "opensex/sx-pronesexfemalelegsout_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-pronesexfemalelegsout_s3_0",
+    "opensex/sx-pronesexfemalelegsout_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-pronesexfemalelegsout_s4_0",
+    "opensex/sx-pronesexfemalelegsout_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.pronesexfemalelegsout--femaleallfours",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.pronesexfemalelegsout--pronesexembracefemalelegsout",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.pronesexfemalelegsout--pronesexfemalelegsin",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.pronesexfemalelegsout--ostim2ppronemf",
+   "label": "spread your legs ({0})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.pronesexfemalelegsout--ostim2pproneholdinglegsspreadmf",
+   "label": "hold {1}",
+   "priority": 0
+  }
+ ],
+ "tags": [
+  "prone"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

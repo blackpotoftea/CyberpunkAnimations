@@ -1,0 +1,45 @@
+{
+ "id": "opensex.gen.benchrearsex--benchidlefemalefacingaway",
+ "name": "Bench Rear Sex (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-benchrearsex--benchidlefemalefacingaway_0",
+    "opensex/gen-benchrearsex--benchidlefemalefacingaway_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops_furniture.ben-ch.ap.benchidlefemalefacingaway",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "bench",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

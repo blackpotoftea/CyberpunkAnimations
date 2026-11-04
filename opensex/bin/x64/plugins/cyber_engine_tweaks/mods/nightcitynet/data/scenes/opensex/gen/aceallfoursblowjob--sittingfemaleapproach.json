@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.aceallfoursblowjob--sittingfemaleapproach",
+ "name": "All Fours Blowjob (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "allfours",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-aceallfoursblowjob--sittingfemaleapproach_0",
+    "opensex/gen-aceallfoursblowjob--sittingfemaleapproach_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sit-kne.ho.sittingfemaleapproach",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

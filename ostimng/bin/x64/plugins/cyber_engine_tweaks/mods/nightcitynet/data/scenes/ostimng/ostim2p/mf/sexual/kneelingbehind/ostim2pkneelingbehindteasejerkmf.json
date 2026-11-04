@@ -1,0 +1,89 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.kneelingbehind.ostim2pkneelingbehindteasejerkmf",
+ "name": "Kneeling Behind Jerk [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PKneelingBehindTeaseJerkMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindTeaseJerkMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "facingaway",
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pkneelingbehindteasejerkmf_s1_0",
+    "ostimng/ostim2pkneelingbehindteasejerkmf_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pkneelingbehindteasejerkmf--squattinggropingbuttbothhands",
+   "label": "grope {1}s butt",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pkneelingbehindteasejerkmf--ostim2pdoggystyleholdingarmspullupmf",
+   "label": "pull {1} down",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pkneelingbehindteasejerkmf--ostim2pfaceridingmf",
+   "label": "sit on {0}s face",
+   "priority": 1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pkneelingbehindteasejerkmf--ostim2pstandingbehindjerktobuttmf",
+   "label": "stand up ({0})",
+   "priority": 2000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "a",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

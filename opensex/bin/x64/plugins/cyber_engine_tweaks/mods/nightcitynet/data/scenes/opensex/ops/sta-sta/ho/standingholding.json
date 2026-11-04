@@ -1,0 +1,148 @@
+{
+ "id": "opensex.ops.sta-sta.ho.standingholding",
+ "name": "Standing, Holding",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Ho|StandingHolding",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Ho/StandingHolding.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingHoldingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PStandingHoldingMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-standingholding_0",
+    "opensex/ho-standingholding_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.standingholding--kneelingcl",
+   "label": "eat {1} out",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.standingholding--standingkissfingering",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingholding--gentleembrace",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingholding--holdingchin",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingholding--princesscarryembrace",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingholding--standinghug",
+   "label": "hug {1}",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.standingholding--acestandinghandjob",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingholding--handjobkiss",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.gobackstandingholding",
+   "label": "separate",
+   "priority": 0
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.gotostandingholdingfrombehind",
+   "label": "turn around ({1})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.standingholding--holdinggropingbutt",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingholding--standingkiss",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingholding--acestandingholdingsex",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingholding--standingcarryingsex",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingholding--ostim2pstandingholdingchinmf",
+   "label": "hold {1}s chin",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.standingholding--ostim2pstandingkissmf",
+   "label": "kiss {1}",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.standingholding--malestandingfemalekneeling",
+   "label": "kneel before {0}",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.standingholding--ostim2pstandingsquattingmf",
+   "label": "squat before {0}",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.standingholding--sittingmaleapproach",
+   "label": "sit down",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.standingholding--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

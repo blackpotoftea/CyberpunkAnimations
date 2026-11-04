@@ -1,0 +1,79 @@
+{
+ "id": "opensex.ops_furniture.she-lf.ap.shelfidlebentover",
+ "name": "Shelf Idle",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_furniture|She!Lf|Ap|ShelfIdleBentOver",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_furniture/SheLf/Ap/ShelfIdleBentOver.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStimShelf2PBendOverMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimShelf2P/MF/idle/OStimShelf2PBendOverMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-shelfidlebentover_0",
+    "opensex/ap-shelfidlebentover_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.shelfidlebentover--shelfidle",
+   "label": "stand up ({1})"
+  },
+  {
+   "to": "opensex.gen.shelfidlebentover--shelfrearsexbentover",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.shelfidlebentover--ostimshelf2pbehindff",
+   "label": "go to lesbian idle"
+  },
+  {
+   "to": "opensex.gen.shelfidlebentover--lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "opensex.gen.shelfidlebentover--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": "shelf",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

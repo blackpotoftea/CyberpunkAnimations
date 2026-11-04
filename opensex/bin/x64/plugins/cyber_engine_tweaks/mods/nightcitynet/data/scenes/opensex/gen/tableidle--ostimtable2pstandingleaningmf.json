@@ -1,0 +1,45 @@
+{
+ "id": "opensex.gen.tableidle--ostimtable2pstandingleaningmf",
+ "name": "Table Idle (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-tableidle--ostimtable2pstandingleaningmf_0",
+    "opensex/gen-tableidle--ostimtable2pstandingleaningmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostimtable2p.mf.idle.ostimtable2pstandingleaningmf",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "table",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

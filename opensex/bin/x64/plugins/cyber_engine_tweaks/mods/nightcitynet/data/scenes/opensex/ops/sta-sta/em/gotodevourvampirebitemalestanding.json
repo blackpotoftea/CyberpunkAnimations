@@ -1,0 +1,58 @@
+{
+ "id": "opensex.ops.sta-sta.em.gotodevourvampirebitemalestanding",
+ "name": "Transition into Vampire Bite Male Standing",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Em|GoToDevourVampireBiteMaleStanding",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Em/GoToDevourVampireBiteMaleStanding.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingApartToVampireBiteMaleMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/vampire/StandingVampireBiteMale/OStim2PStandingApartToVampireBiteMaleMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-gotodevourvampirebitemalestanding_0",
+    "opensex/em-gotodevourvampirebitemalestanding_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.em.devourvampirebitemalestanding",
+ "length": 3.0,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

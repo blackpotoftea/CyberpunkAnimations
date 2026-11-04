@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.shelfidle--ostimshelf2pbehindmm",
+ "name": "Shelf Idle (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-shelfidle--ostimshelf2pbehindmm_0",
+    "opensex/gen-shelfidle--ostimshelf2pbehindmm_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostimshelf2p.mm.idle.ostimshelf2pbehindmm",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "shelf",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

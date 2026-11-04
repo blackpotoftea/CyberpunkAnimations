@@ -1,0 +1,48 @@
+{
+ "id": "ostimng.gen.ostim2ppronejerktobuttmf--femaleallfours",
+ "name": "OStim2PProneJerkToButtMF (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "lyingfront",
+   "mods": [
+    "facingaway",
+    "onbottom"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2ppronejerktobuttmf--femaleallfours_0",
+    "ostimng/gen-ostim2ppronejerktobuttmf--femaleallfours_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.kne-afo.ap.femaleallfours",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

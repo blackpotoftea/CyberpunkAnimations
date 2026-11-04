@@ -1,0 +1,71 @@
+{
+ "id": "ostimng.ostimwall2p.mf.idle.ostimwall2pstandingleaningmf",
+ "name": "Standing Leaning Straight",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimWall2PStandingLeaningMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimWall2P/MF/idle/OStimWall2PStandingLeaningMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostimwall2pstandingleaningmf_0",
+    "ostimng/ostimwall2pstandingleaningmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostimwall2pstandingleaningmf--ostimwall2pstandingleaningff",
+   "label": "go to lesbian idle"
+  },
+  {
+   "to": "ostimng.gen.ostimwall2pstandingleaningmf--ostimwall2pstandingleaningmm",
+   "label": "go to gay idle"
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "ostimng.gen.ostimwall2pstandingleaningmf--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": "wall",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "id": "ostimng.ostimchair3p.mmf.idle.ostimchair3psittingstandingmmf",
+ "name": "Sitting Standing [MMF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimChair3PSittingStandingMMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimChair3P/MMF/idle/OStimChair3PSittingStandingMMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-benchidle_0",
+    "opensex/ap-3pstandingidle_1",
+    "opensex/ap-3pstandingidle_2"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.ostimchair3p.mmm.idle.ostimchair3psittingstandingmmm",
+   "label": "go to MMM idle"
+  },
+  {
+   "to": "ostimng.ostimchair3p.mff.idle.ostimchair3psittingstandingmff",
+   "label": "go to MFF idle"
+  },
+  {
+   "to": "ostimng.ostimchair3p.fff.idle.ostimchair3psittingstandingfff",
+   "label": "go to FFF idle"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": "chair",
+ "acts": [],
+ "strip": [
+  [],
+  [],
+  []
+ ]
+}

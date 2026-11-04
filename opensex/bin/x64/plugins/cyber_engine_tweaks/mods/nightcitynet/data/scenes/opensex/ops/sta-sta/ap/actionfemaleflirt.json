@@ -1,0 +1,53 @@
+{
+ "id": "opensex.ops.sta-sta.ap.actionfemaleflirt",
+ "name": "Action Female Flirt",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Ap|ActionFemaleFlirt",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Ap/ActionFemaleFlirt.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-actionfemaleflirt_0",
+    "opensex/ap-actionfemaleflirt_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.ap.standing",
+ "length": 6.0,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

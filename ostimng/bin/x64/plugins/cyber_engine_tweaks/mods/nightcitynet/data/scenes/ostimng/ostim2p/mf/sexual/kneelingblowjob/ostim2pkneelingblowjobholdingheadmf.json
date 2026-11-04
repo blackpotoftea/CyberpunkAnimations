@@ -1,0 +1,124 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.kneelingblowjob.ostim2pkneelingblowjobholdingheadmf",
+ "name": "Kneeling Blowjob Holding Head [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PKneelingBlowjobHoldingHeadMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/KneelingBlowjob/OStim2PKneelingBlowjobHoldingHeadMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pkneelingblowjobholdingheadmf_s1_0",
+    "ostimng/ostim2pkneelingblowjobholdingheadmf_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pkneelingblowjobholdingheadmf_s2_0",
+    "ostimng/ostim2pkneelingblowjobholdingheadmf_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pkneelingblowjobholdingheadmf_s3_0",
+    "ostimng/ostim2pkneelingblowjobholdingheadmf_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pkneelingblowjobholdingheadmf_s4_0",
+    "ostimng/ostim2pkneelingblowjobholdingheadmf_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 3.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pkneelingblowjobholdingheadmf--malestandingfemalekneeling",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pkneelingblowjobholdingheadmf--kneelingfellatioeyecontact",
+   "label": "let go of {1}s head",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pkneelingblowjobholdingheadmf--kneelingtonguefellatio",
+   "label": "lick {0}s penis",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pkneelingblowjobholdingheadmf--kneelingfellatioeyecontactholdlegs",
+   "label": "hold {0}s leg",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pkneelingblowjobholdingheadmf--sittingfacefuck",
+   "label": "fuck {1}s face",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pkneelingblowjobholdingheadmf--acestandingtittyfuck",
+   "label": "fuck {1}s tits",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pkneelingblowjobholdingheadmf--ostim2pkneelingjerktofacemf",
+   "label": "masturbate to {1}s face",
+   "priority": 2000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "oral_penis",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "head",
+   "eyes"
+  ]
+ ]
+}

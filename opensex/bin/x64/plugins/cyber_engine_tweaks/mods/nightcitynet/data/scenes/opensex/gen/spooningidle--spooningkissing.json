@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.spooningidle--spooningkissing",
+ "name": "Spooning Idle (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "lyingside",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "lyingside",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-spooningidle--spooningkissing_0",
+    "opensex/gen-spooningidle--spooningkissing_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.lys-lys.ho.spooningkissing",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

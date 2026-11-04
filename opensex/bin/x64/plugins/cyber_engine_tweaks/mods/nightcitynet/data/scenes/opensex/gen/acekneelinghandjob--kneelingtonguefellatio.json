@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.acekneelinghandjob--kneelingtonguefellatio",
+ "name": "Kneeling Handjob (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-acekneelinghandjob--kneelingtonguefellatio_0",
+    "opensex/gen-acekneelinghandjob--kneelingtonguefellatio_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-kne.bj.kneelingtonguefellatio",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

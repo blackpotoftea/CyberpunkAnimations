@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.cookingpotidle--ostimcookingpot2pbehindmm",
+ "name": "Cooking Pot Idle (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-cookingpotidle--ostimcookingpot2pbehindmm_0",
+    "opensex/gen-cookingpotidle--ostimcookingpot2pbehindmm_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostimcookingpot2p.mm.idle.ostimcookingpot2pbehindmm",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "cookingpot",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

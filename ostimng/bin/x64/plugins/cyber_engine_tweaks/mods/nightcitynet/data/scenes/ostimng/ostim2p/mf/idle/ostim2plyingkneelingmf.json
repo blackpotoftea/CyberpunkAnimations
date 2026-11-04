@@ -1,0 +1,75 @@
+{
+ "id": "ostimng.ostim2p.mf.idle.ostim2plyingkneelingmf",
+ "name": "Lying Kneeling [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PLyingKneelingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PLyingKneelingMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2plyingkneelingmf_0",
+    "ostimng/ostim2plyingkneelingmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2plyingkneelingmf--ostim2pbothlyingmf",
+   "label": "lie down ({1})"
+  },
+  {
+   "to": "ostimng.gen.ostim2plyingkneelingmf--sittingfemaleapproach",
+   "label": "kneel before {0}"
+  },
+  {
+   "to": "ostimng.gen.ostim2plyingkneelingmf--mountedfemale",
+   "label": "mount {0}"
+  },
+  {
+   "to": "ostimng.gen.ostim2plyingkneelingmf--ostim2pkneelingtailjobmf",
+   "label": "jerk {0} off with your tail",
+   "priority": 3000
+  },
+  {
+   "to": "ostimng.gen.ostim2plyingkneelingmf--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

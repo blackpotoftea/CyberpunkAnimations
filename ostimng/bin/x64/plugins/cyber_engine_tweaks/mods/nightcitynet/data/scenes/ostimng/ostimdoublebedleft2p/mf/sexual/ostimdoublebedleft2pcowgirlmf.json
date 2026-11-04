@@ -1,0 +1,102 @@
+{
+ "id": "ostimng.ostimdoublebedleft2p.mf.sexual.ostimdoublebedleft2pcowgirlmf",
+ "name": "Sitting On Bed Cowgirl (left) [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimDoubleBedLeft2PCowgirlMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedLeft2P/MF/sexual/OStimDoubleBedLeft2PCowgirlMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "sitting",
+    "onbottom"
+   ],
+   "posture": "sitting",
+   "mods": [
+    "onbottom"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling",
+    "ontop"
+   ],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostimbed2pcowgirlmf_s1_0",
+    "ostimng/ostimbed2pcowgirlmf_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "ostimng/ostimbed2pcowgirlmf_s2_0",
+    "ostimng/ostimbed2pcowgirlmf_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "ostimng/ostimbed2pcowgirlmf_s3_0",
+    "ostimng/ostimbed2pcowgirlmf_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  },
+  {
+   "clips": [
+    "ostimng/ostimbed2pcowgirlmf_s4_0",
+    "ostimng/ostimbed2pcowgirlmf_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.5
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostimdoublebedleft2pcowgirlmf--ostimdoublebedleft2psittingonlapmf",
+   "label": "return"
+  }
+ ],
+ "tags": [
+  "cowgirl"
+ ],
+ "furniture": "doublebed",
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "id": "opensex.ops.sit-sit.fj.acesittingfootjobfrombehind",
+ "name": "Sitting Footjob from Behind",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sit!Sit|FJ|AceSittingFootjobFromBehind",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/SitSit/FJ/AceSittingFootjobFromBehind.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "facingaway",
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": [
+    "facingaway"
+   ]
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/fj-acesittingfootjobfrombehind_s1_0",
+    "opensex/fj-acesittingfootjobfrombehind_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/fj-acesittingfootjobfrombehind_s2_0",
+    "opensex/fj-acesittingfootjobfrombehind_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/fj-acesittingfootjobfrombehind_s3_0",
+    "opensex/fj-acesittingfootjobfrombehind_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  },
+  {
+   "clips": [
+    "opensex/fj-acesittingfootjobfrombehind_s4_0",
+    "opensex/fj-acesittingfootjobfrombehind_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 3.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.sit-sit.ap.sitting",
+   "label": null
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  []
+ ]
+}

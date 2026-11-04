@@ -1,0 +1,45 @@
+{
+ "id": "ostimng.gen.ostim2pstandingbehindfuckholdingwristsmf--standingrearsex",
+ "name": "Standing Fuck From Behind Holding Wrists [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "bendover",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pstandingbehindfuckholdingwristsmf--standingrearsex_0",
+    "ostimng/gen-ostim2pstandingbehindfuckholdingwristsmf--standingrearsex_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.sx.standingrearsex",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "id": "opensex.ops.sta-kne.boj.acestandingboobjob",
+ "name": "Standing Boob Job",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Kne|BoJ|AceStandingBoobjob",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaKne/BoJ/AceStandingBoobjob.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingKneelingBoobjobMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/KneelingBlowjob/OStim2PStandingKneelingBoobjobMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/boj-acestandingboobjob_s1_0",
+    "opensex/boj-acestandingboobjob_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/boj-acestandingboobjob_s2_0",
+    "opensex/boj-acestandingboobjob_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/boj-acestandingboobjob_s3_0",
+    "opensex/boj-acestandingboobjob_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/boj-acestandingboobjob_s4_0",
+    "opensex/boj-acestandingboobjob_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.acestandingboobjob--malestandingfemalekneeling",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.ops.sta-kne.boj.acestandingboobjob_maleclimax",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.acestandingboobjob--acestandingtittyfuck",
+   "label": "fuck {1}s tits",
+   "priority": 2000
+  },
+  {
+   "to": "opensex.gen.acestandingboobjob--acekneelinghandjob",
+   "label": "jerk {0} off",
+   "priority": 2000
+  },
+  {
+   "to": "opensex.gen.acestandingboobjob--kneelingfellatioeyecontact",
+   "label": "suck {0}s dick",
+   "priority": 2000
+  },
+  {
+   "to": "opensex.gen.acestandingboobjob--ostim2pkneelingjerktofacemf",
+   "label": "masturbate to {1}s face",
+   "priority": 3001
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "climax": {
+  "a": "opensex.ops.sta-kne.boj.acestandingboobjob_maleclimax"
+ },
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  []
+ ]
+}

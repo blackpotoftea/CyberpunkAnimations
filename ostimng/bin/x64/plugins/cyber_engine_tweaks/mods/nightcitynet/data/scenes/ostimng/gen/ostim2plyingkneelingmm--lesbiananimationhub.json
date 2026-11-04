@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostim2plyingkneelingmm--lesbiananimationhub",
+ "name": "Lying Kneeling [MM] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2plyingkneelingmm--lesbiananimationhub_0",
+    "ostimng/gen-ostim2plyingkneelingmm--lesbiananimationhub_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.ho.lesbiananimationhub",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

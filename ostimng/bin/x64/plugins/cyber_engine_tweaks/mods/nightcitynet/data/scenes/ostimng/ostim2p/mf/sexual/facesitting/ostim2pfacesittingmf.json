@@ -1,0 +1,109 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.facesitting.ostim2pfacesittingmf",
+ "name": "Face Sitting [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PFaceSittingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/FaceSitting/OStim2PFaceSittingMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling",
+    "facingaway"
+   ],
+   "posture": "kneeling",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pfacesittingmf_s1_0",
+    "ostimng/ostim2pfacesittingmf_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pfacesittingmf_s2_0",
+    "ostimng/ostim2pfacesittingmf_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pfacesittingmf_s3_0",
+    "ostimng/ostim2pfacesittingmf_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pfacesittingmf_s4_0",
+    "ostimng/ostim2pfacesittingmf_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 3.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.lyb-kne.ho.reversemountedfemale",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.facesitting.ostim2pfaceridingmf",
+   "label": "turn around ({1})",
+   "priority": 2000
+  }
+ ],
+ "tags": [
+  "facesitting"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "oral_vagina",
+   "actor": "a",
+   "target": "b"
+  },
+  {
+   "type": "manual",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "head",
+   "eyes"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

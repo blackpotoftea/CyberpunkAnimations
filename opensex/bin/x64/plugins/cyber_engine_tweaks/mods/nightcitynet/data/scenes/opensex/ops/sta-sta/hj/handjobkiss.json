@@ -1,0 +1,116 @@
+{
+ "id": "opensex.ops.sta-sta.hj.handjobkiss",
+ "name": "Kissing Handjob",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|HJ|HandjobKiss",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/HJ/HandjobKiss.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingHandjobRKissMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/OStim2PStandingHandjobRKissMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/hj-handjobkiss_s1_0",
+    "opensex/hj-handjobkiss_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/hj-handjobkiss_s2_0",
+    "opensex/hj-handjobkiss_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/hj-handjobkiss_s3_0",
+    "opensex/hj-handjobkiss_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  },
+  {
+   "clips": [
+    "opensex/hj-handjobkiss_s4_0",
+    "opensex/hj-handjobkiss_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 3.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.handjobkiss--standingholding",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.handjobkiss--simplestandinghandjob",
+   "label": "stop kissing {1}",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.handjobkiss--standingkissfingering",
+   "label": "finger {1}",
+   "priority": 2000
+  },
+  {
+   "to": "opensex.gen.handjobkiss--ostim2pstandingkissmf",
+   "label": "hold {1}",
+   "priority": 2000
+  },
+  {
+   "to": "opensex.gen.handjobkiss--ostim2pstandingsquattingmf",
+   "label": "squat before {0}",
+   "priority": 2000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  []
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.benchbothsittingfaceeachother--ostimbench2pbothsittingff",
+ "name": "Bench Idle Both Sitting Facing Eachother (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-benchbothsittingfaceeachother--ostimbench2pbothsittingff_0",
+    "opensex/gen-benchbothsittingfaceeachother--ostimbench2pbothsittingff_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostimbench2p.ff.idle.ostimbench2pbothsittingff",
+ "length": 2.2333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "bench",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

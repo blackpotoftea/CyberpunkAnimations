@@ -1,0 +1,74 @@
+{
+ "id": "ostimng.ostimsinglebedleft2p.mf.idle.ostimsinglebedleft2pstandingsittingmf",
+ "name": "Standing Sitting On Bed (left) [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimSingleBedLeft2PStandingSittingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedLeft2P/MF/idle/OStimSingleBedLeft2PStandingSittingMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostimbed2pstandingsittingmf_0",
+    "ostimng/ostimbed2pstandingsittingmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops_furniture.ben-ch.ap.benchbothsittingfaceeachother",
+   "label": "sit down ({0})"
+  },
+  {
+   "to": "ostimng.ostimsinglebedleft2p.mf.idle.ostimsinglebedleft2psittingstandingmf",
+   "label": "switch positions"
+  },
+  {
+   "to": "ostimng.ostimsinglebedleft2p.mf.idle.ostimsinglebedleft2pstandingallfoursmf",
+   "label": "get on all fours ({1})"
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": "singlebed",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

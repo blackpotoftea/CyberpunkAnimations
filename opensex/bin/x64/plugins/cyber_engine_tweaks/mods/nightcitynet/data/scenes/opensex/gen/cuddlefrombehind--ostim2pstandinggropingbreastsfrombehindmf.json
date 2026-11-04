@@ -1,0 +1,45 @@
+{
+ "id": "opensex.gen.cuddlefrombehind--ostim2pstandinggropingbreastsfrombehindmf",
+ "name": "Cuddle From Behind (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-cuddlefrombehind--ostim2pstandinggropingbreastsfrombehindmf_0",
+    "opensex/gen-cuddlefrombehind--ostim2pstandinggropingbreastsfrombehindmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sensual.ostim2pstandinggropingbreastsfrombehindmf",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

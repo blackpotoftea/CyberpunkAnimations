@@ -1,0 +1,106 @@
+{
+ "id": "opensex.ops.kne-lys.sx.lyingonsidesex",
+ "name": "Lying on Side Sex",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Kne!LyS|Sx|LyingOnSideSex",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/KneLyS/Sx/LyingOnSideSex.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-lyingonsidesex_s1_0",
+    "opensex/sx-lyingonsidesex_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-lyingonsidesex_s2_0",
+    "opensex/sx-lyingonsidesex_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-lyingonsidesex_s3_0",
+    "opensex/sx-lyingonsidesex_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-lyingonsidesex_s4_0",
+    "opensex/sx-lyingonsidesex_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.lyingonsidesex--femalelyingonside",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.kne-lys.sx.lyingonsidesexfrombehind",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.lyingonsidesex--lyingonsidesexgrabarm",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.lyingonsidesex--lyingonsidesexraisedleg",
+   "label": null
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostim2plyingkneelingmm--sitting",
+ "name": "Lying Kneeling [MM] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2plyingkneelingmm--sitting_0",
+    "ostimng/gen-ostim2plyingkneelingmm--sitting_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sit-sit.ap.sitting",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

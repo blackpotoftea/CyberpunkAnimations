@@ -1,0 +1,65 @@
+{
+ "id": "opensex.ops.sta-kne.ap.femalekneelingundressmalebottom",
+ "name": "Female Kneeling Undress Male Bottom",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Kne|Ap|FemaleKneelingUndressMaleBottom",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaKne/Ap/FemaleKneelingUndressMaleBottom.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-femalekneelingundressmalebottom_0",
+    "opensex/ap-femalekneelingundressmalebottom_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-kne.ap.malestandingfemalekneeling",
+ "length": 7.0,
+ "moves": [],
+ "tags": [
+  "transition",
+  "undressing"
+ ],
+ "furniture": null,
+ "acts": [],
+ "undress": [
+  {
+   "actor": 0,
+   "at": 4.667,
+   "slots": [
+    "outer",
+    "inner",
+    "legs"
+   ]
+  }
+ ],
+ "strip": [
+  [],
+  []
+ ]
+}

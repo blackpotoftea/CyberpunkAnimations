@@ -1,0 +1,114 @@
+{
+ "id": "opensex.ops.sta-squ.bj.squattingfellatioholdinghead",
+ "name": "Squatting Fellatio Holding Head",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Squ|BJ|SquattingFellatioHoldingHead",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSqu/BJ/SquattingFellatioHoldingHead.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PSquattingBlowjobHoldingHeadMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Squatting/OStim2PSquattingBlowjobHoldingHeadMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/bj-squattingfellatioholdinghead_s1_0",
+    "opensex/bj-squattingfellatioholdinghead_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/bj-squattingfellatioholdinghead_s2_0",
+    "opensex/bj-squattingfellatioholdinghead_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/bj-squattingfellatioholdinghead_s3_0",
+    "opensex/bj-squattingfellatioholdinghead_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/bj-squattingfellatioholdinghead_s4_0",
+    "opensex/bj-squattingfellatioholdinghead_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.squattingfellatioholdinghead--squattingfellatio",
+   "label": "let go of {1}s head",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.squattingfellatioholdinghead--ostim2pstandingsquattingmf",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.squattingfellatioholdinghead--ostim2psquattingfacefuckmf",
+   "label": "fuck {1}s face",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.squattingfellatioholdinghead--ostim2psquattingjerktofacemf",
+   "label": "masturbate to {1}s face",
+   "priority": 3000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "oral_penis",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "head",
+   "eyes"
+  ]
+ ]
+}

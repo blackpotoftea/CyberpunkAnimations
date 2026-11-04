@@ -1,0 +1,53 @@
+{
+ "id": "opensex.ops.sta-sta.ap.actionmalekiss",
+ "name": "Action Male Kiss",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Ap|ActionMaleKiss",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Ap/ActionMaleKiss.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-malepc_kiss1_0",
+    "opensex/ap-malepc_kiss1_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.ap.standing",
+ "length": 5.0,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

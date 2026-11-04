@@ -1,0 +1,116 @@
+{
+ "id": "opensex.ops.kne-lyb.sx.missionarykissingfeet",
+ "name": "Missionary, Legs Up",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Kne!LyB|Sx|MissionaryKissingFeet",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/KneLyB/Sx/MissionaryKissingFeet.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PMissionaryKissFootMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Missionary/OStim2PMissionaryKissFootMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-missionarykissingfeet_s1_0",
+    "opensex/sx-missionarykissingfeet_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-missionarykissingfeet_s2_0",
+    "opensex/sx-missionarykissingfeet_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-missionarykissingfeet_s3_0",
+    "opensex/sx-missionarykissingfeet_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-missionarykissingfeet_s4_0",
+    "opensex/sx-missionarykissingfeet_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.missionarykissingfeet--missionary",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.missionarykissingfeet--spreadlegsfemale",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.missionarykissingfeet--missionarylegsheld",
+   "label": "stop kissing {1}",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.missionarykissingfeet--ostim2pmissionaryjerktopussymf",
+   "label": "masturbate ({0})",
+   "priority": 3000
+  }
+ ],
+ "tags": [
+  "missionary"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

@@ -1,0 +1,68 @@
+{
+ "id": "opensex.ops.3p-lying.em.3pspooningsleepingsuggestive",
+ "name": "3P Spooning Sleeping　Suggestive",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|3P!Lying|Em|3PSpooningSleepingSuggestive",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/3PLying/Em/3PSpooningSleepingSuggestive.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-3pspooningsleepingsuggestive_0",
+    "opensex/em-3pspooningsleepingsuggestive_1",
+    "opensex/em-3pspooningsleepingsuggestive_2"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.3p-lying.em.3pspooningsleeping",
+   "label": null
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  [],
+  []
+ ]
+}

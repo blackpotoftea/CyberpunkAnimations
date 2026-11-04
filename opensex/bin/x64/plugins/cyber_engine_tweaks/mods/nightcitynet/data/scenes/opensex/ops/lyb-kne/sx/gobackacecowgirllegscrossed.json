@@ -1,0 +1,68 @@
+{
+ "id": "opensex.ops.lyb-kne.sx.gobackacecowgirllegscrossed",
+ "name": "Transition into Cowgirl Legs Crossed",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyB!Kne|Sx|GoBackAceCowgirlLegsCrossed",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyBKne/Sx/GoBackAceCowgirlLegsCrossed.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-gobackacecowgirllegscrossed_0",
+    "opensex/sx-gobackacecowgirllegscrossed_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.lyb-kne.sx.acecowgirl",
+ "length": 2.0,
+ "moves": [],
+ "tags": [
+  "cowgirl",
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

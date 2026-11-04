@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.acecowgirl--squattingcowgirl",
+ "name": "Cowgirl (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-acecowgirl--squattingcowgirl_0",
+    "opensex/gen-acecowgirl--squattingcowgirl_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.lyb-kne.sx.squattingcowgirl",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

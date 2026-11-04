@@ -1,0 +1,125 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.squatting.ostim2psquattingjerktofacemf",
+ "name": "Jerking On Squatting Partner [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PSquattingJerkToFaceMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Squatting/OStim2PSquattingJerkToFaceMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "Squatting"
+   ],
+   "posture": "squatting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/po-acekneelingjo_s1_0",
+    "opensex/ap-malestandingfemalesquatting_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/po-acekneelingjo_s2_0",
+    "opensex/ap-malestandingfemalesquatting_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/po-acekneelingjo_s3_0",
+    "opensex/ap-malestandingfemalesquatting_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/po-acekneelingjo_s4_0",
+    "opensex/ap-malestandingfemalesquatting_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2psquattingjerktofacemf--ostim2pstandingsquattingmf",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2psquattingjerktofacemf--squattingfellatioholdinghead",
+   "label": "suck {0}s dick",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2psquattingjerktofacemf--ostim2psquattingfacefuckmf",
+   "label": "fuck {1}s face",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2psquattingjerktofacemf--ostim2pkneelingjerktofacemf",
+   "label": "kneel ({1})",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2psquattingjerktofacemf--ostim2pstandingsittingjerktofacemasturbationmf",
+   "label": "masturbate ({1})",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2psquattingjerktofacemf--ostim2pstandingbehindjerktobuttmf",
+   "label": "turn around ({1})",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.missionary.ostim2pmissionaryjerktopussymf",
+   "label": "lie back({1})",
+   "priority": 3000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "a",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

@@ -1,0 +1,51 @@
+{
+ "id": "ostimng.ostim2p.mf.idle.ostim2pstandingsquattingtostandingapartmf",
+ "name": "Standing Squatting to Standing Apart [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingSquattingToStandingApartMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PStandingSquattingToStandingApartMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "squatting"
+   ],
+   "posture": "squatting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pstandingsquattingtostandingapartmf_0",
+    "ostimng/ostim2pstandingsquattingtostandingapartmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.idle.ostim2pstandingapartmf",
+ "length": 2.0,
+ "moves": [],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

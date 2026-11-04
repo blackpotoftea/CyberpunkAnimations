@@ -1,0 +1,52 @@
+{
+ "id": "opensex.ops_solo.s-tanding.ap.malehubbathing",
+ "name": "Male Hub Bathing",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_solo|S!tanding|Ap|MaleHubBathing",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_solo/Standing/Ap/MaleHubBathing.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-solostandingidlemale_0"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops_solo.s-tanding.ap.malebatheinkneedeepwater",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_solo.s-tanding.ap.malesolostandingidle",
+   "label": null
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  []
+ ]
+}

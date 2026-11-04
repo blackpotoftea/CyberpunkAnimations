@@ -1,0 +1,106 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.doggystyle.ostim2pdoggystyleholdingarmspullupmf",
+ "name": "Doggy Style Holding Arms Pulling Up [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PDoggyStyleHoldingArmsPullUpMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleHoldingArmsPullUpMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling",
+    "facingaway",
+    "bendover"
+   ],
+   "posture": "bendover",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pdoggystyleholdingarmspullupmf_s1_0",
+    "ostimng/ostim2pdoggystyleholdingarmspullupmf_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pdoggystyleholdingarmspullupmf_s2_0",
+    "ostimng/ostim2pdoggystyleholdingarmspullupmf_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pdoggystyleholdingarmspullupmf_s3_0",
+    "ostimng/ostim2pdoggystyleholdingarmspullupmf_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pdoggystyleholdingarmspullupmf_s4_0",
+    "ostimng/ostim2pdoggystyleholdingarmspullupmf_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 3.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pdoggystyleholdingarmspullupmf--ostim2pdoggystyleholdingarmsmf",
+   "label": "push {1} down",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pdoggystyleholdingarmspullupmf--ostim2psittingdoggyjerktobuttmf",
+   "label": "masturbate to {1}s butt",
+   "priority": 3000
+  }
+ ],
+ "tags": [
+  "doggystyle"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

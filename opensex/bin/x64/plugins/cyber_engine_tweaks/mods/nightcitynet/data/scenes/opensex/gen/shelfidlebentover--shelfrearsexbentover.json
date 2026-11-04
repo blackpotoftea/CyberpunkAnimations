@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.shelfidlebentover--shelfrearsexbentover",
+ "name": "Shelf Idle (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-shelfidlebentover--shelfrearsexbentover_0",
+    "opensex/gen-shelfidlebentover--shelfrearsexbentover_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops_furniture.she-lf.sx.shelfrearsexbentover",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "shelf",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

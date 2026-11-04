@@ -1,0 +1,81 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.malesitting.ostim2pmalekneelingallfoursjerktofacemf",
+ "name": "Male Kneeling Female All Fours Jerk To Face [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PMaleKneelingAllFoursJerkToFaceMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/MaleSitting/OStim2PMaleKneelingAllFoursJerkToFaceMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "allfours"
+   ],
+   "posture": "allfours",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pmalekneelingallfoursjerktofacemf_0",
+    "ostimng/ostim2pmalekneelingallfoursjerktofacemf_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pmalekneelingallfoursjerktofacemf--sittingfemaleapproach",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pmalekneelingallfoursjerktofacemf--aceallfoursblowjob",
+   "label": "suck {0}s dick",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pmalekneelingallfoursjerktofacemf--ostim2pmalesittingjerktofacemf",
+   "label": "sit down ({0})",
+   "priority": 0
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "a",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

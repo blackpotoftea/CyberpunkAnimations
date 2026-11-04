@@ -1,0 +1,100 @@
+{
+ "id": "opensex.ops.lyb-kne.sx.cowgirlleanback",
+ "name": "Cowgirl, Lean Back",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyB!Kne|Sx|CowgirlLeanBack",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyBKne/Sx/CowgirlLeanBack.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-cowgirlleanback_s1_0",
+    "opensex/sx-cowgirlleanback_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-cowgirlleanback_s2_0",
+    "opensex/sx-cowgirlleanback_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-cowgirlleanback_s3_0",
+    "opensex/sx-cowgirlleanback_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-cowgirlleanback_s4_0",
+    "opensex/sx-cowgirlleanback_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.cowgirlleanback--acecowgirl",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.cowgirlleanback--cowgirlpushlegsup",
+   "label": null
+  }
+ ],
+ "tags": [
+  "cowgirl"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

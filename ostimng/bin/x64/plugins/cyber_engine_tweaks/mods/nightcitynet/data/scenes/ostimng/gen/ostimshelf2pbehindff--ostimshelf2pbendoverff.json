@@ -1,0 +1,45 @@
+{
+ "id": "ostimng.gen.ostimshelf2pbehindff--ostimshelf2pbendoverff",
+ "name": "Behind [FF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostimshelf2pbehindff--ostimshelf2pbendoverff_0",
+    "ostimng/gen-ostimshelf2pbehindff--ostimshelf2pbendoverff_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostimshelf2p.ff.idle.ostimshelf2pbendoverff",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "shelf",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

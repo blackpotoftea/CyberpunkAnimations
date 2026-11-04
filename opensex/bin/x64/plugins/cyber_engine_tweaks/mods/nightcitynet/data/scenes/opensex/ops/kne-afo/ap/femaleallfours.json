@@ -1,0 +1,115 @@
+{
+ "id": "opensex.ops.kne-afo.ap.femaleallfours",
+ "name": "Female All Fours",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Kne!AFo|Ap|FemaleAllFours",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/KneAFo/Ap/FemaleAllFours.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PDoggyIdleMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PDoggyIdleMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "allfours",
+    "facingaway"
+   ],
+   "posture": "allfours",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-femaleallfours_0",
+    "opensex/ap-femaleallfours_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.femaleallfours--acebentoverfootjob",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.femaleallfours--acebackitup",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.femaleallfours--doggystyle",
+   "label": "take {1} doggy style",
+   "priority": 3000
+  },
+  {
+   "to": "opensex.gen.femaleallfours--acerearkneelingsex",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.kne-lyb.ho.spreadlegsfemale",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.femaleallfours--femalelyingonside",
+   "label": "lie on your side ({1})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.femaleallfours--acereversecowgirl",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.femaleallfours--pronesexfemalelegsin",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sit-sit.ap.sittingmaleapproach",
+   "label": "sit down",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.femaleallfours--ostim2psittingdoggyjerktobuttmf",
+   "label": "masturbate to {1}s butt",
+   "priority": 3000
+  },
+  {
+   "to": "opensex.gen.femaleallfours--ostim2ppronemf",
+   "label": "take {1} prone",
+   "priority": 3000
+  },
+  {
+   "to": "opensex.gen.femaleallfours--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "ostimng.gen.ostim2pstandingapartfemalebehindmf--ostim2pstandingkneelingfemalebehindmf",
+ "name": "Standing Apart Female Behind [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pstandingapartfemalebehindmf--ostim2pstandingkneelingfemalebehindmf_0",
+    "ostimng/gen-ostim2pstandingapartfemalebehindmf--ostim2pstandingkneelingfemalebehindmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.idle.ostim2pstandingkneelingfemalebehindmf",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

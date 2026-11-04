@@ -1,0 +1,66 @@
+{
+ "id": "opensex.ops.sta-sta.ho.standingtwohandsholding",
+ "name": "Standing Two Hands Holding",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Ho|StandingTwoHandsHolding",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Ho/StandingTwoHandsHolding.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-standingtwohandsholding_0",
+    "opensex/ho-standingtwohandsholding_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.standingtwohandsholding--standing",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingtwohandsholding--standinghandholding",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingtwohandsholding--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

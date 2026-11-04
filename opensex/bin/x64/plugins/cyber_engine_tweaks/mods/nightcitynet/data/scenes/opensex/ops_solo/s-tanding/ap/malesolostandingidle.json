@@ -1,0 +1,69 @@
+{
+ "id": "opensex.ops_solo.s-tanding.ap.malesolostandingidle",
+ "name": "Male Solo Standing Idle",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_solo|S!tanding|Ap|MaleSoloStandingIdle",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_solo/Standing/Ap/MaleSoloStandingIdle.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-solostandingidlemale_0"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops_solo.l-ying.ap.malesololyingidle",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_solo.s-quatting.ap.malesolosquattingidle",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_solo.s-tanding.ap.femalesolostandingidle",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_solo.s-tanding.ap.malehubbathing",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_solo.s-tanding.ap.malehubselfpleasure",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_solo.s-tanding.ap.malesolostandingthinking",
+   "label": null
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  []
+ ]
+}

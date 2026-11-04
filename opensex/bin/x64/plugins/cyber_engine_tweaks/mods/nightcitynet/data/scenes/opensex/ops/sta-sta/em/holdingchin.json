@@ -1,0 +1,70 @@
+{
+ "id": "opensex.ops.sta-sta.em.holdingchin",
+ "name": "Gentle Embrace",
+ "animator": "Frolique",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Em|HoldingChin",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Em/HoldingChin.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-holdingchin_0",
+    "opensex/em-holdingchin_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.holdingchin--holdingchinhug",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.holdingchin--holdingchinkiss",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.holdingchin--standingholding",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.holdingchin--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "opensex.gen.standingrearsex--ostim2pstandingbehindfuckholdingarmsmf",
+ "name": "Standing Sex from Behind (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "bendover",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-standingrearsex--ostim2pstandingbehindfuckholdingarmsmf_0",
+    "opensex/gen-standingrearsex--ostim2pstandingbehindfuckholdingarmsmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.standingbehind.ostim2pstandingbehindfuckholdingarmsmf",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

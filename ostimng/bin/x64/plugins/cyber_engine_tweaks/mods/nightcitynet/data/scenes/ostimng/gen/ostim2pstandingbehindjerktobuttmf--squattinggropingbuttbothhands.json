@@ -1,0 +1,45 @@
+{
+ "id": "ostimng.gen.ostim2pstandingbehindjerktobuttmf--squattinggropingbuttbothhands",
+ "name": "Standing Jerking On Partner's Butt [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pstandingbehindjerktobuttmf--squattinggropingbuttbothhands_0",
+    "ostimng/gen-ostim2pstandingbehindjerktobuttmf--squattinggropingbuttbothhands_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-squ.ho.squattinggropingbuttbothhands",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

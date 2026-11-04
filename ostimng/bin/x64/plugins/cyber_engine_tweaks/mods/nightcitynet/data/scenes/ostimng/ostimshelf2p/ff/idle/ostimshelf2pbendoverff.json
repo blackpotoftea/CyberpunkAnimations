@@ -1,0 +1,75 @@
+{
+ "id": "ostimng.ostimshelf2p.ff.idle.ostimshelf2pbendoverff",
+ "name": "Bend Over [FF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimShelf2PBendOverFF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimShelf2P/FF/idle/OStimShelf2PBendOverFF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "bendover",
+    "facingaway",
+    "standing"
+   ],
+   "posture": "bendover",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-shelfidlebentover_0",
+    "opensex/ap-shelfidlebentover_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostimshelf2pbendoverff--shelfidle",
+   "label": "go to straight idle"
+  },
+  {
+   "to": "ostimng.gen.ostimshelf2pbendoverff--ostimshelf2pbehindff",
+   "label": "stand up ({1})"
+  },
+  {
+   "to": "ostimng.gen.ostimshelf2pbendoverff--lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "ostimng.gen.ostimshelf2pbendoverff--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": "shelf",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

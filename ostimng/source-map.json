@@ -1,0 +1,4559 @@
+[
+ {
+  "clip": "ostim1psittingf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim1P/F/idle/OStim1PSittingF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim1p_f_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim1p_f_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim1psittingtostandingf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim1P/F/idle/OStim1PSittingToStandingF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim1p_f_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim1p_f_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim1pstandingf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim1P/F/idle/OStim1PStandingF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim1p_f_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim1p_f_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim1pstandingtosittingf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim1P/F/idle/OStim1PStandingToSittingF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim1p_f_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim1p_f_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelinglyingff_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/FF/idle/OStim2PKneelingLyingFF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_ff_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_ff_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_ff_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_ff_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelinglyingff_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/FF/idle/OStim2PKneelingLyingFF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_ff_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_ff_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_ff_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_ff_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psittingff_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/FF/idle/OStim2PSittingFF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_ff_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_ff_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_ff_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_ff_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psittingff_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/FF/idle/OStim2PSittingFF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_ff_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_ff_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_ff_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_ff_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingcloseff_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/FF/idle/OStim2PStandingCloseFF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_ff_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_ff_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_ff_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_ff_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingcloseff_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/FF/idle/OStim2PStandingCloseFF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_ff_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_ff_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_ff_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_ff_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pbothlyingmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/idle/OStim2PBothLyingMF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pbothlyingmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/idle/OStim2PBothLyingMF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2plyingkneelingmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/idle/OStim2PLyingKneelingMF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2plyingkneelingmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/idle/OStim2PLyingKneelingMF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2plyingontopmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/idle/OStim2PLyingOnTopMF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2plyingontopmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/idle/OStim2PLyingOnTopMF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingapartfemalebehindmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/idle/OStim2PStandingApartFemaleBehindMF_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingapartfemalebehindmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/idle/OStim2PStandingApartFemaleBehindMF_1.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingaparttostandingsquattingmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/idle/OStim2PStandingApartToStandingSquattingMF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingaparttostandingsquattingmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/idle/OStim2PStandingApartToStandingSquattingMF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkneelingfemalebehindmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/idle/OStim2PStandingKneelingFemaleBehindMF_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkneelingfemalebehindmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/idle/OStim2PStandingKneelingFemaleBehindMF_1.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingsquattingtostandingapartmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/idle/OStim2PStandingSquattingToStandingApartMF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingsquattingtostandingapartmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/idle/OStim2PStandingSquattingToStandingApartMF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingcuddleholdingheadmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/OStim2PStandingCuddleHoldingHeadMF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingcuddleholdingheadmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/OStim2PStandingCuddleHoldingHeadMF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandinghandholdinghighmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/OStim2PStandingHandHoldingHighMF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandinghandholdinghighmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/OStim2PStandingHandHoldingHighMF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandinghandholdingkissmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/OStim2PStandingHandHoldingKissMF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandinghandholdingkissmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/OStim2PStandingHandHoldingKissMF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingheadpattingmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/StandingHeadPatting/OStim2PStandingHeadPattingMF_S1_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingheadpattingmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/StandingHeadPatting/OStim2PStandingHeadPattingMF_S1_1.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingheadpattingmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/StandingHeadPatting/OStim2PStandingHeadPattingMF_S2_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingheadpattingmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/StandingHeadPatting/OStim2PStandingHeadPattingMF_S3_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingheadpattingmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/StandingHeadPatting/OStim2PStandingHeadPattingMF_S4_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkissembracealtmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/OStim2PStandingKissEmbraceAltMF_0.hkx",
+  "tracks": 99,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkissembracealtmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/OStim2PStandingKissEmbraceAltMF_1.hkx",
+  "tracks": 99,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkissembracemf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/OStim2PStandingKissEmbraceMF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkissembracemf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/OStim2PStandingKissEmbraceMF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkissgropingbuttmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/StandingKissGropingButt/OStim2PStandingKissGropingButtMF_S1_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkissgropingbuttmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/StandingKissGropingButt/OStim2PStandingKissGropingButtMF_S1_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkissgropingbuttmf_s1_2",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/StandingKissGropingButt/OStim2PStandingKissGropingButtMF_S1_2.hkx",
+  "tracks": 99,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkissgropingbuttmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/StandingKissGropingButt/OStim2PStandingKissGropingButtMF_S2_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkissgropingbuttmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/StandingKissGropingButt/OStim2PStandingKissGropingButtMF_S2_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkissgropingbuttmf_s2_2",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/StandingKissGropingButt/OStim2PStandingKissGropingButtMF_S2_2.hkx",
+  "tracks": 99,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkissgropingbuttmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/StandingKissGropingButt/OStim2PStandingKissGropingButtMF_S3_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkissgropingbuttmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/StandingKissGropingButt/OStim2PStandingKissGropingButtMF_S3_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkissgropingbuttmf_s3_2",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/StandingKissGropingButt/OStim2PStandingKissGropingButtMF_S3_2.hkx",
+  "tracks": 99,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkissgropingbuttmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/StandingKissGropingButt/OStim2PStandingKissGropingButtMF_S4_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkissgropingbuttmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/StandingKissGropingButt/OStim2PStandingKissGropingButtMF_S4_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkissgropingbuttmf_s4_2",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/StandingKissGropingButt/OStim2PStandingKissGropingButtMF_S4_2.hkx",
+  "tracks": 99,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkissholdinghipmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/OStim2PStandingKissHoldingHipMF_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkissholdinghipmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/OStim2PStandingKissHoldingHipMF_1.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkissmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/OStim2PStandingKissMF_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingkissmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sensual/OStim2PStandingKissMF_1.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sensual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pcowgirlmf_s1_2",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Cowgirl/OStim2PCowgirlMF_S1_2.hkx",
+  "tracks": 99,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pcowgirlmf_s2_2",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Cowgirl/OStim2PCowgirlMF_S2_2.hkx",
+  "tracks": 99,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pcowgirlmf_s3_2",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Cowgirl/OStim2PCowgirlMF_S3_2.hkx",
+  "tracks": 99,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pcowgirlmf_s4_2",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Cowgirl/OStim2PCowgirlMF_S4_2.hkx",
+  "tracks": 99,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystyleholdingarmsmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleHoldingArmsMF_S1_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystyleholdingarmsmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleHoldingArmsMF_S1_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystyleholdingarmsmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleHoldingArmsMF_S2_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystyleholdingarmsmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleHoldingArmsMF_S2_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystyleholdingarmsmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleHoldingArmsMF_S3_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystyleholdingarmsmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleHoldingArmsMF_S3_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystyleholdingarmsmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleHoldingArmsMF_S4_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystyleholdingarmsmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleHoldingArmsMF_S4_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystyleholdingarmspullupmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleHoldingArmsPullUpMF_S1_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystyleholdingarmspullupmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleHoldingArmsPullUpMF_S1_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystyleholdingarmspullupmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleHoldingArmsPullUpMF_S2_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystyleholdingarmspullupmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleHoldingArmsPullUpMF_S2_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystyleholdingarmspullupmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleHoldingArmsPullUpMF_S3_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystyleholdingarmspullupmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleHoldingArmsPullUpMF_S3_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystyleholdingarmspullupmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleHoldingArmsPullUpMF_S4_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystyleholdingarmspullupmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleHoldingArmsPullUpMF_S4_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystylenohandsmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleNoHandsMF_S1_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystylenohandsmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleNoHandsMF_S1_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystylenohandsmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleNoHandsMF_S2_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystylenohandsmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleNoHandsMF_S2_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystylenohandsmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleNoHandsMF_S3_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystylenohandsmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleNoHandsMF_S3_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystylenohandsmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleNoHandsMF_S4_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pdoggystylenohandsmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleNoHandsMF_S4_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pfaceridingmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/FaceSitting/OStim2PFaceRidingMF_S1_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pfaceridingmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/FaceSitting/OStim2PFaceRidingMF_S1_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pfaceridingmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/FaceSitting/OStim2PFaceRidingMF_S2_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pfaceridingmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/FaceSitting/OStim2PFaceRidingMF_S2_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pfaceridingmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/FaceSitting/OStim2PFaceRidingMF_S3_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pfaceridingmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/FaceSitting/OStim2PFaceRidingMF_S3_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pfaceridingmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/FaceSitting/OStim2PFaceRidingMF_S4_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pfaceridingmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/FaceSitting/OStim2PFaceRidingMF_S4_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pfacesittingmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/FaceSitting/OStim2PFaceSittingMF_S1_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pfacesittingmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/FaceSitting/OStim2PFaceSittingMF_S1_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pfacesittingmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/FaceSitting/OStim2PFaceSittingMF_S2_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pfacesittingmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/FaceSitting/OStim2PFaceSittingMF_S2_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pfacesittingmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/FaceSitting/OStim2PFaceSittingMF_S3_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pfacesittingmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/FaceSitting/OStim2PFaceSittingMF_S3_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pfacesittingmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/FaceSitting/OStim2PFaceSittingMF_S4_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pfacesittingmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/FaceSitting/OStim2PFaceSittingMF_S4_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingbehindcunnilingusholdingheadmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindCunnilingusHoldingHeadMF_S1_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingbehindcunnilingusholdingheadmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindCunnilingusHoldingHeadMF_S1_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingbehindcunnilingusholdingheadmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindCunnilingusHoldingHeadMF_S2_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingbehindcunnilingusholdingheadmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindCunnilingusHoldingHeadMF_S2_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingbehindcunnilingusholdingheadmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindCunnilingusHoldingHeadMF_S3_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingbehindcunnilingusholdingheadmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindCunnilingusHoldingHeadMF_S3_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingbehindcunnilingusholdingheadmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindCunnilingusHoldingHeadMF_S4_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingbehindcunnilingusholdingheadmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindCunnilingusHoldingHeadMF_S4_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingbehindcunnilingusmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindCunnilingusMF_S1_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingbehindcunnilingusmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindCunnilingusMF_S1_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingbehindcunnilingusmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindCunnilingusMF_S2_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingbehindcunnilingusmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindCunnilingusMF_S2_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingbehindcunnilingusmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindCunnilingusMF_S3_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingbehindcunnilingusmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindCunnilingusMF_S3_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingbehindcunnilingusmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindCunnilingusMF_S4_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingbehindcunnilingusmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindCunnilingusMF_S4_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingbehindteasejerkmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindTeaseJerkMF_S1_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingbehindteasejerkmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindTeaseJerkMF_S1_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingblowjobholdingheadmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBlowjob/OStim2PKneelingBlowjobHoldingHeadMF_S1_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingblowjobholdingheadmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBlowjob/OStim2PKneelingBlowjobHoldingHeadMF_S1_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingblowjobholdingheadmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBlowjob/OStim2PKneelingBlowjobHoldingHeadMF_S2_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingblowjobholdingheadmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBlowjob/OStim2PKneelingBlowjobHoldingHeadMF_S2_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingblowjobholdingheadmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBlowjob/OStim2PKneelingBlowjobHoldingHeadMF_S3_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingblowjobholdingheadmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBlowjob/OStim2PKneelingBlowjobHoldingHeadMF_S3_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingblowjobholdingheadmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBlowjob/OStim2PKneelingBlowjobHoldingHeadMF_S4_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingblowjobholdingheadmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingBlowjob/OStim2PKneelingBlowjobHoldingHeadMF_S4_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingtailjobmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingTailjob/OStim2PKneelingTailjobMF_S1_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingtailjobmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingTailjob/OStim2PKneelingTailjobMF_S1_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingtailjobmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingTailjob/OStim2PKneelingTailjobMF_S2_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingtailjobmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingTailjob/OStim2PKneelingTailjobMF_S3_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelingtailjobmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/KneelingTailjob/OStim2PKneelingTailjobMF_S4_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalekneelingallfoursjerktofacemf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleKneelingAllFoursJerkToFaceMF_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalekneelingallfoursjerktofacemf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleKneelingAllFoursJerkToFaceMF_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittingblowjobmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingBlowJobMF_S1_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittingblowjobmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingBlowJobMF_S1_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittingblowjobmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingBlowJobMF_S2_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittingblowjobmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingBlowJobMF_S2_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittingblowjobmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingBlowJobMF_S3_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittingblowjobmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingBlowJobMF_S3_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittingblowjobmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingBlowJobMF_S4_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittingblowjobmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingBlowJobMF_S4_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittinghandjobmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingHandJobMF_S1_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittinghandjobmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingHandJobMF_S1_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittinghandjobmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingHandJobMF_S2_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittinghandjobmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingHandJobMF_S2_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittinghandjobmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingHandJobMF_S3_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittinghandjobmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingHandJobMF_S3_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittinghandjobmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingHandJobMF_S4_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittinghandjobmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingHandJobMF_S4_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittingjerktofacemf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingJerkToFaceMF_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittingjerktofacemf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingJerkToFaceMF_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittingproneblowjobmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingProneBlowJobMF_S1_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittingproneblowjobmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingProneBlowJobMF_S1_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittingproneblowjobmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingProneBlowJobMF_S2_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittingproneblowjobmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingProneBlowJobMF_S2_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittingproneblowjobmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingProneBlowJobMF_S3_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittingproneblowjobmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingProneBlowJobMF_S3_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittingproneblowjobmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingProneBlowJobMF_S4_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmalesittingproneblowjobmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingProneBlowJobMF_S4_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmissionaryclimaxmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Missionary/OStim2PMissionaryClimaxMF_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmissionaryjerktopussymf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Missionary/OStim2PMissionaryJerkToPussyMF_S1_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmissionaryjerktopussymf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Missionary/OStim2PMissionaryJerkToPussyMF_S1_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmissionarymf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Missionary/OStim2PMissionaryMF_S1_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmissionarymf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Missionary/OStim2PMissionaryMF_S2_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmissionarymf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Missionary/OStim2PMissionaryMF_S3_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pmissionarymf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Missionary/OStim2PMissionaryMF_S4_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2ppronejerktobuttmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Prone/OStim2PProneJerkToButtMF_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2ppronejerktobuttmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Prone/OStim2PProneJerkToButtMF_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2ppronemalemountedcrackfuckmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Prone/OStim2PProneMaleMountedCrackFuckMF_S1_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2ppronemalemountedcrackfuckmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Prone/OStim2PProneMaleMountedCrackFuckMF_S2_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2ppronemalemountedcrackfuckmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Prone/OStim2PProneMaleMountedCrackFuckMF_S3_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2ppronemalemountedcrackfuckmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Prone/OStim2PProneMaleMountedCrackFuckMF_S4_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2ppronemalemountedmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Prone/OStim2PProneMaleMountedMF_S1_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2ppronemalemountedmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Prone/OStim2PProneMaleMountedMF_S1_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2ppronemalemountedmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Prone/OStim2PProneMaleMountedMF_S2_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2ppronemalemountedmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Prone/OStim2PProneMaleMountedMF_S2_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2ppronemalemountedmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Prone/OStim2PProneMaleMountedMF_S3_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2ppronemalemountedmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Prone/OStim2PProneMaleMountedMF_S3_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2ppronemalemountedmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Prone/OStim2PProneMaleMountedMF_S4_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2ppronemalemountedmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Prone/OStim2PProneMaleMountedMF_S4_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2preversecowgirlarchbackmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Cowgirl/OStim2PReverseCowgirlArchBackMF_S1_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2preversecowgirlarchbackmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Cowgirl/OStim2PReverseCowgirlArchBackMF_S1_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2preversecowgirlarchbackmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Cowgirl/OStim2PReverseCowgirlArchBackMF_S2_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2preversecowgirlarchbackmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Cowgirl/OStim2PReverseCowgirlArchBackMF_S2_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2preversecowgirlarchbackmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Cowgirl/OStim2PReverseCowgirlArchBackMF_S3_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2preversecowgirlarchbackmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Cowgirl/OStim2PReverseCowgirlArchBackMF_S3_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2preversecowgirlarchbackmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Cowgirl/OStim2PReverseCowgirlArchBackMF_S4_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2preversecowgirlarchbackmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Cowgirl/OStim2PReverseCowgirlArchBackMF_S4_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2preversecowgirlmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Cowgirl/OStim2PReverseCowgirlMF_S1_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2preversecowgirlmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Cowgirl/OStim2PReverseCowgirlMF_S2_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2preversecowgirlmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Cowgirl/OStim2PReverseCowgirlMF_S3_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2preversecowgirlmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Cowgirl/OStim2PReverseCowgirlMF_S4_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2preverseidlecowgirltoreversecowgirl1mf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Cowgirl/OStim2PReverseIdleCowgirlToReverseCowgirl1MF_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2preverseidlecowgirltoreversecowgirl1mf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Cowgirl/OStim2PReverseIdleCowgirlToReverseCowgirl1MF_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2preverseidlecowgirltoreversecowgirl2mf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Cowgirl/OStim2PReverseIdleCowgirlToReverseCowgirl2MF_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2preverseidlecowgirltoreversecowgirl2mf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Cowgirl/OStim2PReverseIdleCowgirlToReverseCowgirl2MF_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psidewaysholdinglegmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Sideways/OStim2PSidewaysHoldingLegMF_S1_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psidewaysholdinglegmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Sideways/OStim2PSidewaysHoldingLegMF_S2_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psidewaysholdinglegmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Sideways/OStim2PSidewaysHoldingLegMF_S3_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psidewaysholdinglegmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Sideways/OStim2PSidewaysHoldingLegMF_S4_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psidewaysjerktobodymf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Sideways/OStim2PSidewaysJerkToBodyMF_S1_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psidewaysjerktobodymf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Sideways/OStim2PSidewaysJerkToBodyMF_S1_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psidewaysmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Sideways/OStim2PSidewaysMF_S1_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psidewaysmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Sideways/OStim2PSidewaysMF_S1_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psidewaysmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Sideways/OStim2PSidewaysMF_S2_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psidewaysmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Sideways/OStim2PSidewaysMF_S2_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psidewaysmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Sideways/OStim2PSidewaysMF_S3_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psidewaysmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Sideways/OStim2PSidewaysMF_S3_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psidewaysmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Sideways/OStim2PSidewaysMF_S4_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psidewaysmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Sideways/OStim2PSidewaysMF_S4_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psittingdoggyjerktobuttmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PSittingDoggyJerkToButtMF_S1_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psittingdoggyjerktobuttmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/DoggyStyle/OStim2PSittingDoggyJerkToButtMF_S1_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psquattingfacefuckmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Squatting/OStim2PSquattingFaceFuckMF_S1_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psquattingfacefuckmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Squatting/OStim2PSquattingFaceFuckMF_S1_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psquattingfacefuckmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Squatting/OStim2PSquattingFaceFuckMF_S2_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psquattingfacefuckmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Squatting/OStim2PSquattingFaceFuckMF_S2_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psquattingfacefuckmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Squatting/OStim2PSquattingFaceFuckMF_S3_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psquattingfacefuckmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Squatting/OStim2PSquattingFaceFuckMF_S3_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psquattingfacefuckmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Squatting/OStim2PSquattingFaceFuckMF_S4_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2psquattingfacefuckmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/Squatting/OStim2PSquattingFaceFuckMF_S4_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckbendovermf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckBendOverMF_S1_0.hkx",
+  "tracks": 99,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckbendovermf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckBendOverMF_S1_1.hkx",
+  "tracks": 99,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckbendovermf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckBendOverMF_S2_0.hkx",
+  "tracks": 99,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckbendovermf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckBendOverMF_S2_1.hkx",
+  "tracks": 99,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckbendovermf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckBendOverMF_S3_0.hkx",
+  "tracks": 99,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckbendovermf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckBendOverMF_S3_1.hkx",
+  "tracks": 99,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckbendovermf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckBendOverMF_S4_0.hkx",
+  "tracks": 99,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckbendovermf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckBendOverMF_S4_1.hkx",
+  "tracks": 99,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckbendovermf_s5_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckBendOverMF_S5_0.hkx",
+  "tracks": 99,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckbendovermf_s5_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckBendOverMF_S5_1.hkx",
+  "tracks": 99,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckholdingarmsmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckHoldingArmsMF_S1_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckholdingarmsmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckHoldingArmsMF_S2_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckholdingarmsmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckHoldingArmsMF_S3_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckholdingarmsmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckHoldingArmsMF_S4_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckholdingwristsmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckHoldingWristsMF_S1_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckholdingwristsmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckHoldingWristsMF_S1_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckholdingwristsmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckHoldingWristsMF_S2_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckholdingwristsmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckHoldingWristsMF_S2_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckholdingwristsmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckHoldingWristsMF_S3_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckholdingwristsmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckHoldingWristsMF_S3_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckholdingwristsmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckHoldingWristsMF_S4_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckholdingwristsmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckHoldingWristsMF_S4_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckholdingwristsmf_s5_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckHoldingWristsMF_S5_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindfuckholdingwristsmf_s5_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckHoldingWristsMF_S5_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingbehindjerktobuttmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindJerkToButtMF_S1_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingsittingjerktofacemasturbationmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingSitting/OStim2PStandingSittingJerkToFaceMasturbationMF_S1_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingsittingjerktofacemasturbationmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingSitting/OStim2PStandingSittingJerkToFaceMasturbationMF_S2_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingsittingjerktofacemasturbationmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingSitting/OStim2PStandingSittingJerkToFaceMasturbationMF_S3_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingsittingjerktofacemasturbationmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/sexual/StandingSitting/OStim2PStandingSittingJerkToFaceMasturbationMF_S4_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pundressboots1mf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/undressing/OStim2PUndressBoots1MF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_undressing_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_undressing_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pundressbottom0mf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/undressing/OStim2PUndressBottom0MF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_undressing_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_undressing_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pundressbottom1mf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/undressing/OStim2PUndressBottom1MF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_undressing_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_undressing_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pundressgloves1mf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/undressing/OStim2PUndressGloves1MF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_undressing_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_undressing_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pundresshead1mf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/undressing/OStim2PUndressHead1MF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_undressing_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_undressing_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pundresstop1mf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MF/undressing/OStim2PUndressTop1MF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mf_undressing_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mf_undressing_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelinglyingfrontmm_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MM/idle/OStim2PKneelingLyingFrontMM_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mm_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mm_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mm_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mm_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelinglyingfrontmm_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MM/idle/OStim2PKneelingLyingFrontMM_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mm_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mm_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mm_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mm_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelinglyingmm_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MM/idle/OStim2PKneelingLyingMM_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mm_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mm_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mm_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mm_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelinglyingmm_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MM/idle/OStim2PKneelingLyingMM_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mm_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mm_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mm_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mm_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelinglyingtolyingkneelingmm_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MM/idle/OStim2PKneelingLyingToLyingKneelingMM_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mm_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mm_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pkneelinglyingtolyingkneelingmm_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MM/idle/OStim2PKneelingLyingToLyingKneelingMM_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mm_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mm_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim2plyingkneelingmm_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MM/idle/OStim2PLyingKneelingMM_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mm_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mm_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mm_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mm_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2plyingkneelingmm_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MM/idle/OStim2PLyingKneelingMM_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mm_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mm_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mm_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mm_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingapartmm_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MM/idle/OStim2PStandingApartMM_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mm_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mm_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mm_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mm_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim2pstandingapartmm_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim2P/MM/idle/OStim2PStandingApartMM_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim2p_mm_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim2p_mm_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostim2p_mm_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim2p_mm_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim3plyingmmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim3P/MMF/idle/OStim3PLyingMMF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim3p_mmf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim3p_mmf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim3plyingmmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim3P/MMF/idle/OStim3PLyingMMF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim3p_mmf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim3p_mmf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim3plyingmmf_2",
+  "source": "data/meshes/actors/character/animations/OStim/OStim3P/MMF/idle/OStim3PLyingMMF_2.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim3p_mmf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim3p_mmf_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim3pstandingmmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim3P/MMF/idle/OStim3PStandingMMF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim3p_mmf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim3p_mmf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim3pstandingmmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim3P/MMF/idle/OStim3PStandingMMF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim3p_mmf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim3p_mmf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim3pstandingmmf_2",
+  "source": "data/meshes/actors/character/animations/OStim/OStim3P/MMF/idle/OStim3PStandingMMF_2.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim3p_mmf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim3p_mmf_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim3pstandingmmm_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim3P/MMM/idle/OStim3PStandingMMM_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim3p_mmm_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim3p_mmm_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim3pstandingmmm_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim3P/MMM/idle/OStim3PStandingMMM_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim3p_mmm_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim3p_mmm_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim3pstandingmmm_2",
+  "source": "data/meshes/actors/character/animations/OStim/OStim3P/MMM/idle/OStim3PStandingMMM_2.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim3p_mmm_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim3p_mmm_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim4plyingmmmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim4P/MMMF/idle/OStim4PLyingMMMF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim4p_mmmf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim4p_mmmf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim4p_mmmf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim4p_mmmf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim4plyingmmmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim4P/MMMF/idle/OStim4PLyingMMMF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim4p_mmmf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim4p_mmmf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim4p_mmmf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim4p_mmmf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim4plyingmmmf_2",
+  "source": "data/meshes/actors/character/animations/OStim/OStim4P/MMMF/idle/OStim4PLyingMMMF_2.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim4p_mmmf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim4p_mmmf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim4p_mmmf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim4p_mmmf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim4plyingmmmf_3",
+  "source": "data/meshes/actors/character/animations/OStim/OStim4P/MMMF/idle/OStim4PLyingMMMF_3.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim4p_mmmf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim4p_mmmf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim4p_mmmf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim4p_mmmf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim4pstandingmmmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim4P/MMMF/idle/OStim4PStandingMMMF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim4p_mmmf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim4p_mmmf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim4p_mmmf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim4p_mmmf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim4pstandingmmmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim4P/MMMF/idle/OStim4PStandingMMMF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim4p_mmmf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim4p_mmmf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim4p_mmmf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim4p_mmmf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim4pstandingmmmf_2",
+  "source": "data/meshes/actors/character/animations/OStim/OStim4P/MMMF/idle/OStim4PStandingMMMF_2.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim4p_mmmf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim4p_mmmf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim4p_mmmf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim4p_mmmf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim4pstandingmmmf_3",
+  "source": "data/meshes/actors/character/animations/OStim/OStim4P/MMMF/idle/OStim4PStandingMMMF_3.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim4p_mmmf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim4p_mmmf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim4p_mmmf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim4p_mmmf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim5plyingmmmmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim5P/MMMMF/idle/OStim5PLyingMMMMF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim5p_mmmmf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim5p_mmmmf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim5plyingmmmmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim5P/MMMMF/idle/OStim5PLyingMMMMF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim5p_mmmmf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim5p_mmmmf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim5p_mmmmf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim5p_mmmmf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim5plyingmmmmf_2",
+  "source": "data/meshes/actors/character/animations/OStim/OStim5P/MMMMF/idle/OStim5PLyingMMMMF_2.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim5p_mmmmf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim5p_mmmmf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim5p_mmmmf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim5p_mmmmf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim5plyingmmmmf_3",
+  "source": "data/meshes/actors/character/animations/OStim/OStim5P/MMMMF/idle/OStim5PLyingMMMMF_3.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim5p_mmmmf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim5p_mmmmf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim5p_mmmmf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim5p_mmmmf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim5plyingmmmmf_4",
+  "source": "data/meshes/actors/character/animations/OStim/OStim5P/MMMMF/idle/OStim5PLyingMMMMF_4.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim5p_mmmmf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim5p_mmmmf_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostim5pstandingmmmmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStim5P/MMMMF/idle/OStim5PStandingMMMMF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim5p_mmmmf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim5p_mmmmf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim5pstandingmmmmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStim5P/MMMMF/idle/OStim5PStandingMMMMF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim5p_mmmmf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim5p_mmmmf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim5p_mmmmf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim5p_mmmmf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim5pstandingmmmmf_2",
+  "source": "data/meshes/actors/character/animations/OStim/OStim5P/MMMMF/idle/OStim5PStandingMMMMF_2.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim5p_mmmmf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim5p_mmmmf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim5p_mmmmf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim5p_mmmmf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim5pstandingmmmmf_3",
+  "source": "data/meshes/actors/character/animations/OStim/OStim5P/MMMMF/idle/OStim5PStandingMMMMF_3.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim5p_mmmmf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim5p_mmmmf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostim5p_mmmmf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostim5p_mmmmf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostim5pstandingmmmmf_4",
+  "source": "data/meshes/actors/character/animations/OStim/OStim5P/MMMMF/idle/OStim5PStandingMMMMF_4.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostim5p_mmmmf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostim5p_mmmmf_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pbothsittingff_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/FF/idle/OStimBed2PBothSittingFF_0.hkx",
+  "tracks": 97,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_ff_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_ff_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_ff_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_ff_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pbothsittingff_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/FF/idle/OStimBed2PBothSittingFF_1.hkx",
+  "tracks": 97,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_ff_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_ff_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_ff_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_ff_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2psittingstandingff_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/FF/idle/OStimBed2PSittingStandingFF_0.hkx",
+  "tracks": 97,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_ff_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_ff_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_ff_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_ff_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2psittingstandingff_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/FF/idle/OStimBed2PSittingStandingFF_1.hkx",
+  "tracks": 97,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_ff_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_ff_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_ff_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_ff_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pstandingallfoursff_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/FF/idle/OStimBed2PStandingAllFoursFF_0.hkx",
+  "tracks": 97,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_ff_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_ff_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_ff_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_ff_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pstandingallfoursff_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/FF/idle/OStimBed2PStandingAllFoursFF_1.hkx",
+  "tracks": 97,
+  "sex": null,
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_ff_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_ff_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_ff_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_ff_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2psittingkneelingmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/idle/OStimBed2PSittingKneelingMF_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2psittingkneelingmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/idle/OStimBed2PSittingKneelingMF_1.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2psittingonlapmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/idle/OStimBed2PSittingOnLapMF_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2psittingonlapmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/idle/OStimBed2PSittingOnLapMF_1.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2psittingstandingfacingawaymf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/idle/OStimBed2PSittingStandingFacingAwayMF_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2psittingstandingfacingawaymf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/idle/OStimBed2PSittingStandingFacingAwayMF_1.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2psittingstandingmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/idle/OStimBed2PSittingStandingMF_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2psittingstandingmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/idle/OStimBed2PSittingStandingMF_1.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pstandingallfoursmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/idle/OStimBed2PStandingAllFoursMF_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pstandingallfoursmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/idle/OStimBed2PStandingAllFoursMF_1.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pstandingsittingmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/idle/OStimBed2PStandingSittingMF_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pstandingsittingmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/idle/OStimBed2PStandingSittingMF_1.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pbothsittingkissmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/sensual/OStimBed2PBothSittingKissMF_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sensual_pma.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sensual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pbothsittingkissmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/sensual/OStimBed2PBothSittingKissMF_1.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sensual_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sensual_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sensual_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sensual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pcowgirlmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/sexual/OStimBed2PCowgirlMF/OStimBed2PCowgirlMF_S1_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pcowgirlmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/sexual/OStimBed2PCowgirlMF/OStimBed2PCowgirlMF_S1_1.hkx",
+  "tracks": 97,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pcowgirlmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/sexual/OStimBed2PCowgirlMF/OStimBed2PCowgirlMF_S2_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pcowgirlmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/sexual/OStimBed2PCowgirlMF/OStimBed2PCowgirlMF_S2_1.hkx",
+  "tracks": 97,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pcowgirlmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/sexual/OStimBed2PCowgirlMF/OStimBed2PCowgirlMF_S3_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pcowgirlmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/sexual/OStimBed2PCowgirlMF/OStimBed2PCowgirlMF_S3_1.hkx",
+  "tracks": 97,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pcowgirlmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/sexual/OStimBed2PCowgirlMF/OStimBed2PCowgirlMF_S4_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pcowgirlmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/sexual/OStimBed2PCowgirlMF/OStimBed2PCowgirlMF_S4_1.hkx",
+  "tracks": 97,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pkneelingblowjobmf_s1_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/sexual/OStimBed2PKneelingBlowjobMF/OStimBed2PKneelingBlowjobMF_S1_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pkneelingblowjobmf_s1_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/sexual/OStimBed2PKneelingBlowjobMF/OStimBed2PKneelingBlowjobMF_S1_1.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pkneelingblowjobmf_s2_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/sexual/OStimBed2PKneelingBlowjobMF/OStimBed2PKneelingBlowjobMF_S2_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pkneelingblowjobmf_s2_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/sexual/OStimBed2PKneelingBlowjobMF/OStimBed2PKneelingBlowjobMF_S2_1.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pkneelingblowjobmf_s3_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/sexual/OStimBed2PKneelingBlowjobMF/OStimBed2PKneelingBlowjobMF_S3_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pkneelingblowjobmf_s3_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/sexual/OStimBed2PKneelingBlowjobMF/OStimBed2PKneelingBlowjobMF_S3_1.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pkneelingblowjobmf_s4_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/sexual/OStimBed2PKneelingBlowjobMF/OStimBed2PKneelingBlowjobMF_S4_0.hkx",
+  "tracks": 97,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbed2pkneelingblowjobmf_s4_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBed2P/MF/sexual/OStimBed2PKneelingBlowjobMF/OStimBed2PKneelingBlowjobMF_S4_1.hkx",
+  "tracks": 97,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_wa.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_ma.anims",
+   "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbench2pbothsittingff_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBench2P/FF/idle/OStimBench2PBothSittingFF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbench2p_ff_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbench2p_ff_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbench2p_ff_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbench2p_ff_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbench2pbothsittingff_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBench2P/FF/idle/OStimBench2PBothSittingFF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbench2p_ff_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbench2p_ff_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbench2p_ff_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbench2p_ff_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbench2psittingstandingff_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBench2P/FF/idle/OStimBench2PSittingStandingFF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbench2p_ff_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbench2p_ff_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbench2p_ff_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbench2p_ff_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimbench2psittingstandingff_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimBench2P/FF/idle/OStimBench2PSittingStandingFF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimbench2p_ff_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimbench2p_ff_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimbench2p_ff_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimbench2p_ff_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimtable2pstandingleaningff_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimTable2P/FF/idle/OStimTable2PStandingLeaningFF_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimtable2p_ff_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimtable2p_ff_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimtable2p_ff_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimtable2p_ff_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimtable2pstandingleaningff_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimTable2P/FF/idle/OStimTable2PStandingLeaningFF_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimtable2p_ff_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimtable2p_ff_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimtable2p_ff_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimtable2p_ff_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimtable2pstandingleaningmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimTable2P/MF/idle/OStimTable2PStandingLeaningMF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimtable2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimtable2p_mf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimtable2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimtable2p_mf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimtable2pstandingleaningmm_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimTable2P/MM/idle/OStimTable2PStandingLeaningMM_0.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimtable2p_mm_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimtable2p_mm_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostimtable2p_mm_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimtable2p_mm_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostimtable2pstandingleaningmm_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimTable2P/MM/idle/OStimTable2PStandingLeaningMM_1.hkx",
+  "tracks": 242,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimtable2p_mm_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimtable2p_mm_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostimtable2p_mm_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimtable2p_mm_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostimwall1pleaningf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimWall1P/F/idle/OStimWall1PLeaningF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimwall1p_f_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimwall1p_f_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostimwall1pleaningm_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimWall1P/M/idle/OStimWall1PLeaningM_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimwall1p_m_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimwall1p_m_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimwall2pstandingleaningff_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimWall2P/FF/idle/OStimWall2PStandingLeaningFF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimwall2p_ff_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimwall2p_ff_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimwall2p_ff_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimwall2p_ff_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimwall2pstandingleaningff_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimWall2P/FF/idle/OStimWall2PStandingLeaningFF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimwall2p_ff_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimwall2p_ff_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimwall2p_ff_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimwall2p_ff_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimwall2pstandingleaningmf_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimWall2P/MF/idle/OStimWall2PStandingLeaningMF_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimwall2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimwall2p_mf_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostimwall2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimwall2p_mf_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostimwall2pstandingleaningmf_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimWall2P/MF/idle/OStimWall2PStandingLeaningMF_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimwall2p_mf_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimwall2p_mf_idle_pwa.anims",
+   "ostimng\\anims\\npc\\ostimwall2p_mf_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimwall2p_mf_idle_pma.anims"
+  ]
+ },
+ {
+  "clip": "ostimwall2pstandingleaningmm_0",
+  "source": "data/meshes/actors/character/animations/OStim/OStimWall2P/MM/idle/OStimWall2PStandingLeaningMM_0.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimwall2p_mm_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimwall2p_mm_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostimwall2p_mm_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimwall2p_mm_idle_pwa.anims"
+  ]
+ },
+ {
+  "clip": "ostimwall2pstandingleaningmm_1",
+  "source": "data/meshes/actors/character/animations/OStim/OStimWall2P/MM/idle/OStimWall2PStandingLeaningMM_1.hkx",
+  "tracks": 99,
+  "sex": [
+   "f",
+   "m"
+  ],
+  "sets": [
+   "ostimng\\anims\\npc\\ostimwall2p_mm_idle_ma.anims",
+   "ostimng\\anims\\player\\ostimwall2p_mm_idle_pma.anims",
+   "ostimng\\anims\\npc\\ostimwall2p_mm_idle_wa.anims",
+   "ostimng\\anims\\player\\ostimwall2p_mm_idle_pwa.anims"
+  ]
+ }
+]

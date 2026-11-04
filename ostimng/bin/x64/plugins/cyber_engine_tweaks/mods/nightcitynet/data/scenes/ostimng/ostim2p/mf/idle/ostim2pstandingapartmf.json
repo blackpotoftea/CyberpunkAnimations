@@ -1,0 +1,129 @@
+{
+ "id": "ostimng.ostim2p.mf.idle.ostim2pstandingapartmf",
+ "name": "Standing Apart [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingApartMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PStandingApartMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-3pstandingidle_0",
+    "opensex/ho-standing_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pstandingapartmf--ostim2pstandingcloseff",
+   "label": "go to lesbian idle",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingapartmf--ostim2pstandingapartmm",
+   "label": "go to gay idle",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.gotostandingholding",
+   "label": "hold {1}",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingapartmf--malestandingfemalekneeling",
+   "label": "kneel before {0}",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.ostim2p.mf.idle.ostim2pstandingaparttostandingsquattingmf",
+   "label": "squat before {0}",
+   "priority": 0
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.standinggotositting",
+   "label": "sit down",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingapartmf--ostim2pstandingapartfemalebehindmf",
+   "label": "turn around ({0})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.ops.sta-sta.em.gotostandinghandholding",
+   "label": "hold {1}s hand",
+   "priority": 1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingapartmf--ostim2pstandingheadpattingmf",
+   "label": "pat {1}s head",
+   "priority": 1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingapartmf--standinggropingbreasts",
+   "label": "grope {1}s breasts",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.ops.sta-sta.em.gotodevourvampirebitemalestanding",
+   "label": "feed on {1}",
+   "priority": 1500
+  },
+  {
+   "to": "opensex.ops.sta-sta.em.gotodevourvampirebitefemalestanding",
+   "label": "feed on {0}",
+   "priority": 1500
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingapartmf--ostim2pundressinghub1mf",
+   "label": "undressing menu",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingapartmf--simplestandinghandjob",
+   "label": "jerk {0} off",
+   "priority": 3000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingapartmf--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

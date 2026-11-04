@@ -1,0 +1,116 @@
+{
+ "id": "opensex.ops.sta-kne.hj.acekneelinghandjob",
+ "name": "Kneeling Handjob",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Kne|HJ|AceKneelingHandjob",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaKne/HJ/AceKneelingHandjob.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PKneelingHandjobMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/KneelingBlowjob/OStim2PKneelingHandjobMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/hj-acekneelinghandjob_s1_0",
+    "opensex/hj-acekneelinghandjob_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/hj-acekneelinghandjob_s2_0",
+    "opensex/hj-acekneelinghandjob_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/hj-acekneelinghandjob_s3_0",
+    "opensex/hj-acekneelinghandjob_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  },
+  {
+   "clips": [
+    "opensex/hj-acekneelinghandjob_s4_0",
+    "opensex/hj-acekneelinghandjob_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.5
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.acekneelinghandjob--malestandingfemalekneeling",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.acekneelinghandjob--kneelingfellatioeyecontact",
+   "label": "suck {0}s dick",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.acekneelinghandjob--kneelingtonguefellatio",
+   "label": "lick {0}s penis",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.acekneelinghandjob--acestandingboobjob",
+   "label": "jerk {0} off with your breast",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.acekneelinghandjob--ostim2pkneelingjerktofacemf",
+   "label": "masturbate to {1}s face",
+   "priority": 2000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  []
+ ]
+}

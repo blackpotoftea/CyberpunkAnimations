@@ -1,0 +1,78 @@
+{
+ "id": "opensex.ops_furniture.coo-pot.ap.cookingpotmaleapproach",
+ "name": "Cooking Pot Male Approach",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_furniture|Coo!Pot|Ap|CookingPotMaleApproach",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_furniture/CooPot/Ap/CookingPotMaleApproach.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-cookingpotmaleapproach_0",
+    "opensex/ap-cookingpotmaleapproach_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.cookingpotmaleapproach--cookingpotidle",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.cookingpotmaleapproach--cookingpotbuttgrab",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.cookingpotmaleapproach--cookingpotkissgropebreasts",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.cookingpotmaleapproach--cookingpotsex",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.cookingpotmaleapproach--lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "opensex.gen.cookingpotmaleapproach--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": "cookingpot",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

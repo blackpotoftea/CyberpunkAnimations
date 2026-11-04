@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.missionaryholdinghands--missionaryhugkiss",
+ "name": "Missionary, Holding Hands (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "lyingback",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-missionaryholdinghands--missionaryhugkiss_0",
+    "opensex/gen-missionaryholdinghands--missionaryhugkiss_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.kne-lyb.sx.missionaryhugkiss",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

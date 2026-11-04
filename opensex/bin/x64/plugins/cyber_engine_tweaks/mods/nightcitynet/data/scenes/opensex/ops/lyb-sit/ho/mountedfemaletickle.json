@@ -1,0 +1,62 @@
+{
+ "id": "opensex.ops.lyb-sit.ho.mountedfemaletickle",
+ "name": "Mounted Female Tickle",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyB!Sit|Ho|MountedFemaleTickle",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyBSit/Ho/MountedFemaleTickle.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-mountedfemaletickle_0",
+    "opensex/ho-mountedfemaletickle_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.mountedfemaletickle--mountedfemalefeetonchest",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.mountedfemaletickle--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

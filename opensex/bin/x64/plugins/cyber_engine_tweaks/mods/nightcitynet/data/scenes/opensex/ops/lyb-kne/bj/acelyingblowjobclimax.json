@@ -1,0 +1,69 @@
+{
+ "id": "opensex.ops.lyb-kne.bj.acelyingblowjobclimax",
+ "name": "Lying Blowjob Climax",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyB!Kne|BJ|AceLyingBlowjobClimax",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyBKne/BJ/AceLyingBlowjobClimax.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "climaxing",
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": [
+    "climaxing"
+   ]
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/bj-acelyingblowjob_climax_0",
+    "opensex/bj-acelyingblowjob_climax_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": 10.0,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "oral_penis",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "head",
+   "eyes"
+  ]
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.squatting.ostim2psquattingblowjobmasturbationmf",
+ "name": "Squatting Blowjob While Masturbating [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PSquattingBlowjobMasturbationMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Squatting/OStim2PSquattingBlowjobMasturbationMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "squatting"
+   ],
+   "posture": "squatting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/bj-squattingfellatio_s1_0",
+    "opensex/bj-squattingfellatioselfpleasure_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/bj-squattingfellatio_s2_0",
+    "opensex/bj-squattingfellatioselfpleasure_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/bj-squattingfellatio_s3_0",
+    "opensex/bj-squattingfellatioselfpleasure_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/bj-squattingfellatio_s4_0",
+    "opensex/bj-squattingfellatioselfpleasure_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2psquattingblowjobmasturbationmf--squattingfellatio",
+   "label": "stop masturbating ({1})",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2psquattingblowjobmasturbationmf--ostim2pstandingsittingjerktofacemasturbationmf",
+   "label": "masturbate ({0})",
+   "priority": 3000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "oral_penis",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "head",
+   "eyes"
+  ]
+ ]
+}

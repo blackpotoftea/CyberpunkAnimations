@@ -1,0 +1,94 @@
+{
+ "id": "opensex.ops.lys-lys.cr.lyingcuddlekissmasturbation",
+ "name": "Lying Cuddle Kiss Masturbation",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyS!LyS|Cr|LyingCuddleKissMasturbation",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LySLyS/Cr/LyingCuddleKissMasturbation.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/cr-lyingcuddlekissmasturbation_s1_0",
+    "opensex/cr-lyingcuddlekissmasturbation_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/cr-lyingcuddlekissmasturbation_s2_0",
+    "opensex/cr-lyingcuddlekissmasturbation_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/cr-lyingcuddlekissmasturbation_s3_0",
+    "opensex/cr-lyingcuddlekissmasturbation_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/cr-lyingcuddlekissmasturbation_s4_0",
+    "opensex/cr-lyingcuddlekissmasturbation_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.lyingcuddlekissmasturbation--lyingcuddlekiss",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.lyingcuddlekissmasturbation--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "spooning"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

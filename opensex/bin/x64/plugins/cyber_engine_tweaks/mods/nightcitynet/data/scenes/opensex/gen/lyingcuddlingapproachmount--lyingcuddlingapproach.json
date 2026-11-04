@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.lyingcuddlingapproachmount--lyingcuddlingapproach",
+ "name": "Lying Cuddling Approach Mount (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "lyingside",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "lyingside",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-lyingcuddlingapproachmount--lyingcuddlingapproach_0",
+    "opensex/gen-lyingcuddlingapproachmount--lyingcuddlingapproach_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.lyb-afo.em.lyingcuddlingapproach",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

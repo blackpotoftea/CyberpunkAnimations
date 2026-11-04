@@ -1,0 +1,114 @@
+{
+ "id": "opensex.ops.kne-afo.bj.aceallfoursblowjob",
+ "name": "All Fours Blowjob",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Kne!AFo|BJ|AceAllFoursBlowjob",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/KneAFo/BJ/AceAllFoursBlowjob.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PMaleKneelingAllFoursBlowJobMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/MaleSitting/OStim2PMaleKneelingAllFoursBlowJobMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "allfours"
+   ],
+   "posture": "allfours",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/bj-aceallfoursblowjob_s1_0",
+    "opensex/bj-aceallfoursblowjob_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/bj-aceallfoursblowjob_s2_0",
+    "opensex/bj-aceallfoursblowjob_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/bj-aceallfoursblowjob_s3_0",
+    "opensex/bj-aceallfoursblowjob_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/bj-aceallfoursblowjob_s4_0",
+    "opensex/bj-aceallfoursblowjob_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.aceallfoursblowjob--sittingfemaleapproach",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.malesitting.ostim2pmalesittinghandjobmf",
+   "label": "jerk {0} off",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.malesitting.ostim2pmalesittingblowjobmf",
+   "label": "sit down ({0})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.aceallfoursblowjob--ostim2pmalekneelingallfoursjerktofacemf",
+   "label": "masturbate to {1}s face",
+   "priority": 0
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "oral_penis",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "head",
+   "eyes"
+  ]
+ ]
+}

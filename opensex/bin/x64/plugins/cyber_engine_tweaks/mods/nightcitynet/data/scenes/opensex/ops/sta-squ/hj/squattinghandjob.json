@@ -1,0 +1,110 @@
+{
+ "id": "opensex.ops.sta-squ.hj.squattinghandjob",
+ "name": "Kneeling Handjob",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Squ|HJ|SquattingHandjob",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSqu/HJ/SquattingHandjob.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PSquattingHandjobMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Squatting/OStim2PSquattingHandjobMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/hj-squattinghandjob_s1_0",
+    "opensex/hj-squattinghandjob_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/hj-squattinghandjob_s2_0",
+    "opensex/hj-squattinghandjob_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/hj-squattinghandjob_s3_0",
+    "opensex/hj-squattinghandjob_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  },
+  {
+   "clips": [
+    "opensex/hj-squattinghandjob_s4_0",
+    "opensex/hj-squattinghandjob_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.5
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.squattinghandjob--malestandingfemalesquatting",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.squattinghandjob--ostim2pstandingsquattingmf",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.squattinghandjob--squattingfellatio",
+   "label": "suck {0}s dick",
+   "priority": 2000
+  },
+  {
+   "to": "opensex.gen.squattinghandjob--ostim2psquattingjerktofacemf",
+   "label": "masturbate to {1}s face",
+   "priority": 3000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  []
+ ]
+}

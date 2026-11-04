@@ -1,0 +1,91 @@
+{
+ "id": "opensex.ops.sta-sta.em.hugfrombehind",
+ "name": "Hug From Behind",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Em|HugFromBehind",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Em/HugFromBehind.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingHugFromBehindMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingHugFromBehindMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "facingaway",
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-hugfrombehind_0",
+    "opensex/em-hugfrombehind_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.hugfrombehind--cuddlefrombehind",
+   "label": "cuddle with {1}",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.hugfrombehind--standingholdingfrombehind",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.hugfrombehind--ostim2pstandinggropingbreastsfrombehindmf",
+   "label": "grope {1}s breasts",
+   "priority": 2000
+  },
+  {
+   "to": "opensex.gen.hugfrombehind--rubbingassagainstcrotch",
+   "label": "grind your butt against {0}s crotch",
+   "priority": 2000
+  },
+  {
+   "to": "opensex.gen.hugfrombehind--standingspankidle",
+   "label": "bend {1} over for some spankings",
+   "priority": 2000
+  },
+  {
+   "to": "opensex.gen.hugfrombehind--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

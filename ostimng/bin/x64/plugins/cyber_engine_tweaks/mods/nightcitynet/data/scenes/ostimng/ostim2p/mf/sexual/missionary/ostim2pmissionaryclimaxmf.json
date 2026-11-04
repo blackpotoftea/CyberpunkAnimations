@@ -1,0 +1,72 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.missionary.ostim2pmissionaryclimaxmf",
+ "name": "Missionary [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PMissionaryClimaxMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Missionary/OStim2PMissionaryClimaxMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling",
+    "ontop"
+   ],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingback",
+    "onbottom"
+   ],
+   "posture": "lyingback",
+   "mods": [
+    "onbottom"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-missionarymaleclimaxinternal_0",
+    "ostimng/ostim2pmissionaryclimaxmf_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.missionary.ostim2pmissionarymf",
+ "length": 5.0,
+ "moves": [],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ],
+ "climax_at": 1.0
+}

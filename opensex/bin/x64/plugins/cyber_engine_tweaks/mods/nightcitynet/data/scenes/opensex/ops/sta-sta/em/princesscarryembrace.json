@@ -1,0 +1,64 @@
+{
+ "id": "opensex.ops.sta-sta.em.princesscarryembrace",
+ "name": "Princess Carry Embrace",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Em|PrincessCarryEmbrace",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Em/PrincessCarryEmbrace.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [],
+   "posture": "suspended",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-princesscarryembrace_0",
+    "opensex/em-princesscarryembrace_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.princesscarryembrace--princesscarryhandonface",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.princesscarryembrace--standingholding",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.princesscarryembrace--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "id": "opensex.ops_furniture.ben-ch.ap.benchidlefemalefacingaway",
+ "name": "Bench Idle Female FacingAway",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_furniture|Ben!Ch|Ap|BenchIdleFemaleFacingAway",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_furniture/BenCh/Ap/BenchIdleFemaleFacingAway.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStimChair2PSittingStandingFacingAwayMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimChair2P/MF/idle/OStimChair2PSittingStandingFacingAwayMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing",
+    "facingaway"
+   ],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-benchidlefemalefacingaway_0",
+    "opensex/ap-benchidlefemalefacingaway_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.benchidlefemalefacingaway--benchidle",
+   "label": "turn around ({1})"
+  },
+  {
+   "to": "opensex.gen.benchidlefemalefacingaway--benchrearsex",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.benchidlefemalefacingaway--lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "opensex.gen.benchidlefemalefacingaway--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": "bench",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

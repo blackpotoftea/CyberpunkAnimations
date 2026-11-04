@@ -1,0 +1,45 @@
+{
+ "id": "ostimng.gen.ostim2pkneelingbehindcunnilingusmf--ostim2pkneelingbehindcunnilingusholdingheadmf",
+ "name": "Kneeling Behind Cunnilingus [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "squatting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pkneelingbehindcunnilingusmf--ostim2pkneelingbehindcunnilingusholdingheadmf_0",
+    "ostimng/gen-ostim2pkneelingbehindcunnilingusmf--ostim2pkneelingbehindcunnilingusholdingheadmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.kneelingbehind.ostim2pkneelingbehindcunnilingusholdingheadmf",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

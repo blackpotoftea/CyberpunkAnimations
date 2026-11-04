@@ -1,0 +1,45 @@
+{
+ "id": "ostimng.gen.ostimtable2pbehindff--ostimtable2pstandingleaningff",
+ "name": "Behind [FF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostimtable2pbehindff--ostimtable2pstandingleaningff_0",
+    "ostimng/gen-ostimtable2pbehindff--ostimtable2pstandingleaningff_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostimtable2p.ff.idle.ostimtable2pstandingleaningff",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "table",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

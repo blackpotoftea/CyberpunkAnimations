@@ -1,0 +1,71 @@
+{
+ "id": "ostimng.ostim2p.mf.idle.ostim2pstandingkneelingfemalebehindmf",
+ "name": "Standing Kneeling Female Behind [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingKneelingFemaleBehindMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PStandingKneelingFemaleBehindMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "facingaway",
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pstandingkneelingfemalebehindmf_0",
+    "ostimng/ostim2pstandingkneelingfemalebehindmf_1"
+   ],
+   "playback": 0.666,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pstandingkneelingfemalebehindmf--ostim2pstandingapartfemalebehindmf",
+   "label": "stand up ({1})",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkneelingfemalebehindmf--malestandingfemalekneeling",
+   "label": "turn around ({0})",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkneelingfemalebehindmf--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

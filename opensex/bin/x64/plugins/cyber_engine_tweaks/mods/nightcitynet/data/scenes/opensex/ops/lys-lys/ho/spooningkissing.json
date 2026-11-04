@@ -1,0 +1,66 @@
+{
+ "id": "opensex.ops.lys-lys.ho.spooningkissing",
+ "name": "Spooning Kiss",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyS!LyS|Ho|SpooningKissing",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LySLyS/Ho/SpooningKissing.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-spooningkissing_0",
+    "opensex/ho-spooningkissing_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.spooningkissing--spooningidle",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "opensex.gen.spooningkissing--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "spooning"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

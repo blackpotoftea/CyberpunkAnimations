@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostim2psittingff--ostim2pkneelinglyingmm",
+ "name": "Sitting [FF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2psittingff--ostim2pkneelinglyingmm_0",
+    "ostimng/gen-ostim2psittingff--ostim2pkneelinglyingmm_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mm.idle.ostim2pkneelinglyingmm",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

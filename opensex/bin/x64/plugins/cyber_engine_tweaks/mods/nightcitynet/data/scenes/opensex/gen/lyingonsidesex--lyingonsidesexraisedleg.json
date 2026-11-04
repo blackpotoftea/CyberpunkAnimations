@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.lyingonsidesex--lyingonsidesexraisedleg",
+ "name": "Lying on Side Sex (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "lyingside",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-lyingonsidesex--lyingonsidesexraisedleg_0",
+    "opensex/gen-lyingonsidesex--lyingonsidesexraisedleg_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.kne-lys.sx.lyingonsidesexraisedleg",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

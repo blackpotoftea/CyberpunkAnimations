@@ -1,0 +1,64 @@
+{
+ "id": "opensex.ops.sit-sit.em.devourvampirebitefemalesitting",
+ "name": "Vampire Bite Female Sitting",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sit!Sit|Em|DevourVampireBiteFemaleSitting",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/SitSit/Em/DevourVampireBiteFemaleSitting.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-devourvampirebitefemalesitting_0",
+    "opensex/em-devourvampirebitefemalesitting_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.devourvampirebitefemalesitting--devourdrainedmalesitting",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.devourvampirebitefemalesitting--lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "opensex.gen.devourvampirebitefemalesitting--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

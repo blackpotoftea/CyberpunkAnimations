@@ -1,0 +1,155 @@
+{
+ "id": "opensex.ops.sta-sta.sx.standingrearsex",
+ "name": "Standing Sex from Behind",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Sx|StandingRearSex",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Sx/StandingRearSex.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingBehindFuckMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "bendover",
+    "facingaway",
+    "standing"
+   ],
+   "posture": "bendover",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-standingrearsex_s1_0",
+    "opensex/sx-standingrearsex_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-standingrearsex_s2_0",
+    "opensex/sx-standingrearsex_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-standingrearsex_s3_0",
+    "opensex/sx-standingrearsex_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-standingrearsex_s4_0",
+    "opensex/sx-standingrearsex_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.standingrearsex--standingholdingfrombehind",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.standingrearsex--acereversecarryingsex",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingrearsex--acestandingsexforwardbend",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingrearsex--acestandingwheelbarrow",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingrearsex--standingrearsexholdingarms",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingrearsex--standingrearsexnohands",
+   "label": "let go of {1}s hips",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.standingrearsex--buttjobfrombehind",
+   "label": "fuck {1}s butt crack",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.standingrearsex--ostim2pstandingbehindfuckholdingarmsmf",
+   "label": "hold {1}s arms",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.standingrearsex--ostim2pstandingbehindfuckholdingwristsmf",
+   "label": "hold {1}s wrists",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.standingrearsex--ostim2pstandingbehindfuckmasturbationmf",
+   "label": "masturbate ({1})",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.standingrearsex--squattinggropingbuttbothhands",
+   "label": "grope {1}s butt",
+   "priority": 2000
+  },
+  {
+   "to": "opensex.gen.standingrearsex--ostim2pstandingbehindjerktobuttmf",
+   "label": "masturbate to {1}s butt",
+   "priority": 2000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

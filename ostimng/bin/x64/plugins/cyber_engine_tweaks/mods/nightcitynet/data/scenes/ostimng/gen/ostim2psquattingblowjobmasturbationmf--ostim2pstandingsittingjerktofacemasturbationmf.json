@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostim2psquattingblowjobmasturbationmf--ostim2pstandingsittingjerktofacemasturbationmf",
+ "name": "Squatting Blowjob While Masturbating [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "squatting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2psquattingblowjobmasturbationmf--ostim2pstandingsittingjerktofacemasturbationmf_0",
+    "ostimng/gen-ostim2psquattingblowjobmasturbationmf--ostim2pstandingsittingjerktofacemasturbationmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.standingsitting.ostim2pstandingsittingjerktofacemasturbationmf",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

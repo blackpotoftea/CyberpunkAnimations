@@ -1,0 +1,112 @@
+{
+ "id": "opensex.ops.lyf-lyf.sx.pronesexembracefemalelegsout",
+ "name": "Prone Sex Female Embrace Legs Out",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyF!LyF|Sx|ProneSexEmbraceFemaleLegsOut",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyFLyF/Sx/ProneSexEmbraceFemaleLegsOut.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingfront"
+   ],
+   "posture": "lyingfront",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingfront"
+   ],
+   "posture": "lyingfront",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-pronesexfemalelegsin_s1_0",
+    "opensex/sx-pronesexfemalelegsin_s1_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  },
+  {
+   "clips": [
+    "opensex/sx-pronesexembracefemalelegsout_s1_0",
+    "opensex/sx-pronesexembracefemalelegsout_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-pronesexembracefemalelegsout_s2_0",
+    "opensex/sx-pronesexembracefemalelegsout_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-pronesexembracefemalelegsout_s3_0",
+    "opensex/sx-pronesexembracefemalelegsout_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-pronesexembracefemalelegsout_s4_0",
+    "opensex/sx-pronesexembracefemalelegsout_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.kne-afo.ap.femaleallfours",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.lyf-lyf.sx.pronesexembracefemalelegsin",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.lyf-lyf.sx.pronesexfemalelegsout",
+   "label": null
+  }
+ ],
+ "tags": [
+  "prone"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

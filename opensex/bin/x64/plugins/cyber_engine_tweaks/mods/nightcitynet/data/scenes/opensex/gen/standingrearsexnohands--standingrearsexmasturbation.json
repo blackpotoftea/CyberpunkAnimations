@@ -1,0 +1,45 @@
+{
+ "id": "opensex.gen.standingrearsexnohands--standingrearsexmasturbation",
+ "name": "Standing Sex from Behind, No Hands (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "bendover",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-standingrearsexnohands--standingrearsexmasturbation_0",
+    "opensex/gen-standingrearsexnohands--standingrearsexmasturbation_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.sx.standingrearsexmasturbation",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

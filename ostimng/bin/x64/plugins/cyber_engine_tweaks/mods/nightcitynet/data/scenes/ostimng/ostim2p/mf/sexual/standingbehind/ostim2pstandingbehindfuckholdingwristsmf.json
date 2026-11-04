@@ -1,0 +1,132 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.standingbehind.ostim2pstandingbehindfuckholdingwristsmf",
+ "name": "Standing Fuck From Behind Holding Wrists [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingBehindFuckHoldingWristsMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckHoldingWristsMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "bendover",
+    "facingaway",
+    "standing"
+   ],
+   "posture": "bendover",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pstandingbehindfuckholdingwristsmf_s1_0",
+    "ostimng/ostim2pstandingbehindfuckholdingwristsmf_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pstandingbehindfuckholdingwristsmf_s2_0",
+    "ostimng/ostim2pstandingbehindfuckholdingwristsmf_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pstandingbehindfuckholdingwristsmf_s3_0",
+    "ostimng/ostim2pstandingbehindfuckholdingwristsmf_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pstandingbehindfuckholdingwristsmf_s4_0",
+    "ostimng/ostim2pstandingbehindfuckholdingwristsmf_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pstandingbehindfuckholdingwristsmf_s5_0",
+    "ostimng/ostim2pstandingbehindfuckholdingwristsmf_s5_1"
+   ],
+   "playback": 1.0,
+   "display": 2.5
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pstandingbehindfuckholdingwristsmf--standingrearsex",
+   "label": "hold {1}s hip",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingbehindfuckholdingwristsmf--buttjobfrombehind",
+   "label": "fuck {1}s butt crack",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingbehindfuckholdingwristsmf--standingrearsexnohands",
+   "label": "let go of {1}",
+   "priority": 1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingbehindfuckholdingwristsmf--ostim2pstandingbehindfuckholdingarmsmf",
+   "label": "hold {1}s arms",
+   "priority": 1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingbehindfuckholdingwristsmf--squattinggropingbuttbothhands",
+   "label": "grope {1}s butt",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingbehindfuckholdingwristsmf--ostim2pstandingbehindjerktobuttmf",
+   "label": "masturbate to {1}s butt",
+   "priority": 2000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

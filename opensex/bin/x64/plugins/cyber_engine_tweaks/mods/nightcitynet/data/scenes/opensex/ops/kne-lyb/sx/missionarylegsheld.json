@@ -1,0 +1,126 @@
+{
+ "id": "opensex.ops.kne-lyb.sx.missionarylegsheld",
+ "name": "Missionary, Legs Held",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Kne!LyB|Sx|MissionaryLegsHeld",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/KneLyB/Sx/MissionaryLegsHeld.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PMissionaryLegsUpMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Missionary/OStim2PMissionaryLegsUpMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-missionarylegsheld_s1_0",
+    "opensex/sx-missionarylegsheld_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-missionarylegsheld_s2_0",
+    "opensex/sx-missionarylegsheld_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-missionarylegsheld_s3_0",
+    "opensex/sx-missionarylegsheld_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-missionarylegsheld_s4_0",
+    "opensex/sx-missionarylegsheld_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.missionarylegsheld--missionary",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.missionarylegsheld--spreadlegsfemale",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.missionarylegsheld--ostim2pmissionarymf",
+   "label": "let go of {1}s legs",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.missionarylegsheld--missionaryholdlegstogether",
+   "label": "hold your legs ({1})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.missionarylegsheld--missionarykissingfeet",
+   "label": "kiss {1}s foot",
+   "priority": 500
+  },
+  {
+   "to": "opensex.gen.missionarylegsheld--ostim2pmissionaryjerktopussymf",
+   "label": "masturbate ({0})",
+   "priority": 3000
+  }
+ ],
+ "tags": [
+  "missionary"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "id": "ostimng.gen.ostim2pmalesittingjerktofacemf--ostim2pmalekneelingallfoursjerktofacemf",
+ "name": "Male Sitting Female Kneeling Jerk To Face [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "sitting",
+   "mods": [
+    "onbottom"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pmalesittingjerktofacemf--ostim2pmalekneelingallfoursjerktofacemf_0",
+    "ostimng/gen-ostim2pmalesittingjerktofacemf--ostim2pmalekneelingallfoursjerktofacemf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.malesitting.ostim2pmalekneelingallfoursjerktofacemf",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

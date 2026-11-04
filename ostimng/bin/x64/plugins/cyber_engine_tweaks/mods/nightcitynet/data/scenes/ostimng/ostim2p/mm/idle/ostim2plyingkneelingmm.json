@@ -1,0 +1,74 @@
+{
+ "id": "ostimng.ostim2p.mm.idle.ostim2plyingkneelingmm",
+ "name": "Lying Kneeling [MM]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PLyingKneelingMM",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MM/idle/OStim2PLyingKneelingMM.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2plyingkneelingmm_0",
+    "ostimng/ostim2plyingkneelingmm_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2plyingkneelingmm--sitting",
+   "label": "go to straight idle"
+  },
+  {
+   "to": "ostimng.gen.ostim2plyingkneelingmm--ostim2psittingff",
+   "label": "go to lesbian idle"
+  },
+  {
+   "to": "ostimng.gen.ostim2plyingkneelingmm--ostim2pstandingapartmm",
+   "label": "stand up"
+  },
+  {
+   "to": "ostimng.ostim2p.mm.idle.ostim2pkneelinglyingmm",
+   "label": "switch positions"
+  },
+  {
+   "to": "ostimng.gen.ostim2plyingkneelingmm--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

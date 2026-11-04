@@ -1,0 +1,45 @@
+{
+ "id": "opensex.gen.cookingpotsex--cookingpotsexnohands",
+ "name": "Cooking Pot Sex (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "bendover",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-cookingpotsex--cookingpotsexnohands_0",
+    "opensex/gen-cookingpotsex--cookingpotsexnohands_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops_furniture.coo-pot.sx.cookingpotsexnohands",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "cookingpot",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

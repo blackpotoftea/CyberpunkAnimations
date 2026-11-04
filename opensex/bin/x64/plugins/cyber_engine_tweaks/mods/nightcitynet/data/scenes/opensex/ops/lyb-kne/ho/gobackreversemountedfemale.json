@@ -1,0 +1,58 @@
+{
+ "id": "opensex.ops.lyb-kne.ho.gobackreversemountedfemale",
+ "name": "Go Back Reverse Mounted Female",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyB!Kne|Ho|GoBackReverseMountedFemale",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyBKne/Ho/GoBackReverseMountedFemale.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PReverseToCowgirlIdleMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PReverseToCowgirlIdleMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-gobackreversemountedfemale_0",
+    "opensex/ho-gobackreversemountedfemale_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.lyb-kne.ho.mountedfemale",
+ "length": 4.0,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

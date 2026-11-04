@@ -1,0 +1,59 @@
+{
+ "id": "opensex.ops.sta-sta.ho.gotostandingkiss",
+ "name": "ORomance kiss",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Ho|GoToStandingKiss",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Ho/GoToStandingKiss.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kissing",
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": [
+    "kissing"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kissing",
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": [
+    "kissing"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-gotostandingkiss_0",
+    "opensex/ho-gotostandingkiss_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.ho.standingkiss",
+ "length": 1.0,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

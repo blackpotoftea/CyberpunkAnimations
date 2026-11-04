@@ -1,0 +1,53 @@
+{
+ "id": "opensex.ops.kne-lyb.ho.gotofemalelyingtotheside",
+ "name": "Female Lying To The Side",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Kne!LyB|Ho|GoToFemaleLyingToTheSide",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/KneLyB/Ho/GoToFemaleLyingToTheSide.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-gotofemalelyingtotheside_0",
+    "opensex/ho-gotofemalelyingtotheside_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.kne-lys.ap.femalelyingonside",
+ "length": 2.0,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

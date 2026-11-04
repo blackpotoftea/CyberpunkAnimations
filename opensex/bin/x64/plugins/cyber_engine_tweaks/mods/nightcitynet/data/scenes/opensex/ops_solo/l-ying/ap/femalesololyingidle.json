@@ -1,0 +1,56 @@
+{
+ "id": "opensex.ops_solo.l-ying.ap.femalesololyingidle",
+ "name": "Female Solo Lying Idle",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_solo|L!ying|Ap|FemaleSoloLyingIdle",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_solo/Lying/Ap/FemaleSoloLyingIdle.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "f",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-malesololyingidle_0"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops_solo.l-ying.ap.femalehubselfpleasurelying",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_solo.l-ying.ap.malesololyingidle",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_solo.s-tanding.ap.femalesolostandingidle",
+   "label": null
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  []
+ ]
+}

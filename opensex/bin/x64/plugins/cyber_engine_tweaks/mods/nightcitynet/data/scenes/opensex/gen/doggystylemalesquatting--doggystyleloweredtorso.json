@@ -1,0 +1,45 @@
+{
+ "id": "opensex.gen.doggystylemalesquatting--doggystyleloweredtorso",
+ "name": "Doggystyle Male Squatting (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "allfours",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-doggystylemalesquatting--doggystyleloweredtorso_0",
+    "opensex/gen-doggystylemalesquatting--doggystyleloweredtorso_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.kne-afo.sx.doggystyleloweredtorso",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

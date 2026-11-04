@@ -1,0 +1,45 @@
+{
+ "id": "opensex.gen.cookingpotbuttgrab--lesbiananimationhub",
+ "name": "Cooking Pot Butt Grab (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-cookingpotbuttgrab--lesbiananimationhub_0",
+    "opensex/gen-cookingpotbuttgrab--lesbiananimationhub_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.ho.lesbiananimationhub",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "cookingpot",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

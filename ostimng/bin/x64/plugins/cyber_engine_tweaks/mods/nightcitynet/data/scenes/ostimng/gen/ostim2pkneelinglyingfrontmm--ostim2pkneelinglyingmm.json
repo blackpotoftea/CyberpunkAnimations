@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostim2pkneelinglyingfrontmm--ostim2pkneelinglyingmm",
+ "name": "Kneeling Lying Front [MM] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "lyingfront",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pkneelinglyingfrontmm--ostim2pkneelinglyingmm_0",
+    "ostimng/gen-ostim2pkneelinglyingfrontmm--ostim2pkneelinglyingmm_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mm.idle.ostim2pkneelinglyingmm",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

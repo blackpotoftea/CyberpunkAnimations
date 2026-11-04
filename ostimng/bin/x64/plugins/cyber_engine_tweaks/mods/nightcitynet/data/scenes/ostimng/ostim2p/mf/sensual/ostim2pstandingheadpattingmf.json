@@ -1,0 +1,90 @@
+{
+ "id": "ostimng.ostim2p.mf.sensual.ostim2pstandingheadpattingmf",
+ "name": "Standing Head Patting [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingHeadPattingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingHeadPattingMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pstandingheadpattingmf_s1_0",
+    "ostimng/ostim2pstandingheadpattingmf_s1_1"
+   ],
+   "playback": 0.666,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pstandingheadpattingmf_s2_0",
+    "ostimng/ostim2pstandingheadpattingmf_s1_1"
+   ],
+   "playback": 0.666,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pstandingheadpattingmf_s3_0",
+    "ostimng/ostim2pstandingheadpattingmf_s1_1"
+   ],
+   "playback": 0.666,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pstandingheadpattingmf_s4_0",
+    "ostimng/ostim2pstandingheadpattingmf_s1_1"
+   ],
+   "playback": 0.666,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pstandingheadpattingmf--ostim2pstandingapartmf",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingheadpattingmf--standinghandholding",
+   "label": "hold {1}s hands",
+   "priority": 1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingheadpattingmf--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,63 @@
+{
+ "id": "opensex.ops.lys-lys.ho.spooningidle-fix",
+ "name": "Spooning Idle (fixed)",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyS!LyS|Ho|SpooningIdle",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LySLyS/Ho/SpooningIdle.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-spooningidle_0",
+    "opensex/ho-spooningidle-fix_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.sta-sta.ho.lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "opensex.gen.spooningidle-fix--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle",
+  "spooning"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

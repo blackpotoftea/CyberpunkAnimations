@@ -1,0 +1,110 @@
+{
+ "id": "opensex.ops.lyb-kne-kne.ho.3plyingidle",
+ "name": "3P Lying Idle",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyB!Kne!Kne|Ho|3PLyingIdle",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyBKneKne/Ho/3PLyingIdle.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim3PLyingMFF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim3P/MFF/idle/OStim3PLyingMFF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-3plyingidle_0",
+    "opensex/ho-3plyingidle_1",
+    "opensex/ho-3plyingidle_2"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.3p-lying.em.3pspooningsleeping",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.3p-standing.ap.3pstandingidle",
+   "label": "stand up"
+  },
+  {
+   "to": "opensex.ops.kne-lyb-afo.ho.stackedgirls",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.kne-lyb-lyb.ho.3pspreadlegs",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.lyb-kne-kne.bj.3plyingfellatio",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.lyb-kne-kne.boj.3pboobjob",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.lyb-kne-kne.hj.3phandjob",
+   "label": null
+  },
+  {
+   "to": "ostimng.ostim3p.mmm.idle.ostim3plyingmmm",
+   "label": "go to MMM idle"
+  },
+  {
+   "to": "ostimng.ostim3p.mmf.idle.ostim3plyingmmf",
+   "label": "go to MMF idle"
+  },
+  {
+   "to": "ostimng.ostim3p.fff.idle.ostim3plyingfff",
+   "label": "go to FFF idle"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  [],
+  []
+ ]
+}

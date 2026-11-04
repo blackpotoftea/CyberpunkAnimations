@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.kneelingcl--ostim2pkneelingbehindcunnilingusmf",
+ "name": "Kneeling Cunnilingus (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-kneelingcl--ostim2pkneelingbehindcunnilingusmf_0",
+    "opensex/gen-kneelingcl--ostim2pkneelingbehindcunnilingusmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.kneelingbehind.ostim2pkneelingbehindcunnilingusmf",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

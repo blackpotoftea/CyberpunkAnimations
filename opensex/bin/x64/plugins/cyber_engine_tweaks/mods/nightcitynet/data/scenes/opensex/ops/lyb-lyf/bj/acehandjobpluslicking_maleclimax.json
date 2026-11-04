@@ -1,0 +1,72 @@
+{
+ "id": "opensex.ops.lyb-lyf.bj.acehandjobpluslicking_maleclimax",
+ "name": "Handjob plus Licking Climax",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyB!LyF|BJ|AceHandjobPlusLicking_MaleClimax",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyBLyF/BJ/AceHandjobPlusLicking_MaleClimax.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "climaxing",
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": [
+    "climaxing"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingfront"
+   ],
+   "posture": "lyingfront",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/bj-acehandjobpluslicking_maleclimax_0",
+    "opensex/bj-acehandjobpluslicking_maleclimax_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.lyb-lyf.ho.acehandjobpluslicking_afterclimax",
+ "length": 8.0,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "mouth": {
+  "b": "lollipop"
+ },
+ "acts": [
+  {
+   "type": "oral_penis",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "head",
+   "eyes"
+  ]
+ ]
+}

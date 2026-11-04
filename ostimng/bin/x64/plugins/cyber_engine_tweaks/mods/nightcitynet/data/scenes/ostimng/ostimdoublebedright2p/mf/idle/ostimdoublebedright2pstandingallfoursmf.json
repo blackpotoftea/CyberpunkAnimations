@@ -1,0 +1,66 @@
+{
+ "id": "ostimng.ostimdoublebedright2p.mf.idle.ostimdoublebedright2pstandingallfoursmf",
+ "name": "Standing All Fours On Bed (right) [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimDoubleBedRight2PStandingAllFoursMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedRight2P/MF/idle/OStimDoubleBedRight2PStandingAllFoursMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "allfours"
+   ],
+   "posture": "allfours",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostimbed2pstandingallfoursmf_0",
+    "ostimng/ostimbed2pstandingallfoursmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.ostimdoublebedright2p.mf.idle.ostimdoublebedright2pstandingsittingmf",
+   "label": "sit down ({1})"
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": "doublebed",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

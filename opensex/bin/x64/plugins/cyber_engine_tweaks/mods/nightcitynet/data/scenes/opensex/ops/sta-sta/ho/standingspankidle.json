@@ -1,0 +1,93 @@
+{
+ "id": "opensex.ops.sta-sta.ho.standingspankidle",
+ "name": "Standing Spank Idle",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Ho|StandingSpankIdle",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Ho/StandingSpankIdle.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingSpankIdleMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingSpankIdleMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "bendover",
+    "facingaway",
+    "standing"
+   ],
+   "posture": "bendover",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-standingspankidle_0",
+    "opensex/ho-standingspankidle_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.standingspankidle--standingholdingfrombehind",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.standingspank",
+   "label": "spank {1}",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.standingspankidle--rubbingassagainstcrotch",
+   "label": "grind your butt against {0}s crotch",
+   "priority": 2000
+  },
+  {
+   "to": "opensex.gen.standingspankidle--standingrearsex",
+   "label": "take {1} from behind",
+   "priority": 2000
+  },
+  {
+   "to": "opensex.gen.standingspankidle--ostim2pstandingbehindjerktobuttmf",
+   "label": "masturbate to {1}s butt",
+   "priority": 2000
+  },
+  {
+   "to": "opensex.gen.standingspankidle--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "spanking",
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "id": "opensex.ops.sta-sta.cr.standingkissfingering",
+ "name": "Standing Kiss and Fingering",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Cr|StandingKissFingering",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Cr/StandingKissFingering.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingKissFingeringMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/OStim2PStandingKissFingeringMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/cr-standingkissfingering_s1_0",
+    "opensex/cr-standingkissfingering_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/cr-standingkissfingering_s2_0",
+    "opensex/cr-standingkissfingering_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/cr-standingkissfingering_s3_0",
+    "opensex/cr-standingkissfingering_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  },
+  {
+   "clips": [
+    "opensex/cr-standingkissfingering_s4_0",
+    "opensex/cr-standingkissfingering_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.5
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.standingkissfingering--standingholding",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.standingkissfingering--handjobkiss",
+   "label": "jerk {0} off",
+   "priority": 2000
+  },
+  {
+   "to": "opensex.gen.standingkissfingering--ostim2pstandingkissmf",
+   "label": "hold {1}",
+   "priority": 2000
+  },
+  {
+   "to": "opensex.gen.standingkissfingering--ostim2pstandingsquattingmf",
+   "label": "squat before {0}",
+   "priority": 2000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

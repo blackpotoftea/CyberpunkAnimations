@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.kneelingfellatioeyecontact--kneelingtonguefellatio",
+ "name": "Kneeling Fellatio Eye Contact (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "squatting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-kneelingfellatioeyecontact--kneelingtonguefellatio_0",
+    "opensex/gen-kneelingfellatioeyecontact--kneelingtonguefellatio_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-kne.bj.kneelingtonguefellatio",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

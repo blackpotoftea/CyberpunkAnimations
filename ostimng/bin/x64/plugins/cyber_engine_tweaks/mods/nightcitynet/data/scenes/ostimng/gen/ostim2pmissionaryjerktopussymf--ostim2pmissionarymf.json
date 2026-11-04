@@ -1,0 +1,47 @@
+{
+ "id": "ostimng.gen.ostim2pmissionaryjerktopussymf--ostim2pmissionarymf",
+ "name": "Missionary Jerk To Pussy [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "lyingback",
+   "mods": [
+    "onbottom"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pmissionaryjerktopussymf--ostim2pmissionarymf_0",
+    "ostimng/gen-ostim2pmissionaryjerktopussymf--ostim2pmissionarymf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.missionary.ostim2pmissionarymf",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

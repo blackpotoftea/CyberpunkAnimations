@@ -1,0 +1,106 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.cowgirl.ostim2preversecowgirlbuttjobmf",
+ "name": "Reverse Cowgirl Buttjob[MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PReverseCowgirlButtJobMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Cowgirl/OStim2PReverseCowgirlButtJobMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback",
+    "onbottom"
+   ],
+   "posture": "lyingback",
+   "mods": [
+    "onbottom"
+   ]
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling",
+    "facingaway",
+    "ontop"
+   ],
+   "posture": "kneeling",
+   "mods": [
+    "facingaway",
+    "ontop"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2preversecowgirlarchbackmf_s1_0",
+    "ostimng/ostim2preversecowgirlarchbackmf_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "ostimng/ostim2preversecowgirlarchbackmf_s2_0",
+    "ostimng/ostim2preversecowgirlarchbackmf_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "ostimng/ostim2preversecowgirlarchbackmf_s3_0",
+    "ostimng/ostim2preversecowgirlarchbackmf_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  },
+  {
+   "clips": [
+    "ostimng/ostim2preversecowgirlarchbackmf_s4_0",
+    "ostimng/ostim2preversecowgirlarchbackmf_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 3.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.lyb-kne.ho.reversemountedfemale",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.cowgirl.ostim2preversecowgirlarchbackmf",
+   "label": "penetrate {1}",
+   "priority": 0
+  }
+ ],
+ "tags": [
+  "reversecowgirl"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  []
+ ]
+}

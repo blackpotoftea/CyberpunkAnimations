@@ -1,0 +1,130 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.prone.ostim2ppronemf",
+ "name": "Prone [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PProneMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Prone/OStim2PProneMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingfront",
+    "ontop"
+   ],
+   "posture": "lyingfront",
+   "mods": [
+    "ontop"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingfront",
+    "facingaway",
+    "onbottom"
+   ],
+   "posture": "lyingfront",
+   "mods": [
+    "facingaway",
+    "onbottom"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-pronesexfemalelegsin_s1_0",
+    "opensex/sx-pronesexfemalelegsin_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-pronesexfemalelegsin_s2_0",
+    "opensex/sx-pronesexfemalelegsin_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-pronesexfemalelegsin_s3_0",
+    "opensex/sx-pronesexfemalelegsin_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  },
+  {
+   "clips": [
+    "opensex/sx-pronesexfemalelegsin_s3_0",
+    "opensex/sx-pronesexfemalelegsin_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 3.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2ppronemf--femaleallfours",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2ppronemf--pronesexfemalelegsout",
+   "label": "spread your legs ({1})",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2ppronemf--pronesexembracefemalelegsin",
+   "label": "hold {1}",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2ppronemf--ostim2ppronemalemountedmf",
+   "label": "sit up ({0})gs",
+   "priority": 1000
+  },
+  {
+   "to": "ostimng.gen.ostim2ppronemf--ostim2ppronemalemountedcrackfuckmf",
+   "label": "fuck {1}s butt crack",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2ppronemf--ostim2ppronejerktobuttmf",
+   "label": "masturbate ({0})",
+   "priority": 3000
+  }
+ ],
+ "tags": [
+  "prone"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "id": "ostimng.ostimtable2p.ff.idle.ostimtable2pstandingleaningff",
+ "name": "Standing Leaning [FF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimTable2PStandingLeaningFF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimTable2P/FF/idle/OStimTable2PStandingLeaningFF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostimtable2pstandingleaningff_0",
+    "ostimng/ostimtable2pstandingleaningff_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostimtable2pstandingleaningff--ostimtable2pstandingleaningmf",
+   "label": "go to straight idle"
+  },
+  {
+   "to": "ostimng.gen.ostimtable2pstandingleaningff--ostimtable2pstandingleaningmm",
+   "label": "go to gay idle"
+  },
+  {
+   "to": "ostimng.gen.ostimtable2pstandingleaningff--ostimtable2pbehindff",
+   "label": "turn around ({1})"
+  },
+  {
+   "to": "ostimng.gen.ostimtable2pstandingleaningff--ostimtable2pstandingsittingff",
+   "label": "sit on the table ({1})"
+  },
+  {
+   "to": "ostimng.gen.ostimtable2pstandingleaningff--lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "ostimng.gen.ostimtable2pstandingleaningff--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": "table",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

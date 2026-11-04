@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.sittingfacefuck--ostim2pkneelingjerktofacemf",
+ "name": "Sitting Facefuck (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-sittingfacefuck--ostim2pkneelingjerktofacemf_0",
+    "opensex/gen-sittingfacefuck--ostim2pkneelingjerktofacemf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.kneelingblowjob.ostim2pkneelingjerktofacemf",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

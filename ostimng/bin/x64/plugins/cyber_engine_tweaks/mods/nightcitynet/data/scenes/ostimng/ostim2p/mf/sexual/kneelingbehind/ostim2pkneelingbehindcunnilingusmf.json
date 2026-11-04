@@ -1,0 +1,107 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.kneelingbehind.ostim2pkneelingbehindcunnilingusmf",
+ "name": "Kneeling Behind Cunnilingus [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PKneelingBehindCunnilingusMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindCunnilingusMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "squatting"
+   ],
+   "posture": "squatting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing",
+    "facingaway"
+   ],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pkneelingbehindcunnilingusmf_s1_0",
+    "ostimng/ostim2pkneelingbehindcunnilingusmf_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pkneelingbehindcunnilingusmf_s2_0",
+    "ostimng/ostim2pkneelingbehindcunnilingusmf_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pkneelingbehindcunnilingusmf_s3_0",
+    "ostimng/ostim2pkneelingbehindcunnilingusmf_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pkneelingbehindcunnilingusmf_s4_0",
+    "ostimng/ostim2pkneelingbehindcunnilingusmf_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pkneelingbehindcunnilingusmf--squattinggropingbuttbothhands",
+   "label": "stop eating {1} out",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pkneelingbehindcunnilingusmf--ostim2pkneelingbehindcunnilingusholdingheadmf",
+   "label": "hold {0}s head",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pkneelingbehindcunnilingusmf--kneelingcl",
+   "label": "turn around ({1})",
+   "priority": 1000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "oral_vagina",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "head",
+   "eyes"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

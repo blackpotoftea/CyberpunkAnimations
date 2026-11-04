@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.standingdevourvampiremale--malestandingfemalesquatting",
+ "name": "Standing (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-standingdevourvampiremale--malestandingfemalesquatting_0",
+    "opensex/gen-standingdevourvampiremale--malestandingfemalesquatting_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-squ.ap.malestandingfemalesquatting",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

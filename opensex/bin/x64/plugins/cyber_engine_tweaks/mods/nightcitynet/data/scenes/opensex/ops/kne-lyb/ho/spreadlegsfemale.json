@@ -1,0 +1,108 @@
+{
+ "id": "opensex.ops.kne-lyb.ho.spreadlegsfemale",
+ "name": "Spread Legs Female",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Kne!LyB|Ho|SpreadLegsFemale",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/KneLyB/Ho/SpreadLegsFemale.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PMissionaryIdleMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PMissionaryIdleMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "lyingback",
+    "spreadlegs"
+   ],
+   "posture": "lyingback",
+   "mods": [
+    "spreadlegs"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-spreadlegsfemale_0",
+    "opensex/ho-spreadlegsfemale_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.kne-afo.ap.femaleallfours",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.spreadlegsfemale--missionary",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.spreadlegsfemale--femalelyingonside",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.spreadlegsfemale--sittingmaleapproach",
+   "label": "sit down",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.ostim2p.mf.idle.ostim2pmissionarytosidewaysidlemf",
+   "label": "lie on your side ({1})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.ops.lyf-sit.vj.sittingcunnilingus",
+   "label": "eat {1} out",
+   "priority": 3000
+  },
+  {
+   "to": "opensex.gen.spreadlegsfemale--ostim2pmissionarymf",
+   "label": "take {1} missionary style",
+   "priority": 3000
+  },
+  {
+   "to": "opensex.gen.spreadlegsfemale--malestandingfemalekneeling",
+   "label": "stand up ({0})",
+   "priority": 3000
+  },
+  {
+   "to": "opensex.gen.spreadlegsfemale--ostim2pmissionaryjerktopussymf",
+   "label": "masturbate ({0})",
+   "priority": 3000
+  },
+  {
+   "to": "opensex.gen.spreadlegsfemale--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

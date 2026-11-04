@@ -1,0 +1,124 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.standingbehind.ostim2pstandingbehindfuckholdingarmsmf",
+ "name": "Standing Fuck From Behind Holding Arms [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingBehindFuckHoldingArmsMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckHoldingArmsMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "bendover",
+    "facingaway",
+    "standing"
+   ],
+   "posture": "bendover",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-standingrearsexholdingarms_s1_0",
+    "ostimng/ostim2pstandingbehindfuckholdingarmsmf_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-standingrearsexholdingarms_s2_0",
+    "ostimng/ostim2pstandingbehindfuckholdingarmsmf_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-standingrearsexholdingarms_s3_0",
+    "ostimng/ostim2pstandingbehindfuckholdingarmsmf_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-standingrearsexholdingarms_s4_0",
+    "ostimng/ostim2pstandingbehindfuckholdingarmsmf_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.sta-sta.sx.standingrearsex",
+   "label": "hold {1}s hip",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.ops.sta-sta.po.buttjobfrombehind",
+   "label": "fuck {1}s butt crack",
+   "priority": 0
+  },
+  {
+   "to": "opensex.ops.sta-sta.sx.standingrearsexnohands",
+   "label": "let go of {1}",
+   "priority": 1000
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.standingbehind.ostim2pstandingbehindfuckholdingwristsmf",
+   "label": "hold {1}s wrists",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.ops.sta-squ.ho.squattinggropingbuttbothhands",
+   "label": "grope {1}s butt",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.standingbehind.ostim2pstandingbehindjerktobuttmf",
+   "label": "masturbate to {1}s butt",
+   "priority": 2000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

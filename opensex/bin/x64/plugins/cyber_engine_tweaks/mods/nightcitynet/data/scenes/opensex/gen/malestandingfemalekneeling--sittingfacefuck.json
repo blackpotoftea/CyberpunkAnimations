@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.malestandingfemalekneeling--sittingfacefuck",
+ "name": "Male Standing, Female Kneeling (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-malestandingfemalekneeling--sittingfacefuck_0",
+    "opensex/gen-malestandingfemalekneeling--sittingfacefuck_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-kne.bj.sittingfacefuck",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

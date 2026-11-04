@@ -1,0 +1,47 @@
+{
+ "id": "ostimng.gen.ostim2psidewaysmf--lyingonsidesexgrabarm",
+ "name": "Lying Sideways [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "lyingside",
+   "mods": [
+    "onbottom"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2psidewaysmf--lyingonsidesexgrabarm_0",
+    "ostimng/gen-ostim2psidewaysmf--lyingonsidesexgrabarm_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.kne-lys.sx.lyingonsidesexgrabarm",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

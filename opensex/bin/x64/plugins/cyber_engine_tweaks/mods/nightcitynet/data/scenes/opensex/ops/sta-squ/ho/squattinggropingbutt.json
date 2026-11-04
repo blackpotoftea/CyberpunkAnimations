@@ -1,0 +1,92 @@
+{
+ "id": "opensex.ops.sta-squ.ho.squattinggropingbutt",
+ "name": "Squatting Groping Butt",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Squ|Ho|SquattingGropingButt",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSqu/Ho/SquattingGropingButt.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "squatting"
+   ],
+   "posture": "squatting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-squattinggropingbutt_s1_0",
+    "opensex/ho-squattinggropingbutt_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/ho-squattinggropingbutt_s2_0",
+    "opensex/ho-squattinggropingbutt_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/ho-squattinggropingbutt_s3_0",
+    "opensex/ho-squattinggropingbutt_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/ho-squattinggropingbutt_s4_0",
+    "opensex/ho-squattinggropingbutt_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.squattinggropingbutt--squattinggropingbuttbothhands",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-squ.ho.squattingspank",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.squattinggropingbutt--standingholdingfrombehind",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.squattinggropingbutt--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

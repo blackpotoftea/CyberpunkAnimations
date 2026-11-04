@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.malestandingfemalekneeling--acerubbingpenisagainstface",
+ "name": "Male Standing, Female Kneeling (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-malestandingfemalekneeling--acerubbingpenisagainstface_0",
+    "opensex/gen-malestandingfemalekneeling--acerubbingpenisagainstface_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-kne.po.acerubbingpenisagainstface",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

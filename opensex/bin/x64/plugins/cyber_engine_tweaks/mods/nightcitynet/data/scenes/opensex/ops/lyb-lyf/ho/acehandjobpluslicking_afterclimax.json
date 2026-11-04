@@ -1,0 +1,60 @@
+{
+ "id": "opensex.ops.lyb-lyf.ho.acehandjobpluslicking_afterclimax",
+ "name": "Handjob plus Licking After Climax",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyB!LyF|Ho|AceHandjobPlusLicking_AfterClimax",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyBLyF/Ho/AceHandjobPlusLicking_AfterClimax.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingfront"
+   ],
+   "posture": "lyingfront",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-acehandjobpluslicking_afterclimax_0",
+    "opensex/ho-acehandjobpluslicking_afterclimax_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.acehandjobpluslicking_afterclimax--acehandjobpluslicking",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sit-kne.ho.sittingfemaleapproach",
+   "label": null
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

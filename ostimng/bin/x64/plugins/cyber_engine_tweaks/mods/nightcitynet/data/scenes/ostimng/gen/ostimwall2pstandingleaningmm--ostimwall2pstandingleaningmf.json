@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostimwall2pstandingleaningmm--ostimwall2pstandingleaningmf",
+ "name": "Standing Leaning [MM] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostimwall2pstandingleaningmm--ostimwall2pstandingleaningmf_0",
+    "ostimng/gen-ostimwall2pstandingleaningmm--ostimwall2pstandingleaningmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostimwall2p.mf.idle.ostimwall2pstandingleaningmf",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "wall",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostimtable2pstandingsittingff--tableidlesittingfemale",
+ "name": "Standing Sitting [FF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostimtable2pstandingsittingff--tableidlesittingfemale_0",
+    "ostimng/gen-ostimtable2pstandingsittingff--tableidlesittingfemale_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops_furniture.tab-le.ap.tableidlesittingfemale",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "table",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

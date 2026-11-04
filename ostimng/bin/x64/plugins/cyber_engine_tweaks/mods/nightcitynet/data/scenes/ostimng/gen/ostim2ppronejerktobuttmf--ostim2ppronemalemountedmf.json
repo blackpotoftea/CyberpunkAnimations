@@ -1,0 +1,48 @@
+{
+ "id": "ostimng.gen.ostim2ppronejerktobuttmf--ostim2ppronemalemountedmf",
+ "name": "OStim2PProneJerkToButtMF (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "lyingfront",
+   "mods": [
+    "facingaway",
+    "onbottom"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2ppronejerktobuttmf--ostim2ppronemalemountedmf_0",
+    "ostimng/gen-ostim2ppronejerktobuttmf--ostim2ppronemalemountedmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.prone.ostim2ppronemalemountedmf",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

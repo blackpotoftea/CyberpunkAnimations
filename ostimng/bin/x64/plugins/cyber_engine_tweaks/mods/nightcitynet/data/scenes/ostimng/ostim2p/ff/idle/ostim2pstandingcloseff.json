@@ -1,0 +1,71 @@
+{
+ "id": "ostimng.ostim2p.ff.idle.ostim2pstandingcloseff",
+ "name": "Standing Close [FF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingCloseFF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/FF/idle/OStim2PStandingCloseFF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pstandingcloseff_0",
+    "ostimng/ostim2pstandingcloseff_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pstandingcloseff--ostim2pstandingapartmf",
+   "label": null
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingcloseff--ostim2pstandingapartmm",
+   "label": null
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingcloseff--ostim2psittingff",
+   "label": null
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingcloseff--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

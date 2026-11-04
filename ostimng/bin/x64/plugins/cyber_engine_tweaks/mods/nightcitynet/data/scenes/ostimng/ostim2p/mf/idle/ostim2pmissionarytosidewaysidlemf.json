@@ -1,0 +1,52 @@
+{
+ "id": "ostimng.ostim2p.mf.idle.ostim2pmissionarytosidewaysidlemf",
+ "name": "Missionary to Siedways Idle [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PMissionaryToSidewaysIdleMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PMissionaryToSidewaysIdleMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingback",
+    "lyingside"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-gotofemalelyingtotheside_0",
+    "opensex/ho-gotofemalelyingtotheside_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.kne-lys.ap.femalelyingonside",
+ "length": 1.4,
+ "moves": [],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

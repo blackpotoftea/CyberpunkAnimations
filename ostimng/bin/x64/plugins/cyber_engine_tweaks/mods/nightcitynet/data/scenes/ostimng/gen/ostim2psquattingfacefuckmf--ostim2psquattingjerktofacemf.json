@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostim2psquattingfacefuckmf--ostim2psquattingjerktofacemf",
+ "name": "Squatting Face Fuck [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "squatting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2psquattingfacefuckmf--ostim2psquattingjerktofacemf_0",
+    "ostimng/gen-ostim2psquattingfacefuckmf--ostim2psquattingjerktofacemf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.squatting.ostim2psquattingjerktofacemf",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

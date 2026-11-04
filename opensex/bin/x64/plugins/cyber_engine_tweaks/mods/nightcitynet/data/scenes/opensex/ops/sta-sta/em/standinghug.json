@@ -1,0 +1,84 @@
+{
+ "id": "opensex.ops.sta-sta.em.standinghug",
+ "name": "Standing Hug",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Em|StandingHug",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Em/StandingHug.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingHugMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingHugMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-standinghug_0",
+    "opensex/em-standinghug_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.standinghug--standingholding",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.standinghug--holdingchinhug",
+   "label": "hold {1}s chin",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.standinghug--ostim2pstandingcuddleholdingheadmf",
+   "label": "hold {1}s head",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.standinghug--ostim2pstandingsquattingmf",
+   "label": "squat before {0}",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.standinghug--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [
+  "cuddling",
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

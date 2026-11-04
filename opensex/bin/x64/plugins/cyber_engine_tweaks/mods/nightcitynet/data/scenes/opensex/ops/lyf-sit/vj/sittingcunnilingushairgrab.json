@@ -1,0 +1,109 @@
+{
+ "id": "opensex.ops.lyf-sit.vj.sittingcunnilingushairgrab",
+ "name": "Sitting Cunnilingus Hair Grab",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyF!Sit|VJ|SittingCunnilingusHairGrab",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyFSit/VJ/SittingCunnilingusHairGrab.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PLyingCunnilingusHoldingHeadMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/LyingCunnilingus/OStim2PLyingCunnilingusHoldingHeadMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "lyingfront"
+   ],
+   "posture": "lyingfront",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/vj-sittingcunnilingushairgrab_s1_0",
+    "opensex/vj-sittingcunnilingushairgrab_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/vj-sittingcunnilingushairgrab_s2_0",
+    "opensex/vj-sittingcunnilingushairgrab_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/vj-sittingcunnilingushairgrab_s3_0",
+    "opensex/vj-sittingcunnilingushairgrab_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/vj-sittingcunnilingushairgrab_s4_0",
+    "opensex/vj-sittingcunnilingushairgrab_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.sittingcunnilingushairgrab--sittingcunnilingus",
+   "label": "let go of {0}s head",
+   "priority": 0
+  },
+  {
+   "to": "opensex.ops.kne-lyb.ho.spreadlegsfemale",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.sittingcunnilingushairgrab--sittingcunnilinguslegslocked",
+   "label": "lock your legs around {0}",
+   "priority": 0
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "oral_vagina",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "head",
+   "eyes"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

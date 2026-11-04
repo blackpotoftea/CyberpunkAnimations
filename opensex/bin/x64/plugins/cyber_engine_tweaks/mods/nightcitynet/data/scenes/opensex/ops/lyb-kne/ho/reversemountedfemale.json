@@ -1,0 +1,92 @@
+{
+ "id": "opensex.ops.lyb-kne.ho.reversemountedfemale",
+ "name": "Reverse Mounted Female",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyB!Kne|Ho|ReverseMountedFemale",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyBKne/Ho/ReverseMountedFemale.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PReverseCowgirlIdleMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PReverseCowgirlIdleMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-reversemountedfemale_0",
+    "opensex/ho-reversemountedfemale_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.lyb-kne.ho.gobackreversemountedfemale",
+   "label": "turn around ({1})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.ops.lyb-kne.sx.gotoreversecowgirlmounted1",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.reversemountedfemale--ostim2plyingkneelingmf",
+   "label": "sit back ({1})",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.reversemountedfemale--ostim2pfacesittingmf",
+   "label": "sit on {0}s face",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.reversemountedfemale--ostim2preversecowgirlbuttjobmf",
+   "label": "jerk {0} off with your butt",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.cowgirl.ostim2preverseidlecowgirltoreversecowgirl1mf",
+   "label": "ride {0} like a cowgirl in reverse",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.reversemountedfemale--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

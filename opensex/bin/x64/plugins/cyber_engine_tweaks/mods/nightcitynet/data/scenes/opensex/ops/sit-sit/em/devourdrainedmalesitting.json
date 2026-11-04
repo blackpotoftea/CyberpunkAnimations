@@ -1,0 +1,65 @@
+{
+ "id": "opensex.ops.sit-sit.em.devourdrainedmalesitting",
+ "name": "Vampire Bite Female Sitting",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sit!Sit|Em|DevourDrainedMaleSitting",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/SitSit/Em/DevourDrainedMaleSitting.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "drowsy",
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": [
+    "drowsy"
+   ]
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-devourdrainedmalesitting_0",
+    "opensex/em-devourdrainedmalesitting_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.devourdrainedmalesitting--sitting",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.devourdrainedmalesitting--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

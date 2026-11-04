@@ -1,0 +1,197 @@
+{
+ "id": "opensex.ops_furniture.ben-ch.ap.benchbothsittingfaceeachother",
+ "name": "Bench Idle Both Sitting Facing Eachother",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_furniture|Ben!Ch|Ap|BenchBothSittingFaceEachother",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_furniture/BenCh/Ap/BenchBothSittingFaceEachother.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStimBench2PBothSittingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimBench2P/MF/idle/OStimBench2PBothSittingMF.json"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStimDoubleBedLeft2PBothSittingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedLeft2P/MF/idle/OStimDoubleBedLeft2PBothSittingMF.json"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStimDoubleBedRight2PBothSittingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedRight2P/MF/idle/OStimDoubleBedRight2PBothSittingMF.json"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStimSingleBedLeft2PBothSittingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedLeft2P/MF/idle/OStimSingleBedLeft2PBothSittingMF.json"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStimSingleBedRight2PBothSittingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedRight2P/MF/idle/OStimSingleBedRight2PBothSittingMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-benchbothsittingfaceeachother_0",
+    "opensex/ap-benchbothsittingfaceeachother_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--benchidlebothsitting",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--benchbothsittingkiss",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--ostimbench2pbothsittingmm",
+   "label": "go to gay idle"
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--ostimbench2pbothsittingff",
+   "label": "go to lesbian idle"
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--benchsitting",
+   "label": "sit on {0}",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--benchidle",
+   "label": "stand up ({1})"
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--benchidlefemalesitting",
+   "label": "stand up ({0})"
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--ostimdoublebedleft2psittingonlapmf",
+   "label": "sit on {0}",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--ostimdoublebedleft2psittingstandingmf",
+   "label": "stand up ({1})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--ostimdoublebedleft2pstandingsittingmf",
+   "label": "stand up ({0})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--sitting",
+   "label": "sit on the bed",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--ostimdoublebedleft2pbothsittingkissmf",
+   "label": "kiss {1}",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--ostimdoublebedright2psittingonlapmf",
+   "label": "sit on {0}",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--ostimdoublebedright2psittingstandingmf",
+   "label": "stand up ({1})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--ostimdoublebedright2pstandingsittingmf",
+   "label": "stand up ({0})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--ostimdoublebedright2pbothsittingkissmf",
+   "label": "kiss {1}",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--ostimsinglebedleft2psittingonlapmf",
+   "label": "sit on {0}",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--ostimsinglebedleft2psittingstandingmf",
+   "label": "stand up ({1})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--ostimsinglebedleft2pstandingsittingmf",
+   "label": "stand up ({0})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--ostimsinglebedleft2pbothsittingkissmf",
+   "label": "kiss {1}",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--ostimsinglebedright2psittingonlapmf",
+   "label": "sit on {0}",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--ostimsinglebedright2psittingstandingmf",
+   "label": "stand up ({1})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--ostimsinglebedright2pstandingsittingmf",
+   "label": "stand up ({0})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--ostimsinglebedright2pbothsittingkissmf",
+   "label": "kiss {1}",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.benchbothsittingfaceeachother--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": "bench",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,144 @@
+{
+ "id": "opensex.ops.kne-lyb.sx.missionaryspreadlegs",
+ "name": "Missionary, Spread Legs",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Kne!LyB|Sx|MissionarySpreadLegs",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/KneLyB/Sx/MissionarySpreadLegs.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PMissionaryLegsStretchedMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Missionary/OStim2PMissionaryLegsStretchedMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-missionaryspreadlegs_s1_0",
+    "opensex/sx-missionaryspreadlegs_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-missionaryspreadlegs_s2_0",
+    "opensex/sx-missionaryspreadlegs_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-missionaryspreadlegs_s3_0",
+    "opensex/sx-missionaryspreadlegs_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-missionaryspreadlegs_s4_0",
+    "opensex/sx-missionaryspreadlegs_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.missionaryspreadlegs--missionary",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.missionaryspreadlegs--spreadlegsfemale",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.missionaryspreadlegs--ostim2pmissionarymf",
+   "label": "bend your legs ({1})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.missionaryspreadlegs--missionaryholdinghands",
+   "label": "hold hands",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.missionaryspreadlegs--missionaryhugkiss",
+   "label": "kiss",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.missionaryspreadlegs--missionarylegsheld",
+   "label": "raise your legs ({1})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.missionaryspreadlegs--missionaryholdlegstogether",
+   "label": "hold your legs ({1})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.missionaryspreadlegs--ostim2pmissionaryjerktopussymf",
+   "label": "masturbate ({0})",
+   "priority": 3000
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.missionary.ostim2pmissionaryclimaxmf",
+   "label": "climax ({0})",
+   "priority": 3000
+  }
+ ],
+ "tags": [
+  "missionary"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "climax": {
+  "a": "ostimng.ostim2p.mf.sexual.missionary.ostim2pmissionaryclimaxmf"
+ },
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

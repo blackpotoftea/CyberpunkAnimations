@@ -1,0 +1,75 @@
+{
+ "id": "ostimng.ostim2p.mf.idle.ostim2pbothlyingmf",
+ "name": "Both Lying [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PBothLyingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PBothLyingMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pbothlyingmf_0",
+    "ostimng/ostim2pbothlyingmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.ostim2p.mf.idle.ostim2plyingontopmf",
+   "label": "lie on {1}"
+  },
+  {
+   "to": "ostimng.gen.ostim2pbothlyingmf--ostim2plyingkneelingmf",
+   "label": "kneel up ({1})"
+  },
+  {
+   "to": "opensex.ops.sit-sit.ap.sitting",
+   "label": "sit up"
+  },
+  {
+   "to": "ostimng.gen.ostim2pbothlyingmf--femaleallfours",
+   "label": "get on all fours ({1})"
+  },
+  {
+   "to": "ostimng.gen.ostim2pbothlyingmf--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "id": "opensex.ops.kne-lyb-afo.sx.acestackedgirlssextop",
+ "name": "Stacked Girls Sex - Top",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Kne!LyB!AFo|Sx|AceStackedGirlsSexTop",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/KneLyBAFo/Sx/AceStackedGirlsSexTop.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "allfours"
+   ],
+   "posture": "allfours",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-acestackedgirlssextop_s1_0",
+    "opensex/sx-acestackedgirlssextop_s1_1",
+    "opensex/sx-acestackedgirlssextop_s1_2"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-acestackedgirlssextop_s2_0",
+    "opensex/sx-acestackedgirlssextop_s2_1",
+    "opensex/sx-acestackedgirlssextop_s2_2"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-acestackedgirlssextop_s3_0",
+    "opensex/sx-acestackedgirlssextop_s3_1",
+    "opensex/sx-acestackedgirlssextop_s3_2"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-acestackedgirlssextop_s4_0",
+    "opensex/sx-acestackedgirlssextop_s4_1",
+    "opensex/sx-acestackedgirlssextop_s4_2"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.kne-lyb-afo.ho.stackedgirls",
+   "label": null
+  }
+ ],
+ "tags": [
+  "doggystyle"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "c"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

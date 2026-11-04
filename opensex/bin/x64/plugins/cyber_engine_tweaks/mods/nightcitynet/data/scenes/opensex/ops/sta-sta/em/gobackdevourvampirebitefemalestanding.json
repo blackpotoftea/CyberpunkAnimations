@@ -1,0 +1,61 @@
+{
+ "id": "opensex.ops.sta-sta.em.gobackdevourvampirebitefemalestanding",
+ "name": "Transition back from Vampire Bite Female Standing",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Em|GoBackDevourVampireBiteFemaleStanding",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Em/GoBackDevourVampireBiteFemaleStanding.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingVampireBiteFemaleToDrainedMaleMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/vampire/StandingVampireBiteFemale/OStim2PStandingVampireBiteFemaleToDrainedMaleMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "drowsy",
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": [
+    "drowsy"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-gobackdevourvampirebitefemalestanding_0",
+    "opensex/em-gobackdevourvampirebitefemalestanding_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.em.devourdrainedmalestanding",
+ "length": 2.0,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

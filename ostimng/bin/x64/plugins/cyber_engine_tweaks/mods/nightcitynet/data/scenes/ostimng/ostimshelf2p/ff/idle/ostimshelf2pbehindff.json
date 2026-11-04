@@ -1,0 +1,78 @@
+{
+ "id": "ostimng.ostimshelf2p.ff.idle.ostimshelf2pbehindff",
+ "name": "Behind [FF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimShelf2PBehindFF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimShelf2P/FF/idle/OStimShelf2PBehindFF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "facingaway",
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-shelfidle_0",
+    "opensex/ap-shelfidle_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostimshelf2pbehindff--shelfidle",
+   "label": "go to straight idle"
+  },
+  {
+   "to": "ostimng.gen.ostimshelf2pbehindff--ostimshelf2pbehindmm",
+   "label": "go to gay idle"
+  },
+  {
+   "to": "ostimng.gen.ostimshelf2pbehindff--ostimshelf2pbendoverff",
+   "label": "bend over ({1})"
+  },
+  {
+   "to": "ostimng.gen.ostimshelf2pbehindff--lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "ostimng.gen.ostimshelf2pbehindff--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": "shelf",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

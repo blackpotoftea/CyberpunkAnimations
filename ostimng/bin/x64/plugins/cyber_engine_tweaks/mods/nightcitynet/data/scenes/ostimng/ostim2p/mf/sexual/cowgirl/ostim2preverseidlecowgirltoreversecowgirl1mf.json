@@ -1,0 +1,59 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.cowgirl.ostim2preverseidlecowgirltoreversecowgirl1mf",
+ "name": "Reverse Cowgirl Idle Grab It [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PReverseIdleCowgirlToReverseCowgirl1MF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Cowgirl/OStim2PReverseIdleCowgirlToReverseCowgirl1MF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback",
+    "onbottom"
+   ],
+   "posture": "lyingback",
+   "mods": [
+    "onbottom"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling",
+    "facingaway",
+    "ontop"
+   ],
+   "posture": "kneeling",
+   "mods": [
+    "facingaway",
+    "ontop"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2preverseidlecowgirltoreversecowgirl1mf_0",
+    "ostimng/ostim2preverseidlecowgirltoreversecowgirl1mf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.cowgirl.ostim2preverseidlecowgirltoreversecowgirl2mf",
+ "length": 0.75,
+ "moves": [],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

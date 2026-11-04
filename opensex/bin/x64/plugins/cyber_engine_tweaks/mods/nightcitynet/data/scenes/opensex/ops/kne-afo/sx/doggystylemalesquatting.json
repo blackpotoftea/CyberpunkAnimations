@@ -1,0 +1,124 @@
+{
+ "id": "opensex.ops.kne-afo.sx.doggystylemalesquatting",
+ "name": "Doggystyle Male Squatting",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Kne!AFo|Sx|DoggystyleMaleSquatting",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/KneAFo/Sx/DoggystyleMaleSquatting.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PDoggyStyleSquattingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleSquattingMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "allfours",
+    "facingaway"
+   ],
+   "posture": "allfours",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-doggystylemalesquatting_s1_0",
+    "opensex/sx-doggystylemalesquatting_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-doggystylemalesquatting_s2_0",
+    "opensex/sx-doggystylemalesquatting_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-doggystylemalesquatting_s3_0",
+    "opensex/sx-doggystylemalesquatting_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-doggystylemalesquatting_s4_0",
+    "opensex/sx-doggystylemalesquatting_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.doggystylemalesquatting--doggypressingdown",
+   "label": "push {1} down",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.doggystylemalesquatting--doggystyle",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.doggystylemalesquatting--femaleallfours",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.doggystylemalesquatting--doggystyleloweredtorso",
+   "label": "kneel ({0})",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.doggystylemalesquatting--ostim2psittingdoggyjerktobuttmf",
+   "label": "masturbate to {1}s butt",
+   "priority": 3000
+  }
+ ],
+ "tags": [
+  "doggystyle"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

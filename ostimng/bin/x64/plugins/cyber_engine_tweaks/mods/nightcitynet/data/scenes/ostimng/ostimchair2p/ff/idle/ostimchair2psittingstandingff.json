@@ -1,0 +1,83 @@
+{
+ "id": "ostimng.ostimchair2p.ff.idle.ostimchair2psittingstandingff",
+ "name": "Sitting Standing [FF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimChair2PSittingStandingFF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimChair2P/FF/idle/OStimChair2PSittingStandingFF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostimbench2psittingstandingff_0",
+    "ostimng/ostimbench2psittingstandingff_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostimchair2psittingstandingff--benchidle",
+   "label": "go to straight idle"
+  },
+  {
+   "to": "ostimng.gen.ostimchair2psittingstandingff--ostimchair2psittingstandingmm",
+   "label": "go to gay idle"
+  },
+  {
+   "to": "ostimng.gen.ostimchair2psittingstandingff--ostimbench2pbothsittingff",
+   "label": "sit down ({1})"
+  },
+  {
+   "to": "ostimng.gen.ostimchair2psittingstandingff--ostimchair2psittingkneelingff",
+   "label": "kneel down ({1})"
+  },
+  {
+   "to": "ostimng.gen.ostimchair2psittingstandingff--ostimchair2pstandingsittingff",
+   "label": "switch positions"
+  },
+  {
+   "to": "ostimng.gen.ostimchair2psittingstandingff--lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "ostimng.gen.ostimchair2psittingstandingff--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": "chair",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

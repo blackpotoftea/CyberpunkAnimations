@@ -1,0 +1,71 @@
+{
+ "id": "ostimng.ostim2p.mf.idle.ostim2pstandingapartfemalebehindmf",
+ "name": "Standing Apart Female Behind [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingApartFemaleBehindMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PStandingApartFemaleBehindMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "facingaway",
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pstandingapartfemalebehindmf_0",
+    "ostimng/ostim2pstandingapartfemalebehindmf_1"
+   ],
+   "playback": 0.666,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pstandingapartfemalebehindmf--ostim2pstandingkneelingfemalebehindmf",
+   "label": "kneel ({1})",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingapartfemalebehindmf--ostim2pstandingapartmf",
+   "label": "turn around ({0})",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingapartfemalebehindmf--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

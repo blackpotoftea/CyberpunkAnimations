@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostimbench2pbothsittingff--ostimchair2psittingstandingff",
+ "name": "Both Sitting Lesbian (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostimbench2pbothsittingff--ostimchair2psittingstandingff_0",
+    "ostimng/gen-ostimbench2pbothsittingff--ostimchair2psittingstandingff_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostimchair2p.ff.idle.ostimchair2psittingstandingff",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "bench",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

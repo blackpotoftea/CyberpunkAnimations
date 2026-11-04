@@ -1,0 +1,45 @@
+{
+ "id": "ostimng.gen.ostim2pdoggystyleholdingarmspullupmf--ostim2pdoggystyleholdingarmsmf",
+ "name": "Doggy Style Holding Arms Pulling Up [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "bendover",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pdoggystyleholdingarmspullupmf--ostim2pdoggystyleholdingarmsmf_0",
+    "ostimng/gen-ostim2pdoggystyleholdingarmspullupmf--ostim2pdoggystyleholdingarmsmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.doggystyle.ostim2pdoggystyleholdingarmsmf",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

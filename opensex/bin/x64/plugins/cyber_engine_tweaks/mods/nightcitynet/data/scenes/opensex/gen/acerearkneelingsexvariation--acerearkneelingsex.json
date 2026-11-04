@@ -1,0 +1,45 @@
+{
+ "id": "opensex.gen.acerearkneelingsexvariation--acerearkneelingsex",
+ "name": "Rear Kneeling Sex (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-acerearkneelingsexvariation--acerearkneelingsex_0",
+    "opensex/gen-acerearkneelingsexvariation--acerearkneelingsex_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.kne-kne.sx.acerearkneelingsex",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

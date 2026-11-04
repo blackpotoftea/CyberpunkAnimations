@@ -1,0 +1,64 @@
+{
+ "id": "opensex.ops.sta-kne.boj.acestandingboobjob_maleclimax",
+ "name": "Kneeling Boobjob Climax",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Kne|BoJ|AceStandingBoobjob_MaleClimax",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaKne/BoJ/AceStandingBoobjob_MaleClimax.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "climaxing",
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": [
+    "climaxing"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/boj-acestandingboobjob_maleclimax_0",
+    "opensex/boj-acestandingboobjob_maleclimax_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-kne.ho.acestandingboobjob_afterclimax",
+ "length": 10.0,
+ "moves": [],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  []
+ ]
+}

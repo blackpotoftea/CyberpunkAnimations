@@ -1,0 +1,45 @@
+{
+ "id": "opensex.gen.doggystyleloweredtorso--doggystyleloweredtorsofacingside",
+ "name": "Doggystyle Lowered Torso (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "allfours",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-doggystyleloweredtorso--doggystyleloweredtorsofacingside_0",
+    "opensex/gen-doggystyleloweredtorso--doggystyleloweredtorsofacingside_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.kne-afo.sx.doggystyleloweredtorsofacingside",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

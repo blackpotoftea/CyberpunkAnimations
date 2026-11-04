@@ -1,0 +1,106 @@
+{
+ "id": "opensex.ops.sit-sit.ap.sittingmaleapproach",
+ "name": "Sitting Male Approach",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sit!Sit|Ap|SittingMaleApproach",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/SitSit/Ap/SittingMaleApproach.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PSittingMaleInMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PSittingMaleInMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-sittingmaleapproach_0",
+    "opensex/ap-sittingmaleapproach_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.kne-afo.ap.femaleallfours",
+   "label": "get on all fours ({1})",
+   "priority": 100
+  },
+  {
+   "to": "opensex.gen.sittingmaleapproach--mountedtitfuck",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.sittingmaleapproach--spreadlegsfemale",
+   "label": "lie back({1})",
+   "priority": 100
+  },
+  {
+   "to": "opensex.gen.sittingmaleapproach--femalelyingonside",
+   "label": "lie on your side ({1})",
+   "priority": 100
+  },
+  {
+   "to": "opensex.ops.lyf-sit.vj.sittingcunnilingus",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sit-kne.ho.sittingfemaleapproach",
+   "label": "switch positions"
+  },
+  {
+   "to": "opensex.gen.sittingmaleapproach--sitting",
+   "label": "return"
+  },
+  {
+   "to": "opensex.gen.sittingmaleapproach--ostim2pstandingapartmf",
+   "label": "stand up"
+  },
+  {
+   "to": "ostimng.ostim2p.mf.idle.ostim2plyingontopmf",
+   "label": "lie on {1}"
+  },
+  {
+   "to": "opensex.gen.sittingmaleapproach--ostim2pbothlyingmf",
+   "label": "lie down"
+  },
+  {
+   "to": "opensex.gen.sittingmaleapproach--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

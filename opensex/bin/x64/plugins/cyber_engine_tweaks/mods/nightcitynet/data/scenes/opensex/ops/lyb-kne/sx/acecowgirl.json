@@ -1,0 +1,142 @@
+{
+ "id": "opensex.ops.lyb-kne.sx.acecowgirl",
+ "name": "Cowgirl",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyB!Kne|Sx|AceCowgirl",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyBKne/Sx/AceCowgirl.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PCowgirlHoldingBodyMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Cowgirl/OStim2PCowgirlHoldingBodyMF.json"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PCowgirlMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Cowgirl/OStim2PCowgirlMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-acecowgirl_s1_0",
+    "opensex/sx-acecowgirl_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-acecowgirl_s2_0",
+    "opensex/sx-acecowgirl_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-acecowgirl_s3_0",
+    "opensex/sx-acecowgirl_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-acecowgirl_s4_0",
+    "opensex/sx-acecowgirl_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.acecowgirl--mountedfemale",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.acecowgirl--acecowgirlpressingdown",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.acecowgirl--cowgirlhandsonhips",
+   "label": "hold {1}s hip",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.acecowgirl--cowgirlleanback",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.lyb-kne.sx.gotoacecowgirllegscrossed",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.acecowgirl--squattingcowgirl",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.acecowgirl--cowgirlcirculargrind",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.acecowgirl--cowgirlhandonbreast",
+   "label": "grope {1}s breasts",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.malesitting.ostim2pmalesittinghandjobmf",
+   "label": "jerk {0} off",
+   "priority": 0
+  }
+ ],
+ "tags": [
+  "cowgirl"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

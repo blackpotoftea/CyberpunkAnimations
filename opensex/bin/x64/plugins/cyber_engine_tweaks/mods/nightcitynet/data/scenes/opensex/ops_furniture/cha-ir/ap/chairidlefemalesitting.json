@@ -1,0 +1,66 @@
+{
+ "id": "opensex.ops_furniture.cha-ir.ap.chairidlefemalesitting",
+ "name": "Chair Idle Female Sitting",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_furniture|Cha!Ir|Ap|ChairIdleFemaleSitting",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_furniture/ChaIr/Ap/ChairIdleFemaleSitting.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-benchidlefemalesitting_0",
+    "opensex/ap-benchidlefemalesitting_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops_furniture.cha-ir.ap.chairidle",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.chairidlefemalesitting--lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "opensex.gen.chairidlefemalesitting--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": "chair",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

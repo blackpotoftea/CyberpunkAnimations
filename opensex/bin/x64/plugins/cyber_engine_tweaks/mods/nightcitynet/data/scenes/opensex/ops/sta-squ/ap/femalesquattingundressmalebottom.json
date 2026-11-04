@@ -1,0 +1,65 @@
+{
+ "id": "opensex.ops.sta-squ.ap.femalesquattingundressmalebottom",
+ "name": "Female Squatting Undress Male Bottom",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Squ|Ap|FemaleSquattingUndressMaleBottom",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSqu/Ap/FemaleSquattingUndressMaleBottom.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-femalesquattingundressmalebottom_0",
+    "opensex/ap-femalesquattingundressmalebottom_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-squ.ap.malestandingfemalesquatting",
+ "length": 7.0,
+ "moves": [],
+ "tags": [
+  "transition",
+  "undressing"
+ ],
+ "furniture": null,
+ "acts": [],
+ "undress": [
+  {
+   "actor": 0,
+   "at": 4.667,
+   "slots": [
+    "outer",
+    "inner",
+    "legs"
+   ]
+  }
+ ],
+ "strip": [
+  [],
+  []
+ ]
+}

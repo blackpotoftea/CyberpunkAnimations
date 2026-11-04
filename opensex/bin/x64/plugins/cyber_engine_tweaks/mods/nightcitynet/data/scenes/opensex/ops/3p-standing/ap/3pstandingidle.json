@@ -1,0 +1,102 @@
+{
+ "id": "opensex.ops.3p-standing.ap.3pstandingidle",
+ "name": "3P Standing",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|3P!Standing|Ap|3PStandingIdle",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/3PStanding/Ap/3PStandingIdle.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim3PStandingMFF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim3P/MFF/idle/OStim3PStandingMFF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-3pstandingidle_0",
+    "opensex/ap-3pstandingidle_1",
+    "opensex/ap-3pstandingidle_2"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.3p-standing.em.3pstandingkissf1",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.3p-standing.em.3pstandingkissf2",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.3p-standing.hj.3pstandinghjandkiss",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.3p-standing.sx.3pstandingrearsex",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.lyb-kne-kne.ho.3plyingidle",
+   "label": "lie down"
+  },
+  {
+   "to": "ostimng.ostim3p.mmm.idle.ostim3pstandingmmm",
+   "label": "go to MMM idle"
+  },
+  {
+   "to": "ostimng.ostim3p.mmf.idle.ostim3pstandingmmf",
+   "label": "go to MMF idle"
+  },
+  {
+   "to": "ostimng.ostim3p.fff.idle.ostim3pstandingfff",
+   "label": "go to FFF idle"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  [],
+  []
+ ]
+}

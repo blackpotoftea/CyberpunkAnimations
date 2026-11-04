@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.aceallfoursblowjob--ostim2pmalekneelingallfoursjerktofacemf",
+ "name": "All Fours Blowjob (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "allfours",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-aceallfoursblowjob--ostim2pmalekneelingallfoursjerktofacemf_0",
+    "opensex/gen-aceallfoursblowjob--ostim2pmalekneelingallfoursjerktofacemf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.malesitting.ostim2pmalekneelingallfoursjerktofacemf",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

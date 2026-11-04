@@ -1,0 +1,150 @@
+{
+ "id": "opensex.ops.sta-sta.ap.standingdevourvampiremaleandfemale",
+ "name": "Standing",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Ap|StandingDevourVampireMaleAndFemale",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Ap/StandingDevourVampireMaleAndFemale.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-standing_0",
+    "opensex/ho-standing_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.standingdevourvampiremaleandfemale--standing",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingdevourvampiremaleandfemale--malestandingfemalekneeling",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingdevourvampiremaleandfemale--malestandingfemalesquatting",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.actionfemalecaresscheekstroke",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.actionfemalecaresshug",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.actionfemaleflirt",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.actionfemalekiss",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.actionmalecaresscheekstroke",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.actionmalecaresshug",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.actionmalekiss",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.standingundressingfemalebottom",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.standingundressingfemalegloves",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.standingundressingfemaleheaditem",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.standingundressingfemaleshoes",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ap.standingundressingfemaletop",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingdevourvampiremaleandfemale--standinggropingbreasts",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.em.gotodevourvampirebitefemalestanding",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.em.gotodevourvampirebitemalestanding",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.em.gotostandinghandholding",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingdevourvampiremaleandfemale--simplestandinghandjob",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.gotostandingholding",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingdevourvampiremaleandfemale--headcaress",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.standinggotositting",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standingdevourvampiremaleandfemale--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

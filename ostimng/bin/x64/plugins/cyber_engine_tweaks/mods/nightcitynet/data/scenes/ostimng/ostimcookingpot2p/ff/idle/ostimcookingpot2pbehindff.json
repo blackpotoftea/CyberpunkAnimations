@@ -1,0 +1,74 @@
+{
+ "id": "ostimng.ostimcookingpot2p.ff.idle.ostimcookingpot2pbehindff",
+ "name": "Behind [FF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimCookingPot2PBehindFF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimCookingPot2P/FF/idle/OStimCookingPot2PBehindFF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "facingaway",
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-cookingpotidle_0",
+    "opensex/ap-cookingpotidle_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostimcookingpot2pbehindff--cookingpotidle",
+   "label": "go to straight idle"
+  },
+  {
+   "to": "ostimng.gen.ostimcookingpot2pbehindff--ostimcookingpot2pbehindmm",
+   "label": "go to gay idle"
+  },
+  {
+   "to": "ostimng.gen.ostimcookingpot2pbehindff--lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "ostimng.gen.ostimcookingpot2pbehindff--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": "cookingpot",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

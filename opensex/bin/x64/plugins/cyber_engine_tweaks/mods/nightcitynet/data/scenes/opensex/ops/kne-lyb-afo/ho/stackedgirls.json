@@ -1,0 +1,80 @@
+{
+ "id": "opensex.ops.kne-lyb-afo.ho.stackedgirls",
+ "name": "Stacked Girls",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Kne!LyB!AFo|Ho|StackedGirls",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/KneLyBAFo/Ho/StackedGirls.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "allfours"
+   ],
+   "posture": "allfours",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-stackedgirls_0",
+    "opensex/ho-stackedgirls_1",
+    "opensex/ho-stackedgirls_2"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.kne-lyb-afo.sx.acestackedgirlssextop",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.kne-lyb-lyb.ho.3pspreadlegs",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.lyb-kne-kne.ho.3plyingidle",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.lyb-kne-kne.sx.ace3pcowgirlandcunnilingus",
+   "label": null
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  [],
+  []
+ ]
+}

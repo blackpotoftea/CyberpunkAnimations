@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.cowgirlhandsonbreasts--squattingcowgirl",
+ "name": "Squatting Cowgirl, Hands on Breasts (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-cowgirlhandsonbreasts--squattingcowgirl_0",
+    "opensex/gen-cowgirlhandsonbreasts--squattingcowgirl_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.lyb-kne.sx.squattingcowgirl",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

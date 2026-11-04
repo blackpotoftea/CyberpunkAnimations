@@ -1,0 +1,105 @@
+{
+ "id": "opensex.ops.lyb-kne.ho.mountedfemale",
+ "name": "Mounted Female",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyB!Kne|Ho|MountedFemale",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyBKne/Ho/MountedFemale.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PCowgirlIdleMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PCowgirlIdleMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-mountedfemale_0",
+    "opensex/ho-mountedfemale_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.mountedfemale--mountedgrind",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.mountedfemale--acelyinghandjob",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.lyb-kne.ho.gotoreversemountedfemale",
+   "label": "turn around ({1})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.mountedfemale--acecowgirl",
+   "label": "ride {0} like a cowgirl",
+   "priority": 3000
+  },
+  {
+   "to": "opensex.ops.lyb-sit.ho.mountedfemalefeetonchest",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.mountedfemale--sittingfemaleapproach",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.mountedfemale--ostim2plyingkneelingmf",
+   "label": "sit beside {0}",
+   "priority": -900
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.malesitting.ostim2pmalesittinghandjobmf",
+   "label": "jerk {0} off",
+   "priority": 900
+  },
+  {
+   "to": "opensex.gen.mountedfemale--ostim2pfaceridingmf",
+   "label": "sit on {0}s face",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.mountedfemale--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

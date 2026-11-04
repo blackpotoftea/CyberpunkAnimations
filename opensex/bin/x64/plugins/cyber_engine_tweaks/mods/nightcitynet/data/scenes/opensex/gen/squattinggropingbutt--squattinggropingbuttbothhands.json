@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.squattinggropingbutt--squattinggropingbuttbothhands",
+ "name": "Squatting Groping Butt (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "squatting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-squattinggropingbutt--squattinggropingbuttbothhands_0",
+    "opensex/gen-squattinggropingbutt--squattinggropingbuttbothhands_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-squ.ho.squattinggropingbuttbothhands",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

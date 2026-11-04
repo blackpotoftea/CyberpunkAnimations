@@ -1,0 +1,66 @@
+{
+ "id": "opensex.ops_furniture.cha-ir.ho.chairkneelingfemale",
+ "name": "Chair Kneeling Female",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_furniture|Cha!Ir|Ho|ChairKneelingFemale",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_furniture/ChaIr/Ho/ChairKneelingFemale.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-benchkneelingfemale_0",
+    "opensex/ho-benchkneelingfemale_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.chairkneelingfemale--chairidle",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.chairkneelingfemale--chairsittingblowjob",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.chairkneelingfemale--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": "chair",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

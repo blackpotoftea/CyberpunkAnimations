@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostim2pstandinghandholdingkissmf--simplestandinghandjob",
+ "name": "Standing Hand Holding Kiss [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pstandinghandholdingkissmf--simplestandinghandjob_0",
+    "ostimng/gen-ostim2pstandinghandholdingkissmf--simplestandinghandjob_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.hj.simplestandinghandjob",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

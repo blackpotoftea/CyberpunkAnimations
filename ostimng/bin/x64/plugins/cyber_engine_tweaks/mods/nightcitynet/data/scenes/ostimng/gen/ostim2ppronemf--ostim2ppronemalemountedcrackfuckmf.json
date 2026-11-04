@@ -1,0 +1,48 @@
+{
+ "id": "ostimng.gen.ostim2ppronemf--ostim2ppronemalemountedcrackfuckmf",
+ "name": "Prone [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "lyingfront",
+   "mods": [
+    "ontop"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "lyingfront",
+   "mods": [
+    "facingaway",
+    "onbottom"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2ppronemf--ostim2ppronemalemountedcrackfuckmf_0",
+    "ostimng/gen-ostim2ppronemf--ostim2ppronemalemountedcrackfuckmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.prone.ostim2ppronemalemountedcrackfuckmf",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

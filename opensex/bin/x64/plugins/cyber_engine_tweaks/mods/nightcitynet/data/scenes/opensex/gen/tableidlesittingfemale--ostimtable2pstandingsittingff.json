@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.tableidlesittingfemale--ostimtable2pstandingsittingff",
+ "name": "Table Idle Sitting Female (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-tableidlesittingfemale--ostimtable2pstandingsittingff_0",
+    "opensex/gen-tableidlesittingfemale--ostimtable2pstandingsittingff_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostimtable2p.ff.idle.ostimtable2pstandingsittingff",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "table",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

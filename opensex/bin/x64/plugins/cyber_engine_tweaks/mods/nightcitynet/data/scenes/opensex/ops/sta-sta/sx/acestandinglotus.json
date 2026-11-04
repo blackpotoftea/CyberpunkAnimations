@@ -1,0 +1,94 @@
+{
+ "id": "opensex.ops.sta-sta.sx.acestandinglotus",
+ "name": "Standing Sex",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Sx|AceStandingLotus",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Sx/AceStandingLotus.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "suspended"
+   ],
+   "posture": "suspended",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-acestandinglotus_s1_0",
+    "opensex/sx-acestandinglotus_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-acestandinglotus_s2_0",
+    "opensex/sx-acestandinglotus_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-acestandinglotus_s3_0",
+    "opensex/sx-acestandinglotus_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  },
+  {
+   "clips": [
+    "opensex/sx-acestandinglotus_s4_0",
+    "opensex/sx-acestandinglotus_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.5
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.acestandinglotus--standingcarryingsex",
+   "label": null
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

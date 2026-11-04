@@ -1,0 +1,58 @@
+{
+ "id": "opensex.ops.sta-sta.em.gotodevourvampirebitefemalestanding",
+ "name": "Transition into Vampire Bite Female Standing",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Em|GoToDevourVampireBiteFemaleStanding",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Em/GoToDevourVampireBiteFemaleStanding.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingApartToVampireBiteFemaleMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/vampire/StandingVampireBiteFemale/OStim2PStandingApartToVampireBiteFemaleMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-gotodevourvampirebitefemalestanding_0",
+    "opensex/em-gotodevourvampirebitefemalestanding_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.em.devourvampirebitefemalestanding",
+ "length": 3.0,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

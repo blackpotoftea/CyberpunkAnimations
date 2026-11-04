@@ -1,0 +1,70 @@
+{
+ "id": "opensex.ops.lyb-sit.ho.mountedfemalefeetonchest",
+ "name": "Mounted Female Feet On Chest",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyB!Sit|Ho|MountedFemaleFeetOnChest",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyBSit/Ho/MountedFemaleFeetOnChest.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-mountedfemalefeetonchest_0",
+    "opensex/ho-mountedfemalefeetonchest_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.mountedfemalefeetonchest--mountedfemale",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.mountedfemalefeetonchest--mountedhjfeet",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.mountedfemalefeetonchest--mountedfemaletickle",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.mountedfemalefeetonchest--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

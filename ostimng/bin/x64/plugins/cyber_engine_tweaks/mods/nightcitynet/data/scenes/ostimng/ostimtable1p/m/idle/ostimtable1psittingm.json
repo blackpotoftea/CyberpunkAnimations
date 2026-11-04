@@ -1,0 +1,49 @@
+{
+ "id": "ostimng.ostimtable1p.m.idle.ostimtable1psittingm",
+ "name": "Sitting [M]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimTable1PSittingM",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimTable1P/M/idle/OStimTable1PSittingM.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-tableidlesittingfemale_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.ostimtable1p.f.idle.ostimtable1psittingf",
+   "label": "go to female idle"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": "table",
+ "acts": [],
+ "strip": [
+  []
+ ]
+}

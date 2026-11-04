@@ -1,0 +1,98 @@
+{
+ "id": "opensex.ops_furniture.ben-ch.cr.benchgropingbreast",
+ "name": "Bench Groping Breast",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_furniture|Ben!Ch|Cr|BenchGropingBreast",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_furniture/BenCh/Cr/BenchGropingBreast.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/cr-benchgropingbreast_s1_0",
+    "opensex/cr-benchgropingbreast_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/cr-benchgropingbreast_s2_0",
+    "opensex/cr-benchgropingbreast_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/cr-benchgropingbreast_s3_0",
+    "opensex/cr-benchgropingbreast_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/cr-benchgropingbreast_s4_0",
+    "opensex/cr-benchgropingbreast_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.benchgropingbreast--benchidle",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.benchgropingbreast--lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "opensex.gen.benchgropingbreast--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": "bench",
+ "acts": [],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

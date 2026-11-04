@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.lesbiananimationhub--ostim2pkneelingbehindcunnilingusholdingheadmf",
+ "name": "Standing Together (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-lesbiananimationhub--ostim2pkneelingbehindcunnilingusholdingheadmf_0",
+    "opensex/gen-lesbiananimationhub--ostim2pkneelingbehindcunnilingusholdingheadmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.kneelingbehind.ostim2pkneelingbehindcunnilingusholdingheadmf",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

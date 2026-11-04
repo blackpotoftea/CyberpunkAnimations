@@ -1,0 +1,115 @@
+{
+ "id": "opensex.ops.sta-sta.ho.lesbiananimationhub",
+ "name": "Standing Together",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Ho|LesbianAnimationHub",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Ho/LesbianAnimationHub.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-standinglesbianhub_0",
+    "opensex/ho-standinglesbianhub_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.lesbiananimationhub--standing",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.kne-lyb.vj.lesbianknelybcunnilingus",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.lesbiananimationhub--acelesbian69fingering",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.lesbiananimationhub--cunnilingusrear",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.lesbiananimationhub--cunnilingusrearheadheld",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.lesbiananimationhub--kneelingcl",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.lyf-sit.vj.sittingcunnilingus",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.lyf-sit.vj.sittingcunnilingushairgrab",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.lyf-sit.vj.sittingcunnilinguslegslocked",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.lesbiananimationhub--gropingfrombehind",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.lesbiananimationhub--standingkissfingering",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.lesbiananimationhub--ostim2pfaceridingmf",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.lesbiananimationhub--ostim2pfacesittingmf",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.lesbiananimationhub--ostim2pkneelingbehindcunnilingusholdingheadmf",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.lesbiananimationhub--ostim2pkneelingbehindcunnilingusmf",
+   "label": null
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

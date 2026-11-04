@@ -1,0 +1,132 @@
+{
+ "id": "opensex.ops.sta-kne.ap.malestandingfemalekneeling",
+ "name": "Male Standing, Female Kneeling",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Kne|Ap|MaleStandingFemaleKneeling",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaKne/Ap/MaleStandingFemaleKneeling.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingKneelingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PStandingKneelingMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-malestandingfemalekneeling_0",
+    "opensex/ap-malestandingfemalekneeling_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.sta-kne.ap.femalekneelingundressmalebottom",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.malestandingfemalekneeling--kneelingfellatioeyecontact",
+   "label": "suck {0}s dick",
+   "priority": 2000
+  },
+  {
+   "to": "opensex.gen.malestandingfemalekneeling--sittingfacefuck",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.malestandingfemalekneeling--acestandingboobjob",
+   "label": "jerk {0} off with your breast",
+   "priority": 3000
+  },
+  {
+   "to": "opensex.gen.malestandingfemalekneeling--acestandingtittyfuck",
+   "label": "fuck {1}s tits",
+   "priority": 3000
+  },
+  {
+   "to": "opensex.gen.malestandingfemalekneeling--acekneelingjo",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.malestandingfemalekneeling--acerubbingpenisagainstface",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.malestandingfemalekneeling--malestandingfemalesquatting",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.malestandingfemalekneeling--standing",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.malestandingfemalekneeling--standingholding",
+   "label": "stand up ({1})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.malestandingfemalekneeling--ostim2pstandingsquattingmf",
+   "label": "squat before {0}",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.malestandingfemalekneeling--ostim2pstandingkneelingfemalebehindmf",
+   "label": "turn around ({0})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.malestandingfemalekneeling--acekneelinghandjob",
+   "label": "jerk {0} off",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.ops.kne-lyb.ho.spreadlegsfemale",
+   "label": "lie back({1})",
+   "priority": 3000
+  },
+  {
+   "to": "opensex.gen.malestandingfemalekneeling--ostim2pkneelingjerktofacemf",
+   "label": "masturbate to {1}s face",
+   "priority": 3001
+  },
+  {
+   "to": "opensex.gen.malestandingfemalekneeling--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.prone.ostim2ppronejerktobuttmf",
+ "name": "OStim2PProneJerkToButtMF",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PProneJerkToButtMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Prone/OStim2PProneJerkToButtMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling",
+    "ontop"
+   ],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingfront",
+    "facingaway",
+    "onbottom"
+   ],
+   "posture": "lyingfront",
+   "mods": [
+    "facingaway",
+    "onbottom"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2ppronejerktobuttmf_0",
+    "ostimng/ostim2ppronejerktobuttmf_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2ppronejerktobuttmf--femaleallfours",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2ppronejerktobuttmf--ostim2ppronemalemountedmf",
+   "label": "penetrate {1}",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2ppronejerktobuttmf--ostim2ppronemalemountedcrackfuckmf",
+   "label": "fuck {1}s butt crack",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2ppronejerktobuttmf--ostim2psittingdoggyjerktobuttmf",
+   "label": "get on all fours ({1})",
+   "priority": 3000
+  }
+ ],
+ "tags": [
+  "prone"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "a",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

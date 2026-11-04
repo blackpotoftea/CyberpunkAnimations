@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.benchidlefemalesitting--benchbothsittingfaceeachother",
+ "name": "Bench Idle Female Sitting (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-benchidlefemalesitting--benchbothsittingfaceeachother_0",
+    "opensex/gen-benchidlefemalesitting--benchbothsittingfaceeachother_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops_furniture.ben-ch.ap.benchbothsittingfaceeachother",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "bench",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

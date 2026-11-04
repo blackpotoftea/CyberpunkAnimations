@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.acestandingboobjob_afterclimax--acestandingboobjob",
+ "name": "Kneeling Boobjob Climax (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-acestandingboobjob_afterclimax--acestandingboobjob_0",
+    "opensex/gen-acestandingboobjob_afterclimax--acestandingboobjob_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-kne.boj.acestandingboobjob",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

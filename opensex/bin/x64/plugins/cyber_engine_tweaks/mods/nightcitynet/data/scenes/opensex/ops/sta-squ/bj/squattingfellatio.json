@@ -1,0 +1,128 @@
+{
+ "id": "opensex.ops.sta-squ.bj.squattingfellatio",
+ "name": "Squatting Fellatio",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Squ|BJ|SquattingFellatio",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSqu/BJ/SquattingFellatio.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PSquattingBlowjobMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Squatting/OStim2PSquattingBlowjobMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/bj-squattingfellatio_s1_0",
+    "opensex/bj-squattingfellatio_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/bj-squattingfellatio_s2_0",
+    "opensex/bj-squattingfellatio_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/bj-squattingfellatio_s3_0",
+    "opensex/bj-squattingfellatio_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/bj-squattingfellatio_s4_0",
+    "opensex/bj-squattingfellatio_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.squattingfellatio--malestandingfemalesquatting",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.squattingfellatio--squattingfellatioholdinghead",
+   "label": "hold {1}s head",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.squattingfellatio--ostim2pstandingsquattingmf",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.squattingfellatio--ostim2psquattingblowjobmasturbationmf",
+   "label": "masturbate ({1})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.squattingfellatio--ostim2psquattingfacefuckmf",
+   "label": "fuck {1}s face",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.squattingfellatio--squattinghandjob",
+   "label": "jerk {0} off",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.squattingfellatio--ostim2psquattingjerktofacemf",
+   "label": "masturbate to {1}s face",
+   "priority": 3000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "oral_penis",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "head",
+   "eyes"
+  ]
+ ]
+}

@@ -1,0 +1,115 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.prone.ostim2pproneholdinglegsspreadmf",
+ "name": "Prone Holding Legs Spread [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PProneHoldingLegsSpreadMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Prone/OStim2PProneHoldingLegsSpreadMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingfront",
+    "ontop"
+   ],
+   "posture": "lyingfront",
+   "mods": [
+    "ontop"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingfront",
+    "facingaway",
+    "onbottom"
+   ],
+   "posture": "lyingfront",
+   "mods": [
+    "facingaway",
+    "onbottom"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-pronesexembracefemalelegsout_s1_0",
+    "opensex/sx-pronesexembracefemalelegsout_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-pronesexembracefemalelegsout_s2_0",
+    "opensex/sx-pronesexembracefemalelegsout_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-pronesexembracefemalelegsout_s3_0",
+    "opensex/sx-pronesexembracefemalelegsout_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  },
+  {
+   "clips": [
+    "opensex/sx-pronesexembracefemalelegsout_s4_0",
+    "opensex/sx-pronesexembracefemalelegsout_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 3.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pproneholdinglegsspreadmf--femaleallfours",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pproneholdinglegsspreadmf--pronesexembracefemalelegsin",
+   "label": "spread your legs ({0})",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pproneholdinglegsspreadmf--pronesexfemalelegsout",
+   "label": "let go of {1}",
+   "priority": 0
+  }
+ ],
+ "tags": [
+  "prone"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

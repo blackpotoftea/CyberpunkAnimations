@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.lesbiananimationhub--cunnilingusrearheadheld",
+ "name": "Standing Together (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-lesbiananimationhub--cunnilingusrearheadheld_0",
+    "opensex/gen-lesbiananimationhub--cunnilingusrearheadheld_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.kne-sta.vj.cunnilingusrearheadheld",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

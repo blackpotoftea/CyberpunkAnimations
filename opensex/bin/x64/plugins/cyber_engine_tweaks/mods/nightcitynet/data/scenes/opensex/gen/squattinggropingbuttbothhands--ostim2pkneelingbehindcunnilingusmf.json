@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.squattinggropingbuttbothhands--ostim2pkneelingbehindcunnilingusmf",
+ "name": "Squatting Groping Butt Both Hands (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "squatting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-squattinggropingbuttbothhands--ostim2pkneelingbehindcunnilingusmf_0",
+    "opensex/gen-squattinggropingbuttbothhands--ostim2pkneelingbehindcunnilingusmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.kneelingbehind.ostim2pkneelingbehindcunnilingusmf",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

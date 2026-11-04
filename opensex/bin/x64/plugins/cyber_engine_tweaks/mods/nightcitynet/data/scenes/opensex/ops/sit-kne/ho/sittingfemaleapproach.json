@@ -1,0 +1,123 @@
+{
+ "id": "opensex.ops.sit-kne.ho.sittingfemaleapproach",
+ "name": "Sitting Female Approach",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sit!Kne|Ho|SittingFemaleApproach",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/SitKne/Ho/SittingFemaleApproach.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PSittingFemaleInMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PSittingFemaleInMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-sittingfemaleapproach_0",
+    "opensex/ho-sittingfemaleapproach_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.sittingfemaleapproach--aceallfoursblowjob",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.sittingfemaleapproach--acelyingblowjob",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.sittingfemaleapproach--mountedfemale",
+   "label": "mount {0}"
+  },
+  {
+   "to": "opensex.ops.lyb-lyf.bj.acehandjobpluslicking",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.sittingfemaleapproach--acelyingboobjob",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.sittingfemaleapproach--acelyingtitfuck",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.lys-lys.ho.spooningidle",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.sittingfemaleapproach--sittingfemaleapproachkiss",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sit-sit.ap.sittingmaleapproach",
+   "label": "switch positions"
+  },
+  {
+   "to": "opensex.gen.sittingfemaleapproach--sittingsex",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.sittingfemaleapproach--ostim2pstandingapartmf",
+   "label": "switch positions and stand"
+  },
+  {
+   "to": "opensex.gen.sittingfemaleapproach--ostim2plyingkneelingmf",
+   "label": "lie down"
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.malesitting.ostim2pmalesittinghandjobmf",
+   "label": "jerk {0} off"
+  },
+  {
+   "to": "opensex.gen.sittingfemaleapproach--ostim2pmalesittingblowjobmf",
+   "label": "suck {0}s dick"
+  },
+  {
+   "to": "opensex.gen.sittingfemaleapproach--ostim2pmalesittingjerktofacemf",
+   "label": "masturbate to {1}s face"
+  },
+  {
+   "to": "opensex.gen.sittingfemaleapproach--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

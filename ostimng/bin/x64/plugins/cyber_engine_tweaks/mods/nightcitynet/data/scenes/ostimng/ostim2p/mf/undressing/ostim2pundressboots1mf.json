@@ -1,0 +1,62 @@
+{
+ "id": "ostimng.ostim2p.mf.undressing.ostim2pundressboots1mf",
+ "name": "Undress Boots [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PUndressBoots1MF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/undressing/OStim2PUndressBoots1MF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-standingundressingfemaleshoes_0",
+    "ostimng/ostim2pundressboots1mf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.undressing.ostim2pundressinghub1mf",
+ "length": 5.0,
+ "moves": [],
+ "tags": [
+  "undressing"
+ ],
+ "furniture": null,
+ "acts": [],
+ "undress": [
+  {
+   "actor": 1,
+   "at": 4.0,
+   "slots": [
+    "feet"
+   ]
+  }
+ ],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "id": "opensex.ops.kne-lys.ap.femalelyingonside",
+ "name": "Female Lying On Side",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Kne!LyS|Ap|FemaleLyingOnSide",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/KneLyS/Ap/FemaleLyingOnSide.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PSidewaysIdleMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PSidewaysIdleMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-femalelyingonside_0",
+    "opensex/ap-femalelyingonside_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.femalelyingonside--femaleallfours",
+   "label": "get on all fours ({1})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.femalelyingonside--spreadlegsfemale",
+   "label": "lie on your back ({1})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.femalelyingonside--lyingonsidesex",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.femalelyingonside--sittingmaleapproach",
+   "label": "sit down",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.femalelyingonside--ostim2psidewaysmf",
+   "label": "take {1} sideways",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.femalelyingonside--ostim2psidewaysjerktobodymf",
+   "label": "masturbate ({0})",
+   "priority": 3000
+  },
+  {
+   "to": "opensex.gen.femalelyingonside--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

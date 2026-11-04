@@ -1,0 +1,45 @@
+{
+ "id": "opensex.gen.doggystyleloweredtorsofacingside--ostim2psittingdoggyjerktobuttmf",
+ "name": "Doggystyle Lowered Torso Facing Side (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "allfours",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-doggystyleloweredtorsofacingside--ostim2psittingdoggyjerktobuttmf_0",
+    "opensex/gen-doggystyleloweredtorsofacingside--ostim2psittingdoggyjerktobuttmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.doggystyle.ostim2psittingdoggyjerktobuttmf",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

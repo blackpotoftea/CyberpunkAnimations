@@ -1,0 +1,45 @@
+{
+ "id": "ostimng.gen.ostimcookingpot2pbehindmm--ostimcookingpot2pbehindff",
+ "name": "Behind Gay (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostimcookingpot2pbehindmm--ostimcookingpot2pbehindff_0",
+    "ostimng/gen-ostimcookingpot2pbehindmm--ostimcookingpot2pbehindff_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostimcookingpot2p.ff.idle.ostimcookingpot2pbehindff",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "cookingpot",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

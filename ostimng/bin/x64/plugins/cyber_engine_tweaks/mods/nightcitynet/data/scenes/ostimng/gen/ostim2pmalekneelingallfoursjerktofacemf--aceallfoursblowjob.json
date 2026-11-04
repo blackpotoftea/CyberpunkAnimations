@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostim2pmalekneelingallfoursjerktofacemf--aceallfoursblowjob",
+ "name": "Male Kneeling Female All Fours Jerk To Face [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "allfours",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pmalekneelingallfoursjerktofacemf--aceallfoursblowjob_0",
+    "ostimng/gen-ostim2pmalekneelingallfoursjerktofacemf--aceallfoursblowjob_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.kne-afo.bj.aceallfoursblowjob",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

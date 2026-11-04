@@ -1,0 +1,120 @@
+{
+ "id": "opensex.ops.lyf-lyf.sx.pronesexembracefemalelegsin",
+ "name": "Prone Sex Female Embrace Legs In",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyF!LyF|Sx|ProneSexEmbraceFemaleLegsIn",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyFLyF/Sx/ProneSexEmbraceFemaleLegsIn.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PProneHoldingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Prone/OStim2PProneHoldingMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingfront"
+   ],
+   "posture": "lyingfront",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingfront"
+   ],
+   "posture": "lyingfront",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-pronesexembracefemalelegsin_s1_0",
+    "opensex/sx-pronesexembracefemalelegsin_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-pronesexembracefemalelegsin_s2_0",
+    "opensex/sx-pronesexembracefemalelegsin_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-pronesexembracefemalelegsin_s3_0",
+    "opensex/sx-pronesexembracefemalelegsin_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-pronesexembracefemalelegsin_s4_0",
+    "opensex/sx-pronesexembracefemalelegsin_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.pronesexembracefemalelegsin--femaleallfours",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.pronesexembracefemalelegsin--pronesexembracefemalelegsout",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.pronesexembracefemalelegsin--pronesexfemalelegsin",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.pronesexembracefemalelegsin--ostim2pproneholdinglegsspreadmf",
+   "label": "spread your legs ({1})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.pronesexembracefemalelegsin--ostim2ppronemf",
+   "label": "let go of {1}",
+   "priority": 0
+  }
+ ],
+ "tags": [
+  "prone"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "id": "ostimng.ostim2p.ff.idle.ostim2psittingff",
+ "name": "Sitting [FF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PSittingFF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/FF/idle/OStim2PSittingFF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2psittingff_0",
+    "ostimng/ostim2psittingff_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2psittingff--sitting",
+   "label": "go to straight idle"
+  },
+  {
+   "to": "ostimng.gen.ostim2psittingff--ostim2pkneelinglyingmm",
+   "label": "go to gay idle"
+  },
+  {
+   "to": "ostimng.gen.ostim2psittingff--ostim2pkneelinglyingff",
+   "label": "sit on {1}"
+  },
+  {
+   "to": "ostimng.gen.ostim2psittingff--ostim2pstandingcloseff",
+   "label": "stand up"
+  },
+  {
+   "to": "ostimng.gen.ostim2psittingff--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

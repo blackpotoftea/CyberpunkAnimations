@@ -1,0 +1,82 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.sideways.ostim2psidewaysjerktobodymf",
+ "name": "Lying Sideways Jerk To Body [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PSidewaysJerkToBodyMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Sideways/OStim2PSidewaysJerkToBodyMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling",
+    "ontop"
+   ],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "lyingside",
+    "onbottom"
+   ],
+   "posture": "lyingside",
+   "mods": [
+    "onbottom"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2psidewaysjerktobodymf_s1_0",
+    "ostimng/ostim2psidewaysjerktobodymf_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2psidewaysjerktobodymf--femalelyingonside",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2psidewaysjerktobodymf--ostim2psidewaysmf",
+   "label": "take {1} sideways",
+   "priority": 0
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "a",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

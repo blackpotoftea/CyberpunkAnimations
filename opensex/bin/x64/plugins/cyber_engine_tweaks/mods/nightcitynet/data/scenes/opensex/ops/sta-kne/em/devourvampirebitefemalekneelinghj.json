@@ -1,0 +1,56 @@
+{
+ "id": "opensex.ops.sta-kne.em.devourvampirebitefemalekneelinghj",
+ "name": "Vampire Bite Female Standing",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Kne|Em|DevourVampireBiteFemaleKneelingHJ",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaKne/Em/DevourVampireBiteFemaleKneelingHJ.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-devourvampirebitefemalekneelinghj_0",
+    "opensex/em-devourvampirebitefemalekneelinghj_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.devourvampirebitefemalekneelinghj--malestandingfemalekneeling",
+   "label": null
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

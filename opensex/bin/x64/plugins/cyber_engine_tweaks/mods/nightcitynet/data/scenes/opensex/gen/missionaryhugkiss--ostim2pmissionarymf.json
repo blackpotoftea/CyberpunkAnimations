@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.missionaryhugkiss--ostim2pmissionarymf",
+ "name": "Missionary, Hugging and Kissing (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "lyingback",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-missionaryhugkiss--ostim2pmissionarymf_0",
+    "opensex/gen-missionaryhugkiss--ostim2pmissionarymf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.missionary.ostim2pmissionarymf",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "id": "ostimng.ostim4p.mmff.idle.ostim4pstandingmmff",
+ "name": "Standing [MMFF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim4PStandingMMFF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim4P/MMFF/idle/OStim4PStandingMMFF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim4pstandingmmmf_0",
+    "ostimng/ostim4pstandingmmmf_1",
+    "ostimng/ostim4pstandingmmmf_2",
+    "ostimng/ostim4pstandingmmmf_3"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.ostim4p.mmmm.idle.ostim4pstandingmmmm",
+   "label": "go to MMMM idle"
+  },
+  {
+   "to": "ostimng.ostim4p.mmmf.idle.ostim4pstandingmmmf",
+   "label": "go to MMMF idle"
+  },
+  {
+   "to": "ostimng.ostim4p.mfff.idle.ostim4pstandingmfff",
+   "label": "go to MFFF idle"
+  },
+  {
+   "to": "ostimng.ostim4p.ffff.idle.ostim4pstandingffff",
+   "label": "go to FFFF idle"
+  },
+  {
+   "to": "ostimng.ostim4p.mmff.idle.ostim4plyingmmff",
+   "label": "lie down"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  [],
+  [],
+  []
+ ]
+}

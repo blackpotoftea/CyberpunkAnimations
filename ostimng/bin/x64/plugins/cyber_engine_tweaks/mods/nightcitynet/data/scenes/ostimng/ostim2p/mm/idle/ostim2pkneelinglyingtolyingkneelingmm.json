@@ -1,0 +1,51 @@
+{
+ "id": "ostimng.ostim2p.mm.idle.ostim2pkneelinglyingtolyingkneelingmm",
+ "name": "Kneeling Lying to Lying Kneeling [MM]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PKneelingLyingToLyingKneelingMM",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MM/idle/OStim2PKneelingLyingToLyingKneelingMM.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pkneelinglyingtolyingkneelingmm_0",
+    "ostimng/ostim2pkneelinglyingtolyingkneelingmm_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mm.idle.ostim2plyingkneelingmm",
+ "length": 3.0,
+ "moves": [],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

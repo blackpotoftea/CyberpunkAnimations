@@ -1,0 +1,41 @@
+{
+ "id": "ostimng.ostim1p.f.idle.ostim1psittingtostandingf",
+ "name": "Sitting to Standing [F]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim1PSittingToStandingF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim1P/F/idle/OStim1PSittingToStandingF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim1psittingtostandingf_0"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim1p.f.idle.ostim1pstandingf",
+ "length": 3.5,
+ "moves": [],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  []
+ ]
+}

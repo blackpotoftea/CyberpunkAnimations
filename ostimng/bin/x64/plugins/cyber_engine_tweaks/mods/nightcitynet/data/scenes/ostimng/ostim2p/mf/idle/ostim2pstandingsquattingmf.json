@@ -1,0 +1,98 @@
+{
+ "id": "ostimng.ostim2p.mf.idle.ostim2pstandingsquattingmf",
+ "name": "Standing Squatting [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingSquattingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PStandingSquattingMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "squatting"
+   ],
+   "posture": "squatting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-malestandingfemalekneeling_0",
+    "opensex/ap-malestandingfemalesquatting_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pstandingsquattingmf--standingholding",
+   "label": "stand up ({1})",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingsquattingmf--malestandingfemalekneeling",
+   "label": "kneel before {0}",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingsquattingmf--ostim2pundressinghub0mf",
+   "label": "undressing menu",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingsquattingmf--squattinghandjob",
+   "label": "jerk {0} off",
+   "priority": 3000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingsquattingmf--squattingfellatio",
+   "label": "suck {0}s dick",
+   "priority": 3000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingsquattingmf--ostim2psquattingfacefuckmf",
+   "label": "fuck {1}s face",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingsquattingmf--spreadlegsfemale",
+   "label": "lie back({1})",
+   "priority": 3000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingsquattingmf--ostim2psquattingjerktofacemf",
+   "label": "masturbate to {1}s face",
+   "priority": 3000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingsquattingmf--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

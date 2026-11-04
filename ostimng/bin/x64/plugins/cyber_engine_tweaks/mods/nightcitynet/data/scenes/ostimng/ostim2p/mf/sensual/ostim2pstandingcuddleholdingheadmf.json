@@ -1,0 +1,71 @@
+{
+ "id": "ostimng.ostim2p.mf.sensual.ostim2pstandingcuddleholdingheadmf",
+ "name": "Standing Cuddle Holding Head [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingCuddleHoldingHeadMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingCuddleHoldingHeadMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pstandingcuddleholdingheadmf_0",
+    "ostimng/ostim2pstandingcuddleholdingheadmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pstandingcuddleholdingheadmf--standingholding",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingcuddleholdingheadmf--standinghug",
+   "label": "let go of {1}s head",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingcuddleholdingheadmf--holdingchinhug",
+   "label": "hold {1}s chin",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingcuddleholdingheadmf--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

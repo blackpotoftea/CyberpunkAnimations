@@ -1,0 +1,67 @@
+{
+ "id": "opensex.ops.lyb-kne.sx.gotoreversecowgirlmounted2",
+ "name": "Transition into Reverse Cowgirl, Mounted",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyB!Kne|Sx|GoToReverseCowgirlMounted2",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyBKne/Sx/GoToReverseCowgirlMounted2.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-gotoreversecowgirlmounted2_0",
+    "opensex/sx-gotoreversecowgirlmounted2_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.lyb-kne.sx.reversecowgirlmounted",
+ "length": 1.75,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

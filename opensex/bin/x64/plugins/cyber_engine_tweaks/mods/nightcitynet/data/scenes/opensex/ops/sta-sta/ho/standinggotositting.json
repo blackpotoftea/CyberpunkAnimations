@@ -1,0 +1,60 @@
+{
+ "id": "opensex.ops.sta-sta.ho.standinggotositting",
+ "name": "Transition into Sitting from Standing",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Ho|StandingGoToSitting",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Ho/StandingGoToSitting.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingApartToSittingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PStandingApartToSittingMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "sitting",
+    "standing"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "sitting",
+    "standing"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-standinggotositting_0",
+    "opensex/ho-standinggotositting_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sit-sit.ap.sitting",
+ "length": 2.5,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostimdoublebedright2pkneelingblowjobmf--ostimdoublebedright2psittingkneelingmf",
+ "name": "Kneeling Blowjob On Bed (right) [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostimdoublebedright2pkneelingblowjobmf--ostimdoublebedright2psittingkneelingmf_0",
+    "ostimng/gen-ostimdoublebedright2pkneelingblowjobmf--ostimdoublebedright2psittingkneelingmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostimdoublebedright2p.mf.idle.ostimdoublebedright2psittingkneelingmf",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "doublebed",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

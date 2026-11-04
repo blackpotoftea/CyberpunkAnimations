@@ -1,0 +1,113 @@
+{
+ "id": "ostimng.ostim2p.mf.sensual.ostim2pstandinggropingbreastsfrombehindmf",
+ "name": "Standing Groping Breasts From Behind [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingGropingBreastsFromBehindMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingGropingBreastsFromBehindMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "facingaway",
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/cr-gropingbreastsfrombehind_s1_0",
+    "opensex/cr-gropingbreastsfrombehind_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/cr-gropingbreastsfrombehind_s2_0",
+    "opensex/cr-gropingbreastsfrombehind_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/cr-gropingbreastsfrombehind_s3_0",
+    "opensex/cr-gropingbreastsfrombehind_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/cr-gropingbreastsfrombehind_s4_0",
+    "opensex/cr-gropingbreastsfrombehind_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pstandinggropingbreastsfrombehindmf--standingholdingfrombehind",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandinggropingbreastsfrombehindmf--gropingfrombehind",
+   "label": "pleasure {1} with your hand",
+   "priority": 1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandinggropingbreastsfrombehindmf--hugfrombehind",
+   "label": "hug {1}",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandinggropingbreastsfrombehindmf--cuddlefrombehind",
+   "label": "cuddle with {1}",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandinggropingbreastsfrombehindmf--rubbingassagainstcrotch",
+   "label": "grind your butt against {0}s crotch",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandinggropingbreastsfrombehindmf--standingspankidle",
+   "label": "bend {1} over for some spankings",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandinggropingbreastsfrombehindmf--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

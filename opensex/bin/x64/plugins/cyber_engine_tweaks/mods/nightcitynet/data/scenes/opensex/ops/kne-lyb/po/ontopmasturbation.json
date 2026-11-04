@@ -1,0 +1,88 @@
+{
+ "id": "opensex.ops.kne-lyb.po.ontopmasturbation",
+ "name": "On Top Masturbation",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Kne!LyB|Po|OnTopMasturbation",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/KneLyB/Po/OnTopMasturbation.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/po-ontopmasturbation_s1_0",
+    "opensex/po-ontopmasturbation_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/po-ontopmasturbation_s2_0",
+    "opensex/po-ontopmasturbation_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/po-ontopmasturbation_s3_0",
+    "opensex/po-ontopmasturbation_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/po-ontopmasturbation_s4_0",
+    "opensex/po-ontopmasturbation_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.ontopmasturbation--mountedtitfuck",
+   "label": null
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

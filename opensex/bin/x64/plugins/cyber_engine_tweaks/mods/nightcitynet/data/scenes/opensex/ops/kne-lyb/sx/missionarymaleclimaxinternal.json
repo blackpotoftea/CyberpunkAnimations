@@ -1,0 +1,71 @@
+{
+ "id": "opensex.ops.kne-lyb.sx.missionarymaleclimaxinternal",
+ "name": "Missionary Male Climax Internal",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Kne!LyB|Sx|MissionaryMaleClimaxInternal",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/KneLyB/Sx/MissionaryMaleClimaxInternal.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "climaxing",
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": [
+    "climaxing"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-missionarymaleclimaxinternal_0",
+    "opensex/sx-missionarymaleclimaxinternal_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.kne-lyb.sx.missionary",
+ "length": 5.0,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ],
+ "climax_at": 1.0
+}

@@ -1,0 +1,59 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.cowgirl.ostim2preverseidlecowgirltoreversecowgirl2mf",
+ "name": "Reverse Cowgirl Idle Insert It [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PReverseIdleCowgirlToReverseCowgirl2MF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Cowgirl/OStim2PReverseIdleCowgirlToReverseCowgirl2MF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback",
+    "onbottom"
+   ],
+   "posture": "lyingback",
+   "mods": [
+    "onbottom"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling",
+    "facingaway",
+    "ontop"
+   ],
+   "posture": "kneeling",
+   "mods": [
+    "facingaway",
+    "ontop"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2preverseidlecowgirltoreversecowgirl2mf_0",
+    "ostimng/ostim2preverseidlecowgirltoreversecowgirl2mf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.cowgirl.ostim2preversecowgirlmf",
+ "length": 1.75,
+ "moves": [],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

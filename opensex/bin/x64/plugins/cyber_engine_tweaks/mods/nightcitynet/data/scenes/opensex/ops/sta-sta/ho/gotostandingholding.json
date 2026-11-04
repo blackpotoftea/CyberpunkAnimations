@@ -1,0 +1,58 @@
+{
+ "id": "opensex.ops.sta-sta.ho.gotostandingholding",
+ "name": "Transition into Standing Holding",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Ho|GoToStandingHolding",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Ho/GoToStandingHolding.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingApartToHoldingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PStandingApartToHoldingMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-gotostandingholding_0",
+    "opensex/ho-gotostandingholding_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.ho.standingholding",
+ "length": 1.5,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

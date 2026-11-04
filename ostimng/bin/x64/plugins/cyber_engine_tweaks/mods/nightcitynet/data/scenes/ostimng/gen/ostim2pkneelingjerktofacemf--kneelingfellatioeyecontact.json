@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostim2pkneelingjerktofacemf--kneelingfellatioeyecontact",
+ "name": "Jerking On Kneeling Partner [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pkneelingjerktofacemf--kneelingfellatioeyecontact_0",
+    "ostimng/gen-ostim2pkneelingjerktofacemf--kneelingfellatioeyecontact_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-kne.bj.kneelingfellatioeyecontact",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

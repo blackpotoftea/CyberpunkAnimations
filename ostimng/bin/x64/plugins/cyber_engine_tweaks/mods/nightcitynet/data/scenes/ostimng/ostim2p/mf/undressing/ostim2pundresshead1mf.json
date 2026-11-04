@@ -1,0 +1,63 @@
+{
+ "id": "ostimng.ostim2p.mf.undressing.ostim2pundresshead1mf",
+ "name": "Undress Head [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PUndressHead1MF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/undressing/OStim2PUndressHead1MF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-standingundressingfemaleheaditem_0",
+    "ostimng/ostim2pundresshead1mf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.undressing.ostim2pundressinghub1mf",
+ "length": 3.0,
+ "moves": [],
+ "tags": [
+  "undressing"
+ ],
+ "furniture": null,
+ "acts": [],
+ "undress": [
+  {
+   "actor": 1,
+   "at": 1.5,
+   "slots": [
+    "head",
+    "eyes"
+   ]
+  }
+ ],
+ "strip": [
+  [],
+  []
+ ]
+}

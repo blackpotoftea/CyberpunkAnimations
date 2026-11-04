@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.cookingpotidle--cookingpotkissgropebreasts",
+ "name": "Cooking Pot Idle (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-cookingpotidle--cookingpotkissgropebreasts_0",
+    "opensex/gen-cookingpotidle--cookingpotkissgropebreasts_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops_furniture.coo-pot.cr.cookingpotkissgropebreasts",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "cookingpot",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

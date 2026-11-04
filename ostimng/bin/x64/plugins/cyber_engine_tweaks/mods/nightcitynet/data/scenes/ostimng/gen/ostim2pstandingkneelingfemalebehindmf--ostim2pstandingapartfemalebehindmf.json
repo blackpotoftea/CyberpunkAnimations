@@ -1,0 +1,45 @@
+{
+ "id": "ostimng.gen.ostim2pstandingkneelingfemalebehindmf--ostim2pstandingapartfemalebehindmf",
+ "name": "Standing Kneeling Female Behind [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pstandingkneelingfemalebehindmf--ostim2pstandingapartfemalebehindmf_0",
+    "ostimng/gen-ostim2pstandingkneelingfemalebehindmf--ostim2pstandingapartfemalebehindmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.idle.ostim2pstandingapartfemalebehindmf",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

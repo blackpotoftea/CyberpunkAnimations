@@ -1,0 +1,102 @@
+{
+ "id": "opensex.ops_interaction.male-pc.ap.malepc_basicidle",
+ "name": "Male PC Basic Idle",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_interaction|Male!PC|Ap|MalePC_BasicIdle",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_interaction/MalePC/Ap/MalePC_BasicIdle.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-malepc_basicidle_0",
+    "opensex/ap-malepc_basicidle_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops_interaction.female-pc.ap.femalepc_basicidle",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_interaction.male-pc.ap.malepc_caresscheekstroke",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_interaction.male-pc.ap.malepc_caressfail",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_interaction.male-pc.ap.malepc_caressholdhands",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_interaction.male-pc.ap.malepc_caresshug",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_interaction.male-pc.ap.malepc_chatter",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_interaction.male-pc.ap.malepc_chatterfail",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_interaction.male-pc.ap.malepc_court",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_interaction.male-pc.ap.malepc_courtfail",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_interaction.male-pc.ap.malepc_kiss1",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.malepc_basicidle--lesbiananimationhub",
+   "label": "get closer"
+  },
+  {
+   "to": "opensex.gen.malepc_basicidle--standingholding",
+   "label": "get closer"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

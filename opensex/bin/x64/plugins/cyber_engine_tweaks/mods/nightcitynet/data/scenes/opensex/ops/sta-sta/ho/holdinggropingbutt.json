@@ -1,0 +1,84 @@
+{
+ "id": "opensex.ops.sta-sta.ho.holdinggropingbutt",
+ "name": "Holding Groping Butt",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Ho|HoldingGropingButt",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Ho/HoldingGropingButt.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-holdinggropingbutt_s1_0",
+    "opensex/ho-holdinggropingbutt_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/ho-holdinggropingbutt_s2_0",
+    "opensex/ho-holdinggropingbutt_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/ho-holdinggropingbutt_s3_0",
+    "opensex/ho-holdinggropingbutt_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/ho-holdinggropingbutt_s4_0",
+    "opensex/ho-holdinggropingbutt_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.holdinggropingbutt--standingholding",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.holdinggropingbutt--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

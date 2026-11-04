@@ -1,0 +1,116 @@
+{
+ "id": "opensex.ops.lyb-kne-kne.bj.3plyingfellatio",
+ "name": "3P Lying Fellatio",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyB!Kne!Kne|BJ|3PLyingFellatio",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyBKneKne/BJ/3PLyingFellatio.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/bj-3plyingfellatio_s1_0",
+    "opensex/bj-3plyingfellatio_s1_1",
+    "opensex/bj-3plyingfellatio_s1_2"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/bj-3plyingfellatio_s2_0",
+    "opensex/bj-3plyingfellatio_s2_1",
+    "opensex/bj-3plyingfellatio_s2_2"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/bj-3plyingfellatio_s3_0",
+    "opensex/bj-3plyingfellatio_s3_1",
+    "opensex/bj-3plyingfellatio_s3_2"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/bj-3plyingfellatio_s4_0",
+    "opensex/bj-3plyingfellatio_s4_1",
+    "opensex/bj-3plyingfellatio_s4_2"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.lyb-kne-kne.ho.3plyingidle",
+   "label": null
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "oral_penis",
+   "actor": "b",
+   "target": "a"
+  },
+  {
+   "type": "oral_penis",
+   "actor": "c",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

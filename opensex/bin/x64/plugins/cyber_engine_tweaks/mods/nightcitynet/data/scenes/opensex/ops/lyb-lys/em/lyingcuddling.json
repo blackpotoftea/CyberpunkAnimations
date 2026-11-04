@@ -1,0 +1,71 @@
+{
+ "id": "opensex.ops.lyb-lys.em.lyingcuddling",
+ "name": "Lying Cuddling",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyB!LyS|Em|LyingCuddling",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyBLyS/Em/LyingCuddling.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-lyingcuddling_0",
+    "opensex/em-lyingcuddling_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.lyingcuddling--lyingcuddlingapproach",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.lyingcuddling--spooningidle",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.lyingcuddling--lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "opensex.gen.lyingcuddling--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle",
+  "spooning"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

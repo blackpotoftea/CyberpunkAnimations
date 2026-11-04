@@ -1,0 +1,95 @@
+{
+ "id": "opensex.ops.sta-sta.bof.standingnipplesucking",
+ "name": "Standing Nipple Sucking",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|BoF|StandingNippleSucking",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/BoF/StandingNippleSucking.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingNippleSuckingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/OStim2PStandingNippleSuckingMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/bof-standingnipplesucking_s1_0",
+    "opensex/bof-standingnipplesucking_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/bof-standingnipplesucking_s2_0",
+    "opensex/bof-standingnipplesucking_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/bof-standingnipplesucking_s3_0",
+    "opensex/bof-standingnipplesucking_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/bof-standingnipplesucking_s4_0",
+    "opensex/bof-standingnipplesucking_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.standingnipplesucking--standinggropingbreasts",
+   "label": "grope {1}s breasts",
+   "priority": 2000
+  },
+  {
+   "to": "opensex.gen.standingnipplesucking--ostim2pstandingapartmf",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.standingnipplesucking--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

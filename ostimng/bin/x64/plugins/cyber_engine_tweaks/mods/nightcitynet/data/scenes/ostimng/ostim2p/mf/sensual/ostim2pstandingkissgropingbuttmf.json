@@ -1,0 +1,125 @@
+{
+ "id": "ostimng.ostim2p.mf.sensual.ostim2pstandingkissgropingbuttmf",
+ "name": "Standing Kiss Groping Butt [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingKissGropingButtMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingKissGropingButtMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pstandingkissgropingbuttmf_s1_0",
+    "ostimng/ostim2pstandingkissgropingbuttmf_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pstandingkissgropingbuttmf_s2_0",
+    "ostimng/ostim2pstandingkissgropingbuttmf_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pstandingkissgropingbuttmf_s3_0",
+    "ostimng/ostim2pstandingkissgropingbuttmf_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pstandingkissgropingbuttmf_s4_0",
+    "ostimng/ostim2pstandingkissgropingbuttmf_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pstandingkissgropingbuttmf--standingholding",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissgropingbuttmf--ostim2pstandingkissembracemf",
+   "label": "embrace {1}",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissgropingbuttmf--ostim2pstandingholdingchinkissmf",
+   "label": "hold {1}s chin",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissgropingbuttmf--ostim2pstandingkissholdinghipmf",
+   "label": "hold {1}s hip",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissgropingbuttmf--ostim2pstandingkissmf",
+   "label": "hold {1}s head",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissgropingbuttmf--ostim2pstandinghandholdingkissmf",
+   "label": "hold {1}s hands",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissgropingbuttmf--handjobkiss",
+   "label": "jerk {0} off",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissgropingbuttmf--standingkissfingering",
+   "label": "finger {1}",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissgropingbuttmf--ostim2pstandingsquattingmf",
+   "label": "squat before {0}",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissgropingbuttmf--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

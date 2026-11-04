@@ -1,0 +1,121 @@
+{
+ "id": "opensex.ops.sta-kne.boj.acestandingtittyfuck",
+ "name": "Standing Boob Job",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Kne|BoJ|AceStandingTittyfuck",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaKne/BoJ/AceStandingTittyfuck.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingKneelingTitfuckMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/KneelingBlowjob/OStim2PStandingKneelingTitfuckMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/boj-acestandingtittyfuck_s1_0",
+    "opensex/boj-acestandingtittyfuck_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/boj-acestandingtittyfuck_s2_0",
+    "opensex/boj-acestandingtittyfuck_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/boj-acestandingtittyfuck_s3_0",
+    "opensex/boj-acestandingtittyfuck_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/boj-acestandingtittyfuck_s4_0",
+    "opensex/boj-acestandingtittyfuck_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.acestandingtittyfuck--malestandingfemalekneeling",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.acestandingtittyfuck--acestandingboobjob",
+   "label": "jerk {0} off with your breast",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.acestandingtittyfuck--acekneelinghandjob",
+   "label": "jerk {0} off",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.acestandingtittyfuck--kneelingfellatioeyecontact",
+   "label": "suck {0}s dick",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.acestandingtittyfuck--sittingfacefuck",
+   "label": "fuck {1}s face",
+   "priority": 2000
+  },
+  {
+   "to": "opensex.gen.acestandingtittyfuck--ostim2pkneelingjerktofacemf",
+   "label": "masturbate to {1}s face",
+   "priority": 3001
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  []
+ ]
+}

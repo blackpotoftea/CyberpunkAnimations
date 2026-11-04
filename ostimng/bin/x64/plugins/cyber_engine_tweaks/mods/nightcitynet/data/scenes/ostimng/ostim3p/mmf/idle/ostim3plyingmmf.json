@@ -1,0 +1,81 @@
+{
+ "id": "ostimng.ostim3p.mmf.idle.ostim3plyingmmf",
+ "name": "Lying [MMF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim3PLyingMMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim3P/MMF/idle/OStim3PLyingMMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim3plyingmmf_0",
+    "ostimng/ostim3plyingmmf_1",
+    "ostimng/ostim3plyingmmf_2"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.ostim3p.mmm.idle.ostim3plyingmmm",
+   "label": "go to MMM idle"
+  },
+  {
+   "to": "opensex.ops.lyb-kne-kne.ho.3plyingidle",
+   "label": "go to MFF idle"
+  },
+  {
+   "to": "ostimng.ostim3p.fff.idle.ostim3plyingfff",
+   "label": "go to FFF idle"
+  },
+  {
+   "to": "ostimng.ostim3p.mmf.idle.ostim3pstandingmmf",
+   "label": "stand up"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  [],
+  []
+ ]
+}

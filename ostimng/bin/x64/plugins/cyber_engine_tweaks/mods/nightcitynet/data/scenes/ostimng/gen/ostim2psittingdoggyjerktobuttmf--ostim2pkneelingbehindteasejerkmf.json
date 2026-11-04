@@ -1,0 +1,45 @@
+{
+ "id": "ostimng.gen.ostim2psittingdoggyjerktobuttmf--ostim2pkneelingbehindteasejerkmf",
+ "name": "Doggy Style Sitting Jerk To Butt [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2psittingdoggyjerktobuttmf--ostim2pkneelingbehindteasejerkmf_0",
+    "ostimng/gen-ostim2psittingdoggyjerktobuttmf--ostim2pkneelingbehindteasejerkmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.kneelingbehind.ostim2pkneelingbehindteasejerkmf",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

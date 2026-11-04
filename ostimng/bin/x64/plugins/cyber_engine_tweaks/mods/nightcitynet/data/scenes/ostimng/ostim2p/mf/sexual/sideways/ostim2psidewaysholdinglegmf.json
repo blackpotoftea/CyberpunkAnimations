@@ -1,0 +1,116 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.sideways.ostim2psidewaysholdinglegmf",
+ "name": "Lying Sideways Holding Leg [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PSidewaysHoldingLegMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Sideways/OStim2PSidewaysHoldingLegMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling",
+    "ontop"
+   ],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingside",
+    "onbottom"
+   ],
+   "posture": "lyingside",
+   "mods": [
+    "onbottom"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-lyingonsidesexraisedleg_s1_0",
+    "ostimng/ostim2psidewaysholdinglegmf_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-lyingonsidesexraisedleg_s2_0",
+    "ostimng/ostim2psidewaysholdinglegmf_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-lyingonsidesexraisedleg_s3_0",
+    "ostimng/ostim2psidewaysholdinglegmf_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  },
+  {
+   "clips": [
+    "opensex/sx-lyingonsidesexraisedleg_s4_0",
+    "ostimng/ostim2psidewaysholdinglegmf_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 3.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.kne-lys.ap.femalelyingonside",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.sideways.ostim2psidewaysmf",
+   "label": "let go of {1}s leg",
+   "priority": 0
+  },
+  {
+   "to": "opensex.ops.kne-lys.sx.lyingonsidesexgrabarm",
+   "label": "hold {1}s arm",
+   "priority": 1000
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.sideways.ostim2psidewaysjerktobodymf",
+   "label": "masturbate ({0})",
+   "priority": 3000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

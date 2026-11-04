@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.mountedfemalefeetonchest--mountedhjfeet",
+ "name": "Mounted Female Feet On Chest (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-mountedfemalefeetonchest--mountedhjfeet_0",
+    "opensex/gen-mountedfemalefeetonchest--mountedhjfeet_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.lyb-sit.hj.mountedhjfeet",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

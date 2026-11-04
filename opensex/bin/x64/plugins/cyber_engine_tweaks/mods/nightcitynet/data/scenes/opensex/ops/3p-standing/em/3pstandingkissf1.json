@@ -1,0 +1,72 @@
+{
+ "id": "opensex.ops.3p-standing.em.3pstandingkissf1",
+ "name": "3P Standing Kiss F1",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|3P!Standing|Em|3PStandingKissF1",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/3PStanding/Em/3PStandingKissF1.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-3pstandingkissf1_0",
+    "opensex/em-3pstandingkissf1_1",
+    "opensex/em-3pstandingkissf1_2"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.3p-standing.ap.3pstandingidle",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.3p-standing.em.3pstandingkissf2",
+   "label": null
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  [],
+  []
+ ]
+}

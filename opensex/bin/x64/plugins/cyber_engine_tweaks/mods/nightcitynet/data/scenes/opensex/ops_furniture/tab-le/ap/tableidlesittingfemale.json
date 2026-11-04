@@ -1,0 +1,83 @@
+{
+ "id": "opensex.ops_furniture.tab-le.ap.tableidlesittingfemale",
+ "name": "Table Idle Sitting Female",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_furniture|Tab!Le|Ap|TableIdleSittingFemale",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_furniture/TabLe/Ap/TableIdleSittingFemale.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStimTable2PStandingSittingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimTable2P/MF/idle/OStimTable2PStandingSittingMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-tableidlesittingfemale_0",
+    "opensex/ap-tableidlesittingfemale_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.tableidlesittingfemale--tableidlefacingeachother",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_furniture.tab-le.bj.tableliebackoral",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.tableidlesittingfemale--tablemissionary",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.tableidlesittingfemale--ostimtable2pstandingsittingff",
+   "label": "go to lesbian idle"
+  },
+  {
+   "to": "opensex.gen.tableidlesittingfemale--ostimtable2pstandingleaningmf",
+   "label": "stand up ({1})"
+  },
+  {
+   "to": "opensex.gen.tableidlesittingfemale--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": "table",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

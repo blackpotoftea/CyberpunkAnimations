@@ -1,0 +1,54 @@
+{
+ "id": "ostimng.ostim1p.m.bathing.ostim1pbathinghubstandingm",
+ "name": "Bathing Hub Standing [M]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim1PBathingHubStandingM",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim1P/M/bathing/OStim1PBathingHubStandingM.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-3pstandingidle_0"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.ostim1p.m.idle.ostim1pstandingm",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.ops_solo.s-tanding.ap.malebatheinkneedeepwater",
+   "label": "wash your body ({0})",
+   "priority": 0
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  []
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "id": "ostimng.ostim2p.mf.idle.ostim2plyingontopmf",
+ "name": "Lying On Top [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PLyingOnTopMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PLyingOnTopMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "lyingfront"
+   ],
+   "posture": "lyingfront",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2plyingontopmf_0",
+    "ostimng/ostim2plyingontopmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2plyingontopmf--ostim2pbothlyingmf",
+   "label": "lie down ({0})"
+  },
+  {
+   "to": "opensex.ops.sit-sit.ap.sitting",
+   "label": "sit up"
+  },
+  {
+   "to": "ostimng.gen.ostim2plyingontopmf--femaleallfours",
+   "label": "get on all fours ({1})"
+  },
+  {
+   "to": "ostimng.gen.ostim2plyingontopmf--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

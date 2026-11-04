@@ -1,0 +1,53 @@
+{
+ "id": "opensex.ops.sta-sta.ap.actionfemalecaresscheekstroke",
+ "name": "Action Female Caress Cheek Stroke",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Ap|ActionFemaleCaressCheekStroke",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Ap/ActionFemaleCaressCheekStroke.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-actionfemalecaresscheekstroke_0",
+    "opensex/ap-actionfemalecaresscheekstroke_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.ap.standing",
+ "length": 4.5,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

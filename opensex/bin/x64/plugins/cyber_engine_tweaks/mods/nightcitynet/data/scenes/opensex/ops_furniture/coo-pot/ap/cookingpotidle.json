@@ -1,0 +1,93 @@
+{
+ "id": "opensex.ops_furniture.coo-pot.ap.cookingpotidle",
+ "name": "Cooking Pot Idle",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_furniture|Coo!Pot|Ap|CookingPotIdle",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_furniture/CooPot/Ap/CookingPotIdle.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStimCookingPot2PBehindApproachMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimCookingPot2P/MF/idle/OStimCookingPot2PBehindApproachMF.json"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStimCookingPot2PBehindMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimCookingPot2P/MF/idle/OStimCookingPot2PBehindMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-cookingpotidle_0",
+    "opensex/ap-cookingpotidle_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.cookingpotidle--cookingpotbuttgrab",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.cookingpotidle--cookingpotkissgropebreasts",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.cookingpotidle--cookingpotsex",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.cookingpotidle--ostimcookingpot2pbehindmm",
+   "label": "go to gay idle"
+  },
+  {
+   "to": "opensex.gen.cookingpotidle--ostimcookingpot2pbehindff",
+   "label": "go to straight idle"
+  },
+  {
+   "to": "opensex.gen.cookingpotidle--lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "opensex.gen.cookingpotidle--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": "cookingpot",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "ostimng.ostimshelf1p.m.idle.ostimshelf1pstandingm",
+ "name": "Standing Male",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimShelf1PStandingM",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimShelf1P/M/idle/OStimShelf1PStandingM.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-shelfidle_0"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.ostimshelf1p.f.idle.ostimshelf1pstandingf",
+   "label": "go to female idle"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": "shelf",
+ "acts": [],
+ "strip": [
+  []
+ ]
+}

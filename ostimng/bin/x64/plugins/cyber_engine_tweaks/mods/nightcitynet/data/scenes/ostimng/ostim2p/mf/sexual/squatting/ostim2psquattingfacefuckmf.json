@@ -1,0 +1,104 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.squatting.ostim2psquattingfacefuckmf",
+ "name": "Squatting Face Fuck [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PSquattingFaceFuckMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Squatting/OStim2PSquattingFaceFuckMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "Squatting"
+   ],
+   "posture": "squatting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2psquattingfacefuckmf_s1_0",
+    "ostimng/ostim2psquattingfacefuckmf_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "ostimng/ostim2psquattingfacefuckmf_s2_0",
+    "ostimng/ostim2psquattingfacefuckmf_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "ostimng/ostim2psquattingfacefuckmf_s3_0",
+    "ostimng/ostim2psquattingfacefuckmf_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "ostimng/ostim2psquattingfacefuckmf_s4_0",
+    "ostimng/ostim2psquattingfacefuckmf_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2psquattingfacefuckmf--ostim2pstandingsquattingmf",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2psquattingfacefuckmf--squattingfellatio",
+   "label": "suck {0}s dick",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2psquattingfacefuckmf--ostim2psquattingjerktofacemf",
+   "label": "masturbate to {1}s face",
+   "priority": 3000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "oral_penis",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "head",
+   "eyes"
+  ]
+ ]
+}

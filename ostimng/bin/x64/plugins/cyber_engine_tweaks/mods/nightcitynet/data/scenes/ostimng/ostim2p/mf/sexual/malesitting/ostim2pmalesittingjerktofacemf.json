@@ -1,0 +1,92 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.malesitting.ostim2pmalesittingjerktofacemf",
+ "name": "Male Sitting Female Kneeling Jerk To Face [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PMaleSittingJerkToFaceMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingJerkToFaceMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "sitting",
+    "onbottom"
+   ],
+   "posture": "sitting",
+   "mods": [
+    "onbottom"
+   ]
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling",
+    "ontop"
+   ],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pmalesittingjerktofacemf_0",
+    "ostimng/ostim2pmalesittingjerktofacemf_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pmalesittingjerktofacemf--sittingfemaleapproach",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.malesitting.ostim2pmalesittinghandjobmf",
+   "label": "jerk {0} off",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pmalesittingjerktofacemf--ostim2pmalesittingblowjobmf",
+   "label": "sit down ({0})",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pmalesittingjerktofacemf--ostim2pmalekneelingallfoursjerktofacemf",
+   "label": "kneel ({0})",
+   "priority": 0
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "a",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.ostim2pkneelingtailjobmf",
+ "name": "Kneeling Tailjob [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PKneelingTailjobMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/OStim2PKneelingTailjobMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback",
+    "onbottom"
+   ],
+   "posture": "lyingback",
+   "mods": [
+    "onbottom"
+   ]
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling",
+    "ontop"
+   ],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pkneelingtailjobmf_s1_0",
+    "ostimng/ostim2pkneelingtailjobmf_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pkneelingtailjobmf_s1_0",
+    "ostimng/ostim2pkneelingtailjobmf_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pkneelingtailjobmf_s1_0",
+    "ostimng/ostim2pkneelingtailjobmf_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  },
+  {
+   "clips": [
+    "ostimng/ostim2pkneelingtailjobmf_s1_0",
+    "ostimng/ostim2pkneelingtailjobmf_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.5
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pkneelingtailjobmf--ostim2plyingkneelingmf",
+   "label": "return",
+   "priority": -1000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

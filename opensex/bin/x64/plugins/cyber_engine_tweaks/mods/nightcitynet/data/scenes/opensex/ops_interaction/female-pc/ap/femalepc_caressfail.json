@@ -1,0 +1,53 @@
+{
+ "id": "opensex.ops_interaction.female-pc.ap.femalepc_caressfail",
+ "name": "Female PC Caress Cheek Stroke",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_interaction|Female!PC|Ap|FemalePC_CaressFail",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_interaction/FemalePC/Ap/FemalePC_CaressFail.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-femalepc_caressfail_0",
+    "opensex/ap-femalepc_caressfail_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops_interaction.female-pc.ap.femalepc_basicidle",
+ "length": 2.5,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

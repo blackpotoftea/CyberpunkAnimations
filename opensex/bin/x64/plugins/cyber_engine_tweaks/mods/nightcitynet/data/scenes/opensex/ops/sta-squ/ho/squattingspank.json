@@ -1,0 +1,51 @@
+{
+ "id": "opensex.ops.sta-squ.ho.squattingspank",
+ "name": "Squatting Spank",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Squ|Ho|SquattingSpank",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSqu/Ho/SquattingSpank.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "squatting"
+   ],
+   "posture": "squatting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-squattingspank_0",
+    "opensex/ho-squattingspank_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-squ.ho.squattinggropingbutt",
+ "length": 3.0,
+ "moves": [],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

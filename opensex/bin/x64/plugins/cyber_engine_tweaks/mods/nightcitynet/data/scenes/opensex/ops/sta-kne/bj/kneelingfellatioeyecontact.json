@@ -1,0 +1,134 @@
+{
+ "id": "opensex.ops.sta-kne.bj.kneelingfellatioeyecontact",
+ "name": "Kneeling Fellatio Eye Contact",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Kne|BJ|KneelingFellatioEyeContact",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaKne/BJ/KneelingFellatioEyeContact.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PKneelingBlowjobMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/KneelingBlowjob/OStim2PKneelingBlowjobMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "squatting"
+   ],
+   "posture": "squatting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/bj-kneelingfellatioeyecontact_s1_0",
+    "opensex/bj-kneelingfellatioeyecontact_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/bj-kneelingfellatioeyecontact_s2_0",
+    "opensex/bj-kneelingfellatioeyecontact_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/bj-kneelingfellatioeyecontact_s3_0",
+    "opensex/bj-kneelingfellatioeyecontact_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/bj-kneelingfellatioeyecontact_s4_0",
+    "opensex/bj-kneelingfellatioeyecontact_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.kneelingfellatioeyecontact--malestandingfemalekneeling",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.kneelingfellatioeyecontact--kneelingfellatioeyecontactholdlegs",
+   "label": "hold {0}s leg",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.kneelingfellatioeyecontact--kneelingtonguefellatio",
+   "label": "lick {0}s penis",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.kneelingfellatioeyecontact--acekneelinghandjob",
+   "label": "jerk {0} off",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.kneelingfellatioeyecontact--ostim2pkneelingblowjobholdingheadmf",
+   "label": "hold {1}s head",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.kneelingfellatioeyecontact--sittingfacefuck",
+   "label": "fuck {1}s face",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.kneelingfellatioeyecontact--acestandingboobjob",
+   "label": "jerk {0} off with your breast",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.kneelingfellatioeyecontact--ostim2pkneelingjerktofacemf",
+   "label": "masturbate to {1}s face",
+   "priority": 2000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "oral_penis",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "head",
+   "eyes"
+  ]
+ ]
+}

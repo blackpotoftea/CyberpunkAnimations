@@ -1,0 +1,45 @@
+{
+ "id": "ostimng.gen.ostim2pstandingbehindfuckmasturbationmf--squattinggropingbuttbothhands",
+ "name": "Standing Fuck From Behind While Masturbating [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "bendover",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pstandingbehindfuckmasturbationmf--squattinggropingbuttbothhands_0",
+    "ostimng/gen-ostim2pstandingbehindfuckmasturbationmf--squattinggropingbuttbothhands_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-squ.ho.squattinggropingbuttbothhands",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

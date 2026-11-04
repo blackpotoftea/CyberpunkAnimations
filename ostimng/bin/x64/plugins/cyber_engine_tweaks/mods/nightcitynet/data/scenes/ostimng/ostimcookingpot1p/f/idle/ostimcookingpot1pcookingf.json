@@ -1,0 +1,49 @@
+{
+ "id": "ostimng.ostimcookingpot1p.f.idle.ostimcookingpot1pcookingf",
+ "name": "Cooking [F]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimCookingPot1PCookingF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimCookingPot1P/F/idle/OStimCookingPot1PCookingF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim1pstandingf_0"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.ostimcookingpot1p.m.idle.ostimcookingpot1pcookingm",
+   "label": "go to male idle"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": "cookingpot",
+ "acts": [],
+ "strip": [
+  []
+ ]
+}

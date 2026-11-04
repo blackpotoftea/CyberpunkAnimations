@@ -1,0 +1,47 @@
+{
+ "id": "ostimng.gen.ostimsinglebedright2psittingonlapmf--ostimsinglebedright2pcowgirlmf",
+ "name": "Sitting On Lap On Bed (right) [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "sitting",
+   "mods": [
+    "onbottom"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostimsinglebedright2psittingonlapmf--ostimsinglebedright2pcowgirlmf_0",
+    "ostimng/gen-ostimsinglebedright2psittingonlapmf--ostimsinglebedright2pcowgirlmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostimsinglebedright2p.mf.sexual.ostimsinglebedright2pcowgirlmf",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "singlebed",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

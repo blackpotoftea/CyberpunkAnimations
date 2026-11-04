@@ -1,0 +1,48 @@
+{
+ "id": "ostimng.gen.ostim2pproneholdinglegsspreadmf--pronesexembracefemalelegsin",
+ "name": "Prone Holding Legs Spread [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "lyingfront",
+   "mods": [
+    "ontop"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "lyingfront",
+   "mods": [
+    "facingaway",
+    "onbottom"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pproneholdinglegsspreadmf--pronesexembracefemalelegsin_0",
+    "ostimng/gen-ostim2pproneholdinglegsspreadmf--pronesexembracefemalelegsin_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.lyf-lyf.sx.pronesexembracefemalelegsin",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "id": "ostimng.ostimtable2p.ff.idle.ostimtable2pbehindff",
+ "name": "Behind [FF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimTable2PBehindFF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimTable2P/FF/idle/OStimTable2PBehindFF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "facingaway",
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-tableidle_0",
+    "opensex/ap-tableidle_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostimtable2pbehindff--tableidle",
+   "label": "go to straight idle"
+  },
+  {
+   "to": "ostimng.gen.ostimtable2pbehindff--ostimtable2pstandingleaningff",
+   "label": "turn around ({1})"
+  },
+  {
+   "to": "ostimng.gen.ostimtable2pbehindff--lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "ostimng.gen.ostimtable2pbehindff--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": "table",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

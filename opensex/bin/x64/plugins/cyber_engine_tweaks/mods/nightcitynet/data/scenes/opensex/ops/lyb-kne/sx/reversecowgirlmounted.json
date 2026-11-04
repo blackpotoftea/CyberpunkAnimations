@@ -1,0 +1,104 @@
+{
+ "id": "opensex.ops.lyb-kne.sx.reversecowgirlmounted",
+ "name": "Reverse Cowgirl, Mounted",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyB!Kne|Sx|ReverseCowgirlMounted",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyBKne/Sx/ReverseCowgirlMounted.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-reversecowgirlmounted_s1_0",
+    "opensex/sx-reversecowgirlmounted_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-reversecowgirlmounted_s2_0",
+    "opensex/sx-reversecowgirlmounted_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-reversecowgirlmounted_s3_0",
+    "opensex/sx-reversecowgirlmounted_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-reversecowgirlmounted_s4_0",
+    "opensex/sx-reversecowgirlmounted_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.reversecowgirlmounted--reversemountedfemale",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.reversecowgirlmounted--reversecowgirlleaningback",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.reversecowgirlmounted--reversecowgirllookingback",
+   "label": null
+  }
+ ],
+ "tags": [
+  "reversecowgirl"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

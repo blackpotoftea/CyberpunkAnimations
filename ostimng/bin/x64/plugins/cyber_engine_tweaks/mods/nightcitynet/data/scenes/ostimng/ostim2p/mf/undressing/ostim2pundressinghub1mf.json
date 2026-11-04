@@ -1,0 +1,86 @@
+{
+ "id": "ostimng.ostim2p.mf.undressing.ostim2pundressinghub1mf",
+ "name": "Undressing Hub [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PUndressingHub1MF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/undressing/OStim2PUndressingHub1MF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-3pstandingidle_0",
+    "opensex/ho-standing_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pundressinghub1mf--ostim2pstandingapartmf",
+   "label": "return"
+  },
+  {
+   "to": "ostimng.ostim2p.mf.undressing.ostim2pundresstop1mf",
+   "label": "take off your top ({1})"
+  },
+  {
+   "to": "ostimng.ostim2p.mf.undressing.ostim2pundressbottom1mf",
+   "label": "take off your bottoms ({1})"
+  },
+  {
+   "to": "ostimng.ostim2p.mf.undressing.ostim2pundresshead1mf",
+   "label": "take off your helmet ({1})"
+  },
+  {
+   "to": "ostimng.ostim2p.mf.undressing.ostim2pundressgloves1mf",
+   "label": "take off your gloves ({1})"
+  },
+  {
+   "to": "ostimng.ostim2p.mf.undressing.ostim2pundressboots1mf",
+   "label": "take off your boots ({1})"
+  },
+  {
+   "to": "ostimng.gen.ostim2pundressinghub1mf--ostim2pundressinghub0mf",
+   "label": "undress {0}s"
+  },
+  {
+   "to": "ostimng.gen.ostim2pundressinghub1mf--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

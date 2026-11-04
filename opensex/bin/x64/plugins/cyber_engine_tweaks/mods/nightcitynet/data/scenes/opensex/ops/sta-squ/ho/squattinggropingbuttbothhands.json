@@ -1,0 +1,109 @@
+{
+ "id": "opensex.ops.sta-squ.ho.squattinggropingbuttbothhands",
+ "name": "Squatting Groping Butt Both Hands",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Squ|Ho|SquattingGropingButtBothHands",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSqu/Ho/SquattingGropingButtBothHands.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PSquattingBehindGropingButtBothHandsMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PSquattingBehindGropingButtBothHandsMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "squatting"
+   ],
+   "posture": "squatting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-squattinggropingbuttbothhands_s1_0",
+    "opensex/ho-squattinggropingbuttbothhands_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/ho-squattinggropingbuttbothhands_s2_0",
+    "opensex/ho-squattinggropingbuttbothhands_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/ho-squattinggropingbuttbothhands_s3_0",
+    "opensex/ho-squattinggropingbuttbothhands_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/ho-squattinggropingbuttbothhands_s4_0",
+    "opensex/ho-squattinggropingbuttbothhands_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.squattinggropingbuttbothhands--squattinggropingbutt",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.squattinggropingbuttbothhands--standingholdingfrombehind",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.squattinggropingbuttbothhands--ostim2pkneelingbehindcunnilingusmf",
+   "label": "eat {1} out",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.squattinggropingbuttbothhands--femaleallfours",
+   "label": "get on all fours ({1})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.squattinggropingbuttbothhands--standingrearsexnohands",
+   "label": "take {1} from behind",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.squattinggropingbuttbothhands--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

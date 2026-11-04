@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostimdoublebedright2pbothsittingkissmf--benchbothsittingfaceeachother",
+ "name": "Sitting On Bed Kissing (right) [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostimdoublebedright2pbothsittingkissmf--benchbothsittingfaceeachother_0",
+    "ostimng/gen-ostimdoublebedright2pbothsittingkissmf--benchbothsittingfaceeachother_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops_furniture.ben-ch.ap.benchbothsittingfaceeachother",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "doublebed",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

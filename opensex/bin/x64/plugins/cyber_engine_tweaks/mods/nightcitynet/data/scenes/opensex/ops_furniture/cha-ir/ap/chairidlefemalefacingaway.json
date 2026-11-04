@@ -1,0 +1,73 @@
+{
+ "id": "opensex.ops_furniture.cha-ir.ap.chairidlefemalefacingaway",
+ "name": "Chair Idle Female FacingAway",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_furniture|Cha!Ir|Ap|ChairIdleFemaleFacingAway",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_furniture/ChaIr/Ap/ChairIdleFemaleFacingAway.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing",
+    "facingaway"
+   ],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-benchidlefemalefacingaway_0",
+    "opensex/ap-benchidlefemalefacingaway_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.chairidlefemalefacingaway--chairidle",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.chairidlefemalefacingaway--chairrearsex",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.chairidlefemalefacingaway--lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "opensex.gen.chairidlefemalefacingaway--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": "chair",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

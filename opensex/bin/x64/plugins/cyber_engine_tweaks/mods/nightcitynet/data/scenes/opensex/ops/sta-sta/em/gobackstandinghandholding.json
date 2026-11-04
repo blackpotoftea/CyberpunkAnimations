@@ -1,0 +1,58 @@
+{
+ "id": "opensex.ops.sta-sta.em.gobackstandinghandholding",
+ "name": "Transition back from Standing Hand Holding",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Em|GoBackStandingHandHolding",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Em/GoBackStandingHandHolding.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingHandHoldingToApartMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingHandHoldingToApartMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-gobackstandinghandholding_0",
+    "opensex/em-gobackstandinghandholding_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.ap.standing",
+ "length": 1.5,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

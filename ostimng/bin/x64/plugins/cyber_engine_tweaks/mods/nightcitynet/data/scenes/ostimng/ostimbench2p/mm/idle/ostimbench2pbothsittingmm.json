@@ -1,0 +1,79 @@
+{
+ "id": "ostimng.ostimbench2p.mm.idle.ostimbench2pbothsittingmm",
+ "name": "Both Sitting Gay",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimBench2PBothSittingMM",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimBench2P/MM/idle/OStimBench2PBothSittingMM.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-benchidlebothsitting_0",
+    "opensex/ap-benchidlebothsitting_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostimbench2pbothsittingmm--benchbothsittingfaceeachother",
+   "label": "go to straight idle"
+  },
+  {
+   "to": "ostimng.gen.ostimbench2pbothsittingmm--ostimbench2pbothsittingff",
+   "label": "go to lesbian idle"
+  },
+  {
+   "to": "ostimng.gen.ostimbench2pbothsittingmm--ostimchair2psittingstandingmm",
+   "label": "stand up ({1})"
+  },
+  {
+   "to": "ostimng.gen.ostimbench2pbothsittingmm--ostimchair2pstandingsittingmm",
+   "label": "stand up ({0})"
+  },
+  {
+   "to": "ostimng.gen.ostimbench2pbothsittingmm--lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "ostimng.gen.ostimbench2pbothsittingmm--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": "bench",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

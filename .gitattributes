@@ -1,0 +1,9 @@
+* text=auto eol=lf
+
+# Game files are binary and large: keep them in LFS so clones stay small.
+*.anims     filter=lfs diff=lfs merge=lfs -text
+*.workspot  filter=lfs diff=lfs merge=lfs -text
+*.archive   filter=lfs diff=lfs merge=lfs -text
+*.glb       filter=lfs diff=lfs merge=lfs -text
+*.blend     filter=lfs diff=lfs merge=lfs -text
+*.xl        text eol=lf

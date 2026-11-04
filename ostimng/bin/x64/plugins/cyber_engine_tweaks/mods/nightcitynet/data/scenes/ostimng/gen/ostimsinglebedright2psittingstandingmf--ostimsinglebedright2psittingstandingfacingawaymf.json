@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostimsinglebedright2psittingstandingmf--ostimsinglebedright2psittingstandingfacingawaymf",
+ "name": "Sitting On Bed Standing (right) [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostimsinglebedright2psittingstandingmf--ostimsinglebedright2psittingstandingfacingawaymf_0",
+    "ostimng/gen-ostimsinglebedright2psittingstandingmf--ostimsinglebedright2psittingstandingfacingawaymf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostimsinglebedright2p.mf.idle.ostimsinglebedright2psittingstandingfacingawaymf",
+ "length": 1.5,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "singlebed",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

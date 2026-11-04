@@ -1,0 +1,45 @@
+{
+ "id": "opensex.gen.cookingpotkissgropebreasts--cookingpotmaleapproach",
+ "name": "Cooking Pot Kiss and Grope Breasts (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-cookingpotkissgropebreasts--cookingpotmaleapproach_0",
+    "opensex/gen-cookingpotkissgropebreasts--cookingpotmaleapproach_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops_furniture.coo-pot.ap.cookingpotmaleapproach",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "cookingpot",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

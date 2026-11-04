@@ -1,0 +1,48 @@
+{
+ "id": "opensex.ops_solo.l-ying.ap.malehubselfpleasurelying",
+ "name": "Male Solo Lying Idle",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_solo|L!ying|Ap|MaleHubSelfPleasureLying",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_solo/Lying/Ap/MaleHubSelfPleasureLying.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-malesololyingidle_0"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops_solo.l-ying.ap.malesololyingidle",
+   "label": null
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  []
+ ]
+}

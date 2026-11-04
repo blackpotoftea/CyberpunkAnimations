@@ -1,0 +1,48 @@
+{
+ "id": "ostimng.gen.ostim2preversecowgirlmf--ostim2preversecowgirlbuttjobmf",
+ "name": "Reverse Cowgirl [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "lyingback",
+   "mods": [
+    "onbottom"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": [
+    "facingaway",
+    "ontop"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2preversecowgirlmf--ostim2preversecowgirlbuttjobmf_0",
+    "ostimng/gen-ostim2preversecowgirlmf--ostim2preversecowgirlbuttjobmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.cowgirl.ostim2preversecowgirlbuttjobmf",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

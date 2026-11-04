@@ -1,0 +1,84 @@
+{
+ "id": "opensex.ops.sta-sta.ho.headcaress",
+ "name": "Head Caress",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Ho|HeadCaress",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Ho/HeadCaress.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-headcaress_s1_0",
+    "opensex/ho-headcaress_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/ho-headcaress_s2_0",
+    "opensex/ho-headcaress_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/ho-headcaress_s3_0",
+    "opensex/ho-headcaress_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/ho-headcaress_s4_0",
+    "opensex/ho-headcaress_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.headcaress--standing",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.headcaress--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

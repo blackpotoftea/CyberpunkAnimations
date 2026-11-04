@@ -1,0 +1,53 @@
+{
+ "id": "opensex.ops.sit-sit.em.gotodevourvampirebitefemalesitting",
+ "name": "Transition into Vampire Bite Female Sitting",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sit!Sit|Em|GoToDevourVampireBiteFemaleSitting",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/SitSit/Em/GoToDevourVampireBiteFemaleSitting.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "f",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-gotodevourvampirebitefemalesitting_0",
+    "opensex/em-gotodevourvampirebitefemalesitting_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sit-sit.em.devourvampirebitefemalesitting",
+ "length": 3.6,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

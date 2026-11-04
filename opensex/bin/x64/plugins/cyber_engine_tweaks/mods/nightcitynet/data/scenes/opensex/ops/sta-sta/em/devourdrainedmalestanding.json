@@ -1,0 +1,75 @@
+{
+ "id": "opensex.ops.sta-sta.em.devourdrainedmalestanding",
+ "name": "Vampire Bite Male Standing",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Em|DevourDrainedMaleStanding",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Em/DevourDrainedMaleStanding.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingDrainedMaleMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/vampire/StandingVampireBiteFemale/OStim2PStandingDrainedMaleMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "drowsy",
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": [
+    "drowsy"
+   ]
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-devourdrainedmalestanding_0",
+    "opensex/em-devourdrainedmalestanding_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.devourdrainedmalestanding--standing",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.devourdrainedmalestanding--ostim2pstandingapartmf",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.devourdrainedmalestanding--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

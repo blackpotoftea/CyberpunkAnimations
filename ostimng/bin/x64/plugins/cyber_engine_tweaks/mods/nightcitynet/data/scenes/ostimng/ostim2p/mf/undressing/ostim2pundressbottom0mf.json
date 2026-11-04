@@ -1,0 +1,64 @@
+{
+ "id": "ostimng.ostim2p.mf.undressing.ostim2pundressbottom0mf",
+ "name": "Undress Bottom [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PUndressBottom0MF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/undressing/OStim2PUndressBottom0MF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "squatting"
+   ],
+   "posture": "squatting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pundressbottom0mf_0",
+    "opensex/ap-femalesquattingundressmalebottom_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.undressing.ostim2pundressinghub0mf",
+ "length": 7.0,
+ "moves": [],
+ "tags": [
+  "undressing"
+ ],
+ "furniture": null,
+ "acts": [],
+ "undress": [
+  {
+   "actor": 0,
+   "at": 4.667,
+   "slots": [
+    "outer",
+    "inner",
+    "legs"
+   ]
+  }
+ ],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.mountedfemaletickle--mountedfemalefeetonchest",
+ "name": "Mounted Female Tickle (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-mountedfemaletickle--mountedfemalefeetonchest_0",
+    "opensex/gen-mountedfemaletickle--mountedfemalefeetonchest_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.lyb-sit.ho.mountedfemalefeetonchest",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

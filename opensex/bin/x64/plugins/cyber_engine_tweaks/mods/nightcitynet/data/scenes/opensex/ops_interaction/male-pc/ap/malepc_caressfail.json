@@ -1,0 +1,53 @@
+{
+ "id": "opensex.ops_interaction.male-pc.ap.malepc_caressfail",
+ "name": "Male PC Caress Fail",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_interaction|Male!PC|Ap|MalePC_CaressFail",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_interaction/MalePC/Ap/MalePC_CaressFail.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-malepc_caressfail_0",
+    "opensex/ap-malepc_caressfail_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops_interaction.male-pc.ap.malepc_basicidle",
+ "length": 2.5,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

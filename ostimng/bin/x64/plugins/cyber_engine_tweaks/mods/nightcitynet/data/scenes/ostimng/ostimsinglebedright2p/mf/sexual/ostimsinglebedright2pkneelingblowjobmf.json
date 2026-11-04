@@ -1,0 +1,98 @@
+{
+ "id": "ostimng.ostimsinglebedright2p.mf.sexual.ostimsinglebedright2pkneelingblowjobmf",
+ "name": "Kneeling Blowjob On Bed (right) [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimSingleBedRight2PKneelingBlowjobMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedRight2P/MF/sexual/OStimSingleBedRight2PKneelingBlowjobMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostimbed2pkneelingblowjobmf_s1_0",
+    "ostimng/ostimbed2pkneelingblowjobmf_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "ostimng/ostimbed2pkneelingblowjobmf_s2_0",
+    "ostimng/ostimbed2pkneelingblowjobmf_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "ostimng/ostimbed2pkneelingblowjobmf_s3_0",
+    "ostimng/ostimbed2pkneelingblowjobmf_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  },
+  {
+   "clips": [
+    "ostimng/ostimbed2pkneelingblowjobmf_s4_0",
+    "ostimng/ostimbed2pkneelingblowjobmf_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.5
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostimsinglebedright2pkneelingblowjobmf--ostimsinglebedright2psittingkneelingmf",
+   "label": "return"
+  }
+ ],
+ "tags": [],
+ "furniture": "singlebed",
+ "acts": [
+  {
+   "type": "oral_penis",
+   "actor": "b",
+   "target": "a"
+  },
+  {
+   "type": "manual",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "head",
+   "eyes"
+  ]
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.kneelingfellatioeyecontact--acestandingboobjob",
+ "name": "Kneeling Fellatio Eye Contact (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "squatting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-kneelingfellatioeyecontact--acestandingboobjob_0",
+    "opensex/gen-kneelingfellatioeyecontact--acestandingboobjob_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-kne.boj.acestandingboobjob",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "id": "ostimng.ostim2p.mf.undressing.ostim2pundressinghub0mf",
+ "name": "Undressing Hub [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PUndressingHub0MF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/undressing/OStim2PUndressingHub0MF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "squatting"
+   ],
+   "posture": "squatting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-malestandingfemalekneeling_0",
+    "opensex/ap-malestandingfemalesquatting_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pundressinghub0mf--ostim2pstandingsquattingmf",
+   "label": "return"
+  },
+  {
+   "to": "ostimng.ostim2p.mf.undressing.ostim2pundressbottom0mf",
+   "label": "take off {0}s bottoms"
+  },
+  {
+   "to": "ostimng.gen.ostim2pundressinghub0mf--ostim2pundressinghub1mf",
+   "label": "undress {1}s"
+  },
+  {
+   "to": "ostimng.gen.ostim2pundressinghub0mf--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

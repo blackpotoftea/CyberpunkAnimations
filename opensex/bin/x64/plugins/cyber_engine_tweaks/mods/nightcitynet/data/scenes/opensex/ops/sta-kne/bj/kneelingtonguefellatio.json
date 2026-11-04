@@ -1,0 +1,117 @@
+{
+ "id": "opensex.ops.sta-kne.bj.kneelingtonguefellatio",
+ "name": "Kneeling Tongue Fellatio",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Kne|BJ|KneelingTongueFellatio",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaKne/BJ/KneelingTongueFellatio.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PKneelingLickingPenisMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/KneelingBlowjob/OStim2PKneelingLickingPenisMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "squatting"
+   ],
+   "posture": "squatting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/bj-kneelingtonguefellatio_s1_0",
+    "opensex/bj-kneelingtonguefellatio_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/bj-kneelingtonguefellatio_s2_0",
+    "opensex/bj-kneelingtonguefellatio_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/bj-kneelingtonguefellatio_s3_0",
+    "opensex/bj-kneelingtonguefellatio_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/bj-kneelingtonguefellatio_s4_0",
+    "opensex/bj-kneelingtonguefellatio_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.kneelingtonguefellatio--kneelingfellatioeyecontact",
+   "label": "suck {0}s dick",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.kneelingtonguefellatio--malestandingfemalekneeling",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.kneelingtonguefellatio--acekneelinghandjob",
+   "label": "jerk {0} off",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.kneelingtonguefellatio--ostim2pkneelingjerktofacemf",
+   "label": "masturbate to {1}s face",
+   "priority": 3000
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "mouth": {
+  "b": "lollipop"
+ },
+ "acts": [
+  {
+   "type": "oral_penis",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "head",
+   "eyes"
+  ]
+ ]
+}

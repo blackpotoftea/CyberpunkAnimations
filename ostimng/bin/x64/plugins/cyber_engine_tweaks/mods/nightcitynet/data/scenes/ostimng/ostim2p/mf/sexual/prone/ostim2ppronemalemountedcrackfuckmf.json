@@ -1,0 +1,111 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.prone.ostim2ppronemalemountedcrackfuckmf",
+ "name": "Prone Male Sitting Up Fucking Ass Crack [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PProneMaleMountedCrackFuckMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Prone/OStim2PProneMaleMountedCrackFuckMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling",
+    "ontop"
+   ],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "lyingfront",
+    "facingaway",
+    "onbottom"
+   ],
+   "posture": "lyingfront",
+   "mods": [
+    "facingaway",
+    "onbottom"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2ppronemalemountedcrackfuckmf_s1_0",
+    "opensex/sx-pronesexfemalelegsin_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "ostimng/ostim2ppronemalemountedcrackfuckmf_s2_0",
+    "opensex/sx-pronesexfemalelegsin_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "ostimng/ostim2ppronemalemountedcrackfuckmf_s3_0",
+    "opensex/sx-pronesexfemalelegsin_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  },
+  {
+   "clips": [
+    "ostimng/ostim2ppronemalemountedcrackfuckmf_s4_0",
+    "opensex/sx-pronesexfemalelegsin_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 3.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.kne-afo.ap.femaleallfours",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.prone.ostim2ppronemalemountedmf",
+   "label": "penetrate {1}",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.prone.ostim2ppronejerktobuttmf",
+   "label": "masturbate ({0})",
+   "priority": 0
+  }
+ ],
+ "tags": [
+  "prone"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  []
+ ]
+}

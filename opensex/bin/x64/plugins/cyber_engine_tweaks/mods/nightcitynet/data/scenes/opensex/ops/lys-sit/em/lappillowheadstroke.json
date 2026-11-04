@@ -1,0 +1,88 @@
+{
+ "id": "opensex.ops.lys-sit.em.lappillowheadstroke",
+ "name": "Lap Pillow Head Stroke",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyS!Sit|Em|LapPillowHeadStroke",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LySSit/Em/LapPillowHeadStroke.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-lappillowheadstroke_s1_0",
+    "opensex/em-lappillowheadstroke_s1_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  },
+  {
+   "clips": [
+    "opensex/em-lappillowheadstroke_s1_0",
+    "opensex/em-lappillowheadstroke_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/em-lappillowheadstroke_s2_0",
+    "opensex/em-lappillowheadstroke_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/em-lappillowheadstroke_s3_0",
+    "opensex/em-lappillowheadstroke_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.lappillowheadstroke--lappillow",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

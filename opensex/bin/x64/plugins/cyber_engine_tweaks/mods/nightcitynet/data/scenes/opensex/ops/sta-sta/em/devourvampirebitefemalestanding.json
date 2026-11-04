@@ -1,0 +1,70 @@
+{
+ "id": "opensex.ops.sta-sta.em.devourvampirebitefemalestanding",
+ "name": "Vampire Bite Female Standing",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Em|DevourVampireBiteFemaleStanding",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Em/DevourVampireBiteFemaleStanding.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingVampireBiteFemaleMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/vampire/StandingVampireBiteFemale/OStim2PStandingVampireBiteFemaleMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-devourvampirebitefemalestanding_0",
+    "opensex/em-devourvampirebitefemalestanding_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.sta-sta.em.gobackdevourvampirebitefemalestanding",
+   "label": "stop feeding on {0}",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.devourvampirebitefemalestanding--lesbiananimationhub",
+   "label": "get closer"
+  },
+  {
+   "to": "opensex.gen.devourvampirebitefemalestanding--standingholding",
+   "label": "get closer"
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

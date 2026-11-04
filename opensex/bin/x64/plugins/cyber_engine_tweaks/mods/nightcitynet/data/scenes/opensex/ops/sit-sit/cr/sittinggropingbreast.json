@@ -1,0 +1,92 @@
+{
+ "id": "opensex.ops.sit-sit.cr.sittinggropingbreast",
+ "name": "Sitting Groping Breast",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sit!Sit|Cr|SittingGropingBreast",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/SitSit/Cr/SittingGropingBreast.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/cr-sittinggropingbreast_s1_0",
+    "opensex/cr-sittinggropingbreast_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/cr-sittinggropingbreast_s2_0",
+    "opensex/cr-sittinggropingbreast_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/cr-sittinggropingbreast_s3_0",
+    "opensex/cr-sittinggropingbreast_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/cr-sittinggropingbreast_s4_0",
+    "opensex/cr-sittinggropingbreast_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.sittinggropingbreast--sitting",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.sittinggropingbreast--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

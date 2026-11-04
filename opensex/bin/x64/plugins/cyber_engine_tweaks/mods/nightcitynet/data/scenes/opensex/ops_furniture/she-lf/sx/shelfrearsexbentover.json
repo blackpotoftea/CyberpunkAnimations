@@ -1,0 +1,102 @@
+{
+ "id": "opensex.ops_furniture.she-lf.sx.shelfrearsexbentover",
+ "name": "Shelf Rear Sex Bent Over",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_furniture|She!Lf|Sx|ShelfRearSexBentOver",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_furniture/SheLf/Sx/ShelfRearSexBentOver.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "bendover",
+    "facingaway",
+    "standing"
+   ],
+   "posture": "bendover",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-shelfrearsexbentover_s1_0",
+    "opensex/sx-shelfrearsexbentover_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-shelfrearsexbentover_s2_0",
+    "opensex/sx-shelfrearsexbentover_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-shelfrearsexbentover_s3_0",
+    "opensex/sx-shelfrearsexbentover_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-shelfrearsexbentover_s4_0",
+    "opensex/sx-shelfrearsexbentover_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.shelfrearsexbentover--shelfidlebentover",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.shelfrearsexbentover--shelfrearsexbentoverbreastgrab",
+   "label": null
+  }
+ ],
+ "tags": [],
+ "furniture": "shelf",
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

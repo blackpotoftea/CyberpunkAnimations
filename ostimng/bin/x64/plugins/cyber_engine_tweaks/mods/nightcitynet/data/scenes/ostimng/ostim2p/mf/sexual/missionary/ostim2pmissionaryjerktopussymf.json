@@ -1,0 +1,89 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.missionary.ostim2pmissionaryjerktopussymf",
+ "name": "Missionary Jerk To Pussy [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PMissionaryJerkToPussyMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Missionary/OStim2PMissionaryJerkToPussyMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling",
+    "ontop"
+   ],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingback",
+    "onbottom"
+   ],
+   "posture": "lyingback",
+   "mods": [
+    "onbottom"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pmissionaryjerktopussymf_s1_0",
+    "ostimng/ostim2pmissionaryjerktopussymf_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pmissionaryjerktopussymf--spreadlegsfemale",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pmissionaryjerktopussymf--ostim2pmissionarymf",
+   "label": "take {1} missionary style",
+   "priority": 1000
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.standingsitting.ostim2pstandingsittingjerktofacemasturbationmf",
+   "label": "stand up ({0})",
+   "priority": 1000
+  }
+ ],
+ "tags": [
+  "missionary"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "a",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

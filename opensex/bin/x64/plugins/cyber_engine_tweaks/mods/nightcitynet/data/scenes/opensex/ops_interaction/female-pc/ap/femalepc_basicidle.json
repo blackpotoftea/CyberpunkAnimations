@@ -1,0 +1,102 @@
+{
+ "id": "opensex.ops_interaction.female-pc.ap.femalepc_basicidle",
+ "name": "Female PC Basic Idle",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_interaction|Female!PC|Ap|FemalePC_BasicIdle",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_interaction/FemalePC/Ap/FemalePC_BasicIdle.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-femalepc_basicidle_0",
+    "opensex/ap-femalepc_basicidle_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops_interaction.female-pc.ap.femalepc_caresscheekstroke",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_interaction.female-pc.ap.femalepc_caressfail",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_interaction.female-pc.ap.femalepc_caressholdhands",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_interaction.female-pc.ap.femalepc_caresshug",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_interaction.female-pc.ap.femalepc_chatter",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_interaction.female-pc.ap.femalepc_chatterfail",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_interaction.female-pc.ap.femalepc_court",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_interaction.female-pc.ap.femalepc_courtfail",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_interaction.female-pc.ap.femalepc_kiss1",
+   "label": null
+  },
+  {
+   "to": "opensex.ops_interaction.male-pc.ap.malepc_basicidle",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.lesbiananimationhub",
+   "label": "get closer"
+  },
+  {
+   "to": "opensex.gen.femalepc_basicidle--standingholding",
+   "label": "get closer"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

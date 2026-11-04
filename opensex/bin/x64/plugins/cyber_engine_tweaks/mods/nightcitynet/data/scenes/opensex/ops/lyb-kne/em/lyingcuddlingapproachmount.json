@@ -1,0 +1,71 @@
+{
+ "id": "opensex.ops.lyb-kne.em.lyingcuddlingapproachmount",
+ "name": "Lying Cuddling Approach Mount",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyB!Kne|Em|LyingCuddlingApproachMount",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyBKne/Em/LyingCuddlingApproachMount.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-lyingcuddlingapproachmount_0",
+    "opensex/em-lyingcuddlingapproachmount_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.lyingcuddlingapproachmount--lyingcuddlingapproach",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.lyingcuddlingapproachmount--lyingcuddlingapproachkiss",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.lyingcuddlingapproachmount--lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "opensex.gen.lyingcuddlingapproachmount--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle",
+  "spooning"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

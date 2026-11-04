@@ -1,0 +1,66 @@
+{
+ "id": "opensex.ops.lyb-kne.hj.acelyinghandjob_maleclimax",
+ "name": "Lying Handjob Climax",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyB!Kne|HJ|AceLyingHandjob_MaleClimax",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LyBKne/HJ/AceLyingHandjob_MaleClimax.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "climaxing",
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": [
+    "climaxing"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/hj-acelyinghandjob_maleclimax_0",
+    "opensex/hj-acelyinghandjob_maleclimax_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.lyb-kne.ho.acelyinghandjob_afterclimax",
+ "length": 8.0,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "b",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  []
+ ]
+}

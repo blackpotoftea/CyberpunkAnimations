@@ -1,0 +1,68 @@
+{
+ "id": "opensex.ops.3p-lying.em.3pspooningsleepingembrace",
+ "name": "3P Spooning Sleeping　Embrace",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|3P!Lying|Em|3PSpooningSleepingEmbrace",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/3PLying/Em/3PSpooningSleepingEmbrace.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-3pspooningsleepingembrace_0",
+    "opensex/em-3pspooningsleepingembrace_1",
+    "opensex/em-3pspooningsleepingembrace_2"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.3p-lying.em.3pspooningsleeping",
+   "label": null
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  [],
+  []
+ ]
+}

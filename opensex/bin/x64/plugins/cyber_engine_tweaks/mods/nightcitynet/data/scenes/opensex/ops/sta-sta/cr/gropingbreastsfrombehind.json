@@ -1,0 +1,95 @@
+{
+ "id": "opensex.ops.sta-sta.cr.gropingbreastsfrombehind",
+ "name": "Standing Groping Breasts",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Cr|GropingBreastsFromBehind",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Cr/GropingBreastsFromBehind.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "facingaway",
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/cr-gropingbreastsfrombehind_s1_0",
+    "opensex/cr-gropingbreastsfrombehind_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/cr-gropingbreastsfrombehind_s2_0",
+    "opensex/cr-gropingbreastsfrombehind_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/cr-gropingbreastsfrombehind_s3_0",
+    "opensex/cr-gropingbreastsfrombehind_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/cr-gropingbreastsfrombehind_s4_0",
+    "opensex/cr-gropingbreastsfrombehind_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.gropingbreastsfrombehind--standingholdingfrombehind",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.gropingbreastsfrombehind--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

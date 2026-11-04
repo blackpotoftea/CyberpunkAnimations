@@ -1,0 +1,101 @@
+{
+ "id": "ostimng.ostim2p.mf.sensual.ostim2pstandingkissmf",
+ "name": "Standing Kiss [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingKissMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingKissMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2pstandingkissmf_0",
+    "ostimng/ostim2pstandingkissmf_1"
+   ],
+   "playback": 0.666,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2pstandingkissmf--standingholding",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissmf--ostim2pstandingkissembracemf",
+   "label": "embrace {1}",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissmf--ostim2pstandingholdingchinkissmf",
+   "label": "hold {1}s chin",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissmf--ostim2pstandingkissholdinghipmf",
+   "label": "put both hands on {1}s hip",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissmf--ostim2pstandinghandholdingkissmf",
+   "label": "hold {1}s hands",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissmf--ostim2pstandingkissgropingbuttmf",
+   "label": "grope {1}s butt",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissmf--handjobkiss",
+   "label": "jerk {0} off",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissmf--standingkissfingering",
+   "label": "finger {1}",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissmf--ostim2pstandingsquattingmf",
+   "label": "squat before {0}",
+   "priority": 2000
+  },
+  {
+   "to": "ostimng.gen.ostim2pstandingkissmf--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

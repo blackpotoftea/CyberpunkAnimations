@@ -1,0 +1,125 @@
+{
+ "id": "opensex.ops.kne-afo.sx.doggystyleloweredtorso",
+ "name": "Doggystyle Lowered Torso",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Kne!AFo|Sx|DoggystyleLoweredTorso",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/KneAFo/Sx/DoggystyleLoweredTorso.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PDoggyStyleLowMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleLowMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "allfours",
+    "facingaway"
+   ],
+   "posture": "allfours",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-doggystyleloweredtorso_s1_0",
+    "opensex/sx-doggystyleloweredtorso_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-doggystyleloweredtorso_s2_0",
+    "opensex/sx-doggystyleloweredtorso_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-doggystyleloweredtorso_s3_0",
+    "opensex/sx-doggystyleloweredtorso_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-doggystyleloweredtorso_s4_0",
+    "opensex/sx-doggystyleloweredtorso_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.doggystyleloweredtorso--doggystyle",
+   "label": "get up({1})",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.doggystyleloweredtorso--doggystyleloweredtorsofacingside",
+   "label": "look back at {0}",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.doggystyleloweredtorso--femaleallfours",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.doggystyleloweredtorso--doggystylemalesquatting",
+   "label": "squat ({0})",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.gen.doggystyleloweredtorso--ostim2psittingdoggyjerktobuttmf",
+   "label": "masturbate to {1}s butt",
+   "priority": 3000
+  }
+ ],
+ "tags": [
+  "doggystyle"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

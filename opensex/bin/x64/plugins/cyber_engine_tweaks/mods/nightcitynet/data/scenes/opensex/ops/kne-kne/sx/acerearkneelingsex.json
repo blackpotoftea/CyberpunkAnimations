@@ -1,0 +1,101 @@
+{
+ "id": "opensex.ops.kne-kne.sx.acerearkneelingsex",
+ "name": "Rear Kneeling Sex",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Kne!Kne|Sx|AceRearKneelingSex",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/KneKne/Sx/AceRearKneelingSex.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "kneeling",
+    "facingaway"
+   ],
+   "posture": "kneeling",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-acerearkneelingsex_s1_0",
+    "opensex/sx-acerearkneelingsex_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-acerearkneelingsex_s2_0",
+    "opensex/sx-acerearkneelingsex_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-acerearkneelingsex_s3_0",
+    "opensex/sx-acerearkneelingsex_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-acerearkneelingsex_s4_0",
+    "opensex/sx-acerearkneelingsex_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.acerearkneelingsex--femaleallfours",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.acerearkneelingsex--acerearkneelingsexvariation",
+   "label": null
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

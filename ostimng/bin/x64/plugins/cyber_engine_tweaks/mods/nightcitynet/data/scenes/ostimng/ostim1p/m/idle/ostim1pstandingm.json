@@ -1,0 +1,60 @@
+{
+ "id": "ostimng.ostim1p.m.idle.ostim1pstandingm",
+ "name": "Standing [M]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim1PStandingM",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim1P/M/idle/OStim1PStandingM.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-3pstandingidle_0"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.ostim1p.f.idle.ostim1pstandingf",
+   "label": "go to female idle",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.ostim1p.m.idle.ostim1psittingm",
+   "label": "sit down",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.ostim1p.m.bathing.ostim1pbathinghubstandingm",
+   "label": "bathing menu",
+   "priority": 2500
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  []
+ ]
+}

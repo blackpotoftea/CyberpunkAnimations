@@ -1,0 +1,47 @@
+{
+ "id": "ostimng.gen.ostimdoublebedleft2psittingonlapmf--ostimdoublebedleft2psittingstandingmf",
+ "name": "Sitting On Lap On Bed (left) [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "sitting",
+   "mods": [
+    "onbottom"
+   ]
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": [
+    "ontop"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostimdoublebedleft2psittingonlapmf--ostimdoublebedleft2psittingstandingmf_0",
+    "ostimng/gen-ostimdoublebedleft2psittingonlapmf--ostimdoublebedleft2psittingstandingmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostimdoublebedleft2p.mf.idle.ostimdoublebedleft2psittingstandingmf",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "doublebed",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

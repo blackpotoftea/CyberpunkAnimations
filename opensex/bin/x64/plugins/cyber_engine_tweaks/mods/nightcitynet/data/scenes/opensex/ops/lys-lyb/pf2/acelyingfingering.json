@@ -1,0 +1,92 @@
+{
+ "id": "opensex.ops.lys-lyb.pf2.acelyingfingering",
+ "name": "Lying Fingering",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|LyS!LyB|Pf2|AceLyingFingering",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/LySLyB/Pf2/AceLyingFingering.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/pf2-acelyingfingering_s1_0",
+    "opensex/pf2-acelyingfingering_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  },
+  {
+   "clips": [
+    "opensex/pf2-acelyingfingering_s2_0",
+    "opensex/pf2-acelyingfingering_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 2.5
+  },
+  {
+   "clips": [
+    "opensex/pf2-acelyingfingering_s3_0",
+    "opensex/pf2-acelyingfingering_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 3.0
+  },
+  {
+   "clips": [
+    "opensex/pf2-acelyingfingering_s4_0",
+    "opensex/pf2-acelyingfingering_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 3.5
+  },
+  {
+   "clips": [
+    "opensex/pf2-acelyingfingering_s5_0",
+    "opensex/pf2-acelyingfingering_s5_1"
+   ],
+   "playback": 1.0,
+   "display": 4.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.acelyingfingering--spooningidle",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

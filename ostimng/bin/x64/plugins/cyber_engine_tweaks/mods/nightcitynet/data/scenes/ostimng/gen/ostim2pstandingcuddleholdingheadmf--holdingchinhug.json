@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostim2pstandingcuddleholdingheadmf--holdingchinhug",
+ "name": "Standing Cuddle Holding Head [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pstandingcuddleholdingheadmf--holdingchinhug_0",
+    "ostimng/gen-ostim2pstandingcuddleholdingheadmf--holdingchinhug_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.em.holdingchinhug",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

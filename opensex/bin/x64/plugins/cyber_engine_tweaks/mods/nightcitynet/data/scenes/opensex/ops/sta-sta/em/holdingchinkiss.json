@@ -1,0 +1,66 @@
+{
+ "id": "opensex.ops.sta-sta.em.holdingchinkiss",
+ "name": "Holding Chin Kiss",
+ "animator": "Frolique",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Em|HoldingChinKiss",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Em/HoldingChinKiss.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-holdingchinkiss_0",
+    "opensex/em-holdingchinkiss_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.holdingchinkiss--holdingchin",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.holdingchinkiss--lesbiananimationhub",
+   "label": "get closer"
+  },
+  {
+   "to": "opensex.gen.holdingchinkiss--standingholding",
+   "label": "get closer"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "id": "ostimng.gen.ostim2pstandingbehindfuckholdingwristsmf--ostim2pstandingbehindfuckholdingarmsmf",
+ "name": "Standing Fuck From Behind Holding Wrists [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "bendover",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pstandingbehindfuckholdingwristsmf--ostim2pstandingbehindfuckholdingarmsmf_0",
+    "ostimng/gen-ostim2pstandingbehindfuckholdingwristsmf--ostim2pstandingbehindfuckholdingarmsmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sexual.standingbehind.ostim2pstandingbehindfuckholdingarmsmf",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

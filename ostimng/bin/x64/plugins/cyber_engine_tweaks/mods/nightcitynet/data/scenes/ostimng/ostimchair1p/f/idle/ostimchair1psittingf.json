@@ -1,0 +1,49 @@
+{
+ "id": "ostimng.ostimchair1p.f.idle.ostimchair1psittingf",
+ "name": "Sitting [F]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimChair1PSittingF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimChair1P/F/idle/OStimChair1PSittingF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "f",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-benchidlefemalesitting_0"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.ostimchair1p.m.idle.ostimchair1psittingm",
+   "label": "go to male idle"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": "chair",
+ "acts": [],
+ "strip": [
+  []
+ ]
+}

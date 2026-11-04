@@ -1,0 +1,76 @@
+{
+ "id": "opensex.ops.sta-sta.em.standinghandholding",
+ "name": "Standing Hand Holdingg",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Em|StandingHandHolding",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Em/StandingHandHolding.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingHandHoldingLowMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingHandHoldingLowMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-standinghandholding_0",
+    "opensex/em-standinghandholding_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.sta-sta.em.gobackstandinghandholding",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.standinghandholding--ostim2pstandinghandholdinghighmf",
+   "label": "raise your hands",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.standinghandholding--ostim2pstandingheadpattingmf",
+   "label": "pat {1}s head",
+   "priority": 1000
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

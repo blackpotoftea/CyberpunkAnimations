@@ -1,0 +1,64 @@
+{
+ "id": "ostimng.ostimsinglebedleft2p.mf.sensual.ostimsinglebedleft2pbothsittingkissmf",
+ "name": "Sitting On Bed Kissing (left) [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimSingleBedLeft2PBothSittingKissMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedLeft2P/MF/sensual/OStimSingleBedLeft2PBothSittingKissMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostimbed2pbothsittingkissmf_0",
+    "ostimng/ostimbed2pbothsittingkissmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostimsinglebedleft2pbothsittingkissmf--benchbothsittingfaceeachother",
+   "label": "return"
+  },
+  {
+   "to": "ostimng.gen.ostimsinglebedleft2pbothsittingkissmf--lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "ostimng.gen.ostimsinglebedleft2pbothsittingkissmf--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [],
+ "furniture": "singlebed",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

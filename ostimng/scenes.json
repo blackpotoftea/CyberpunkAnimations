@@ -1,0 +1,8132 @@
+[
+ {
+  "id": "OStim1PSittingF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim1P/F/idle/OStim1PSittingF.json",
+  "name": "$OStim1PSittingF",
+  "length": 2.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "female",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim1PSittingF",
+  "anims": [
+   {
+    "animation": "OStim1PSittingF",
+    "clips": [
+     "ostim1psittingf_0"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim1PSittingM",
+   "OStim1PSittingToStandingF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim1PSittingToStandingF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim1P/F/idle/OStim1PSittingToStandingF.json",
+  "name": "$OStim1PSittingToStandingF",
+  "length": 3.5,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim1PSittingToStandingF",
+  "anims": [
+   {
+    "animation": "OStim1PSittingToStandingF",
+    "clips": [
+     "ostim1psittingtostandingf_0"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim1PStandingF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim1PStandingF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim1P/F/idle/OStim1PStandingF.json",
+  "name": "$OStim1PStandingF",
+  "length": 2.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim1PStandingF",
+  "anims": [
+   {
+    "animation": "OStim1PStandingF",
+    "clips": [
+     "ostim1pstandingf_0"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim1PStandingM",
+   "OStim1PStandingToSittingF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim1PStandingToSittingF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim1P/F/idle/OStim1PStandingToSittingF.json",
+  "name": "$OStim1PStandingToSittingF",
+  "length": 3.5,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim1PStandingToSittingF",
+  "anims": [
+   {
+    "animation": "OStim1PStandingToSittingF",
+    "clips": [
+     "ostim1pstandingtosittingf_0"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim1PSittingF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim2PKneelingLyingFF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/FF/idle/OStim2PKneelingLyingFF.json",
+  "name": "$OStim2PKneelingLyingFF",
+  "length": 2.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PKneelingLyingFF",
+  "anims": [
+   {
+    "animation": "OStim2PKneelingLyingFF",
+    "clips": [
+     "ostim2pkneelinglyingff_0",
+     "ostim2pkneelinglyingff_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PKneelingLyingFrontMM",
+   "OStim2PSittingFF",
+   "OStim2PSittingMF",
+   "OStim2PStandingCloseFF"
+  ],
+  "actions": [
+   {
+    "type": "holdinghand",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PSittingFF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/FF/idle/OStim2PSittingFF.json",
+  "name": "$OStim2PSittingFF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "female",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PSittingFF",
+  "anims": [
+   {
+    "animation": "OStim2PSittingFF",
+    "clips": [
+     "ostim2psittingff_0",
+     "ostim2psittingff_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PKneelingLyingFF",
+   "OStim2PKneelingLyingMM",
+   "OStim2PSittingMF",
+   "OStim2PStandingCloseFF"
+  ],
+  "actions": [
+   {
+    "type": "holdingbody",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdingbody",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStim2PStandingCloseFF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/FF/idle/OStim2PStandingCloseFF.json",
+  "name": "$OStim2PStandingCloseFF",
+  "length": 2.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PStandingCloseFF",
+  "anims": [
+   {
+    "animation": "OStim2PStandingCloseFF",
+    "clips": [
+     "ostim2pstandingcloseff_0",
+     "ostim2pstandingcloseff_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PSittingFF",
+   "OStim2PStandingApartMF",
+   "OStim2PStandingApartMM"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim2PBothLyingMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PBothLyingMF.json",
+  "name": "$OStim2PBothLyingMF",
+  "length": 2.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PBothLyingMF",
+  "anims": [
+   {
+    "animation": "OStim2PBothLyingMF",
+    "clips": [
+     "ostim2pbothlyingmf_0",
+     "ostim2pbothlyingmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PDoggyIdleMF",
+   "OStim2PLyingKneelingMF",
+   "OStim2PLyingOnTopMF",
+   "OStim2PSittingMF"
+  ],
+  "actions": [
+   {
+    "type": "holdinghand",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PLyingKneelingMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PLyingKneelingMF.json",
+  "name": "$OStim2PLyingKneelingMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PLyingKneelingMF",
+  "anims": [
+   {
+    "animation": "OStim2PLyingKneelingMF",
+    "clips": [
+     "ostim2plyingkneelingmf_0",
+     "ostim2plyingkneelingmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PBothLyingMF",
+   "OStim2PCowgirlIdleMF",
+   "OStim2PKneelingTailjobMF",
+   "OStim2PSittingFemaleInMF"
+  ],
+  "actions": [
+   {
+    "type": "holdingthigh",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStim2PLyingOnTopMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PLyingOnTopMF.json",
+  "name": "$OStim2PLyingOnTopMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "lyingfront"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PLyingOnTopMF",
+  "anims": [
+   {
+    "animation": "OStim2PLyingOnTopMF",
+    "clips": [
+     "ostim2plyingontopmf_0",
+     "ostim2plyingontopmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PBothLyingMF",
+   "OStim2PDoggyIdleMF",
+   "OStim2PSittingMF"
+  ],
+  "actions": [
+   {
+    "type": "holdinghand",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "strokinghead",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStim2PStandingApartFemaleBehindMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PStandingApartFemaleBehindMF.json",
+  "name": "$OStim2PStandingApartFemaleBehindMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "facingaway",
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PStandingApartFemaleBehindMF",
+  "anims": [
+   {
+    "animation": "OStim2PStandingApartFemaleBehindMF",
+    "playbackSpeed": 0.666,
+    "clips": [
+     "ostim2pstandingapartfemalebehindmf_0",
+     "ostim2pstandingapartfemalebehindmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PStandingApartMF",
+   "OStim2PStandingKneelingFemaleBehindMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim2PStandingApartToStandingSquattingMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PStandingApartToStandingSquattingMF.json",
+  "name": "$OStim2PStandingApartToStandingSquattingMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PStandingApartToStandingSquattingMF",
+  "anims": [
+   {
+    "animation": "OStim2PStandingApartToStandingSquattingMF",
+    "clips": [
+     "ostim2pstandingaparttostandingsquattingmf_0",
+     "ostim2pstandingaparttostandingsquattingmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PStandingSquattingMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim2PStandingKneelingFemaleBehindMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PStandingKneelingFemaleBehindMF.json",
+  "name": "$OStim2PStandingKneelingFemaleBehindMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "facingaway",
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PStandingKneelingFemaleBehindMF",
+  "anims": [
+   {
+    "animation": "OStim2PStandingKneelingFemaleBehindMF",
+    "playbackSpeed": 0.666,
+    "clips": [
+     "ostim2pstandingkneelingfemalebehindmf_0",
+     "ostim2pstandingkneelingfemalebehindmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PStandingApartFemaleBehindMF",
+   "OStim2PStandingKneelingMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim2PStandingSquattingToStandingApartMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/idle/OStim2PStandingSquattingToStandingApartMF.json",
+  "name": "$OStim2PStandingSquattingToStandingApartMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "squatting"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PStandingSquattingToStandingApartMF",
+  "anims": [
+   {
+    "animation": "OStim2PStandingSquattingToStandingApartMF",
+    "clips": [
+     "ostim2pstandingsquattingtostandingapartmf_0",
+     "ostim2pstandingsquattingtostandingapartmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PStandingApartMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim2PStandingCuddleHoldingHeadMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingCuddleHoldingHeadMF.json",
+  "name": "$OStim2PStandingCuddleHoldingHeadMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PStandingCuddleHoldingHeadMF",
+  "anims": [
+   {
+    "animation": "OStim2PStandingCuddleHoldingHeadMF",
+    "clips": [
+     "ostim2pstandingcuddleholdingheadmf_0",
+     "ostim2pstandingcuddleholdingheadmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PStandingHoldingChinHugMF",
+   "OStim2PStandingHoldingMF",
+   "OStim2PStandingHugMF"
+  ],
+  "actions": [
+   {
+    "type": "cuddling",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "cuddling",
+    "actor": 1,
+    "target": 0
+   },
+   {
+    "type": "holdinghead",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PStandingHandHoldingHighMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingHandHoldingHighMF.json",
+  "name": "$OStim2PStandingHandHoldingHighMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PStandingHandHoldingHighMF",
+  "anims": [
+   {
+    "animation": "OStim2PStandingHandHoldingHighMF",
+    "clips": [
+     "ostim2pstandinghandholdinghighmf_0",
+     "ostim2pstandinghandholdinghighmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PStandingApartMF",
+   "OStim2PStandingHandHoldingKissMF",
+   "OStim2PStandingHandHoldingLowMF"
+  ],
+  "actions": [
+   {
+    "type": "holdinghand",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PStandingHandHoldingKissMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingHandHoldingKissMF.json",
+  "name": "$OStim2PStandingHandHoldingKissMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PStandingHandHoldingKissMF",
+  "anims": [
+   {
+    "animation": "OStim2PStandingHandHoldingKissMF",
+    "clips": [
+     "ostim2pstandinghandholdingkissmf_0",
+     "ostim2pstandinghandholdingkissmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PStandingApartHandjobMF",
+   "OStim2PStandingApartMF",
+   "OStim2PStandingHandHoldingHighMF",
+   "OStim2PStandingKissFingeringMF",
+   "OStim2PStandingKissMF",
+   "OStim2PStandingSquattingMF"
+  ],
+  "actions": [
+   {
+    "type": "kissing",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdinghand",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PStandingHeadPattingMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingHeadPattingMF.json",
+  "name": "$OStim2PStandingHeadPattingMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PStandingHeadPattingMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PStandingHeadPattingMF_S1",
+    "playbackSpeed": 0.666,
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2pstandingheadpattingmf_s1_0",
+     "ostim2pstandingheadpattingmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PStandingHeadPattingMF_S2",
+    "playbackSpeed": 0.666,
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostim2pstandingheadpattingmf_s2_0",
+     null
+    ]
+   },
+   {
+    "animation": "OStim2PStandingHeadPattingMF_S3",
+    "playbackSpeed": 0.666,
+    "displaySpeed": 1.5,
+    "clips": [
+     "ostim2pstandingheadpattingmf_s3_0",
+     null
+    ]
+   },
+   {
+    "animation": "OStim2PStandingHeadPattingMF_S4",
+    "playbackSpeed": 0.666,
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostim2pstandingheadpattingmf_s4_0",
+     null
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PStandingApartMF",
+   "OStim2PStandingHandHoldingLowMF"
+  ],
+  "actions": [
+   {
+    "type": "pattinghead",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PStandingKissEmbraceMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingKissEmbraceMF.json",
+  "name": "$OStim2PStandingKissEmbraceMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PStandingKissEmbraceMF",
+  "anims": [
+   {
+    "animation": "OStim2PStandingKissEmbraceMF",
+    "clips": [
+     "ostim2pstandingkissembracemf_0",
+     "ostim2pstandingkissembracemf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PStandingHandHoldingKissMF",
+   "OStim2PStandingHandjobRKissMF",
+   "OStim2PStandingHoldingChinKissMF",
+   "OStim2PStandingHoldingMF",
+   "OStim2PStandingKissFingeringMF",
+   "OStim2PStandingKissGropingButtMF",
+   "OStim2PStandingKissHoldingHipMF",
+   "OStim2PStandingKissMF",
+   "OStim2PStandingSquattingMF"
+  ],
+  "actions": [
+   {
+    "type": "kissing",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "hug",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "hug",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStim2PStandingKissGropingButtMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingKissGropingButtMF.json",
+  "name": "$OStim2PStandingKissGropingButtMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PStandingKissGropingButtMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PStandingKissGropingButtMF_S1",
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2pstandingkissgropingbuttmf_s1_0",
+     "ostim2pstandingkissgropingbuttmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PStandingKissGropingButtMF_S2",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostim2pstandingkissgropingbuttmf_s2_0",
+     "ostim2pstandingkissgropingbuttmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PStandingKissGropingButtMF_S3",
+    "displaySpeed": 1.5,
+    "clips": [
+     "ostim2pstandingkissgropingbuttmf_s3_0",
+     "ostim2pstandingkissgropingbuttmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PStandingKissGropingButtMF_S4",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostim2pstandingkissgropingbuttmf_s4_0",
+     "ostim2pstandingkissgropingbuttmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PStandingHandHoldingKissMF",
+   "OStim2PStandingHandjobRKissMF",
+   "OStim2PStandingHoldingChinKissMF",
+   "OStim2PStandingHoldingMF",
+   "OStim2PStandingKissEmbraceMF",
+   "OStim2PStandingKissFingeringMF",
+   "OStim2PStandingKissHoldingHipMF",
+   "OStim2PStandingKissMF",
+   "OStim2PStandingSquattingMF"
+  ],
+  "actions": [
+   {
+    "type": "kissing",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "gropingbutt",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "hug",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStim2PStandingKissHoldingHipMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingKissHoldingHipMF.json",
+  "name": "$OStim2PStandingKissHoldingHipMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PStandingKissHoldingHipMF",
+  "anims": [
+   {
+    "animation": "OStim2PStandingKissHoldingHipMF",
+    "playbackSpeed": 0.666,
+    "clips": [
+     "ostim2pstandingkissholdinghipmf_0",
+     "ostim2pstandingkissholdinghipmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PStandingHandHoldingKissMF",
+   "OStim2PStandingHandjobRKissMF",
+   "OStim2PStandingHoldingChinKissMF",
+   "OStim2PStandingHoldingMF",
+   "OStim2PStandingKissEmbraceMF",
+   "OStim2PStandingKissFingeringMF",
+   "OStim2PStandingKissGropingButtMF",
+   "OStim2PStandingKissMF",
+   "OStim2PStandingSquattingMF"
+  ],
+  "actions": [
+   {
+    "type": "kissing",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdinghip",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PStandingKissMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingKissMF.json",
+  "name": "$OStim2PStandingKissMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PStandingKissMF",
+  "anims": [
+   {
+    "animation": "OStim2PStandingKissMF",
+    "playbackSpeed": 0.666,
+    "clips": [
+     "ostim2pstandingkissmf_0",
+     "ostim2pstandingkissmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PStandingHandHoldingKissMF",
+   "OStim2PStandingHandjobRKissMF",
+   "OStim2PStandingHoldingChinKissMF",
+   "OStim2PStandingHoldingMF",
+   "OStim2PStandingKissEmbraceMF",
+   "OStim2PStandingKissFingeringMF",
+   "OStim2PStandingKissGropingButtMF",
+   "OStim2PStandingKissHoldingHipMF",
+   "OStim2PStandingSquattingMF"
+  ],
+  "actions": [
+   {
+    "type": "kissing",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdinghip",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdinghead",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdingbody",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStim2PReverseCowgirlArchBackMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Cowgirl/OStim2PReverseCowgirlArchBackMF.json",
+  "name": "$OStim2PReverseCowgirlArchBackMF",
+  "length": 2.0,
+  "tags": [
+   "reversecowgirl"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling",
+     "facingaway",
+     "ontop"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PReverseCowgirlArchBackMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PReverseCowgirlArchBackMF_S1",
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2preversecowgirlarchbackmf_s1_0",
+     "ostim2preversecowgirlarchbackmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PReverseCowgirlArchBackMF_S2",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostim2preversecowgirlarchbackmf_s2_0",
+     "ostim2preversecowgirlarchbackmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PReverseCowgirlArchBackMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostim2preversecowgirlarchbackmf_s3_0",
+     "ostim2preversecowgirlarchbackmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PReverseCowgirlArchBackMF_S4",
+    "displaySpeed": 3.0,
+    "clips": [
+     "ostim2preversecowgirlarchbackmf_s4_0",
+     "ostim2preversecowgirlarchbackmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PReverseCowgirlButtJobMF",
+   "OStim2PReverseCowgirlMF"
+  ],
+  "actions": [
+   {
+    "type": "vaginalsex",
+    "actor": 0,
+    "target": 1,
+    "performer": 1
+   },
+   {
+    "type": "mounting",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStim2PReverseCowgirlButtJobMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Cowgirl/OStim2PReverseCowgirlButtJobMF.json",
+  "name": "$OStim2PReverseCowgirlButtJobMF",
+  "length": 2.0,
+  "tags": [
+   "reversecowgirl"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling",
+     "facingaway",
+     "ontop"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PReverseCowgirlArchBackMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PReverseCowgirlArchBackMF_S1",
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2preversecowgirlarchbackmf_s1_0",
+     "ostim2preversecowgirlarchbackmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PReverseCowgirlArchBackMF_S2",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostim2preversecowgirlarchbackmf_s2_0",
+     "ostim2preversecowgirlarchbackmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PReverseCowgirlArchBackMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostim2preversecowgirlarchbackmf_s3_0",
+     "ostim2preversecowgirlarchbackmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PReverseCowgirlArchBackMF_S4",
+    "displaySpeed": 3.0,
+    "clips": [
+     "ostim2preversecowgirlarchbackmf_s4_0",
+     "ostim2preversecowgirlarchbackmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PReverseCowgirlArchBackMF",
+   "OStim2PReverseCowgirlIdleMF"
+  ],
+  "actions": [
+   {
+    "type": "buttjob",
+    "actor": 1,
+    "target": 0,
+    "performer": 1
+   },
+   {
+    "type": "mounting",
+    "actor": 1,
+    "target": 0
+   },
+   {
+    "type": "holdingleg",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStim2PReverseCowgirlMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Cowgirl/OStim2PReverseCowgirlMF.json",
+  "name": "$OStim2PReverseCowgirlMF",
+  "length": 2.0,
+  "tags": [
+   "reversecowgirl"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling",
+     "facingaway",
+     "ontop"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PReverseCowgirlMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PReverseCowgirlMF_S1",
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2preversecowgirlmf_s1_0",
+     "opensex:sx-reversecowgirlmounted_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PReverseCowgirlMF_S2",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostim2preversecowgirlmf_s2_0",
+     "opensex:sx-reversecowgirlmounted_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PReverseCowgirlMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostim2preversecowgirlmf_s3_0",
+     "opensex:sx-reversecowgirlmounted_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PReverseCowgirlMF_S4",
+    "displaySpeed": 3.0,
+    "clips": [
+     "ostim2preversecowgirlmf_s4_0",
+     "opensex:sx-reversecowgirlmounted_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PReverseCowgirlArchBackMF",
+   "OStim2PReverseCowgirlButtJobMF",
+   "OStim2PReverseCowgirlIdleMF"
+  ],
+  "actions": [
+   {
+    "type": "vaginalsex",
+    "actor": 0,
+    "target": 1,
+    "performer": 1
+   },
+   {
+    "type": "mounting",
+    "actor": 1,
+    "target": 0
+   },
+   {
+    "type": "holdingleg",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStim2PReverseIdleCowgirlToReverseCowgirl1MF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Cowgirl/OStim2PReverseIdleCowgirlToReverseCowgirl1MF.json",
+  "name": "$OStim2PReverseIdleCowgirlToReverseCowgirl1MF",
+  "length": 0.75,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling",
+     "facingaway",
+     "ontop"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PReverseIdleCowgirlToReverseCowgirl1MF",
+  "anims": [
+   {
+    "animation": "OStim2PReverseIdleCowgirlToReverseCowgirl1MF",
+    "clips": [
+     "ostim2preverseidlecowgirltoreversecowgirl1mf_0",
+     "ostim2preverseidlecowgirltoreversecowgirl1mf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PReverseIdleCowgirlToReverseCowgirl2MF"
+  ],
+  "actions": [
+   {
+    "type": "mounting",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStim2PReverseIdleCowgirlToReverseCowgirl2MF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Cowgirl/OStim2PReverseIdleCowgirlToReverseCowgirl2MF.json",
+  "name": "$OStim2PReverseIdleCowgirlToReverseCowgirl2MF",
+  "length": 1.75,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling",
+     "facingaway",
+     "ontop"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PReverseIdleCowgirlToReverseCowgirl2MF",
+  "anims": [
+   {
+    "animation": "OStim2PReverseIdleCowgirlToReverseCowgirl2MF",
+    "clips": [
+     "ostim2preverseidlecowgirltoreversecowgirl2mf_0",
+     "ostim2preverseidlecowgirltoreversecowgirl2mf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PReverseCowgirlMF"
+  ],
+  "actions": [
+   {
+    "type": "mounting",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStim2PDoggyStyleHoldingArmsMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleHoldingArmsMF.json",
+  "name": "$OStim2PDoggyStyleHoldingArmsMF",
+  "length": 2.0,
+  "tags": [
+   "doggystyle"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling",
+     "facingaway"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PDoggyStyleHoldingArmsMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PDoggyStyleHoldingArmsMF_S1",
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2pdoggystyleholdingarmsmf_s1_0",
+     "ostim2pdoggystyleholdingarmsmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PDoggyStyleHoldingArmsMF_S2",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostim2pdoggystyleholdingarmsmf_s2_0",
+     "ostim2pdoggystyleholdingarmsmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PDoggyStyleHoldingArmsMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostim2pdoggystyleholdingarmsmf_s3_0",
+     "ostim2pdoggystyleholdingarmsmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PDoggyStyleHoldingArmsMF_S4",
+    "displaySpeed": 3.0,
+    "clips": [
+     "ostim2pdoggystyleholdingarmsmf_s4_0",
+     "ostim2pdoggystyleholdingarmsmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PDoggyIdleMF",
+   "OStim2PDoggyStyleHoldingArmsPullUpMF",
+   "OStim2PDoggyStyleMF",
+   "OStim2PSittingDoggyJerkToButtMF"
+  ],
+  "actions": [
+   {
+    "type": "vaginalsex",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdingarm",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PDoggyStyleHoldingArmsPullUpMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleHoldingArmsPullUpMF.json",
+  "name": "$OStim2PDoggyStyleHoldingArmsPullUpMF",
+  "length": 2.0,
+  "tags": [
+   "doggystyle"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling",
+     "facingaway",
+     "bendover"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PDoggyStyleHoldingArmsPullUpMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PDoggyStyleHoldingArmsPullUpMF_S1",
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2pdoggystyleholdingarmspullupmf_s1_0",
+     "ostim2pdoggystyleholdingarmspullupmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PDoggyStyleHoldingArmsPullUpMF_S2",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostim2pdoggystyleholdingarmspullupmf_s2_0",
+     "ostim2pdoggystyleholdingarmspullupmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PDoggyStyleHoldingArmsPullUpMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostim2pdoggystyleholdingarmspullupmf_s3_0",
+     "ostim2pdoggystyleholdingarmspullupmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PDoggyStyleHoldingArmsPullUpMF_S4",
+    "displaySpeed": 3.0,
+    "clips": [
+     "ostim2pdoggystyleholdingarmspullupmf_s4_0",
+     "ostim2pdoggystyleholdingarmspullupmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PDoggyStyleHoldingArmsMF",
+   "OStim2PSittingDoggyJerkToButtMF"
+  ],
+  "actions": [
+   {
+    "type": "vaginalsex",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdingarm",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PDoggyStyleNoHandsMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/DoggyStyle/OStim2PDoggyStyleNoHandsMF.json",
+  "name": "$OStim2PDoggyStyleNoHandsMF",
+  "length": 2.0,
+  "tags": [
+   "doggystyle"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "allfours",
+     "facingaway"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PDoggyStyleNoHandsMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PDoggyStyleNoHandsMF_S1",
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2pdoggystylenohandsmf_s1_0",
+     "ostim2pdoggystylenohandsmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PDoggyStyleNoHandsMF_S2",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostim2pdoggystylenohandsmf_s2_0",
+     "ostim2pdoggystylenohandsmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PDoggyStyleNoHandsMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostim2pdoggystylenohandsmf_s3_0",
+     "ostim2pdoggystylenohandsmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PDoggyStyleNoHandsMF_S4",
+    "displaySpeed": 3.0,
+    "clips": [
+     "ostim2pdoggystylenohandsmf_s4_0",
+     "ostim2pdoggystylenohandsmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PDoggyIdleMF",
+   "OStim2PDoggyStyleMF",
+   "OStim2PKneelingBehindTeaseJerkMF",
+   "OStim2PSittingDoggyJerkToButtMF"
+  ],
+  "actions": [
+   {
+    "type": "vaginalsex",
+    "actor": 0,
+    "target": 1,
+    "performer": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PSittingDoggyJerkToButtMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/DoggyStyle/OStim2PSittingDoggyJerkToButtMF.json",
+  "name": "$OStim2PSittingDoggyJerkToButtMF",
+  "length": 2.0,
+  "tags": [
+   "doggystyle"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "facingaway",
+     "kneeling"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PSittingDoggyJerkToButtMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PSittingDoggyJerkToButtMF_S1",
+    "displaySpeed": 1,
+    "clips": [
+     "ostim2psittingdoggyjerktobuttmf_s1_0",
+     "ostim2psittingdoggyjerktobuttmf_s1_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PDoggyIdleMF",
+   "OStim2PDoggyStyleMF",
+   "OStim2PKneelingBehindTeaseJerkMF",
+   "OStim2PProneJerkToButtMF"
+  ],
+  "actions": [
+   {
+    "type": "malemasturbation",
+    "actor": 0
+   },
+   {
+    "type": "spectating",
+    "actor": 1,
+    "target": 0
+   },
+   {
+    "type": "cumonbutt",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "cumonvulva",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PFaceRidingMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/FaceSitting/OStim2PFaceRidingMF.json",
+  "name": "$OStim2PFaceRidingMF",
+  "length": 2.0,
+  "tags": [
+   "facesitting"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PFaceRidingMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PFaceRidingMF_S1",
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2pfaceridingmf_s1_0",
+     "ostim2pfaceridingmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PFaceRidingMF_S2",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostim2pfaceridingmf_s2_0",
+     "ostim2pfaceridingmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PFaceRidingMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostim2pfaceridingmf_s3_0",
+     "ostim2pfaceridingmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PFaceRidingMF_S4",
+    "displaySpeed": 3.0,
+    "clips": [
+     "ostim2pfaceridingmf_s4_0",
+     "ostim2pfaceridingmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PCowgirlIdleMF",
+   "OStim2PFaceSittingMF"
+  ],
+  "actions": [
+   {
+    "type": "lickingvagina",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "analfingering",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "gropingbutt",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PFaceSittingMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/FaceSitting/OStim2PFaceSittingMF.json",
+  "name": "$OStim2PFaceSittingMF",
+  "length": 2.0,
+  "tags": [
+   "facesitting"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling",
+     "facingaway"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PFaceSittingMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PFaceSittingMF_S1",
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2pfacesittingmf_s1_0",
+     "ostim2pfacesittingmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PFaceSittingMF_S2",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostim2pfacesittingmf_s2_0",
+     "ostim2pfacesittingmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PFaceSittingMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostim2pfacesittingmf_s3_0",
+     "ostim2pfacesittingmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PFaceSittingMF_S4",
+    "displaySpeed": 3.0,
+    "clips": [
+     "ostim2pfacesittingmf_s4_0",
+     "ostim2pfacesittingmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PFaceRidingMF",
+   "OStim2PReverseCowgirlIdleMF"
+  ],
+  "actions": [
+   {
+    "type": "lickingvagina",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "analfingering",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "gropingbutt",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PKneelingBehindCunnilingusHoldingHeadMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindCunnilingusHoldingHeadMF.json",
+  "name": "$OStim2PKneelingBehindCunnilingusHoldingHeadMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing",
+     "facingaway"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PKneelingBehindCunnilingusHoldingHeadMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PKneelingBehindCunnilingusHoldingHeadMF_S1",
+    "playbackSpeed": 1,
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2pkneelingbehindcunnilingusholdingheadmf_s1_0",
+     "ostim2pkneelingbehindcunnilingusholdingheadmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PKneelingBehindCunnilingusHoldingHeadMF_S2",
+    "playbackSpeed": 1,
+    "displaySpeed": 1,
+    "clips": [
+     "ostim2pkneelingbehindcunnilingusholdingheadmf_s2_0",
+     "ostim2pkneelingbehindcunnilingusholdingheadmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PKneelingBehindCunnilingusHoldingHeadMF_S3",
+    "playbackSpeed": 1,
+    "displaySpeed": 1.5,
+    "clips": [
+     "ostim2pkneelingbehindcunnilingusholdingheadmf_s3_0",
+     "ostim2pkneelingbehindcunnilingusholdingheadmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PKneelingBehindCunnilingusHoldingHeadMF_S4",
+    "playbackSpeed": 1,
+    "displaySpeed": 2,
+    "clips": [
+     "ostim2pkneelingbehindcunnilingusholdingheadmf_s4_0",
+     "ostim2pkneelingbehindcunnilingusholdingheadmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PFaceRidingMF",
+   "OStim2PKneelingBehindCunnilingusMF"
+  ],
+  "actions": [
+   {
+    "type": "lickingvagina",
+    "actor": 0,
+    "target": 1,
+    "performer": 0
+   },
+   {
+    "type": "holdinghead",
+    "actor": 1,
+    "target": 0,
+    "performer": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PKneelingBehindCunnilingusMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindCunnilingusMF.json",
+  "name": "$OStim2PKneelingBehindCunnilingusMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "squatting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing",
+     "facingaway"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PKneelingBehindCunnilingusMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PKneelingBehindCunnilingusMF_S1",
+    "playbackSpeed": 1,
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2pkneelingbehindcunnilingusmf_s1_0",
+     "ostim2pkneelingbehindcunnilingusmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PKneelingBehindCunnilingusMF_S2",
+    "playbackSpeed": 1,
+    "displaySpeed": 1,
+    "clips": [
+     "ostim2pkneelingbehindcunnilingusmf_s2_0",
+     "ostim2pkneelingbehindcunnilingusmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PKneelingBehindCunnilingusMF_S3",
+    "playbackSpeed": 1,
+    "displaySpeed": 1.5,
+    "clips": [
+     "ostim2pkneelingbehindcunnilingusmf_s3_0",
+     "ostim2pkneelingbehindcunnilingusmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PKneelingBehindCunnilingusMF_S4",
+    "playbackSpeed": 1,
+    "displaySpeed": 2,
+    "clips": [
+     "ostim2pkneelingbehindcunnilingusmf_s4_0",
+     "ostim2pkneelingbehindcunnilingusmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PKneelingBehindCunnilingusHoldingHeadMF",
+   "OStim2PSquattingBehindGropingButtBothHandsMF",
+   "OStim2PStandingCunnilingusMF"
+  ],
+  "actions": [
+   {
+    "type": "lickingvagina",
+    "actor": 0,
+    "target": 1,
+    "performer": 0
+   }
+  ]
+ },
+ {
+  "id": "OStim2PKneelingBehindTeaseJerkMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/KneelingBehind/OStim2PKneelingBehindTeaseJerkMF.json",
+  "name": "$OStim2PKneelingBehindTeaseJerkMF",
+  "length": 2,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "facingaway",
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PKneelingBehindTeaseJerkMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PKneelingBehindTeaseJerkMF_S1",
+    "displaySpeed": 1,
+    "clips": [
+     "ostim2pkneelingbehindteasejerkmf_s1_0",
+     "ostim2pkneelingbehindteasejerkmf_s1_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PDoggyStyleHoldingArmsPullUpMF",
+   "OStim2PFaceRidingMF",
+   "OStim2PSquattingBehindGropingButtBothHandsMF",
+   "OStim2PStandingBehindJerkToButtMF"
+  ],
+  "actions": [
+   {
+    "type": "malemasturbation",
+    "actor": 0
+   },
+   {
+    "type": "spectating",
+    "actor": 1,
+    "target": 0
+   },
+   {
+    "type": "cumonvulva",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "gropingbreast",
+    "actor": 1,
+    "performer": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PKneelingBlowjobHoldingHeadMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/KneelingBlowjob/OStim2PKneelingBlowjobHoldingHeadMF.json",
+  "name": "$OStim2PKneelingBlowjobHoldingHeadMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PKneelingBlowjobHoldingHeadMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PKneelingBlowjobHoldingHeadMF_S1",
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2pkneelingblowjobholdingheadmf_s1_0",
+     "ostim2pkneelingblowjobholdingheadmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PKneelingBlowjobHoldingHeadMF_S2",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostim2pkneelingblowjobholdingheadmf_s2_0",
+     "ostim2pkneelingblowjobholdingheadmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PKneelingBlowjobHoldingHeadMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostim2pkneelingblowjobholdingheadmf_s3_0",
+     "ostim2pkneelingblowjobholdingheadmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PKneelingBlowjobHoldingHeadMF_S4",
+    "displaySpeed": 3.0,
+    "clips": [
+     "ostim2pkneelingblowjobholdingheadmf_s4_0",
+     "ostim2pkneelingblowjobholdingheadmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PKneelingBlowjobHoldLegsMF",
+   "OStim2PKneelingBlowjobMF",
+   "OStim2PKneelingFacefuckMF",
+   "OStim2PKneelingJerkToFaceMF",
+   "OStim2PKneelingLickingPenisMF",
+   "OStim2PStandingKneelingMF",
+   "OStim2PStandingKneelingTitfuckMF"
+  ],
+  "actions": [
+   {
+    "type": "blowjob",
+    "actor": 1,
+    "target": 0
+   },
+   {
+    "type": "holdinghead",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PMaleKneelingAllFoursJerkToFaceMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/MaleSitting/OStim2PMaleKneelingAllFoursJerkToFaceMF.json",
+  "name": "$OStim2PMaleKneelingAllFoursJerkToFaceMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "allfours"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PMaleKneelingAllFoursJerkToFaceMF",
+  "anims": [
+   {
+    "animation": "OStim2PMaleKneelingAllFoursJerkToFaceMF",
+    "displaySpeed": 1,
+    "clips": [
+     "ostim2pmalekneelingallfoursjerktofacemf_0",
+     "ostim2pmalekneelingallfoursjerktofacemf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PMaleKneelingAllFoursBlowJobMF",
+   "OStim2PMaleSittingJerkToFaceMF",
+   "OStim2PSittingFemaleInMF"
+  ],
+  "actions": [
+   {
+    "type": "malemasturbation",
+    "actor": 0
+   },
+   {
+    "type": "spectating",
+    "actor": 1,
+    "target": 0
+   },
+   {
+    "type": "facial",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "cumonchest",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PMaleSittingBlowJobMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingBlowJobMF.json",
+  "name": "$OStim2PMaleSittingBlowJobMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling",
+     "ontop"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PMaleSittingBlowJobMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PMaleSittingBlowJobMF_S1",
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2pmalesittingblowjobmf_s1_0",
+     "ostim2pmalesittingblowjobmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PMaleSittingBlowJobMF_S2",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostim2pmalesittingblowjobmf_s2_0",
+     "ostim2pmalesittingblowjobmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PMaleSittingBlowJobMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostim2pmalesittingblowjobmf_s3_0",
+     "ostim2pmalesittingblowjobmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PMaleSittingBlowJobMF_S4",
+    "displaySpeed": 3.0,
+    "clips": [
+     "ostim2pmalesittingblowjobmf_s4_0",
+     "ostim2pmalesittingblowjobmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PCowgirlIdleMF",
+   "OStim2PMaleKneelingAllFoursBlowJobMF",
+   "OStim2PMaleSittingHandJobMF",
+   "OStim2PMaleSittingJerkToFaceMF",
+   "OStim2PMaleSittingProneBlowJobMF",
+   "OStim2PSittingFemaleInMF"
+  ],
+  "actions": [
+   {
+    "type": "blowjob",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStim2PMaleSittingHandJobMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingHandJobMF.json",
+  "name": "$OStim2PMaleSittingHandJobMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "lyingfront",
+     "ontop"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PMaleSittingHandJobMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PMaleSittingHandJobMF_S1",
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2pmalesittinghandjobmf_s1_0",
+     "ostim2pmalesittinghandjobmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PMaleSittingHandJobMF_S2",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostim2pmalesittinghandjobmf_s2_0",
+     "ostim2pmalesittinghandjobmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PMaleSittingHandJobMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostim2pmalesittinghandjobmf_s3_0",
+     "ostim2pmalesittinghandjobmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PMaleSittingHandJobMF_S4",
+    "displaySpeed": 3.0,
+    "clips": [
+     "ostim2pmalesittinghandjobmf_s4_0",
+     "ostim2pmalesittinghandjobmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PCowgirlIdleMF",
+   "OStim2PMaleSittingJerkToFaceMF",
+   "OStim2PMaleSittingProneBlowJobMF",
+   "OStim2PSittingFemaleInMF"
+  ],
+  "actions": [
+   {
+    "type": "handjob",
+    "actor": 1,
+    "target": 0
+   },
+   {
+    "type": "facial",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PMaleSittingJerkToFaceMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingJerkToFaceMF.json",
+  "name": "$OStim2PMaleSittingJerkToFaceMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling",
+     "ontop"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PMaleSittingJerkToFaceMF",
+  "anims": [
+   {
+    "animation": "OStim2PMaleSittingJerkToFaceMF",
+    "displaySpeed": 1,
+    "clips": [
+     "ostim2pmalesittingjerktofacemf_0",
+     "ostim2pmalesittingjerktofacemf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PMaleKneelingAllFoursJerkToFaceMF",
+   "OStim2PMaleSittingBlowJobMF",
+   "OStim2PMaleSittingHandJobMF",
+   "OStim2PSittingFemaleInMF"
+  ],
+  "actions": [
+   {
+    "type": "malemasturbation",
+    "actor": 0
+   },
+   {
+    "type": "spectating",
+    "actor": 1,
+    "target": 0
+   },
+   {
+    "type": "facial",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "cumonchest",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PMaleSittingProneBlowJobMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/MaleSitting/OStim2PMaleSittingProneBlowJobMF.json",
+  "name": "$OStim2PMaleSittingProneBlowJobMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "lyingfront",
+     "ontop"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PMaleSittingProneBlowJobMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PMaleSittingProneBlowJobMF_S1",
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2pmalesittingproneblowjobmf_s1_0",
+     "ostim2pmalesittingproneblowjobmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PMaleSittingProneBlowJobMF_S2",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostim2pmalesittingproneblowjobmf_s2_0",
+     "ostim2pmalesittingproneblowjobmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PMaleSittingProneBlowJobMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostim2pmalesittingproneblowjobmf_s3_0",
+     "ostim2pmalesittingproneblowjobmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PMaleSittingProneBlowJobMF_S4",
+    "displaySpeed": 3.0,
+    "clips": [
+     "ostim2pmalesittingproneblowjobmf_s4_0",
+     "ostim2pmalesittingproneblowjobmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PMaleSittingBlowJobMF",
+   "OStim2PMaleSittingHandJobMF",
+   "OStim2PMaleSittingJerkToFaceMF",
+   "OStim2PSittingFemaleInMF"
+  ],
+  "actions": [
+   {
+    "type": "blowjob",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStim2PMissionaryClimaxMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Missionary/OStim2PMissionaryClimaxMF.json",
+  "name": "$OStim2PMissionaryMF",
+  "length": 5.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "kneeling",
+     "ontop"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "lyingback",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PMissionaryClimaxMF",
+  "anims": [
+   {
+    "animation": "OStim2PMissionaryClimaxMF",
+    "displaySpeed": 1.0,
+    "clips": [
+     "opensex:sx-missionarymaleclimaxinternal_0",
+     "ostim2pmissionaryclimaxmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PMissionaryMF"
+  ],
+  "actions": [
+   {
+    "type": "vaginalsex",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdingleg",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PMissionaryJerkToPussyMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Missionary/OStim2PMissionaryJerkToPussyMF.json",
+  "name": "$OStim2PMissionaryJerkToPussyMF",
+  "length": 2.0,
+  "tags": [
+   "missionary"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "kneeling",
+     "ontop"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "lyingback",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PMissionaryJerkToPussyMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PMissionaryJerkToPussyMF_S1",
+    "displaySpeed": 1,
+    "clips": [
+     "ostim2pmissionaryjerktopussymf_s1_0",
+     "ostim2pmissionaryjerktopussymf_s1_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PMissionaryIdleMF",
+   "OStim2PMissionaryMF",
+   "OStim2PStandingSittingJerkToFaceMasturbationMF"
+  ],
+  "actions": [
+   {
+    "type": "malemasturbation",
+    "actor": 0
+   },
+   {
+    "type": "spectating",
+    "actor": 1,
+    "target": 0
+   },
+   {
+    "type": "cumonchest",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "cumonvulva",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "facial",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PMissionaryMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Missionary/OStim2PMissionaryMF.json",
+  "name": "$OStim2PMissionaryMF",
+  "length": 2.0,
+  "tags": [
+   "missionary"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "kneeling",
+     "ontop"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "lyingback",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PMissionaryMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PMissionaryMF_S1",
+    "displaySpeed": 0.5,
+    "clips": [
+     "opensex:sx-missionary_s1_0",
+     "ostim2pmissionarymf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PMissionaryMF_S2",
+    "displaySpeed": 1.0,
+    "clips": [
+     "opensex:sx-missionary_s2_0",
+     "ostim2pmissionarymf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PMissionaryMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "opensex:sx-missionary_s3_0",
+     "ostim2pmissionarymf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PMissionaryMF_S4",
+    "displaySpeed": 3.0,
+    "clips": [
+     "opensex:sx-missionary_s4_0",
+     "ostim2pmissionarymf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PMissionaryClimaxMF",
+   "OStim2PMissionaryHandHoldingMF",
+   "OStim2PMissionaryIdleMF",
+   "OStim2PMissionaryJerkToPussyMF",
+   "OStim2PMissionaryKissMF",
+   "OStim2PMissionaryLegsStretchedMF",
+   "OStim2PMissionaryLegsTogetherMF",
+   "OStim2PMissionaryLegsUpMF"
+  ],
+  "actions": [
+   {
+    "type": "vaginalsex",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdingleg",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PKneelingTailjobMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/OStim2PKneelingTailjobMF.json",
+  "name": "$OStim2PKneelingTailjobMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling",
+     "ontop"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PKneelingTailjobMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PKneelingTailjobMF_S1",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostim2pkneelingtailjobmf_s1_0",
+     "ostim2pkneelingtailjobmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PKneelingTailjobMF_S2",
+    "displaySpeed": 1.5,
+    "clips": [
+     null,
+     "ostim2pkneelingtailjobmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PKneelingTailjobMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     null,
+     "ostim2pkneelingtailjobmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PKneelingTailjobMF_S4",
+    "displaySpeed": 2.5,
+    "clips": [
+     null,
+     "ostim2pkneelingtailjobmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PLyingKneelingMF"
+  ],
+  "actions": [
+   {
+    "type": "tailjob",
+    "actor": 1,
+    "target": 0
+   },
+   {
+    "type": "holdingbody",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStim2PProneJerkToButtMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Prone/OStim2PProneJerkToButtMF.json",
+  "name": "$OStim2PProneJerkToButtMF",
+  "length": 2.0,
+  "tags": [
+   "prone"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "kneeling",
+     "ontop"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "lyingfront",
+     "facingaway",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PProneJerkToButtMF",
+  "anims": [
+   {
+    "animation": "OStim2PProneJerkToButtMF",
+    "displaySpeed": 1,
+    "clips": [
+     "ostim2ppronejerktobuttmf_0",
+     "ostim2ppronejerktobuttmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PDoggyIdleMF",
+   "OStim2PProneMaleMountedCrackFuckMF",
+   "OStim2PProneMaleMountedMF",
+   "OStim2PSittingDoggyJerkToButtMF"
+  ],
+  "actions": [
+   {
+    "type": "malemasturbation",
+    "actor": 0
+   },
+   {
+    "type": "spectating",
+    "actor": 1,
+    "target": 0
+   },
+   {
+    "type": "cumonbutt",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "cumonvulva",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PProneMaleMountedCrackFuckMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Prone/OStim2PProneMaleMountedCrackFuckMF.json",
+  "name": "$OStim2PProneMaleMountedCrackFuckMF",
+  "length": 2.0,
+  "tags": [
+   "prone"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "kneeling",
+     "ontop"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "lyingfront",
+     "facingaway",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PProneMaleMountedCrackFuckMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PProneMaleMountedCrackFuckMF_S1",
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2ppronemalemountedcrackfuckmf_s1_0",
+     "opensex:sx-pronesexfemalelegsin_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PProneMaleMountedCrackFuckMF_S2",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostim2ppronemalemountedcrackfuckmf_s2_0",
+     "opensex:sx-pronesexfemalelegsin_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PProneMaleMountedCrackFuckMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostim2ppronemalemountedcrackfuckmf_s3_0",
+     "opensex:sx-pronesexfemalelegsin_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PProneMaleMountedCrackFuckMF_S4",
+    "displaySpeed": 3.0,
+    "clips": [
+     "ostim2ppronemalemountedcrackfuckmf_s4_0",
+     "opensex:sx-pronesexfemalelegsin_s3_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PDoggyIdleMF",
+   "OStim2PProneJerkToButtMF",
+   "OStim2PProneMaleMountedMF"
+  ],
+  "actions": [
+   {
+    "type": "buttjob",
+    "actor": 1,
+    "target": 0,
+    "performer": 0
+   }
+  ]
+ },
+ {
+  "id": "OStim2PProneMaleMountedMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Prone/OStim2PProneMaleMountedMF.json",
+  "name": "$OStim2PProneMaleMountedMF",
+  "length": 2.0,
+  "tags": [
+   "prone"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "kneeling",
+     "ontop"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "lyingfront",
+     "facingaway",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PProneMaleMountedMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PProneMaleMountedMF_S1",
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2ppronemalemountedmf_s1_0",
+     "ostim2ppronemalemountedmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PProneMaleMountedMF_S2",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostim2ppronemalemountedmf_s2_0",
+     "ostim2ppronemalemountedmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PProneMaleMountedMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostim2ppronemalemountedmf_s3_0",
+     "ostim2ppronemalemountedmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PProneMaleMountedMF_S4",
+    "displaySpeed": 3.0,
+    "clips": [
+     "ostim2ppronemalemountedmf_s4_0",
+     "ostim2ppronemalemountedmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PDoggyIdleMF",
+   "OStim2PProneJerkToButtMF",
+   "OStim2PProneMF",
+   "OStim2PProneMaleMountedCrackFuckMF"
+  ],
+  "actions": [
+   {
+    "type": "vaginalsex",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PSidewaysHoldingLegMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Sideways/OStim2PSidewaysHoldingLegMF.json",
+  "name": "$OStim2PSidewaysHoldingLegMF",
+  "length": 2,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "kneeling",
+     "ontop"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "lyingside",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PSidewaysHoldingLegMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PSidewaysHoldingLegMF_S1",
+    "displaySpeed": 0.5,
+    "clips": [
+     "opensex:sx-lyingonsidesexraisedleg_s1_0",
+     "ostim2psidewaysholdinglegmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PSidewaysHoldingLegMF_S2",
+    "displaySpeed": 1,
+    "clips": [
+     "opensex:sx-lyingonsidesexraisedleg_s2_0",
+     "ostim2psidewaysholdinglegmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PSidewaysHoldingLegMF_S3",
+    "displaySpeed": 2,
+    "clips": [
+     "opensex:sx-lyingonsidesexraisedleg_s3_0",
+     "ostim2psidewaysholdinglegmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PSidewaysHoldingLegMF_S4",
+    "displaySpeed": 3,
+    "clips": [
+     "opensex:sx-lyingonsidesexraisedleg_s4_0",
+     "ostim2psidewaysholdinglegmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PSidewaysGrabArmMF",
+   "OStim2PSidewaysIdleMF",
+   "OStim2PSidewaysJerkToBodyMF",
+   "OStim2PSidewaysMF"
+  ],
+  "actions": [
+   {
+    "type": "vaginalsex",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PSidewaysJerkToBodyMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Sideways/OStim2PSidewaysJerkToBodyMF.json",
+  "name": "$OStim2PSidewaysJerkToBodyMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "kneeling",
+     "ontop"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "lyingside",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PSidewaysJerkToBodyMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PSidewaysJerkToBodyMF_S1",
+    "displaySpeed": 1,
+    "clips": [
+     "ostim2psidewaysjerktobodymf_s1_0",
+     "ostim2psidewaysjerktobodymf_s1_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PSidewaysIdleMF",
+   "OStim2PSidewaysMF"
+  ],
+  "actions": [
+   {
+    "type": "malemasturbation",
+    "actor": 0
+   },
+   {
+    "type": "spectating",
+    "actor": 1,
+    "target": 0
+   },
+   {
+    "type": "cumonchest",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "cumonbutt",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "facial",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PSidewaysMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Sideways/OStim2PSidewaysMF.json",
+  "name": "$OStim2PSidewaysMF",
+  "length": 2,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "kneeling",
+     "ontop"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "lyingside",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PSidewaysMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PSidewaysMF_S1",
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2psidewaysmf_s1_0",
+     "ostim2psidewaysmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PSidewaysMF_S2",
+    "displaySpeed": 1,
+    "clips": [
+     "ostim2psidewaysmf_s2_0",
+     "ostim2psidewaysmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PSidewaysMF_S3",
+    "displaySpeed": 2,
+    "clips": [
+     "ostim2psidewaysmf_s3_0",
+     "ostim2psidewaysmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PSidewaysMF_S4",
+    "displaySpeed": 3,
+    "clips": [
+     "ostim2psidewaysmf_s4_0",
+     "ostim2psidewaysmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PSidewaysGrabArmMF",
+   "OStim2PSidewaysHoldingLegMF",
+   "OStim2PSidewaysIdleMF",
+   "OStim2PSidewaysJerkToBodyMF"
+  ],
+  "actions": [
+   {
+    "type": "vaginalsex",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PSquattingFaceFuckMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/Squatting/OStim2PSquattingFaceFuckMF.json",
+  "name": "$OStim2PSquattingFaceFuckMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "Squatting"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PSquattingFaceFuckMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PSquattingFaceFuckMF_S1",
+    "playbackSpeed": 1,
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2psquattingfacefuckmf_s1_0",
+     "ostim2psquattingfacefuckmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PSquattingFaceFuckMF_S2",
+    "playbackSpeed": 1,
+    "displaySpeed": 1,
+    "clips": [
+     "ostim2psquattingfacefuckmf_s2_0",
+     "ostim2psquattingfacefuckmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PSquattingFaceFuckMF_S3",
+    "playbackSpeed": 1,
+    "displaySpeed": 1.5,
+    "clips": [
+     "ostim2psquattingfacefuckmf_s3_0",
+     "ostim2psquattingfacefuckmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PSquattingFaceFuckMF_S4",
+    "playbackSpeed": 1,
+    "displaySpeed": 2,
+    "clips": [
+     "ostim2psquattingfacefuckmf_s4_0",
+     "ostim2psquattingfacefuckmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PSquattingBlowjobMF",
+   "OStim2PSquattingJerkToFaceMF",
+   "OStim2PStandingSquattingMF"
+  ],
+  "actions": [
+   {
+    "type": "blowjob",
+    "actor": 1,
+    "target": 0,
+    "performer": 0
+   },
+   {
+    "type": "holdinghead",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PStandingBehindFuckHoldingArmsMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckHoldingArmsMF.json",
+  "name": "$OStim2PStandingBehindFuckHoldingArmsMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "bendover",
+     "facingaway",
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PStandingBehindFuckHoldingArmsMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PStandingBehindFuckHoldingArmsMF_S1",
+    "playbackSpeed": 1,
+    "displaySpeed": 0.5,
+    "clips": [
+     "opensex:sx-standingrearsexholdingarms_s1_0",
+     "ostim2pstandingbehindfuckholdingarmsmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PStandingBehindFuckHoldingArmsMF_S2",
+    "playbackSpeed": 1,
+    "displaySpeed": 1,
+    "clips": [
+     "opensex:sx-standingrearsexholdingarms_s2_0",
+     "ostim2pstandingbehindfuckholdingarmsmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PStandingBehindFuckHoldingArmsMF_S3",
+    "playbackSpeed": 1,
+    "displaySpeed": 1.5,
+    "clips": [
+     "opensex:sx-standingrearsexholdingarms_s3_0",
+     "ostim2pstandingbehindfuckholdingarmsmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PStandingBehindFuckHoldingArmsMF_S4",
+    "playbackSpeed": 1,
+    "displaySpeed": 2,
+    "clips": [
+     "opensex:sx-standingrearsexholdingarms_s4_0",
+     "ostim2pstandingbehindfuckholdingarmsmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PSquattingBehindGropingButtBothHandsMF",
+   "OStim2PStandingBehindFuckHoldingWristsMF",
+   "OStim2PStandingBehindFuckMF",
+   "OStim2PStandingBehindFuckNoHandsMF",
+   "OStim2PStandingBehindJerkToButtMF",
+   "OStim2PStandingButtjobMF"
+  ],
+  "actions": [
+   {
+    "type": "vaginalsex",
+    "actor": 0,
+    "target": 1,
+    "performer": 0
+   }
+  ]
+ },
+ {
+  "id": "OStim2PStandingBehindFuckHoldingWristsMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindFuckHoldingWristsMF.json",
+  "name": "$OStim2PStandingBehindFuckHoldingWristsMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "bendover",
+     "facingaway",
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PStandingBehindFuckHoldingWristsMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PStandingBehindFuckHoldingWristsMF_S1",
+    "playbackSpeed": 1,
+    "displaySpeed": 0.5,
+    "clips": [
+     "ostim2pstandingbehindfuckholdingwristsmf_s1_0",
+     "ostim2pstandingbehindfuckholdingwristsmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PStandingBehindFuckHoldingWristsMF_S2",
+    "playbackSpeed": 1,
+    "displaySpeed": 1,
+    "clips": [
+     "ostim2pstandingbehindfuckholdingwristsmf_s2_0",
+     "ostim2pstandingbehindfuckholdingwristsmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PStandingBehindFuckHoldingWristsMF_S3",
+    "playbackSpeed": 1,
+    "displaySpeed": 1.5,
+    "clips": [
+     "ostim2pstandingbehindfuckholdingwristsmf_s3_0",
+     "ostim2pstandingbehindfuckholdingwristsmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PStandingBehindFuckHoldingWristsMF_S4",
+    "playbackSpeed": 1,
+    "displaySpeed": 2,
+    "clips": [
+     "ostim2pstandingbehindfuckholdingwristsmf_s4_0",
+     "ostim2pstandingbehindfuckholdingwristsmf_s4_1"
+    ]
+   },
+   {
+    "animation": "OStim2PStandingBehindFuckHoldingWristsMF_S5",
+    "playbackSpeed": 1,
+    "displaySpeed": 2.5,
+    "clips": [
+     "ostim2pstandingbehindfuckholdingwristsmf_s5_0",
+     "ostim2pstandingbehindfuckholdingwristsmf_s5_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PSquattingBehindGropingButtBothHandsMF",
+   "OStim2PStandingBehindFuckHoldingArmsMF",
+   "OStim2PStandingBehindFuckMF",
+   "OStim2PStandingBehindFuckNoHandsMF",
+   "OStim2PStandingBehindJerkToButtMF",
+   "OStim2PStandingButtjobMF"
+  ],
+  "actions": [
+   {
+    "type": "vaginalsex",
+    "actor": 0,
+    "target": 1,
+    "performer": 0
+   }
+  ]
+ },
+ {
+  "id": "OStim2PStandingBehindJerkToButtMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/StandingBehind/OStim2PStandingBehindJerkToButtMF.json",
+  "name": "$OStim2PStandingBehindJerkToButtMF",
+  "length": 2,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "facingaway",
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PStandingBehindJerkToButtMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PStandingBehindJerkToButtMF_S1",
+    "displaySpeed": 1,
+    "clips": [
+     "ostim2pstandingbehindjerktobuttmf_s1_0",
+     "opensex:ho-rubbingassagainstcrotch_s1_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PKneelingJerkToFaceMF",
+   "OStim2PSquattingBehindGropingButtBothHandsMF",
+   "OStim2PStandingBehindFuckMF",
+   "OStim2PStandingButtjobMF",
+   "OStim2PStandingHoldingFromBehindMF",
+   "OStim2PStandingSpankIdleMF"
+  ],
+  "actions": [
+   {
+    "type": "malemasturbation",
+    "actor": 0
+   },
+   {
+    "type": "spectating",
+    "actor": 1,
+    "target": 0
+   },
+   {
+    "type": "cumonbutt",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "gropingbreast",
+    "actor": 1,
+    "performer": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PStandingSittingJerkToFaceMasturbationMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/StandingSitting/OStim2PStandingSittingJerkToFaceMasturbationMF.json",
+  "name": "$OStim2PStandingSittingJerkToFaceMasturbationMF",
+  "length": 2,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PStandingSittingJerkToFaceMasturbationMF_S1",
+  "anims": [
+   {
+    "animation": "OStim2PStandingSittingJerkToFaceMasturbationMF_S1",
+    "playbackSpeed": 1,
+    "displaySpeed": 0.5,
+    "clips": [
+     "opensex:po-acekneelingjo_s1_0",
+     "ostim2pstandingsittingjerktofacemasturbationmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStim2PStandingSittingJerkToFaceMasturbationMF_S2",
+    "playbackSpeed": 1,
+    "displaySpeed": 1,
+    "clips": [
+     "opensex:po-acekneelingjo_s2_0",
+     "ostim2pstandingsittingjerktofacemasturbationmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStim2PStandingSittingJerkToFaceMasturbationMF_S3",
+    "playbackSpeed": 1,
+    "displaySpeed": 1.5,
+    "clips": [
+     "opensex:po-acekneelingjo_s3_0",
+     "ostim2pstandingsittingjerktofacemasturbationmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStim2PStandingSittingJerkToFaceMasturbationMF_S4",
+    "playbackSpeed": 1,
+    "displaySpeed": 2,
+    "clips": [
+     "opensex:po-acekneelingjo_s4_0",
+     "ostim2pstandingsittingjerktofacemasturbationmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PKneelingFacefuckMF",
+   "OStim2PKneelingJerkToFaceMF",
+   "OStim2PMissionaryJerkToPussyMF",
+   "OStim2PStandingKneelingMF"
+  ],
+  "actions": [
+   {
+    "type": "malemasturbation",
+    "actor": 0
+   },
+   {
+    "type": "femalemasturbation",
+    "actor": 1
+   },
+   {
+    "type": "spectating",
+    "actor": 1,
+    "target": 0
+   },
+   {
+    "type": "spectating",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "facial",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "cumonchest",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PUndressBoots1MF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/undressing/OStim2PUndressBoots1MF.json",
+  "name": "$OStim2PUndressBoots1MF",
+  "length": 5.0,
+  "tags": [
+   "undressing"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PUndressBoots1MF",
+  "anims": [
+   {
+    "animation": "OStim2PUndressBoots1MF",
+    "clips": [
+     "opensex:ap-standingundressingfemaleshoes_0",
+     "ostim2pundressboots1mf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PUndressingHub1MF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim2PUndressBottom0MF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/undressing/OStim2PUndressBottom0MF.json",
+  "name": "$OStim2PUndressBottom0MF",
+  "length": 7.0,
+  "tags": [
+   "undressing"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "squatting"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PUndressBottom0MF",
+  "anims": [
+   {
+    "animation": "OStim2PUndressBottom0MF",
+    "clips": [
+     "ostim2pundressbottom0mf_0",
+     "opensex:ap-femalesquattingundressmalebottom_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PUndressingHub0MF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim2PUndressBottom1MF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/undressing/OStim2PUndressBottom1MF.json",
+  "name": "$OStim2PUndressBottom1MF",
+  "length": 6.0,
+  "tags": [
+   "undressing"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PUndressBottom1MF",
+  "anims": [
+   {
+    "animation": "OStim2PUndressBottom1MF",
+    "clips": [
+     "opensex:ap-standingundressingfemalebottom_0",
+     "ostim2pundressbottom1mf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PUndressingHub1MF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim2PUndressGloves1MF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/undressing/OStim2PUndressGloves1MF.json",
+  "name": "$OStim2PUndressGloves1MF",
+  "length": 4.0,
+  "tags": [
+   "undressing"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PUndressGloves1MF",
+  "anims": [
+   {
+    "animation": "OStim2PUndressGloves1MF",
+    "clips": [
+     "opensex:ap-3pstandingidle_0",
+     "ostim2pundressgloves1mf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PUndressingHub1MF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim2PUndressHead1MF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/undressing/OStim2PUndressHead1MF.json",
+  "name": "$OStim2PUndressHead1MF",
+  "length": 3.0,
+  "tags": [
+   "undressing"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PUndressHead1MF",
+  "anims": [
+   {
+    "animation": "OStim2PUndressHead1MF",
+    "clips": [
+     "opensex:ap-standingundressingfemaleheaditem_0",
+     "ostim2pundresshead1mf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PUndressingHub1MF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim2PUndressTop1MF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/undressing/OStim2PUndressTop1MF.json",
+  "name": "$OStim2PUndressTop1MF",
+  "length": 4.0,
+  "tags": [
+   "undressing"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PUndressTop1MF",
+  "anims": [
+   {
+    "animation": "OStim2PUndressTop1MF",
+    "clips": [
+     "opensex:ap-standingundressingfemaletop_0",
+     "ostim2pundresstop1mf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PUndressingHub1MF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim2PKneelingLyingFrontMM",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MM/idle/OStim2PKneelingLyingFrontMM.json",
+  "name": "$OStim2PKneelingLyingFrontMM",
+  "length": 2.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "male",
+    "tags": [
+     "lying"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PKneelingLyingFrontMM",
+  "anims": [
+   {
+    "animation": "OStim2PKneelingLyingFrontMM",
+    "clips": [
+     "ostim2pkneelinglyingfrontmm_0",
+     "ostim2pkneelinglyingfrontmm_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PKneelingLyingFF",
+   "OStim2PKneelingLyingMM",
+   "OStim2PSittingMF",
+   "OStim2PStandingApartMM"
+  ],
+  "actions": [
+   {
+    "type": "holdingbody",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PKneelingLyingMM",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MM/idle/OStim2PKneelingLyingMM.json",
+  "name": "$OStim2PKneelingLyingMM",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PKneelingLyingMM",
+  "anims": [
+   {
+    "animation": "OStim2PKneelingLyingMM",
+    "clips": [
+     "ostim2pkneelinglyingmm_0",
+     "ostim2pkneelinglyingmm_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PKneelingLyingFrontMM",
+   "OStim2PKneelingLyingToLyingKneelingMM",
+   "OStim2PSittingFF",
+   "OStim2PSittingMF",
+   "OStim2PStandingApartMM"
+  ],
+  "actions": [
+   {
+    "type": "holdingleg",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PKneelingLyingToLyingKneelingMM",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MM/idle/OStim2PKneelingLyingToLyingKneelingMM.json",
+  "name": "$OStim2PKneelingLyingToLyingKneelingMM",
+  "length": 3.0,
+  "tags": [],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "male",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PKneelingLyingToLyingKneelingMM",
+  "anims": [
+   {
+    "animation": "OStim2PKneelingLyingToLyingKneelingMM",
+    "clips": [
+     "ostim2pkneelinglyingtolyingkneelingmm_0",
+     "ostim2pkneelinglyingtolyingkneelingmm_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PLyingKneelingMM"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim2PLyingKneelingMM",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MM/idle/OStim2PLyingKneelingMM.json",
+  "name": "$OStim2PLyingKneelingMM",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "male",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim2PLyingKneelingMM",
+  "anims": [
+   {
+    "animation": "OStim2PLyingKneelingMM",
+    "clips": [
+     "ostim2plyingkneelingmm_0",
+     "ostim2plyingkneelingmm_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PKneelingLyingMM",
+   "OStim2PSittingFF",
+   "OStim2PSittingMF",
+   "OStim2PStandingApartMM"
+  ],
+  "actions": [
+   {
+    "type": "holdingthigh",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStim2PStandingApartMM",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MM/idle/OStim2PStandingApartMM.json",
+  "name": "$OStim2PStandingApartMM",
+  "length": 2.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim2PStandingApartMM",
+  "anims": [
+   {
+    "animation": "OStim2PStandingApartMM",
+    "clips": [
+     "ostim2pstandingapartmm_0",
+     "ostim2pstandingapartmm_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim2PKneelingLyingMM",
+   "OStim2PStandingApartMF",
+   "OStim2PStandingCloseFF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim3PLyingMMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim3P/MMF/idle/OStim3PLyingMMF.json",
+  "name": "$OStim3PLyingMMF",
+  "length": 10.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 2,
+    "intendedSex": "female",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim3PLyingMMF",
+  "anims": [
+   {
+    "animation": "OStim3PLyingMMF",
+    "clips": [
+     "ostim3plyingmmf_0",
+     "ostim3plyingmmf_1",
+     "ostim3plyingmmf_2"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim3PLyingFFF",
+   "OStim3PLyingMFF",
+   "OStim3PLyingMMM",
+   "OStim3PStandingMMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim3PStandingMMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim3P/MMF/idle/OStim3PStandingMMF.json",
+  "name": "$OStim3PStandingMMF",
+  "length": 10.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 2,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim3PStandingMMF",
+  "anims": [
+   {
+    "animation": "OStim3PStandingMMF",
+    "clips": [
+     "ostim3pstandingmmf_0",
+     "ostim3pstandingmmf_1",
+     "ostim3pstandingmmf_2"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim3PLyingMMF",
+   "OStim3PStandingFFF",
+   "OStim3PStandingMFF",
+   "OStim3PStandingMMM"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim3PStandingMMM",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim3P/MMM/idle/OStim3PStandingMMM.json",
+  "name": "Standing MMM",
+  "length": 2.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 2,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim3PStandingMMM",
+  "anims": [
+   {
+    "animation": "OStim3PStandingMMM",
+    "clips": [
+     "ostim3pstandingmmm_0",
+     "ostim3pstandingmmm_1",
+     "ostim3pstandingmmm_2"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim3PLyingMMM",
+   "OStim3PStandingFFF",
+   "OStim3PStandingMFF",
+   "OStim3PStandingMMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim4PLyingFFFF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim4P/FFFF/idle/OStim4PLyingFFFF.json",
+  "name": "$OStim4PLyingFFFF",
+  "length": 10.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "female",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 2,
+    "intendedSex": "female",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 3,
+    "intendedSex": "female",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim4PLyingMMMF",
+  "anims": [
+   {
+    "animation": "OStim4PLyingMMMF",
+    "clips": [
+     "ostim4plyingmmmf_0",
+     "ostim4plyingmmmf_1",
+     "ostim4plyingmmmf_2",
+     "ostim4plyingmmmf_3"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim4PLyingMFFF",
+   "OStim4PLyingMMFF",
+   "OStim4PLyingMMMF",
+   "OStim4PStandingFFFF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim4PStandingFFFF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim4P/FFFF/idle/OStim4PStandingFFFF.json",
+  "name": "$OStim4PStandingFFFF",
+  "length": 10.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 2,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 3,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim4PStandingMMMF",
+  "anims": [
+   {
+    "animation": "OStim4PStandingMMMF",
+    "clips": [
+     "ostim4pstandingmmmf_0",
+     "ostim4pstandingmmmf_1",
+     "ostim4pstandingmmmf_2",
+     "ostim4pstandingmmmf_3"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim4PLyingFFFF",
+   "OStim4PStandingMFFF",
+   "OStim4PStandingMMFF",
+   "OStim4PStandingMMMF",
+   "OStim4PStandingMMMM"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim4PLyingMFFF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim4P/MFFF/idle/OStim4PLyingMFFF.json",
+  "name": "$OStim4PLyingMFFF",
+  "length": 10.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 2,
+    "intendedSex": "female",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 3,
+    "intendedSex": "female",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim4PLyingMMMF",
+  "anims": [
+   {
+    "animation": "OStim4PLyingMMMF",
+    "clips": [
+     "ostim4plyingmmmf_0",
+     "ostim4plyingmmmf_1",
+     "ostim4plyingmmmf_2",
+     "ostim4plyingmmmf_3"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim4PLyingFFFF",
+   "OStim4PLyingMMFF",
+   "OStim4PLyingMMMF",
+   "OStim4PLyingMMMM",
+   "OStim4PStandingMFFF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim4PStandingMFFF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim4P/MFFF/idle/OStim4PStandingMFFF.json",
+  "name": "$OStim4PStandingMFFF",
+  "length": 10.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 2,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 3,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim4PStandingMMMF",
+  "anims": [
+   {
+    "animation": "OStim4PStandingMMMF",
+    "clips": [
+     "ostim4pstandingmmmf_0",
+     "ostim4pstandingmmmf_1",
+     "ostim4pstandingmmmf_2",
+     "ostim4pstandingmmmf_3"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim4PLyingMFFF",
+   "OStim4PStandingFFFF",
+   "OStim4PStandingMMFF",
+   "OStim4PStandingMMMF",
+   "OStim4PStandingMMMM"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim4PLyingMMFF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim4P/MMFF/idle/OStim4PLyingMMFF.json",
+  "name": "$OStim4PLyingMMFF",
+  "length": 10.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 2,
+    "intendedSex": "female",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 3,
+    "intendedSex": "female",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim4PLyingMMMF",
+  "anims": [
+   {
+    "animation": "OStim4PLyingMMMF",
+    "clips": [
+     "ostim4plyingmmmf_0",
+     "ostim4plyingmmmf_1",
+     "ostim4plyingmmmf_2",
+     "ostim4plyingmmmf_3"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim4PLyingFFFF",
+   "OStim4PLyingMFFF",
+   "OStim4PLyingMMMF",
+   "OStim4PLyingMMMM",
+   "OStim4PStandingMMFF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim4PStandingMMFF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim4P/MMFF/idle/OStim4PStandingMMFF.json",
+  "name": "$OStim4PStandingMMFF",
+  "length": 10.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 2,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 3,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim4PStandingMMMF",
+  "anims": [
+   {
+    "animation": "OStim4PStandingMMMF",
+    "clips": [
+     "ostim4pstandingmmmf_0",
+     "ostim4pstandingmmmf_1",
+     "ostim4pstandingmmmf_2",
+     "ostim4pstandingmmmf_3"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim4PLyingMMFF",
+   "OStim4PStandingFFFF",
+   "OStim4PStandingMFFF",
+   "OStim4PStandingMMMF",
+   "OStim4PStandingMMMM"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim4PLyingMMMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim4P/MMMF/idle/OStim4PLyingMMMF.json",
+  "name": "$OStim4PLyingMMMF",
+  "length": 10.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 2,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 3,
+    "intendedSex": "female",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim4PLyingMMMF",
+  "anims": [
+   {
+    "animation": "OStim4PLyingMMMF",
+    "clips": [
+     "ostim4plyingmmmf_0",
+     "ostim4plyingmmmf_1",
+     "ostim4plyingmmmf_2",
+     "ostim4plyingmmmf_3"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim4PLyingFFFF",
+   "OStim4PLyingMFFF",
+   "OStim4PLyingMMFF",
+   "OStim4PLyingMMMM",
+   "OStim4PStandingMMMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim4PStandingMMMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim4P/MMMF/idle/OStim4PStandingMMMF.json",
+  "name": "$OStim4PStandingMMMF",
+  "length": 10.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 2,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 3,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim4PStandingMMMF",
+  "anims": [
+   {
+    "animation": "OStim4PStandingMMMF",
+    "clips": [
+     "ostim4pstandingmmmf_0",
+     "ostim4pstandingmmmf_1",
+     "ostim4pstandingmmmf_2",
+     "ostim4pstandingmmmf_3"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim4PLyingMMMF",
+   "OStim4PStandingFFFF",
+   "OStim4PStandingMFFF",
+   "OStim4PStandingMMFF",
+   "OStim4PStandingMMMM"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim4PLyingMMMM",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim4P/MMMM/idle/OStim4PLyingMMMM.json",
+  "name": "$OStim4PLyingMMMF",
+  "length": 10.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 2,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 3,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim4PLyingMMMF",
+  "anims": [
+   {
+    "animation": "OStim4PLyingMMMF",
+    "clips": [
+     "ostim4plyingmmmf_0",
+     "ostim4plyingmmmf_1",
+     "ostim4plyingmmmf_2",
+     "ostim4plyingmmmf_3"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim4PLyingFFFF",
+   "OStim4PLyingMFFF",
+   "OStim4PLyingMMFF",
+   "OStim4PLyingMMMF",
+   "OStim4PStandingMMMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim4PStandingMMMM",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim4P/MMMM/idle/OStim4PStandingMMMM.json",
+  "name": "$OStim4PStandingMMMF",
+  "length": 10.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 2,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 3,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim4PStandingMMMF",
+  "anims": [
+   {
+    "animation": "OStim4PStandingMMMF",
+    "clips": [
+     "ostim4pstandingmmmf_0",
+     "ostim4pstandingmmmf_1",
+     "ostim4pstandingmmmf_2",
+     "ostim4pstandingmmmf_3"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim4PLyingMMMF",
+   "OStim4PStandingFFFF",
+   "OStim4PStandingMFFF",
+   "OStim4PStandingMMFF",
+   "OStim4PStandingMMMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim5PLyingMFFFF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim5P/MFFFF/idle/OStim5PLyingMFFFF.json",
+  "name": "$OStim5PLyingMFFFF",
+  "length": 10.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 2,
+    "intendedSex": "female",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 3,
+    "intendedSex": "female",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 4,
+    "intendedSex": "female",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim5PLyingMMMMF",
+  "anims": [
+   {
+    "animation": "OStim5PLyingMMMMF",
+    "clips": [
+     "ostim5plyingmmmmf_0",
+     "ostim5plyingmmmmf_1",
+     "ostim5plyingmmmmf_2",
+     "ostim5plyingmmmmf_3",
+     "ostim5plyingmmmmf_4"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim5PLyingMMMMF",
+   "OStim5PStandingMMMMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim5PStandingMFFFF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim5P/MFFFF/idle/OStim5PStandingMFFFF.json",
+  "name": "$OStim5PStandingMFFFF",
+  "length": 10.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 2,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 3,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 4,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim5PStandingMMMMF",
+  "anims": [
+   {
+    "animation": "OStim5PStandingMMMMF",
+    "clips": [
+     "ostim5pstandingmmmmf_0",
+     "ostim5pstandingmmmmf_1",
+     "ostim5pstandingmmmmf_2",
+     "ostim5pstandingmmmmf_3",
+     "ostim5pstandingmmmmf_4"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim5PLyingMMMMF",
+   "OStim5PStandingMMMMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim5PLyingMMMMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim5P/MMMMF/idle/OStim5PLyingMMMMF.json",
+  "name": "Lying MMMMF",
+  "length": 10.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "male",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 2,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 3,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 4,
+    "intendedSex": "female",
+    "tags": [
+     "lyingback"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStim5PLyingMMMMF",
+  "anims": [
+   {
+    "animation": "OStim5PLyingMMMMF",
+    "clips": [
+     "ostim5plyingmmmmf_0",
+     "ostim5plyingmmmmf_1",
+     "ostim5plyingmmmmf_2",
+     "ostim5plyingmmmmf_3",
+     "ostim5plyingmmmmf_4"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim5PLyingMFFFF",
+   "OStim5PStandingMMMMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStim5PStandingMMMMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStim5P/MMMMF/idle/OStim5PStandingMMMMF.json",
+  "name": "Standing MMMMF",
+  "length": 10.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": null,
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 2,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 3,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 4,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim5PStandingMMMMF",
+  "anims": [
+   {
+    "animation": "OStim5PStandingMMMMF",
+    "clips": [
+     "ostim5pstandingmmmmf_0",
+     "ostim5pstandingmmmmf_1",
+     "ostim5pstandingmmmmf_2",
+     "ostim5pstandingmmmmf_3",
+     "ostim5pstandingmmmmf_4"
+    ]
+   }
+  ],
+  "goes": [
+   "OStim5PLyingMMMMF",
+   "OStim5PStandingMFFFF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimBench2PBothSittingFF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimBench2P/FF/idle/OStimBench2PBothSittingFF.json",
+  "name": "Both Sitting Lesbian",
+  "length": 2.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": "bench",
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "female",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBench2PBothSittingFF",
+  "anims": [
+   {
+    "animation": "OStimBench2PBothSittingFF",
+    "clips": [
+     "ostimbench2pbothsittingff_0",
+     "ostimbench2pbothsittingff_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimBench2PBothSittingMF",
+   "OStimBench2PBothSittingMM",
+   "OStimChair2PSittingStandingFF",
+   "OStimChair2PStandingSittingFF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimChair2PSittingStandingFF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimChair2P/FF/idle/OStimChair2PSittingStandingFF.json",
+  "name": "$OStimChair2PSittingStandingFF",
+  "length": 2.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": "chair",
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "female",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStimBench2PSittingStandingFF",
+  "anims": [
+   {
+    "animation": "OStimBench2PSittingStandingFF",
+    "clips": [
+     "ostimbench2psittingstandingff_0",
+     "ostimbench2psittingstandingff_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimBench2PBothSittingFF",
+   "OStimChair2PSittingKneelingFF",
+   "OStimChair2PSittingStandingMF",
+   "OStimChair2PSittingStandingMM",
+   "OStimChair2PStandingSittingFF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimCookingPot1PCookingF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimCookingPot1P/F/idle/OStimCookingPot1PCookingF.json",
+  "name": "$OStimCookingPot1PCookingF",
+  "length": 2.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": "cookingpot",
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStim1PStandingF",
+  "anims": [
+   {
+    "animation": "OStim1PStandingF",
+    "clips": [
+     "ostim1pstandingf_0"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimCookingPot1PCookingM"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimDoubleBedLeft2PSittingKneelingMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedLeft2P/MF/idle/OStimDoubleBedLeft2PSittingKneelingMF.json",
+  "name": "$OStimDoubleBedLeft2PSittingKneelingMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "doublebed",
+  "offset": {
+   "x": 48,
+   "y": 21,
+   "r": 90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PSittingKneelingMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PSittingKneelingMF",
+    "clips": [
+     "ostimbed2psittingkneelingmf_0",
+     "ostimbed2psittingkneelingmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimDoubleBedLeft2PKneelingBlowjobMF",
+   "OStimDoubleBedLeft2PSittingStandingMF"
+  ],
+  "actions": [
+   {
+    "type": "holdingleg",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStimDoubleBedLeft2PSittingOnLapMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedLeft2P/MF/idle/OStimDoubleBedLeft2PSittingOnLapMF.json",
+  "name": "$OStimDoubleBedLeft2PSittingOnLapMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "doublebed",
+  "offset": {
+   "x": 48,
+   "y": 21,
+   "r": 90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling",
+     "ontop"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PSittingOnLapMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PSittingOnLapMF",
+    "clips": [
+     "ostimbed2psittingonlapmf_0",
+     "ostimbed2psittingonlapmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimDoubleBedLeft2PBothSittingMF",
+   "OStimDoubleBedLeft2PCowgirlMF",
+   "OStimDoubleBedLeft2PSittingStandingMF"
+  ],
+  "actions": [
+   {
+    "type": "holdingbody",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdingbody",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStimDoubleBedLeft2PSittingStandingFacingAwayMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedLeft2P/MF/idle/OStimDoubleBedLeft2PSittingStandingFacingAwayMF.json",
+  "name": "$OStimDoubleBedLeft2PSittingStandingMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "doublebed",
+  "offset": {
+   "x": 48,
+   "y": 21,
+   "r": 90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "facingaway",
+     "standing"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PSittingStandingFacingAwayMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PSittingStandingFacingAwayMF",
+    "clips": [
+     "ostimbed2psittingstandingfacingawaymf_0",
+     "ostimbed2psittingstandingfacingawaymf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimDoubleBedLeft2PSittingStandingMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimDoubleBedLeft2PSittingStandingMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedLeft2P/MF/idle/OStimDoubleBedLeft2PSittingStandingMF.json",
+  "name": "$OStimDoubleBedLeft2PSittingStandingMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "doublebed",
+  "offset": {
+   "x": 48,
+   "y": 21,
+   "r": 90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PSittingStandingMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PSittingStandingMF",
+    "clips": [
+     "ostimbed2psittingstandingmf_0",
+     "ostimbed2psittingstandingmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimDoubleBedLeft2PBothSittingMF",
+   "OStimDoubleBedLeft2PSittingKneelingMF",
+   "OStimDoubleBedLeft2PSittingOnLapMF",
+   "OStimDoubleBedLeft2PSittingStandingFacingAwayMF",
+   "OStimDoubleBedLeft2PStandingSittingMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimDoubleBedLeft2PStandingAllFoursMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedLeft2P/MF/idle/OStimDoubleBedLeft2PStandingAllFoursMF.json",
+  "name": "$OStimDoubleBedLeft2PStandingAllFoursMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "doublebed",
+  "offset": {
+   "x": 48,
+   "y": 21,
+   "r": 90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "allfours"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PStandingAllFoursMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PStandingAllFoursMF",
+    "clips": [
+     "ostimbed2pstandingallfoursmf_0",
+     "ostimbed2pstandingallfoursmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimDoubleBedLeft2PStandingSittingMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimDoubleBedLeft2PStandingSittingMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedLeft2P/MF/idle/OStimDoubleBedLeft2PStandingSittingMF.json",
+  "name": "$OStimDoubleBedLeft2PStandingSittingMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "doublebed",
+  "offset": {
+   "x": 48,
+   "y": 21,
+   "r": 90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PStandingSittingMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PStandingSittingMF",
+    "clips": [
+     "ostimbed2pstandingsittingmf_0",
+     "ostimbed2pstandingsittingmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimDoubleBedLeft2PBothSittingMF",
+   "OStimDoubleBedLeft2PSittingStandingMF",
+   "OStimDoubleBedLeft2PStandingAllFoursMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimDoubleBedLeft2PBothSittingKissMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedLeft2P/MF/sensual/OStimDoubleBedLeft2PBothSittingKissMF.json",
+  "name": "$OStimDoubleBedLeft2PBothSittingKissMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": "doublebed",
+  "offset": {
+   "x": 48,
+   "y": 21,
+   "r": 90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PBothSittingKissMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PBothSittingKissMF",
+    "clips": [
+     "ostimbed2pbothsittingkissmf_0",
+     "ostimbed2pbothsittingkissmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimDoubleBedLeft2PBothSittingMF"
+  ],
+  "actions": [
+   {
+    "type": "kissing",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdinghand",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdingbody",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStimDoubleBedLeft2PCowgirlMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedLeft2P/MF/sexual/OStimDoubleBedLeft2PCowgirlMF.json",
+  "name": "$OStimDoubleBedLeft2PCowgirlMF",
+  "length": 2.0,
+  "tags": [
+   "cowgirl"
+  ],
+  "furniture": "doublebed",
+  "offset": {
+   "x": 48,
+   "y": 21,
+   "r": 90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling",
+     "ontop"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PCowgirlMF_S1",
+  "anims": [
+   {
+    "animation": "OStimBed2PCowgirlMF_S1",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostimbed2pcowgirlmf_s1_0",
+     "ostimbed2pcowgirlmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PCowgirlMF_S2",
+    "displaySpeed": 1.5,
+    "clips": [
+     "ostimbed2pcowgirlmf_s2_0",
+     "ostimbed2pcowgirlmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PCowgirlMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostimbed2pcowgirlmf_s3_0",
+     "ostimbed2pcowgirlmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PCowgirlMF_S4",
+    "displaySpeed": 2.5,
+    "clips": [
+     "ostimbed2pcowgirlmf_s4_0",
+     "ostimbed2pcowgirlmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimDoubleBedLeft2PSittingOnLapMF"
+  ],
+  "actions": [
+   {
+    "type": "vaginalsex",
+    "actor": 0,
+    "target": 1,
+    "performer": 1
+   },
+   {
+    "type": "gropingbutt",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdingbody",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStimDoubleBedLeft2PKneelingBlowjobMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedLeft2P/MF/sexual/OStimDoubleBedLeft2PKneelingBlowjobMF.json",
+  "name": "$OStimDoubleBedLeft2PKneelingBlowjobMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": "doublebed",
+  "offset": {
+   "x": 48,
+   "y": 21,
+   "r": 90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PKneelingBlowjobMF_S1",
+  "anims": [
+   {
+    "animation": "OStimBed2PKneelingBlowjobMF_S1",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostimbed2pkneelingblowjobmf_s1_0",
+     "ostimbed2pkneelingblowjobmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PKneelingBlowjobMF_S2",
+    "displaySpeed": 1.5,
+    "clips": [
+     "ostimbed2pkneelingblowjobmf_s2_0",
+     "ostimbed2pkneelingblowjobmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PKneelingBlowjobMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostimbed2pkneelingblowjobmf_s3_0",
+     "ostimbed2pkneelingblowjobmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PKneelingBlowjobMF_S4",
+    "displaySpeed": 2.5,
+    "clips": [
+     "ostimbed2pkneelingblowjobmf_s4_0",
+     "ostimbed2pkneelingblowjobmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimDoubleBedLeft2PSittingKneelingMF"
+  ],
+  "actions": [
+   {
+    "type": "blowjob",
+    "actor": 1,
+    "target": 0
+   },
+   {
+    "type": "handjob",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStimDoubleBedRight2PSittingKneelingMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedRight2P/MF/idle/OStimDoubleBedRight2PSittingKneelingMF.json",
+  "name": "$OStimDoubleBedRight2PSittingKneelingMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "doublebed",
+  "offset": {
+   "x": -48,
+   "y": 21,
+   "r": -90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PSittingKneelingMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PSittingKneelingMF",
+    "clips": [
+     "ostimbed2psittingkneelingmf_0",
+     "ostimbed2psittingkneelingmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimDoubleBedRight2PKneelingBlowjobMF",
+   "OStimDoubleBedRight2PSittingStandingMF"
+  ],
+  "actions": [
+   {
+    "type": "holdingleg",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStimDoubleBedRight2PSittingOnLapMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedRight2P/MF/idle/OStimDoubleBedRight2PSittingOnLapMF.json",
+  "name": "$OStimDoubleBedRight2PSittingOnLapMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "doublebed",
+  "offset": {
+   "x": -48,
+   "y": 21,
+   "r": -90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling",
+     "ontop"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PSittingOnLapMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PSittingOnLapMF",
+    "clips": [
+     "ostimbed2psittingonlapmf_0",
+     "ostimbed2psittingonlapmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimDoubleBedRight2PBothSittingMF",
+   "OStimDoubleBedRight2PCowgirlMF",
+   "OStimDoubleBedRight2PSittingStandingMF"
+  ],
+  "actions": [
+   {
+    "type": "holdingbody",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdingbody",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStimDoubleBedRight2PSittingStandingFacingAwayMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedRight2P/MF/idle/OStimDoubleBedRight2PSittingStandingFacingAwayMF.json",
+  "name": "$OStimDoubleBedRight2PSittingStandingMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "doublebed",
+  "offset": {
+   "x": -48,
+   "y": 21,
+   "r": -90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "facingaway",
+     "standing"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PSittingStandingFacingAwayMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PSittingStandingFacingAwayMF",
+    "clips": [
+     "ostimbed2psittingstandingfacingawaymf_0",
+     "ostimbed2psittingstandingfacingawaymf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimDoubleBedRight2PSittingStandingMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimDoubleBedRight2PSittingStandingMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedRight2P/MF/idle/OStimDoubleBedRight2PSittingStandingMF.json",
+  "name": "$OStimDoubleBedRight2PSittingStandingMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "doublebed",
+  "offset": {
+   "x": -48,
+   "y": 21,
+   "r": -90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PSittingStandingMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PSittingStandingMF",
+    "clips": [
+     "ostimbed2psittingstandingmf_0",
+     "ostimbed2psittingstandingmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimDoubleBedRight2PBothSittingMF",
+   "OStimDoubleBedRight2PSittingKneelingMF",
+   "OStimDoubleBedRight2PSittingOnLapMF",
+   "OStimDoubleBedRight2PSittingStandingFacingAwayMF",
+   "OStimDoubleBedRight2PStandingSittingMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimDoubleBedRight2PStandingAllFoursMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedRight2P/MF/idle/OStimDoubleBedRight2PStandingAllFoursMF.json",
+  "name": "$OStimDoubleBedRight2PStandingAllFoursMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "doublebed",
+  "offset": {
+   "x": -48,
+   "y": 21,
+   "r": -90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "allfours"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PStandingAllFoursMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PStandingAllFoursMF",
+    "clips": [
+     "ostimbed2pstandingallfoursmf_0",
+     "ostimbed2pstandingallfoursmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimDoubleBedRight2PStandingSittingMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimDoubleBedRight2PStandingSittingMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedRight2P/MF/idle/OStimDoubleBedRight2PStandingSittingMF.json",
+  "name": "$OStimDoubleBedRight2PStandingSittingMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "doublebed",
+  "offset": {
+   "x": -48,
+   "y": 21,
+   "r": -90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PStandingSittingMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PStandingSittingMF",
+    "clips": [
+     "ostimbed2pstandingsittingmf_0",
+     "ostimbed2pstandingsittingmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimDoubleBedRight2PBothSittingMF",
+   "OStimDoubleBedRight2PSittingStandingMF",
+   "OStimDoubleBedRight2PStandingAllFoursMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimDoubleBedRight2PBothSittingKissMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedRight2P/MF/sensual/OStimDoubleBedRight2PBothSittingKissMF.json",
+  "name": "$OStimDoubleBedRight2PBothSittingKissMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": "doublebed",
+  "offset": {
+   "x": -48,
+   "y": 21,
+   "r": -90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PBothSittingKissMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PBothSittingKissMF",
+    "clips": [
+     "ostimbed2pbothsittingkissmf_0",
+     "ostimbed2pbothsittingkissmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimDoubleBedRight2PBothSittingMF"
+  ],
+  "actions": [
+   {
+    "type": "kissing",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdinghand",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdingbody",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStimDoubleBedRight2PCowgirlMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedRight2P/MF/sexual/OStimDoubleBedRight2PCowgirlMF.json",
+  "name": "$OStimDoubleBedRight2PCowgirlMF",
+  "length": 2.0,
+  "tags": [
+   "cowgirl"
+  ],
+  "furniture": "doublebed",
+  "offset": {
+   "x": -48,
+   "y": 21,
+   "r": -90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling",
+     "ontop"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PCowgirlMF_S1",
+  "anims": [
+   {
+    "animation": "OStimBed2PCowgirlMF_S1",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostimbed2pcowgirlmf_s1_0",
+     "ostimbed2pcowgirlmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PCowgirlMF_S2",
+    "displaySpeed": 1.5,
+    "clips": [
+     "ostimbed2pcowgirlmf_s2_0",
+     "ostimbed2pcowgirlmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PCowgirlMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostimbed2pcowgirlmf_s3_0",
+     "ostimbed2pcowgirlmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PCowgirlMF_S4",
+    "displaySpeed": 2.5,
+    "clips": [
+     "ostimbed2pcowgirlmf_s4_0",
+     "ostimbed2pcowgirlmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimDoubleBedRight2PSittingOnLapMF"
+  ],
+  "actions": [
+   {
+    "type": "vaginalsex",
+    "actor": 0,
+    "target": 1,
+    "performer": 1
+   },
+   {
+    "type": "gropingbutt",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdingbody",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStimDoubleBedRight2PKneelingBlowjobMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedRight2P/MF/sexual/OStimDoubleBedRight2PKneelingBlowjobMF.json",
+  "name": "$OStimDoubleBedRight2PKneelingBlowjobMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": "doublebed",
+  "offset": {
+   "x": -48,
+   "y": 21,
+   "r": -90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PKneelingBlowjobMF_S1",
+  "anims": [
+   {
+    "animation": "OStimBed2PKneelingBlowjobMF_S1",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostimbed2pkneelingblowjobmf_s1_0",
+     "ostimbed2pkneelingblowjobmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PKneelingBlowjobMF_S2",
+    "displaySpeed": 1.5,
+    "clips": [
+     "ostimbed2pkneelingblowjobmf_s2_0",
+     "ostimbed2pkneelingblowjobmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PKneelingBlowjobMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostimbed2pkneelingblowjobmf_s3_0",
+     "ostimbed2pkneelingblowjobmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PKneelingBlowjobMF_S4",
+    "displaySpeed": 2.5,
+    "clips": [
+     "ostimbed2pkneelingblowjobmf_s4_0",
+     "ostimbed2pkneelingblowjobmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimDoubleBedRight2PSittingKneelingMF"
+  ],
+  "actions": [
+   {
+    "type": "blowjob",
+    "actor": 1,
+    "target": 0
+   },
+   {
+    "type": "handjob",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStimSingleBedLeft2PSittingKneelingMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedLeft2P/MF/idle/OStimSingleBedLeft2PSittingKneelingMF.json",
+  "name": "$OStimSingleBedLeft2PSittingKneelingMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "singlebed",
+  "offset": {
+   "x": 22,
+   "y": 21,
+   "r": 90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PSittingKneelingMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PSittingKneelingMF",
+    "clips": [
+     "ostimbed2psittingkneelingmf_0",
+     "ostimbed2psittingkneelingmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimSingleBedLeft2PKneelingBlowjobMF",
+   "OStimSingleBedLeft2PSittingStandingMF"
+  ],
+  "actions": [
+   {
+    "type": "holdingleg",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStimSingleBedLeft2PSittingOnLapMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedLeft2P/MF/idle/OStimSingleBedLeft2PSittingOnLapMF.json",
+  "name": "$OStimSingleBedLeft2PSittingOnLapMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "singlebed",
+  "offset": {
+   "x": 22,
+   "y": 21,
+   "r": 90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling",
+     "ontop"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PSittingOnLapMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PSittingOnLapMF",
+    "clips": [
+     "ostimbed2psittingonlapmf_0",
+     "ostimbed2psittingonlapmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimSingleBedLeft2PBothSittingMF",
+   "OStimSingleBedLeft2PCowgirlMF",
+   "OStimSingleBedLeft2PSittingStandingMF"
+  ],
+  "actions": [
+   {
+    "type": "holdingbody",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdingbody",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStimSingleBedLeft2PSittingStandingFacingAwayMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedLeft2P/MF/idle/OStimSingleBedLeft2PSittingStandingFacingAwayMF.json",
+  "name": "$OStimSingleBedLeft2PSittingStandingMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "singlebed",
+  "offset": {
+   "x": 22,
+   "y": 21,
+   "r": 90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "facingaway",
+     "standing"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PSittingStandingFacingAwayMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PSittingStandingFacingAwayMF",
+    "clips": [
+     "ostimbed2psittingstandingfacingawaymf_0",
+     "ostimbed2psittingstandingfacingawaymf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimSingleBedLeft2PSittingStandingMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimSingleBedLeft2PSittingStandingMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedLeft2P/MF/idle/OStimSingleBedLeft2PSittingStandingMF.json",
+  "name": "$OStimSingleBedLeft2PSittingStandingMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "singlebed",
+  "offset": {
+   "x": 22,
+   "y": 21,
+   "r": 90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PSittingStandingMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PSittingStandingMF",
+    "clips": [
+     "ostimbed2psittingstandingmf_0",
+     "ostimbed2psittingstandingmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimSingleBedLeft2PBothSittingMF",
+   "OStimSingleBedLeft2PSittingKneelingMF",
+   "OStimSingleBedLeft2PSittingOnLapMF",
+   "OStimSingleBedLeft2PSittingStandingFacingAwayMF",
+   "OStimSingleBedLeft2PStandingSittingMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimSingleBedLeft2PStandingAllFoursMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedLeft2P/MF/idle/OStimSingleBedLeft2PStandingAllFoursMF.json",
+  "name": "$OStimSingleBedLeft2PStandingAllFoursMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "singlebed",
+  "offset": {
+   "x": 22,
+   "y": 21,
+   "r": 90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "allfours"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PStandingAllFoursMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PStandingAllFoursMF",
+    "clips": [
+     "ostimbed2pstandingallfoursmf_0",
+     "ostimbed2pstandingallfoursmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimSingleBedLeft2PStandingSittingMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimSingleBedLeft2PStandingSittingMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedLeft2P/MF/idle/OStimSingleBedLeft2PStandingSittingMF.json",
+  "name": "$OStimSingleBedLeft2PStandingSittingMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "singlebed",
+  "offset": {
+   "x": 22,
+   "y": 21,
+   "r": 90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PStandingSittingMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PStandingSittingMF",
+    "clips": [
+     "ostimbed2pstandingsittingmf_0",
+     "ostimbed2pstandingsittingmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimSingleBedLeft2PBothSittingMF",
+   "OStimSingleBedLeft2PSittingStandingMF",
+   "OStimSingleBedLeft2PStandingAllFoursMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimSingleBedLeft2PBothSittingKissMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedLeft2P/MF/sensual/OStimSingleBedLeft2PBothSittingKissMF.json",
+  "name": "$OStimSingleBedLeft2PBothSittingKissMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": "singlebed",
+  "offset": {
+   "x": 22,
+   "y": 21,
+   "r": 90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PBothSittingKissMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PBothSittingKissMF",
+    "clips": [
+     "ostimbed2pbothsittingkissmf_0",
+     "ostimbed2pbothsittingkissmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimSingleBedLeft2PBothSittingMF"
+  ],
+  "actions": [
+   {
+    "type": "kissing",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdinghand",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdingbody",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStimSingleBedLeft2PCowgirlMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedLeft2P/MF/sexual/OStimSingleBedLeft2PCowgirlMF.json",
+  "name": "$OStimSingleBedLeft2PCowgirlMF",
+  "length": 2.0,
+  "tags": [
+   "cowgirl"
+  ],
+  "furniture": "singlebed",
+  "offset": {
+   "x": 22,
+   "y": 21,
+   "r": 90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling",
+     "ontop"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PCowgirlMF_S1",
+  "anims": [
+   {
+    "animation": "OStimBed2PCowgirlMF_S1",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostimbed2pcowgirlmf_s1_0",
+     "ostimbed2pcowgirlmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PCowgirlMF_S2",
+    "displaySpeed": 1.5,
+    "clips": [
+     "ostimbed2pcowgirlmf_s2_0",
+     "ostimbed2pcowgirlmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PCowgirlMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostimbed2pcowgirlmf_s3_0",
+     "ostimbed2pcowgirlmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PCowgirlMF_S4",
+    "displaySpeed": 2.5,
+    "clips": [
+     "ostimbed2pcowgirlmf_s4_0",
+     "ostimbed2pcowgirlmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimSingleBedLeft2PSittingOnLapMF"
+  ],
+  "actions": [
+   {
+    "type": "vaginalsex",
+    "actor": 0,
+    "target": 1,
+    "performer": 1
+   },
+   {
+    "type": "gropingbutt",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdingbody",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStimSingleBedLeft2PKneelingBlowjobMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedLeft2P/MF/sexual/OStimSingleBedLeft2PKneelingBlowjobMF.json",
+  "name": "$OStimSingleBedLeft2PKneelingBlowjobMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": "singlebed",
+  "offset": {
+   "x": 22,
+   "y": 21,
+   "r": 90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PKneelingBlowjobMF_S1",
+  "anims": [
+   {
+    "animation": "OStimBed2PKneelingBlowjobMF_S1",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostimbed2pkneelingblowjobmf_s1_0",
+     "ostimbed2pkneelingblowjobmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PKneelingBlowjobMF_S2",
+    "displaySpeed": 1.5,
+    "clips": [
+     "ostimbed2pkneelingblowjobmf_s2_0",
+     "ostimbed2pkneelingblowjobmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PKneelingBlowjobMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostimbed2pkneelingblowjobmf_s3_0",
+     "ostimbed2pkneelingblowjobmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PKneelingBlowjobMF_S4",
+    "displaySpeed": 2.5,
+    "clips": [
+     "ostimbed2pkneelingblowjobmf_s4_0",
+     "ostimbed2pkneelingblowjobmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimSingleBedLeft2PSittingKneelingMF"
+  ],
+  "actions": [
+   {
+    "type": "blowjob",
+    "actor": 1,
+    "target": 0
+   },
+   {
+    "type": "handjob",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStimSingleBedRight2PSittingKneelingMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedRight2P/MF/idle/OStimSingleBedRight2PSittingKneelingMF.json",
+  "name": "$OStimSingleBedRight2PSittingKneelingMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "singlebed",
+  "offset": {
+   "x": -22,
+   "y": 21,
+   "r": -90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PSittingKneelingMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PSittingKneelingMF",
+    "clips": [
+     "ostimbed2psittingkneelingmf_0",
+     "ostimbed2psittingkneelingmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimSingleBedRight2PKneelingBlowjobMF",
+   "OStimSingleBedRight2PSittingStandingMF"
+  ],
+  "actions": [
+   {
+    "type": "holdingleg",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStimSingleBedRight2PSittingOnLapMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedRight2P/MF/idle/OStimSingleBedRight2PSittingOnLapMF.json",
+  "name": "$OStimSingleBedRight2PSittingOnLapMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "singlebed",
+  "offset": {
+   "x": -22,
+   "y": 21,
+   "r": -90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling",
+     "ontop"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PSittingOnLapMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PSittingOnLapMF",
+    "clips": [
+     "ostimbed2psittingonlapmf_0",
+     "ostimbed2psittingonlapmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimSingleBedRight2PBothSittingMF",
+   "OStimSingleBedRight2PCowgirlMF",
+   "OStimSingleBedRight2PSittingStandingMF"
+  ],
+  "actions": [
+   {
+    "type": "holdingbody",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdingbody",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStimSingleBedRight2PSittingStandingFacingAwayMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedRight2P/MF/idle/OStimSingleBedRight2PSittingStandingFacingAwayMF.json",
+  "name": "$OStimSingleBedRight2PSittingStandingMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "singlebed",
+  "offset": {
+   "x": -22,
+   "y": 21,
+   "r": -90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "facingaway",
+     "standing"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PSittingStandingFacingAwayMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PSittingStandingFacingAwayMF",
+    "clips": [
+     "ostimbed2psittingstandingfacingawaymf_0",
+     "ostimbed2psittingstandingfacingawaymf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimSingleBedRight2PSittingStandingMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimSingleBedRight2PSittingStandingMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedRight2P/MF/idle/OStimSingleBedRight2PSittingStandingMF.json",
+  "name": "$OStimSingleBedRight2PSittingStandingMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "singlebed",
+  "offset": {
+   "x": -22,
+   "y": 21,
+   "r": -90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PSittingStandingMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PSittingStandingMF",
+    "clips": [
+     "ostimbed2psittingstandingmf_0",
+     "ostimbed2psittingstandingmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimSingleBedRight2PBothSittingMF",
+   "OStimSingleBedRight2PSittingKneelingMF",
+   "OStimSingleBedRight2PSittingOnLapMF",
+   "OStimSingleBedRight2PSittingStandingFacingAwayMF",
+   "OStimSingleBedRight2PStandingSittingMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimSingleBedRight2PStandingAllFoursMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedRight2P/MF/idle/OStimSingleBedRight2PStandingAllFoursMF.json",
+  "name": "$OStimSingleBedRight2PStandingAllFoursMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "singlebed",
+  "offset": {
+   "x": -22,
+   "y": 21,
+   "r": -90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "allfours"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PStandingAllFoursMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PStandingAllFoursMF",
+    "clips": [
+     "ostimbed2pstandingallfoursmf_0",
+     "ostimbed2pstandingallfoursmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimSingleBedRight2PStandingSittingMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimSingleBedRight2PStandingSittingMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedRight2P/MF/idle/OStimSingleBedRight2PStandingSittingMF.json",
+  "name": "$OStimSingleBedRight2PStandingSittingMF",
+  "length": 2.0,
+  "tags": [
+   "idle"
+  ],
+  "furniture": "singlebed",
+  "offset": {
+   "x": -22,
+   "y": 21,
+   "r": -90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PStandingSittingMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PStandingSittingMF",
+    "clips": [
+     "ostimbed2pstandingsittingmf_0",
+     "ostimbed2pstandingsittingmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimSingleBedRight2PBothSittingMF",
+   "OStimSingleBedRight2PSittingStandingMF",
+   "OStimSingleBedRight2PStandingAllFoursMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimSingleBedRight2PBothSittingKissMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedRight2P/MF/sensual/OStimSingleBedRight2PBothSittingKissMF.json",
+  "name": "$OStimSingleBedRight2PBothSittingKissMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": "singlebed",
+  "offset": {
+   "x": -22,
+   "r": -90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PBothSittingKissMF",
+  "anims": [
+   {
+    "animation": "OStimBed2PBothSittingKissMF",
+    "clips": [
+     "ostimbed2pbothsittingkissmf_0",
+     "ostimbed2pbothsittingkissmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimSingleBedRight2PBothSittingMF"
+  ],
+  "actions": [
+   {
+    "type": "kissing",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdinghand",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdingbody",
+    "actor": 0,
+    "target": 1
+   }
+  ]
+ },
+ {
+  "id": "OStimSingleBedRight2PCowgirlMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedRight2P/MF/sexual/OStimSingleBedRight2PCowgirlMF.json",
+  "name": "$OStimSingleBedRight2PCowgirlMF",
+  "length": 2.0,
+  "tags": [
+   "cowgirl"
+  ],
+  "furniture": "singlebed",
+  "offset": {
+   "x": -22,
+   "r": -90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting",
+     "onbottom"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling",
+     "ontop"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PCowgirlMF_S1",
+  "anims": [
+   {
+    "animation": "OStimBed2PCowgirlMF_S1",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostimbed2pcowgirlmf_s1_0",
+     "ostimbed2pcowgirlmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PCowgirlMF_S2",
+    "displaySpeed": 1.5,
+    "clips": [
+     "ostimbed2pcowgirlmf_s2_0",
+     "ostimbed2pcowgirlmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PCowgirlMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostimbed2pcowgirlmf_s3_0",
+     "ostimbed2pcowgirlmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PCowgirlMF_S4",
+    "displaySpeed": 2.5,
+    "clips": [
+     "ostimbed2pcowgirlmf_s4_0",
+     "ostimbed2pcowgirlmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimSingleBedRight2PSittingOnLapMF"
+  ],
+  "actions": [
+   {
+    "type": "vaginalsex",
+    "actor": 0,
+    "target": 1,
+    "performer": 1
+   },
+   {
+    "type": "gropingbutt",
+    "actor": 0,
+    "target": 1
+   },
+   {
+    "type": "holdingbody",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStimSingleBedRight2PKneelingBlowjobMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimSingleBedRight2P/MF/sexual/OStimSingleBedRight2PKneelingBlowjobMF.json",
+  "name": "$OStimSingleBedRight2PKneelingBlowjobMF",
+  "length": 2.0,
+  "tags": [],
+  "furniture": "singlebed",
+  "offset": {
+   "x": -22,
+   "r": -90
+  },
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "sitting"
+    ],
+    "feetOnGround": false
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "kneeling"
+    ],
+    "feetOnGround": false
+   }
+  ],
+  "start": "OStimBed2PKneelingBlowjobMF_S1",
+  "anims": [
+   {
+    "animation": "OStimBed2PKneelingBlowjobMF_S1",
+    "displaySpeed": 1.0,
+    "clips": [
+     "ostimbed2pkneelingblowjobmf_s1_0",
+     "ostimbed2pkneelingblowjobmf_s1_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PKneelingBlowjobMF_S2",
+    "displaySpeed": 1.5,
+    "clips": [
+     "ostimbed2pkneelingblowjobmf_s2_0",
+     "ostimbed2pkneelingblowjobmf_s2_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PKneelingBlowjobMF_S3",
+    "displaySpeed": 2.0,
+    "clips": [
+     "ostimbed2pkneelingblowjobmf_s3_0",
+     "ostimbed2pkneelingblowjobmf_s3_1"
+    ]
+   },
+   {
+    "animation": "OStimBed2PKneelingBlowjobMF_S4",
+    "displaySpeed": 2.5,
+    "clips": [
+     "ostimbed2pkneelingblowjobmf_s4_0",
+     "ostimbed2pkneelingblowjobmf_s4_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimSingleBedRight2PSittingKneelingMF"
+  ],
+  "actions": [
+   {
+    "type": "blowjob",
+    "actor": 1,
+    "target": 0
+   },
+   {
+    "type": "handjob",
+    "actor": 1,
+    "target": 0
+   }
+  ]
+ },
+ {
+  "id": "OStimTable2PStandingLeaningFF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimTable2P/FF/idle/OStimTable2PStandingLeaningFF.json",
+  "name": "$OStimTable2PStandingLeaningFF",
+  "length": 2.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": "table",
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStimTable2PStandingLeaningFF",
+  "anims": [
+   {
+    "animation": "OStimTable2PStandingLeaningFF",
+    "clips": [
+     "ostimtable2pstandingleaningff_0",
+     "ostimtable2pstandingleaningff_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimTable2PBehindFF",
+   "OStimTable2PStandingLeaningMF",
+   "OStimTable2PStandingLeaningMM",
+   "OStimTable2PStandingSittingFF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimTable2PStandingLeaningMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimTable2P/MF/idle/OStimTable2PStandingLeaningMF.json",
+  "name": "$OStimTable2PStandingLeaningMF",
+  "length": 2.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": "table",
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStimTable2PStandingLeaningMF",
+  "anims": [
+   {
+    "animation": "OStimTable2PStandingLeaningMF",
+    "clips": [
+     "opensex:ap-tableidle_0",
+     "ostimtable2pstandingleaningmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimTable2PBehindMF",
+   "OStimTable2PStandingLeaningFF",
+   "OStimTable2PStandingLeaningMM",
+   "OStimTable2PStandingSittingMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimTable2PStandingLeaningMM",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimTable2P/MM/idle/OStimTable2PStandingLeaningMM.json",
+  "name": "$OStimTable2PStandingLeaningMM",
+  "length": 2.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": "table",
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStimTable2PStandingLeaningMM",
+  "anims": [
+   {
+    "animation": "OStimTable2PStandingLeaningMM",
+    "clips": [
+     "ostimtable2pstandingleaningmm_0",
+     "ostimtable2pstandingleaningmm_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimTable2PStandingLeaningFF",
+   "OStimTable2PStandingLeaningMF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimWall1PLeaningF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimWall1P/F/idle/OStimWall1PLeaningF.json",
+  "name": "$OStimWall1PLeaningF",
+  "length": 2.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": "wall",
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStimWall1PLeaningF",
+  "anims": [
+   {
+    "animation": "OStimWall1PLeaningF",
+    "clips": [
+     "ostimwall1pleaningf_0"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimWall1PLeaningM"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimWall1PLeaningM",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimWall1P/M/idle/OStimWall1PLeaningM.json",
+  "name": "Leaning Male",
+  "length": 2.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": "wall",
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStimWall1PLeaningM",
+  "anims": [
+   {
+    "animation": "OStimWall1PLeaningM",
+    "clips": [
+     "ostimwall1pleaningm_0"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimWall1PLeaningF"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimWall2PStandingLeaningFF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimWall2P/FF/idle/OStimWall2PStandingLeaningFF.json",
+  "name": "$OStimWall2PStandingLeaningFF",
+  "length": 2.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": "wall",
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStimWall2PStandingLeaningFF",
+  "anims": [
+   {
+    "animation": "OStimWall2PStandingLeaningFF",
+    "clips": [
+     "ostimwall2pstandingleaningff_0",
+     "ostimwall2pstandingleaningff_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimWall2PStandingLeaningMF",
+   "OStimWall2PStandingLeaningMM"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimWall2PStandingLeaningMF",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimWall2P/MF/idle/OStimWall2PStandingLeaningMF.json",
+  "name": "Standing Leaning Straight",
+  "length": 2.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": "wall",
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "female",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStimWall2PStandingLeaningMF",
+  "anims": [
+   {
+    "animation": "OStimWall2PStandingLeaningMF",
+    "clips": [
+     "ostimwall2pstandingleaningmf_0",
+     "ostimwall2pstandingleaningmf_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimWall2PStandingLeaningFF",
+   "OStimWall2PStandingLeaningMM"
+  ],
+  "actions": []
+ },
+ {
+  "id": "OStimWall2PStandingLeaningMM",
+  "file": "data/SKSE/Plugins/OStim/scenes/OStimWall2P/MM/idle/OStimWall2PStandingLeaningMM.json",
+  "name": "$OStimWall2PStandingLeaningMM",
+  "length": 2.0,
+  "tags": [
+   "idle",
+   "intro"
+  ],
+  "furniture": "wall",
+  "offset": null,
+  "actors": [
+   {
+    "position": 0,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   },
+   {
+    "position": 1,
+    "intendedSex": "male",
+    "tags": [
+     "standing"
+    ],
+    "feetOnGround": true
+   }
+  ],
+  "start": "OStimWall2PStandingLeaningMM",
+  "anims": [
+   {
+    "animation": "OStimWall2PStandingLeaningMM",
+    "clips": [
+     "ostimwall2pstandingleaningmm_0",
+     "ostimwall2pstandingleaningmm_1"
+    ]
+   }
+  ],
+  "goes": [
+   "OStimWall2PStandingLeaningFF",
+   "OStimWall2PStandingLeaningMF"
+  ],
+  "actions": []
+ }
+]

@@ -1,0 +1,68 @@
+{
+ "id": "ostimng.ostimdoublebedright2p.mf.idle.ostimdoublebedright2psittingkneelingmf",
+ "name": "Sitting On Bed Kneeling (right) [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimDoubleBedRight2PSittingKneelingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimDoubleBedRight2P/MF/idle/OStimDoubleBedRight2PSittingKneelingMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostimbed2psittingkneelingmf_0",
+    "ostimng/ostimbed2psittingkneelingmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.ostimdoublebedright2p.mf.idle.ostimdoublebedright2psittingstandingmf",
+   "label": "stand up ({1})",
+   "priority": 0
+  },
+  {
+   "to": "ostimng.gen.ostimdoublebedright2psittingkneelingmf--ostimdoublebedright2pkneelingblowjobmf",
+   "label": "suck {0}s dick",
+   "priority": 3000
+  },
+  {
+   "to": "opensex.ops.sta-sta.ho.lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": "doublebed",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

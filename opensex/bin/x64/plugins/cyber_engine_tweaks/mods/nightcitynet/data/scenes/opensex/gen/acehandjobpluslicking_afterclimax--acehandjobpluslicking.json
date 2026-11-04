@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.acehandjobpluslicking_afterclimax--acehandjobpluslicking",
+ "name": "Handjob plus Licking After Climax (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "lyingback",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "lyingfront",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-acehandjobpluslicking_afterclimax--acehandjobpluslicking_0",
+    "opensex/gen-acehandjobpluslicking_afterclimax--acehandjobpluslicking_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.lyb-lyf.bj.acehandjobpluslicking",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

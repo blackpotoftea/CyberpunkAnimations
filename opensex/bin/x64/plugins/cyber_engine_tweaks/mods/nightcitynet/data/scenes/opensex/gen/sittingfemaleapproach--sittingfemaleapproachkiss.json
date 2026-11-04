@@ -1,0 +1,43 @@
+{
+ "id": "opensex.gen.sittingfemaleapproach--sittingfemaleapproachkiss",
+ "name": "Sitting Female Approach (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/gen-sittingfemaleapproach--sittingfemaleapproachkiss_0",
+    "opensex/gen-sittingfemaleapproach--sittingfemaleapproachkiss_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sit-kne.ho.sittingfemaleapproachkiss",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

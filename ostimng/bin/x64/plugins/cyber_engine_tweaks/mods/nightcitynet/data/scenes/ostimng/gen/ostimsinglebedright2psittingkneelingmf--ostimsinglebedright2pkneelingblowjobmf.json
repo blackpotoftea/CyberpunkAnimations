@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostimsinglebedright2psittingkneelingmf--ostimsinglebedright2pkneelingblowjobmf",
+ "name": "Sitting On Bed Kneeling (right) [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostimsinglebedright2psittingkneelingmf--ostimsinglebedright2pkneelingblowjobmf_0",
+    "ostimng/gen-ostimsinglebedright2psittingkneelingmf--ostimsinglebedright2pkneelingblowjobmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostimsinglebedright2p.mf.sexual.ostimsinglebedright2pkneelingblowjobmf",
+ "length": 1.5,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "singlebed",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

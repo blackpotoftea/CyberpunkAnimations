@@ -1,0 +1,107 @@
+{
+ "id": "opensex.ops.sta-sta.cr.standinggropingbreasts",
+ "name": "Standing Groping Breasts",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Cr|StandingGropingBreasts",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Cr/StandingGropingBreasts.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingGropingBreastsMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sensual/OStim2PStandingGropingBreastsMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/cr-standinggropingbreasts_s1_0",
+    "opensex/cr-standinggropingbreasts_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/cr-standinggropingbreasts_s2_0",
+    "opensex/cr-standinggropingbreasts_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/cr-standinggropingbreasts_s3_0",
+    "opensex/cr-standinggropingbreasts_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/cr-standinggropingbreasts_s4_0",
+    "opensex/cr-standinggropingbreasts_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.standinggropingbreasts--standing",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.standinggropingbreasts--standingnipplesucking",
+   "label": "suck on {1}s breast",
+   "priority": 2000
+  },
+  {
+   "to": "opensex.gen.standinggropingbreasts--ostim2pstandingapartmf",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "opensex.gen.standinggropingbreasts--lesbiananimationhub",
+   "label": "get closer"
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

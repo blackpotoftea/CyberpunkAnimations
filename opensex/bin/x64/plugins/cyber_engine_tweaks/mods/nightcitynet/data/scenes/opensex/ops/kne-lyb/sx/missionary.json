@@ -1,0 +1,127 @@
+{
+ "id": "opensex.ops.kne-lyb.sx.missionary",
+ "name": "Missionary",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Kne!LyB|Sx|Missionary",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/KneLyB/Sx/Missionary.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingback"
+   ],
+   "posture": "lyingback",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-missionary_s1_0",
+    "opensex/sx-missionary_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-missionary_s2_0",
+    "opensex/sx-missionary_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-missionary_s3_0",
+    "opensex/sx-missionary_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-missionary_s4_0",
+    "opensex/sx-missionary_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.missionary--spreadlegsfemale",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.missionary--holdkneesfrontalsex",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.missionary--missionaryholdlegstogether",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.missionary--missionaryholdinghands",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.missionary--missionaryhugkiss",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.missionary--missionarylegsheld",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.kne-lyb.sx.missionarymaleclimaxinternal",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.missionary--missionaryspreadlegs",
+   "label": null
+  }
+ ],
+ "tags": [
+  "missionary"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "climax": {
+  "a": "opensex.ops.kne-lyb.sx.missionarymaleclimaxinternal"
+ },
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

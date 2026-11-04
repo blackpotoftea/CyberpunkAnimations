@@ -1,0 +1,78 @@
+{
+ "id": "opensex.ops.sta-squ.ap.malestandingfemalesquatting",
+ "name": "Male Standing, Female Squatting",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Squ|Ap|MaleStandingFemaleSquatting",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSqu/Ap/MaleStandingFemaleSquatting.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ap-malestandingfemalesquatting_0",
+    "opensex/ap-malestandingfemalesquatting_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.malestandingfemalesquatting--malestandingfemalekneeling",
+   "label": null
+  },
+  {
+   "to": "opensex.ops.sta-squ.ap.femalesquattingundressmalebottom",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.malestandingfemalesquatting--squattingfellatio",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.malestandingfemalesquatting--squattinghandjob",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.malestandingfemalesquatting--standing",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.malestandingfemalesquatting--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

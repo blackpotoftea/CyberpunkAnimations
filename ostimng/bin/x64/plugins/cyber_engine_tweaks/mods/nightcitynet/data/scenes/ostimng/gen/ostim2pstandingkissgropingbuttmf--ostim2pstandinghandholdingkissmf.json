@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostim2pstandingkissgropingbuttmf--ostim2pstandinghandholdingkissmf",
+ "name": "Standing Kiss Groping Butt [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pstandingkissgropingbuttmf--ostim2pstandinghandholdingkissmf_0",
+    "ostimng/gen-ostim2pstandingkissgropingbuttmf--ostim2pstandinghandholdingkissmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostim2p.mf.sensual.ostim2pstandinghandholdingkissmf",
+ "length": 1.9333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

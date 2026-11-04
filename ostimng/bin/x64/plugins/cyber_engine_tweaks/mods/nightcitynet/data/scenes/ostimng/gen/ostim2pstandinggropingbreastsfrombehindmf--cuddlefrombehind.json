@@ -1,0 +1,45 @@
+{
+ "id": "ostimng.gen.ostim2pstandinggropingbreastsfrombehindmf--cuddlefrombehind",
+ "name": "Standing Groping Breasts From Behind [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostim2pstandinggropingbreastsfrombehindmf--cuddlefrombehind_0",
+    "ostimng/gen-ostim2pstandinggropingbreastsfrombehindmf--cuddlefrombehind_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.em.cuddlefrombehind",
+ "length": 1.6667,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

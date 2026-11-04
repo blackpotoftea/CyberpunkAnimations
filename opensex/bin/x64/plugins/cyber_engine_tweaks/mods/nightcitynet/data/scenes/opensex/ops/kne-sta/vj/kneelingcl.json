@@ -1,0 +1,109 @@
+{
+ "id": "opensex.ops.kne-sta.vj.kneelingcl",
+ "name": "Kneeling Cunnilingus",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Kne!Sta|VJ|KneelingCL",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/KneSta/VJ/KneelingCL.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStim2PStandingCunnilingusMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/StandingCunnilingus/OStim2PStandingCunnilingusMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/vj-kneelingcl_s1_0",
+    "opensex/vj-kneelingcl_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/vj-kneelingcl_s2_0",
+    "opensex/vj-kneelingcl_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/vj-kneelingcl_s3_0",
+    "opensex/vj-kneelingcl_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/vj-kneelingcl_s4_0",
+    "opensex/vj-kneelingcl_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.kneelingcl--standingholding",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.facesitting.ostim2pfacesittingmf",
+   "label": "sit on {0}s face",
+   "priority": 0
+  },
+  {
+   "to": "opensex.gen.kneelingcl--ostim2pkneelingbehindcunnilingusmf",
+   "label": "turn around ({1})",
+   "priority": 0
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "oral_vagina",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "head",
+   "eyes"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

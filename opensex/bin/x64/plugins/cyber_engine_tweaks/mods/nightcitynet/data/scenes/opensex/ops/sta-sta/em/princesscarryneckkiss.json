@@ -1,0 +1,64 @@
+{
+ "id": "opensex.ops.sta-sta.em.princesscarryneckkiss",
+ "name": "Princess Carry Neck Kiss",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Sta!Sta|Em|PrincessCarryNeckKiss",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/StaSta/Em/PrincessCarryNeckKiss.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [],
+   "posture": "suspended",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/em-princesscarryneckkiss_0",
+    "opensex/em-princesscarryneckkiss_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.princesscarryneckkiss--princesscarryhandonface",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.princesscarryneckkiss--lesbiananimationhub",
+   "label": "get up"
+  },
+  {
+   "to": "opensex.gen.princesscarryneckkiss--standingholding",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": null,
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "id": "opensex.ops_furniture.ben-ch.ho.benchkneelingfemale",
+ "name": "Bench Kneeling Female",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS_furniture|Ben!Ch|Ho|BenchKneelingFemale",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS_furniture/BenCh/Ho/BenchKneelingFemale.xml"
+  },
+  {
+   "pack": "ostimng",
+   "id": "OStimChair2PSittingKneelingMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimChair2P/MF/idle/OStimChair2PSittingKneelingMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "any",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "any",
+   "tags": [
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/ho-benchkneelingfemale_0",
+    "opensex/ho-benchkneelingfemale_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.gen.benchkneelingfemale--benchidle",
+   "label": "stand up ({1})"
+  },
+  {
+   "to": "opensex.gen.benchkneelingfemale--benchsittingblowjob",
+   "label": null
+  },
+  {
+   "to": "opensex.gen.benchkneelingfemale--ostimchair2psittingkneelingff",
+   "label": "go to lesbian idle"
+  },
+  {
+   "to": "opensex.gen.benchkneelingfemale--lesbiananimationhub",
+   "label": "get up"
+  }
+ ],
+ "tags": [
+  "idle"
+ ],
+ "furniture": "bench",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "ostimng.ostimwall1p.f.idle.ostimwall1pleaningf",
+ "name": "Leaning [F]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStimWall1PLeaningF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStimWall1P/F/idle/OStimWall1PLeaningF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "f",
+   "tags": [
+    "standing"
+   ],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostimwall1pleaningf_0"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.ostimwall1p.m.idle.ostimwall1pleaningm",
+   "label": "go to male idle"
+  }
+ ],
+ "tags": [
+  "idle",
+  "intro"
+ ],
+ "furniture": "wall",
+ "acts": [],
+ "strip": [
+  []
+ ]
+}

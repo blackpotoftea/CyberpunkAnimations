@@ -1,0 +1,94 @@
+{
+ "id": "opensex.ops.kne-lys.sx.lyingonsidesexfrombehind",
+ "name": "Lying on Side Sex From Behind",
+ "animator": "Ace",
+ "sources": [
+  {
+   "pack": "opensex",
+   "id": "OpS|Kne!LyS|Sx|LyingOnSideSexFromBehind",
+   "file": "meshes/0SA/mod/0Sex/scene/OpS/KneLyS/Sx/LyingOnSideSexFromBehind.xml"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "lyingside"
+   ],
+   "posture": "lyingside",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "opensex/sx-lyingonsidesexfrombehind_s1_0",
+    "opensex/sx-lyingonsidesexfrombehind_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 0.5
+  },
+  {
+   "clips": [
+    "opensex/sx-lyingonsidesexfrombehind_s2_0",
+    "opensex/sx-lyingonsidesexfrombehind_s2_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  },
+  {
+   "clips": [
+    "opensex/sx-lyingonsidesexfrombehind_s3_0",
+    "opensex/sx-lyingonsidesexfrombehind_s3_1"
+   ],
+   "playback": 1.0,
+   "display": 1.5
+  },
+  {
+   "clips": [
+    "opensex/sx-lyingonsidesexfrombehind_s4_0",
+    "opensex/sx-lyingonsidesexfrombehind_s4_1"
+   ],
+   "playback": 1.0,
+   "display": 2.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "opensex.ops.kne-lys.sx.lyingonsidesex",
+   "label": null
+  }
+ ],
+ "tags": [],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "penetrative",
+   "actor": "a",
+   "target": "b"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}

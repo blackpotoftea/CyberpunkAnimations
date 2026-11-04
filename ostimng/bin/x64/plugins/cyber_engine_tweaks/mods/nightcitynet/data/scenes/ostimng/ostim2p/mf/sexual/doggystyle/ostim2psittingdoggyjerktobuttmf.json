@@ -1,0 +1,91 @@
+{
+ "id": "ostimng.ostim2p.mf.sexual.doggystyle.ostim2psittingdoggyjerktobuttmf",
+ "name": "Doggy Style Sitting Jerk To Butt [MF]",
+ "animator": null,
+ "sources": [
+  {
+   "pack": "ostimng",
+   "id": "OStim2PSittingDoggyJerkToButtMF",
+   "file": "data/SKSE/Plugins/OStim/scenes/OStim2P/MF/sexual/DoggyStyle/OStim2PSittingDoggyJerkToButtMF.json"
+  }
+ ],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [
+    "sitting"
+   ],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [
+    "facingaway",
+    "kneeling"
+   ],
+   "posture": "kneeling",
+   "mods": [
+    "facingaway"
+   ]
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/ostim2psittingdoggyjerktobuttmf_s1_0",
+    "ostimng/ostim2psittingdoggyjerktobuttmf_s1_1"
+   ],
+   "playback": 1.0,
+   "display": 1.0
+  }
+ ],
+ "transition": false,
+ "next": null,
+ "length": null,
+ "moves": [
+  {
+   "to": "ostimng.gen.ostim2psittingdoggyjerktobuttmf--femaleallfours",
+   "label": "return",
+   "priority": -1000
+  },
+  {
+   "to": "ostimng.gen.ostim2psittingdoggyjerktobuttmf--doggystyle",
+   "label": "take {1} doggy style",
+   "priority": 1000
+  },
+  {
+   "to": "ostimng.ostim2p.mf.sexual.prone.ostim2ppronejerktobuttmf",
+   "label": "lie on your front ({1})",
+   "priority": 3000
+  },
+  {
+   "to": "ostimng.gen.ostim2psittingdoggyjerktobuttmf--ostim2pkneelingbehindteasejerkmf",
+   "label": "stand up ({1})",
+   "priority": 3000
+  }
+ ],
+ "tags": [
+  "doggystyle"
+ ],
+ "furniture": null,
+ "acts": [
+  {
+   "type": "manual",
+   "actor": "a",
+   "target": "a"
+  }
+ ],
+ "strip": [
+  [
+   "outer",
+   "inner",
+   "legs"
+  ],
+  [
+   "outer",
+   "inner",
+   "legs"
+  ]
+ ]
+}
