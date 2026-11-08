@@ -29,7 +29,7 @@
  ],
  "transition": true,
  "next": "opensex.ops.lys-lys.ho.spooningidle",
- "length": 1.9333,
+ "length": 1.6667,
  "moves": [],
  "tags": [
   "transition"

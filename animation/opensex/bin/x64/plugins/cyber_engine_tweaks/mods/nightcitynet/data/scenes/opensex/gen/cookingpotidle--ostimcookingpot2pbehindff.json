@@ -29,7 +29,7 @@
  ],
  "transition": true,
  "next": "ostimng.ostimcookingpot2p.ff.idle.ostimcookingpot2pbehindff",
- "length": 1.1333,
+ "length": 1.6667,
  "moves": [],
  "tags": [
   "transition"

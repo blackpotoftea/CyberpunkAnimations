@@ -1,6 +1,6 @@
 {
- "id": "opensex.gen.benchidlefemalesitting--lesbiananimationhub",
- "name": "Bench Idle Female Sitting (generated transition)",
+ "id": "opensex.gen.sittingmaleapproach--sittingfemaleapproach",
+ "name": "Sitting Male Approach (generated transition)",
  "animator": "MotionBricks",
  "sources": [],
  "actors": [
@@ -20,21 +20,21 @@
  "speeds": [
   {
    "clips": [
-    "opensex/gen-benchidlefemalesitting--lesbiananimationhub_0",
-    "opensex/gen-benchidlefemalesitting--lesbiananimationhub_1"
+    "opensex/gen-sittingmaleapproach--sittingfemaleapproach_0",
+    "opensex/gen-sittingmaleapproach--sittingfemaleapproach_1"
    ],
    "playback": 1.0,
    "display": null
   }
  ],
  "transition": true,
- "next": "opensex.ops.sta-sta.ho.lesbiananimationhub",
- "length": 2.2333,
+ "next": "opensex.ops.sit-kne.ho.sittingfemaleapproach",
+ "length": 1.1333,
  "moves": [],
  "tags": [
   "transition"
  ],
- "furniture": "bench",
+ "furniture": null,
  "acts": [],
  "strip": [
   [],

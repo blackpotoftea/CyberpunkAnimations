@@ -29,7 +29,7 @@
  ],
  "transition": true,
  "next": "ostimng.ostimshelf2p.ff.idle.ostimshelf2pbehindff",
- "length": 1.9333,
+ "length": 1.6667,
  "moves": [],
  "tags": [
   "transition"

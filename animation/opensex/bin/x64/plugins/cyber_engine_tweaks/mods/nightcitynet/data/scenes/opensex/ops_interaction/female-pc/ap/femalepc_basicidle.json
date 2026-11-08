@@ -78,11 +78,11 @@
    "label": null
   },
   {
-   "to": "opensex.ops_interaction.male-pc.ap.malepc_basicidle",
+   "to": "opensex.gen.femalepc_basicidle--malepc_basicidle",
    "label": null
   },
   {
-   "to": "opensex.ops.sta-sta.ho.lesbiananimationhub",
+   "to": "opensex.gen.femalepc_basicidle--lesbiananimationhub",
    "label": "get closer"
   },
   {

@@ -1,34 +1,34 @@
 {
- "id": "ostimng.gen.ostim2pkneelinglyingff--ostim2psittingff",
- "name": "Kneeling Lying [FF] (generated transition)",
+ "id": "opensex.gen.spooningkissing--lesbiananimationhub",
+ "name": "Spooning Kiss (generated transition)",
  "animator": "MotionBricks",
  "sources": [],
  "actors": [
   {
-   "sex": "f",
+   "sex": "m",
    "tags": [],
-   "posture": "kneeling",
+   "posture": "lyingside",
    "mods": []
   },
   {
    "sex": "f",
    "tags": [],
-   "posture": "lyingback",
+   "posture": "lyingside",
    "mods": []
   }
  ],
  "speeds": [
   {
    "clips": [
-    "ostimng/gen-ostim2pkneelinglyingff--ostim2psittingff_0",
-    "ostimng/gen-ostim2pkneelinglyingff--ostim2psittingff_1"
+    "opensex/gen-spooningkissing--lesbiananimationhub_0",
+    "opensex/gen-spooningkissing--lesbiananimationhub_1"
    ],
    "playback": 1.0,
    "display": null
   }
  ],
  "transition": true,
- "next": "ostimng.ostim2p.ff.idle.ostim2psittingff",
+ "next": "opensex.ops.sta-sta.ho.lesbiananimationhub",
  "length": 1.9333,
  "moves": [],
  "tags": [

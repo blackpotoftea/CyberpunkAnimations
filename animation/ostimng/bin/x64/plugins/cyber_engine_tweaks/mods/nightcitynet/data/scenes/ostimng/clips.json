@@ -431,18 +431,6 @@
    "player": "ostimng\\anims\\player\\gen_ostim2p_ff_idle_pwa.anims"
   }
  },
- "ostimng/gen-ostim2pkneelinglyingff--ostim2psittingff_0": {
-  "f": {
-   "npc": "ostimng\\anims\\npc\\gen_ostim2p_ff_idle_wa.anims",
-   "player": "ostimng\\anims\\player\\gen_ostim2p_ff_idle_pwa.anims"
-  }
- },
- "ostimng/gen-ostim2pkneelinglyingff--ostim2psittingff_1": {
-  "f": {
-   "npc": "ostimng\\anims\\npc\\gen_ostim2p_ff_idle_wa.anims",
-   "player": "ostimng\\anims\\player\\gen_ostim2p_ff_idle_pwa.anims"
-  }
- },
  "ostimng/gen-ostim2pkneelinglyingff--ostim2pstandingcloseff_0": {
   "f": {
    "npc": "ostimng\\anims\\npc\\gen_ostim2p_ff_idle_wa.anims",
@@ -750,6 +738,18 @@
   }
  },
  "ostimng/gen-ostim2pmalekneelingallfoursjerktofacemf--sittingfemaleapproach_1": {
+  "f": {
+   "npc": "ostimng\\anims\\npc\\gen_ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\gen_ostim2p_mf_sexual_pwa.anims"
+  }
+ },
+ "ostimng/gen-ostim2pmalesittingblowjobmf--aceallfoursblowjob_0": {
+  "m": {
+   "npc": "ostimng\\anims\\npc\\gen_ostim2p_mf_sexual_ma.anims",
+   "player": "ostimng\\anims\\player\\gen_ostim2p_mf_sexual_pma.anims"
+  }
+ },
+ "ostimng/gen-ostim2pmalesittingblowjobmf--aceallfoursblowjob_1": {
   "f": {
    "npc": "ostimng\\anims\\npc\\gen_ostim2p_mf_sexual_wa.anims",
    "player": "ostimng\\anims\\player\\gen_ostim2p_mf_sexual_pwa.anims"
@@ -2087,6 +2087,18 @@
    "player": "ostimng\\anims\\player\\gen_ostim2p_mf_sensual_pwa.anims"
   }
  },
+ "ostimng/gen-ostim2pstandingholdingchinkissmf--handjobkiss_0": {
+  "f": {
+   "npc": "ostimng\\anims\\npc\\gen_stasta_wa.anims",
+   "player": "ostimng\\anims\\player\\gen_stasta_pwa.anims"
+  }
+ },
+ "ostimng/gen-ostim2pstandingholdingchinkissmf--handjobkiss_1": {
+  "f": {
+   "npc": "ostimng\\anims\\npc\\gen_stasta_wa.anims",
+   "player": "ostimng\\anims\\player\\gen_stasta_pwa.anims"
+  }
+ },
  "ostimng/gen-ostim2pstandingholdingchinkissmf--lesbiananimationhub_0": {
   "f": {
    "npc": "ostimng\\anims\\npc\\gen_stasta_wa.anims",
@@ -3311,6 +3323,18 @@
    "player": "ostimng\\anims\\player\\gen_ops_furniture_bench_pma.anims"
   }
  },
+ "ostimng/gen-ostimchair2psittingstandingmm--ostimchair2pstandingsittingmm_0": {
+  "m": {
+   "npc": "ostimng\\anims\\npc\\gen_ops_furniture_bench_ma.anims",
+   "player": "ostimng\\anims\\player\\gen_ops_furniture_bench_pma.anims"
+  }
+ },
+ "ostimng/gen-ostimchair2psittingstandingmm--ostimchair2pstandingsittingmm_1": {
+  "m": {
+   "npc": "ostimng\\anims\\npc\\gen_ops_furniture_bench_ma.anims",
+   "player": "ostimng\\anims\\player\\gen_ops_furniture_bench_pma.anims"
+  }
+ },
  "ostimng/gen-ostimchair2psittingstandingmm--standingholding_0": {
   "m": {
    "npc": "ostimng\\anims\\npc\\gen_ops_furniture_bench_ma.anims",
@@ -3426,6 +3450,18 @@
   }
  },
  "ostimng/gen-ostimchair2pstandingsittingmm--ostimbench2pbothsittingmm_1": {
+  "m": {
+   "npc": "ostimng\\anims\\npc\\gen_ops_furniture_bench_ma.anims",
+   "player": "ostimng\\anims\\player\\gen_ops_furniture_bench_pma.anims"
+  }
+ },
+ "ostimng/gen-ostimchair2pstandingsittingmm--ostimchair2psittingstandingmm_0": {
+  "m": {
+   "npc": "ostimng\\anims\\npc\\gen_ops_furniture_bench_ma.anims",
+   "player": "ostimng\\anims\\player\\gen_ops_furniture_bench_pma.anims"
+  }
+ },
+ "ostimng/gen-ostimchair2pstandingsittingmm--ostimchair2psittingstandingmm_1": {
   "m": {
    "npc": "ostimng\\anims\\npc\\gen_ops_furniture_bench_ma.anims",
    "player": "ostimng\\anims\\player\\gen_ops_furniture_bench_pma.anims"
@@ -3683,6 +3719,18 @@
    "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pwa.anims"
   }
  },
+ "ostimng/gen-ostimdoublebedleft2psittingstandingfacingawaymf--lesbiananimationhub_0": {
+  "m": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_ma.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pma.anims"
+  }
+ },
+ "ostimng/gen-ostimdoublebedleft2psittingstandingfacingawaymf--lesbiananimationhub_1": {
+  "f": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pwa.anims"
+  }
+ },
  "ostimng/gen-ostimdoublebedleft2psittingstandingfacingawaymf--ostimdoublebedleft2psittingstandingmf_0": {
   "m": {
    "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_ma.anims",
@@ -3702,6 +3750,30 @@
   }
  },
  "ostimng/gen-ostimdoublebedleft2psittingstandingmf--benchbothsittingfaceeachother_1": {
+  "f": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pwa.anims"
+  }
+ },
+ "ostimng/gen-ostimdoublebedleft2psittingstandingmf--lesbiananimationhub_0": {
+  "m": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_ma.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pma.anims"
+  }
+ },
+ "ostimng/gen-ostimdoublebedleft2psittingstandingmf--lesbiananimationhub_1": {
+  "f": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pwa.anims"
+  }
+ },
+ "ostimng/gen-ostimdoublebedleft2psittingstandingmf--ostimdoublebedleft2psittingonlapmf_0": {
+  "m": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_ma.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pma.anims"
+  }
+ },
+ "ostimng/gen-ostimdoublebedleft2psittingstandingmf--ostimdoublebedleft2psittingonlapmf_1": {
   "f": {
    "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_wa.anims",
    "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pwa.anims"
@@ -3851,6 +3923,18 @@
    "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pwa.anims"
   }
  },
+ "ostimng/gen-ostimdoublebedright2psittingstandingfacingawaymf--lesbiananimationhub_0": {
+  "m": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_ma.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pma.anims"
+  }
+ },
+ "ostimng/gen-ostimdoublebedright2psittingstandingfacingawaymf--lesbiananimationhub_1": {
+  "f": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pwa.anims"
+  }
+ },
  "ostimng/gen-ostimdoublebedright2psittingstandingfacingawaymf--ostimdoublebedright2psittingstandingmf_0": {
   "m": {
    "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_ma.anims",
@@ -3870,6 +3954,30 @@
   }
  },
  "ostimng/gen-ostimdoublebedright2psittingstandingmf--benchbothsittingfaceeachother_1": {
+  "f": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pwa.anims"
+  }
+ },
+ "ostimng/gen-ostimdoublebedright2psittingstandingmf--lesbiananimationhub_0": {
+  "m": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_ma.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pma.anims"
+  }
+ },
+ "ostimng/gen-ostimdoublebedright2psittingstandingmf--lesbiananimationhub_1": {
+  "f": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pwa.anims"
+  }
+ },
+ "ostimng/gen-ostimdoublebedright2psittingstandingmf--ostimdoublebedright2psittingonlapmf_0": {
+  "m": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_ma.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pma.anims"
+  }
+ },
+ "ostimng/gen-ostimdoublebedright2psittingstandingmf--ostimdoublebedright2psittingonlapmf_1": {
   "f": {
    "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_wa.anims",
    "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pwa.anims"
@@ -4175,6 +4283,18 @@
    "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pwa.anims"
   }
  },
+ "ostimng/gen-ostimsinglebedleft2psittingstandingfacingawaymf--lesbiananimationhub_0": {
+  "m": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_ma.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pma.anims"
+  }
+ },
+ "ostimng/gen-ostimsinglebedleft2psittingstandingfacingawaymf--lesbiananimationhub_1": {
+  "f": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pwa.anims"
+  }
+ },
  "ostimng/gen-ostimsinglebedleft2psittingstandingfacingawaymf--ostimsinglebedleft2psittingstandingmf_0": {
   "m": {
    "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_ma.anims",
@@ -4194,6 +4314,30 @@
   }
  },
  "ostimng/gen-ostimsinglebedleft2psittingstandingmf--benchbothsittingfaceeachother_1": {
+  "f": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pwa.anims"
+  }
+ },
+ "ostimng/gen-ostimsinglebedleft2psittingstandingmf--lesbiananimationhub_0": {
+  "m": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_ma.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pma.anims"
+  }
+ },
+ "ostimng/gen-ostimsinglebedleft2psittingstandingmf--lesbiananimationhub_1": {
+  "f": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pwa.anims"
+  }
+ },
+ "ostimng/gen-ostimsinglebedleft2psittingstandingmf--ostimsinglebedleft2psittingonlapmf_0": {
+  "m": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_ma.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pma.anims"
+  }
+ },
+ "ostimng/gen-ostimsinglebedleft2psittingstandingmf--ostimsinglebedleft2psittingonlapmf_1": {
   "f": {
    "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_wa.anims",
    "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pwa.anims"
@@ -4343,6 +4487,18 @@
    "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pwa.anims"
   }
  },
+ "ostimng/gen-ostimsinglebedright2psittingstandingfacingawaymf--lesbiananimationhub_0": {
+  "m": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_ma.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pma.anims"
+  }
+ },
+ "ostimng/gen-ostimsinglebedright2psittingstandingfacingawaymf--lesbiananimationhub_1": {
+  "f": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pwa.anims"
+  }
+ },
  "ostimng/gen-ostimsinglebedright2psittingstandingfacingawaymf--ostimsinglebedright2psittingstandingmf_0": {
   "m": {
    "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_ma.anims",
@@ -4362,6 +4518,30 @@
   }
  },
  "ostimng/gen-ostimsinglebedright2psittingstandingmf--benchbothsittingfaceeachother_1": {
+  "f": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pwa.anims"
+  }
+ },
+ "ostimng/gen-ostimsinglebedright2psittingstandingmf--lesbiananimationhub_0": {
+  "m": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_ma.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pma.anims"
+  }
+ },
+ "ostimng/gen-ostimsinglebedright2psittingstandingmf--lesbiananimationhub_1": {
+  "f": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pwa.anims"
+  }
+ },
+ "ostimng/gen-ostimsinglebedright2psittingstandingmf--ostimsinglebedright2psittingonlapmf_0": {
+  "m": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_ma.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pma.anims"
+  }
+ },
+ "ostimng/gen-ostimsinglebedright2psittingstandingmf--ostimsinglebedright2psittingonlapmf_1": {
   "f": {
    "npc": "ostimng\\anims\\npc\\gen_ostimbed2p_mf_idle_wa.anims",
    "player": "ostimng\\anims\\player\\gen_ostimbed2p_mf_idle_pwa.anims"
@@ -4691,6 +4871,18 @@
    "player": "ostimng\\anims\\player\\gen_ostimwall2p_ff_idle_pwa.anims"
   }
  },
+ "ostimng/gen-ostimwall2pstandingleaningmf--lesbiananimationhub_0": {
+  "m": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimwall2p_mf_idle_ma.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimwall2p_mf_idle_pma.anims"
+  }
+ },
+ "ostimng/gen-ostimwall2pstandingleaningmf--lesbiananimationhub_1": {
+  "f": {
+   "npc": "ostimng\\anims\\npc\\gen_ostimwall2p_mf_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\gen_ostimwall2p_mf_idle_pwa.anims"
+  }
+ },
  "ostimng/gen-ostimwall2pstandingleaningmf--ostimwall2pstandingleaningff_0": {
   "m": {
    "npc": "ostimng\\anims\\npc\\gen_ostimwall2p_mf_idle_ma.anims",
@@ -4725,18 +4917,6 @@
   "f": {
    "npc": "ostimng\\anims\\npc\\gen_ostimwall2p_mf_idle_wa.anims",
    "player": "ostimng\\anims\\player\\gen_ostimwall2p_mf_idle_pwa.anims"
-  }
- },
- "ostimng/gen-ostimwall2pstandingleaningmm--lesbiananimationhub_0": {
-  "m": {
-   "npc": "ostimng\\anims\\npc\\gen_ostimwall2p_mm_idle_ma.anims",
-   "player": "ostimng\\anims\\player\\gen_ostimwall2p_mm_idle_pma.anims"
-  }
- },
- "ostimng/gen-ostimwall2pstandingleaningmm--lesbiananimationhub_1": {
-  "m": {
-   "npc": "ostimng\\anims\\npc\\gen_ostimwall2p_mm_idle_ma.anims",
-   "player": "ostimng\\anims\\player\\gen_ostimwall2p_mm_idle_pma.anims"
   }
  },
  "ostimng/gen-ostimwall2pstandingleaningmm--ostimwall2pstandingleaningff_0": {
@@ -4841,6 +5021,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pdoggystyleholdingarmsmf_s1_1": {
@@ -4857,6 +5041,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pdoggystyleholdingarmsmf_s2_1": {
@@ -4873,6 +5061,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pdoggystyleholdingarmsmf_s3_1": {
@@ -4889,6 +5081,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pdoggystyleholdingarmsmf_s4_1": {
@@ -4905,6 +5101,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pdoggystyleholdingarmspullupmf_s1_1": {
@@ -4921,6 +5121,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pdoggystyleholdingarmspullupmf_s2_1": {
@@ -4937,6 +5141,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pdoggystyleholdingarmspullupmf_s3_1": {
@@ -4953,6 +5161,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pdoggystyleholdingarmspullupmf_s4_1": {
@@ -4969,6 +5181,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pdoggystylenohandsmf_s1_1": {
@@ -4985,6 +5201,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pdoggystylenohandsmf_s2_1": {
@@ -5001,6 +5221,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pdoggystylenohandsmf_s3_1": {
@@ -5017,6 +5241,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pdoggystylenohandsmf_s4_1": {
@@ -5385,6 +5613,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pkneelingbehindteasejerkmf_s1_1": {
@@ -5401,6 +5633,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pkneelingblowjobholdingheadmf_s1_1": {
@@ -5423,6 +5659,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pkneelingblowjobholdingheadmf_s2_1": {
@@ -5445,6 +5685,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pkneelingblowjobholdingheadmf_s3_1": {
@@ -5467,6 +5711,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pkneelingblowjobholdingheadmf_s4_1": {
@@ -5589,6 +5837,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pkneelingtailjobmf_s1_1": {
@@ -5737,6 +5989,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pmalekneelingallfoursjerktofacemf_1": {
@@ -5759,6 +6015,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pmalesittingblowjobmf_s1_1": {
@@ -5781,6 +6041,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pmalesittingblowjobmf_s2_1": {
@@ -5803,6 +6067,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pmalesittingblowjobmf_s3_1": {
@@ -5825,6 +6093,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pmalesittingblowjobmf_s4_1": {
@@ -5847,6 +6119,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pmalesittinghandjobmf_s1_1": {
@@ -5869,6 +6145,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pmalesittinghandjobmf_s2_1": {
@@ -5891,6 +6171,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pmalesittinghandjobmf_s3_1": {
@@ -5913,6 +6197,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pmalesittinghandjobmf_s4_1": {
@@ -5935,6 +6223,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pmalesittingjerktofacemf_1": {
@@ -5957,6 +6249,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pmalesittingproneblowjobmf_s1_1": {
@@ -5979,6 +6275,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pmalesittingproneblowjobmf_s2_1": {
@@ -6001,6 +6301,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pmalesittingproneblowjobmf_s3_1": {
@@ -6023,6 +6327,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pmalesittingproneblowjobmf_s4_1": {
@@ -6053,6 +6361,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pmissionaryjerktopussymf_s1_1": {
@@ -6101,6 +6413,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2ppronejerktobuttmf_1": {
@@ -6117,6 +6433,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2ppronemalemountedcrackfuckmf_s2_0": {
@@ -6125,6 +6445,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2ppronemalemountedcrackfuckmf_s3_0": {
@@ -6133,6 +6457,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2ppronemalemountedcrackfuckmf_s4_0": {
@@ -6141,6 +6469,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2ppronemalemountedmf_s1_0": {
@@ -6149,6 +6481,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2ppronemalemountedmf_s1_1": {
@@ -6165,6 +6501,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2ppronemalemountedmf_s2_1": {
@@ -6181,6 +6521,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2ppronemalemountedmf_s3_1": {
@@ -6197,6 +6541,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2ppronemalemountedmf_s4_1": {
@@ -6213,6 +6561,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2preversecowgirlarchbackmf_s1_1": {
@@ -6235,6 +6587,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2preversecowgirlarchbackmf_s2_1": {
@@ -6257,6 +6613,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2preversecowgirlarchbackmf_s3_1": {
@@ -6279,6 +6639,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2preversecowgirlarchbackmf_s4_1": {
@@ -6301,6 +6665,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2preversecowgirlmf_s2_0": {
@@ -6309,6 +6677,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2preversecowgirlmf_s3_0": {
@@ -6317,6 +6689,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2preversecowgirlmf_s4_0": {
@@ -6325,6 +6701,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2preverseidlecowgirltoreversecowgirl1mf_0": {
@@ -6397,6 +6777,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2psidewaysjerktobodymf_s1_1": {
@@ -6419,6 +6803,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2psidewaysmf_s1_1": {
@@ -6435,6 +6823,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2psidewaysmf_s2_1": {
@@ -6451,6 +6843,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2psidewaysmf_s3_1": {
@@ -6467,6 +6863,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2psidewaysmf_s4_1": {
@@ -6483,6 +6883,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2psittingdoggyjerktobuttmf_s1_1": {
@@ -6527,6 +6931,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2psquattingfacefuckmf_s1_1": {
@@ -6549,6 +6957,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2psquattingfacefuckmf_s2_1": {
@@ -6571,6 +6983,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2psquattingfacefuckmf_s3_1": {
@@ -6593,6 +7009,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2psquattingfacefuckmf_s4_1": {
@@ -6719,6 +7139,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pstandingbehindfuckholdingwristsmf_s1_1": {
@@ -6735,6 +7159,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pstandingbehindfuckholdingwristsmf_s2_1": {
@@ -6751,6 +7179,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pstandingbehindfuckholdingwristsmf_s3_1": {
@@ -6767,6 +7199,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pstandingbehindfuckholdingwristsmf_s4_1": {
@@ -6783,6 +7219,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pstandingbehindfuckholdingwristsmf_s5_1": {
@@ -6799,6 +7239,10 @@
    "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostim2pstandingcloseff_0": {
@@ -7309,6 +7753,10 @@
    "player": "ostimng\\anims\\player\\ostim3p_mmf_idle_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim3p_mmf_idle_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim3p_mmf_idle_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim3p_mmf_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim3p_mmf_idle_pwa.anims"
   }
  },
  "ostimng/ostim3plyingmmf_1": {
@@ -7317,6 +7765,10 @@
    "player": "ostimng\\anims\\player\\ostim3p_mmf_idle_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim3p_mmf_idle_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim3p_mmf_idle_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim3p_mmf_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim3p_mmf_idle_pwa.anims"
   }
  },
  "ostimng/ostim3plyingmmf_2": {
@@ -7333,6 +7785,10 @@
    "player": "ostimng\\anims\\player\\ostim3p_mmf_idle_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim3p_mmf_idle_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim3p_mmf_idle_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim3p_mmf_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim3p_mmf_idle_pwa.anims"
   }
  },
  "ostimng/ostim3pstandingmmf_1": {
@@ -7341,6 +7797,10 @@
    "player": "ostimng\\anims\\player\\ostim3p_mmf_idle_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim3p_mmf_idle_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim3p_mmf_idle_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim3p_mmf_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim3p_mmf_idle_pwa.anims"
   }
  },
  "ostimng/ostim3pstandingmmf_2": {
@@ -7357,6 +7817,10 @@
    "player": "ostimng\\anims\\player\\ostim3p_mmm_idle_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim3p_mmm_idle_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim3p_mmm_idle_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim3p_mmm_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim3p_mmm_idle_pwa.anims"
   }
  },
  "ostimng/ostim3pstandingmmm_1": {
@@ -7365,6 +7829,10 @@
    "player": "ostimng\\anims\\player\\ostim3p_mmm_idle_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim3p_mmm_idle_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim3p_mmm_idle_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim3p_mmm_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim3p_mmm_idle_pwa.anims"
   }
  },
  "ostimng/ostim3pstandingmmm_2": {
@@ -7373,6 +7841,10 @@
    "player": "ostimng\\anims\\player\\ostim3p_mmm_idle_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim3p_mmm_idle_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim3p_mmm_idle_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim3p_mmm_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim3p_mmm_idle_pwa.anims"
   }
  },
  "ostimng/ostim4plyingmmmf_0": {
@@ -7493,6 +7965,10 @@
    "player": "ostimng\\anims\\player\\ostim5p_mmmmf_idle_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim5p_mmmmf_idle_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim5p_mmmmf_idle_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim5p_mmmmf_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim5p_mmmmf_idle_pwa.anims"
   }
  },
  "ostimng/ostim5plyingmmmmf_1": {
@@ -7551,6 +8027,10 @@
    "player": "ostimng\\anims\\player\\ostim5p_mmmmf_idle_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostim5p_mmmmf_idle_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostim5p_mmmmf_idle_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostim5p_mmmmf_idle_wa.anims",
+   "player": "ostimng\\anims\\player\\ostim5p_mmmmf_idle_pwa.anims"
   }
  },
  "ostimng/ostim5pstandingmmmmf_1": {
@@ -7637,6 +8117,10 @@
    "player": "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostimbed2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostimbed2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostimbed2pcowgirlmf_s1_1": {
@@ -7653,6 +8137,10 @@
    "player": "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostimbed2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostimbed2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostimbed2pcowgirlmf_s2_1": {
@@ -7669,6 +8157,10 @@
    "player": "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostimbed2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostimbed2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostimbed2pcowgirlmf_s3_1": {
@@ -7685,6 +8177,10 @@
    "player": "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostimbed2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostimbed2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostimbed2pcowgirlmf_s4_1": {
@@ -7701,6 +8197,10 @@
    "player": "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostimbed2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostimbed2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostimbed2pkneelingblowjobmf_s1_1": {
@@ -7723,6 +8223,10 @@
    "player": "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostimbed2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostimbed2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostimbed2pkneelingblowjobmf_s2_1": {
@@ -7745,6 +8249,10 @@
    "player": "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostimbed2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostimbed2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostimbed2pkneelingblowjobmf_s3_1": {
@@ -7767,6 +8275,10 @@
    "player": "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pma.anims",
    "man_big": "ostimng\\anims\\man_big\\ostimbed2p_mf_sexual_ma_man_big.anims",
    "man_fat": "ostimng\\anims\\man_fat\\ostimbed2p_mf_sexual_ma_man_fat.anims"
+  },
+  "f": {
+   "npc": "ostimng\\anims\\npc\\ostimbed2p_mf_sexual_wa.anims",
+   "player": "ostimng\\anims\\player\\ostimbed2p_mf_sexual_pwa.anims"
   }
  },
  "ostimng/ostimbed2pkneelingblowjobmf_s4_1": {

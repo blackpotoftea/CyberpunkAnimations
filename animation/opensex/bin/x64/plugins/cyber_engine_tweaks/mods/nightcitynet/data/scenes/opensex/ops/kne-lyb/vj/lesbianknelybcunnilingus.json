@@ -11,7 +11,7 @@
  ],
  "actors": [
   {
-   "sex": "any",
+   "sex": "f",
    "tags": [
     "kneeling"
    ],
@@ -19,7 +19,7 @@
    "mods": []
   },
   {
-   "sex": "f",
+   "sex": "any",
    "tags": [
     "lyingback"
    ],
@@ -83,8 +83,8 @@
  "acts": [
   {
    "type": "oral_vagina",
-   "actor": "a",
-   "target": "b"
+   "actor": "b",
+   "target": "a"
   }
  ],
  "strip": [

@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostimdoublebedleft2psittingstandingmf--ostimdoublebedleft2psittingonlapmf",
+ "name": "Sitting On Bed Standing (left) [MF] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostimdoublebedleft2psittingstandingmf--ostimdoublebedleft2psittingonlapmf_0",
+    "ostimng/gen-ostimdoublebedleft2psittingstandingmf--ostimdoublebedleft2psittingonlapmf_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostimdoublebedleft2p.mf.idle.ostimdoublebedleft2psittingonlapmf",
+ "length": 1.1333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "doublebed",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

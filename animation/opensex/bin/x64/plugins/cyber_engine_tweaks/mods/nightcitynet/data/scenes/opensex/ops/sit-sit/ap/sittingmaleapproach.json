@@ -70,7 +70,7 @@
    "label": null
   },
   {
-   "to": "opensex.ops.sit-kne.ho.sittingfemaleapproach",
+   "to": "opensex.gen.sittingmaleapproach--sittingfemaleapproach",
    "label": "switch positions"
   },
   {

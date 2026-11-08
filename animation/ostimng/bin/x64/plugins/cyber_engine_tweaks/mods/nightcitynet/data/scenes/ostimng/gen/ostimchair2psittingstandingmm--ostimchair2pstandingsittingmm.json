@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostimchair2psittingstandingmm--ostimchair2pstandingsittingmm",
+ "name": "Sitting Standing [MM] (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "sitting",
+   "mods": []
+  },
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostimchair2psittingstandingmm--ostimchair2pstandingsittingmm_0",
+    "ostimng/gen-ostimchair2psittingstandingmm--ostimchair2pstandingsittingmm_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "ostimng.ostimchair2p.mm.idle.ostimchair2pstandingsittingmm",
+ "length": 2.2333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "chair",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

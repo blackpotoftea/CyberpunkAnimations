@@ -1,0 +1,43 @@
+{
+ "id": "ostimng.gen.ostimwall2pstandingleaningmf--lesbiananimationhub",
+ "name": "Standing Leaning Straight (generated transition)",
+ "animator": "MotionBricks",
+ "sources": [],
+ "actors": [
+  {
+   "sex": "m",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  },
+  {
+   "sex": "f",
+   "tags": [],
+   "posture": "standing",
+   "mods": []
+  }
+ ],
+ "speeds": [
+  {
+   "clips": [
+    "ostimng/gen-ostimwall2pstandingleaningmf--lesbiananimationhub_0",
+    "ostimng/gen-ostimwall2pstandingleaningmf--lesbiananimationhub_1"
+   ],
+   "playback": 1.0,
+   "display": null
+  }
+ ],
+ "transition": true,
+ "next": "opensex.ops.sta-sta.ho.lesbiananimationhub",
+ "length": 2.2333,
+ "moves": [],
+ "tags": [
+  "transition"
+ ],
+ "furniture": "wall",
+ "acts": [],
+ "strip": [
+  [],
+  []
+ ]
+}

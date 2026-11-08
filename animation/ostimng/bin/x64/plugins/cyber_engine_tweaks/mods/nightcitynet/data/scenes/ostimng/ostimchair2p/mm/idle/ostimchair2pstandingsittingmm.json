@@ -54,7 +54,7 @@
    "label": "sit down ({0})"
   },
   {
-   "to": "ostimng.ostimchair2p.mm.idle.ostimchair2psittingstandingmm",
+   "to": "ostimng.gen.ostimchair2pstandingsittingmm--ostimchair2psittingstandingmm",
    "label": "switch positions"
   },
   {

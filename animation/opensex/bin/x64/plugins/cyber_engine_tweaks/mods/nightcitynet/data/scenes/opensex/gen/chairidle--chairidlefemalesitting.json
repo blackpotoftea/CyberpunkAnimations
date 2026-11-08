@@ -29,7 +29,7 @@
  ],
  "transition": true,
  "next": "opensex.ops_furniture.cha-ir.ap.chairidlefemalesitting",
- "length": 2.2333,
+ "length": 1.7,
  "moves": [],
  "tags": [
   "transition"

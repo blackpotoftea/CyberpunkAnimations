@@ -29,7 +29,7 @@
  ],
  "transition": true,
  "next": "ostimng.ostimtable2p.ff.idle.ostimtable2pstandingsittingff",
- "length": 1.9333,
+ "length": 1.1333,
  "moves": [],
  "tags": [
   "transition"

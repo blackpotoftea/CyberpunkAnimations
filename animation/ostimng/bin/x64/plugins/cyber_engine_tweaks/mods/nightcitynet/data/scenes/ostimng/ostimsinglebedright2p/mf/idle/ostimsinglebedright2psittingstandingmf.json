@@ -58,11 +58,11 @@
    "label": "kneel before {0}"
   },
   {
-   "to": "ostimng.ostimsinglebedright2p.mf.idle.ostimsinglebedright2psittingonlapmf",
+   "to": "ostimng.gen.ostimsinglebedright2psittingstandingmf--ostimsinglebedright2psittingonlapmf",
    "label": "sit on {0}"
   },
   {
-   "to": "opensex.ops.sta-sta.ho.lesbiananimationhub",
+   "to": "ostimng.gen.ostimsinglebedright2psittingstandingmf--lesbiananimationhub",
    "label": "get up"
   }
  ],

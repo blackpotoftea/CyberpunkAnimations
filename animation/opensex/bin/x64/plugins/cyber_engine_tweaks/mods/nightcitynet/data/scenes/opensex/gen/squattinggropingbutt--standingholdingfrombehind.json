@@ -29,7 +29,7 @@
  ],
  "transition": true,
  "next": "opensex.ops.sta-sta.ho.standingholdingfrombehind",
- "length": 1.1333,
+ "length": 1.6667,
  "moves": [],
  "tags": [
   "transition"

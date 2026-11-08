@@ -1,13 +1,13 @@
 {
- "id": "opensex.gen.chairidlefemalesitting--lesbiananimationhub",
- "name": "Chair Idle Female Sitting (generated transition)",
+ "id": "opensex.gen.tableidlesittingfemale--tableliebackoral",
+ "name": "Table Idle Sitting Female (generated transition)",
  "animator": "MotionBricks",
  "sources": [],
  "actors": [
   {
    "sex": "m",
    "tags": [],
-   "posture": "sitting",
+   "posture": "standing",
    "mods": []
   },
   {
@@ -20,21 +20,21 @@
  "speeds": [
   {
    "clips": [
-    "opensex/gen-chairidlefemalesitting--lesbiananimationhub_0",
-    "opensex/gen-chairidlefemalesitting--lesbiananimationhub_1"
+    "opensex/gen-tableidlesittingfemale--tableliebackoral_0",
+    "opensex/gen-tableidlesittingfemale--tableliebackoral_1"
    ],
    "playback": 1.0,
    "display": null
   }
  ],
  "transition": true,
- "next": "opensex.ops.sta-sta.ho.lesbiananimationhub",
- "length": 2.2333,
+ "next": "opensex.ops_furniture.tab-le.bj.tableliebackoral",
+ "length": 1.9333,
  "moves": [],
  "tags": [
   "transition"
  ],
- "furniture": "chair",
+ "furniture": "table",
  "acts": [],
  "strip": [
   [],

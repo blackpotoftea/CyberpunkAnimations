@@ -29,7 +29,7 @@
  ],
  "transition": true,
  "next": "ostimng.ostimbench2p.mm.idle.ostimbench2pbothsittingmm",
- "length": 1.7,
+ "length": 2.2333,
  "moves": [],
  "tags": [
   "transition"

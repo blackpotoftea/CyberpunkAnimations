@@ -29,7 +29,7 @@
  ],
  "transition": true,
  "next": "ostimng.ostim2p.mm.idle.ostim2pstandingapartmm",
- "length": 1.6667,
+ "length": 1.1333,
  "moves": [],
  "tags": [
   "transition"

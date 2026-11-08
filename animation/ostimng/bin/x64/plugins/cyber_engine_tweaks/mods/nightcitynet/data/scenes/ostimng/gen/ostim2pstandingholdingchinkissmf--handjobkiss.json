@@ -1,34 +1,34 @@
 {
- "id": "opensex.gen.spooningidle--lyingcuddling",
- "name": "Spooning Idle (generated transition)",
+ "id": "ostimng.gen.ostim2pstandingholdingchinkissmf--handjobkiss",
+ "name": "Standing Holding Chin Kiss [MF] (generated transition)",
  "animator": "MotionBricks",
  "sources": [],
  "actors": [
   {
-   "sex": "m",
+   "sex": "f",
    "tags": [],
-   "posture": "lyingside",
+   "posture": "standing",
    "mods": []
   },
   {
    "sex": "f",
    "tags": [],
-   "posture": "lyingside",
+   "posture": "standing",
    "mods": []
   }
  ],
  "speeds": [
   {
    "clips": [
-    "opensex/gen-spooningidle--lyingcuddling_0",
-    "opensex/gen-spooningidle--lyingcuddling_1"
+    "ostimng/gen-ostim2pstandingholdingchinkissmf--handjobkiss_0",
+    "ostimng/gen-ostim2pstandingholdingchinkissmf--handjobkiss_1"
    ],
    "playback": 1.0,
    "display": null
   }
  ],
  "transition": true,
- "next": "opensex.ops.lyb-lys.em.lyingcuddling",
+ "next": "opensex.ops.sta-sta.hj.handjobkiss",
  "length": 1.6667,
  "moves": [],
  "tags": [
